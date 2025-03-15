@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Kenko AI",
   "colors": {
-    "primary": "#0d2827",
-    "light": "#818CF8",
-    "dark": "#3730A3"
+    "primary": "#071819",
+    "light": "#abcb6f",
+    "dark": "#071819"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -104,8 +104,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
   },
   "navbar": {
     "links": [
