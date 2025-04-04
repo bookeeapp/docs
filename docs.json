@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Get Started",
@@ -42,7 +42,7 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Guides",
         "groups": [
           {
             "group": "API Documentation",
@@ -52,7 +52,7 @@
             ]
           },
           {
-            "group": "Endpoints",
+            "group": "Integrations",
             "pages": [
               "api-reference/endpoints/users",
               "api-reference/endpoints/health-data",
