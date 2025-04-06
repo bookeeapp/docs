@@ -1,0 +1,160 @@
+---
+title: 'Connecting Your Stripe Account'
+description: 'Set up Stripe as your payment processor for Kenko to securely handle transactions'
+---
+
+# Connecting Your Stripe Account
+
+Kenko partners with Stripe to provide secure, reliable payment processing for your fitness business. This guide will walk you through connecting your Stripe account to Kenko.
+
+## Benefits of Stripe Integration
+
+<CardGroup cols={2}>
+  <Card title="Secure Payments" icon="shield-alt">
+    PCI-compliant processing that keeps customer payment data secure
+  </Card>
+  <Card title="Multiple Payment Methods" icon="credit-card">
+    Accept credit cards, debit cards, ACH, and digital wallets
+  </Card>
+  <Card title="Automated Billing" icon="sync">
+    Reliable recurring billing for memberships and subscriptions
+  </Card>
+  <Card title="Detailed Reporting" icon="chart-bar">
+    Comprehensive financial reporting and transaction history
+  </Card>
+</CardGroup>
+
+## Before You Begin
+
+Before connecting Stripe to Kenko, make sure you have:
+
+1. An active Kenko account with administrative privileges
+2. A Stripe account (or be prepared to create one)
+3. Business details including:
+   - Legal business name
+   - Business address
+   - Tax ID number
+   - Banking information for deposits
+
+<Note>
+  If you don't already have a Stripe account, you'll be able to create one during the connection process.
+</Note>
+
+## Connection Process
+
+<Steps>
+  <Step title="Access Payment Settings">
+    In your Kenko dashboard, navigate to **Admin Settings** > **Billing & Payments** > **Payment Processing**.
+  </Step>
+  
+  <Step title="Select Stripe">
+    In the Payment Processors section, click **Connect** next to the Stripe option.
+  </Step>
+  
+  <Step title="Choose Connection Type">
+    Select one of the following options:
+    - **Connect existing Stripe account**: Link your current Stripe account
+    - **Create new Stripe account**: Set up a new Stripe account through Kenko
+  </Step>
+  
+  <Step title="Authorize Connection">
+    You'll be redirected to Stripe's website to:
+    
+    1. Login to your existing Stripe account (or create a new one)
+    2. Review the permissions Kenko is requesting
+    3. Authorize the connection
+    
+    <Warning>
+      Ensure you're granting access to the correct Stripe account, especially if you manage multiple businesses.
+    </Warning>
+  </Step>
+  
+  <Step title="Complete Account Setup">
+    If this is a new Stripe account, you'll need to provide additional information:
+    
+    - Business details and address
+    - Banking information for deposits
+    - Identity verification documents
+    
+    Existing accounts may already have this information, but verify it's correct.
+  </Step>
+  
+  <Step title="Configure Payment Settings">
+    After connecting, return to Kenko to configure your payment settings:
+    
+    1. Default payment methods to accept
+    2. Automatic billing retry settings
+    3. Payment failure notifications
+    4. Receipt and invoice customization
+  </Step>
+</Steps>
+
+## Testing Your Connection
+
+After connecting Stripe, we recommend testing the integration:
+
+1. Go to **Admin Settings** > **Billing & Payments** > **Test Mode**
+2. Toggle **Test Mode** to ON
+3. Perform a test transaction using Stripe's [test card numbers](https://stripe.com/docs/testing):
+   - Test successful payment: 4242 4242 4242 4242
+   - Test failed payment: 4000 0000 0000 0002
+4. Verify the test transaction appears in both Kenko and your Stripe dashboard
+5. Toggle **Test Mode** OFF when finished testing
+
+<Warning>
+  Always remember to turn off Test Mode before processing real transactions.
+</Warning>
+
+## Common Connection Issues
+
+<AccordionGroup>
+  <Accordion icon="exclamation-circle" title="Connection Timeout">
+    If your connection times out, try again and ensure you complete all steps on the Stripe site without delays.
+  </Accordion>
+  
+  <Accordion icon="id-card" title="Verification Problems">
+    If Stripe requires additional verification, complete all requested steps in your Stripe dashboard before attempting to reconnect.
+  </Accordion>
+  
+  <Accordion icon="link-slash" title="Disconnection Issues">
+    If your Stripe account becomes disconnected, check for:
+    - Expired API keys
+    - Account restrictions in Stripe
+    - Changes to your Stripe account status
+  </Accordion>
+  
+  <Accordion icon="exchange-alt" title="Multiple Account Confusion">
+    If you have multiple Stripe accounts, ensure you're connecting the correct one by checking the email address associated with the account during authorization.
+  </Accordion>
+</AccordionGroup>
+
+## Managing Your Stripe Connection
+
+### Viewing Connected Account
+
+To view your connected Stripe account:
+
+1. Go to **Admin Settings** > **Billing & Payments** > **Payment Processing**
+2. Look for the "Connected Account" section to see which Stripe account is connected
+
+### Disconnecting Stripe
+
+If you need to disconnect your Stripe account:
+
+1. Go to **Admin Settings** > **Billing & Payments** > **Payment Processing**
+2. Click **Disconnect** next to your Stripe connection
+3. Confirm the disconnection
+
+<Warning>
+  Disconnecting your Stripe account will prevent all future payments from processing. Only disconnect if you're switching payment processors or closing your account.
+</Warning>
+
+## Next Steps
+
+After connecting Stripe, explore these related guides:
+
+- [Payment Flow](../payment-flow)
+- [Subscription Management](../subscription-management)
+- [Stripe Reporting](../reporting)
+
+For direct Stripe support, visit [support.stripe.com](https://support.stripe.com) or contact Stripe at support@stripe.com. 

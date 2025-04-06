@@ -1,0 +1,213 @@
+---
+title: 'Payment Methods'
+description: 'Configure and manage payment options for your fitness business'
+---
+
+# Payment Methods
+
+Offering flexible payment options is essential for providing a smooth experience for your members. Kenko supports multiple payment methods and helps you manage them securely.
+
+## Supported Payment Methods
+
+Kenko allows you to accept various payment types:
+
+<CardGroup cols={2}>
+  <Card title="Credit & Debit Cards" icon="credit-card">
+    Accept all major credit and debit cards including Visa, Mastercard, American Express, and Discover.
+  </Card>
+  
+  <Card title="Bank Transfers (ACH)" icon="university">
+    Direct transfers from members' bank accounts for recurring payments (US only).
+  </Card>
+  
+  <Card title="Digital Wallets" icon="wallet">
+    Support for Apple Pay, Google Pay, and other mobile payment options.
+  </Card>
+  
+  <Card title="Manual Payments" icon="hand-holding-usd">
+    Record cash, check, or other offline payment methods.
+  </Card>
+</CardGroup>
+
+## Setting Up Payment Processing
+
+Before accepting payments, you need to configure your payment processing settings.
+
+<Steps>
+  <Step title="Access Payment Settings">
+    Navigate to **Admin Settings** > **Billing & Payments** > **Payment Processing**.
+  </Step>
+  
+  <Step title="Connect Payment Processor">
+    Choose and connect your payment processor:
+    - Stripe (recommended)
+    - PayPal
+    - Square
+    - Other supported processors
+    
+    Follow the integration steps for your chosen processor.
+    
+    <Note>
+      See our [Stripe Connection Guide](../../integrations/stripe/account-connection) for detailed setup instructions for our recommended processor.
+    </Note>
+  </Step>
+  
+  <Step title="Configure Payment Settings">
+    Set your payment preferences:
+    - Default payment methods to accept
+    - Auto-billing settings
+    - Failed payment handling
+    - Receipt and invoice customization
+  </Step>
+  
+  <Step title="Set Up Payment Security">
+    Configure security settings:
+    - CVV requirements
+    - Address verification
+    - Fraud detection levels
+    - PCI compliance settings
+  </Step>
+  
+  <Step title="Test Your Configuration">
+    Run a test transaction to ensure everything is working properly:
+    1. Enable test mode
+    2. Process a test payment
+    3. Verify it appears correctly in your payment processor dashboard
+    4. Disable test mode when complete
+  </Step>
+</Steps>
+
+## Managing Member Payment Methods
+
+### Adding Payment Methods for Members
+
+<AccordionGroup>
+  <Accordion icon="user-plus" title="During Member Registration">
+    When creating a new member account:
+    
+    1. Navigate to the payment section of the new member form
+    2. Select **Add Payment Method**
+    3. Choose the payment type
+    4. Enter the payment details or have the member enter them directly
+    5. Set as default payment method if appropriate
+    6. Complete the registration process
+  </Accordion>
+  
+  <Accordion icon="user-edit" title="For Existing Members">
+    To add a payment method to an existing profile:
+    
+    1. Open the member's profile
+    2. Go to the **Billing** tab
+    3. Click **Add Payment Method**
+    4. Choose the payment type
+    5. Enter the required details
+    6. Set as default if desired
+    7. Save the new payment method
+  </Accordion>
+  
+  <Accordion icon="user-check" title="Member Self-Service">
+    Members can add their own payment methods through the member portal:
+    
+    1. Member logs into their account
+    2. Navigates to **Account Settings** > **Payment Methods**
+    3. Selects **Add Payment Method**
+    4. Enters their payment information
+    5. Sets default preferences
+    
+    <Note>
+      The member portal uses secure forms that meet PCI compliance requirements for handling payment information.
+    </Note>
+  </Accordion>
+</AccordionGroup>
+
+### Managing Multiple Payment Methods
+
+Members can have multiple payment methods on file:
+
+1. The designated **default** method is used for automatic payments
+2. Members can choose which payment method to use for one-time purchases
+3. Default methods can be changed at any time:
+   - By staff through the member profile
+   - By members through their account portal
+
+## Handling Failed Payments
+
+Kenko provides automated tools to help manage payment failures.
+
+<Steps>
+  <Step title="Configure Retry Settings">
+    Navigate to **Admin Settings** > **Billing & Payments** > **Failed Payment Handling**.
+  </Step>
+  
+  <Step title="Set Retry Schedule">
+    Configure when and how often to retry failed payments:
+    - Initial retry timeframe (typically 1-3 days)
+    - Number of retry attempts
+    - Interval between attempts
+  </Step>
+  
+  <Step title="Configure Notifications">
+    Set up automated communications:
+    - Failed payment notifications
+    - Retry notifications
+    - Final payment reminder before account suspension
+    
+    <Note>
+      Customize notification templates in **Admin Settings** > **Communications** > **Email Templates**.
+    </Note>
+  </Step>
+  
+  <Step title="Define Account Actions">
+    Determine what happens after multiple failed attempts:
+    - When to suspend membership access
+    - Whether to automatically cancel after a certain period
+    - Special handling for long-term members
+  </Step>
+</Steps>
+
+### Manual Payment Resolution
+
+For handling payment issues that require intervention:
+
+1. Navigate to **Billing** > **Failed Payments**
+2. Review the list of pending payment issues
+3. Select a member to contact or resolve manually
+4. Choose an action:
+   - Contact member
+   - Process a different payment method
+   - Apply a credit or adjustment
+   - Record a manual payment
+   - Create a payment plan
+
+## Payment Security and Compliance
+
+<CardGroup cols={2}>
+  <Card title="PCI Compliance" icon="shield-alt">
+    Kenko maintains PCI DSS compliance for secure handling of card data.
+  </Card>
+  
+  <Card title="Data Protection" icon="lock">
+    Payment information is encrypted and securely stored via your payment processor.
+  </Card>
+  
+  <Card title="Fraud Prevention" icon="user-shield">
+    Built-in fraud detection tools help identify suspicious transactions.
+  </Card>
+  
+  <Card title="Secure Access" icon="key">
+    Role-based permissions control who can access payment information.
+  </Card>
+</CardGroup>
+
+<Warning>
+  Never store complete credit card numbers in member notes, emails, or other unsecured locations. Kenko shows only the last four digits of card numbers for reference.
+</Warning>
+
+## Related Resources
+
+- [Pricing Plans](../pricing-plans)
+- [Invoicing](../invoicing)
+- [Subscriptions](../subscriptions)
+- [Refunds](../refunds)
+- [Payment Reports](../payment-reports)
+- [Stripe Integration](../../integrations/stripe/account-connection) 
