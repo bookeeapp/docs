@@ -6,11 +6,15 @@
   },
   "name": "KENKO",
   "colors": {
-    "primary": "#00B488",
-    "light": "#E1F5EF",
-    "dark": "#0B271B"
+    "primary": "#071819",
+    "light": "#abcb6f",
+    "dark": "#071819"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "dark": "/images/kenko.png",
+    "light": "/images/kenko.png"
+  },
   "navigation": {
     "tabs": [
       {
