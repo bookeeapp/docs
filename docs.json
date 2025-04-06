@@ -1,7 +1,10 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Kenko AI",
+  "theme": "linden",
+  "fonts": {
+    "family": "Plus Jakarta Sans"
+  },
+  "name": "KENKO",
   "colors": {
     "primary": "#071819",
     "light": "#abcb6f",
@@ -102,10 +105,6 @@
         }
       ]
     }
-  },
-  "logo": {
-    "light": "/images/logo.png",
-    "dark": "/images/logo.png"
   },
   "navbar": {
     "links": [
