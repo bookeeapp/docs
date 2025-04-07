@@ -18,7 +18,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "🚀 Getting Started",
@@ -62,9 +62,9 @@
             ]
           },
           {
-            "group": "📣 Marketing Tools",
+            "group": "Marketing & Journeys",
             "pages": [
-              "marketing/campaigns",
+              "marketing/introduction",
               "marketing/promotions",
               "marketing/email-templates",
               "marketing/sms-messaging",
