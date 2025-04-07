@@ -30,13 +30,13 @@
             ]
           },
           {
-            "group": "👥 Member Management",
+            "group": "👥 Contact Management",
             "pages": [
-              "member-management/member-profiles",
-              "member-management/membership-types",
-              "member-management/check-in-process",
-              "member-management/communication",
-              "member-management/member-notes"
+              "contact-management/member-profiles",
+              "contact-management/membership-types",
+              "contact-management/check-in-process",
+              "contact-management/communication",
+              "contact-management/member-notes"
             ]
           },
           {
