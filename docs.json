@@ -32,6 +32,7 @@
           {
             "group": "👥 Contact Management",
             "pages": [
+              "contact-management/contact-management-introduction",
               "contact-management/member-profiles",
               "contact-management/membership-types",
               "contact-management/check-in-process",
