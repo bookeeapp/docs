@@ -3,112 +3,152 @@ title: "Platform Overview"
 description: "Understanding the Kenko platform architecture and core modules"
 ---
 
-# Kenko Platform Overview
+# Introduction to Kenko CRM
 
-Kenko is designed as an integrated platform with multiple modules that work together to provide a comprehensive solution for fitness and wellness businesses. This overview will help you understand how the different parts of the platform connect and interact.
+Kenko is an integrated platform designed to streamline operations for fitness and wellness businesses. The platform consists of multiple core modules that work in harmony to provide a comprehensive solution.
+
+This guide will help you understand how each module interacts and contributes to your business’s success.
 
 ## Core Modules
 
 <CardGroup cols="2">
-  <Card title="Member Management" icon="users" href="../../member-management/member-profiles">
-    The foundation of your business operations, storing all member information, profiles, and activity history.
+  <Card title="Contact Management" icon="users" href="../../member-management/member-profiles">
+    Manage all member information, profiles, and activity history — the core of your operations.
   </Card>
-  <Card title="Scheduling & Classes" icon="calendar" href="../../scheduling/class-setup">
-    Powerful scheduling tools for classes, appointments, and resource management.
+  <Card title="Scheduling Management" icon="calendar" href="../../scheduling/class-setup">
+    Powerful scheduling tools to manage classes, appointments, and courses with ease.
   </Card>
   <Card title="Billing & Payments" icon="credit-card" href="../../billing/payment-methods">
-    Complete financial management including payments, subscriptions, and reporting.
+    A complete solution for managing payments, subscriptions, invoicing and finances
   </Card>
   <Card title="Marketing Tools" icon="bullhorn" href="../../marketing/campaigns">
-    Built-in marketing capabilities to attract, engage, and retain members.
+    Integrated marketing capabilities to attract, engage, and retain members effectively.
   </Card>
   <Card title="Website & App" icon="desktop" href="../../website/branded-app">
-    Digital presence management through branded websites and mobile applications.
+    Control your digital presence through branded websites and mobile applications.
   </Card>
   <Card title="Reports & Analytics" icon="chart-line" href="../../analytics/business-dashboard">
-    Data-driven insights to understand business performance and growth opportunities.
+    Utilize data-driven insights to track business performance and health.
   </Card>
 </CardGroup>
 
 ## Module Interactions
 
-Understanding how these modules work together helps you maximize the platform's value:
+Kenko’s modules are designed to work together seamlessly, optimizing the efficiency of your business operations. Here’s how they interact:
 
 <Steps>
-  <Step title="Member Journey">
-    A new client discovers your business, books a class through your **Website & App**, becomes a member through **Member Management**, and starts paying through **Billing & Payments**.
+  <Step title="Customer Journey">
+    A new client discovers your business via your **Website & App**, books a class, becomes a member through **Contact Management**, and starts paying via **Billing & Payments**.
   </Step>
   <Step title="Operational Flow">
-    You set up classes in **Scheduling**, members book them through the mobile app, check in is recorded in **Member Management**, and attendance data flows to **Reports & Analytics**.
+    You set up your classes in **Scheduling**, members book through the mobile app, check-ins are recorded in **Contact Management**, and attendance data flows to **Reports & Analytics** for insights.
   </Step>
   <Step title="Business Growth">
-    **Analytics** identify potential for a new service, you promote it via **Marketing Tools**, add it to your schedule in **Scheduling**, and track its financial performance through **Billing & Payments**.
+    **Reports & Analytics** reveal opportunities for new services. You promote these through **Marketing Tools**, add them to your schedule with **Scheduling**, and track the financial impact through **Billing & Payments**.
   </Step>
 </Steps>
 
 ## Interface & Access Methods
 
-Kenko provides multiple ways to access and manage your business:
+Kenko offers multiple access methods to manage your business efficiently:
 
 <AccordionGroup>
-  <Accordion title="Admin Dashboard" icon="desktop">
-    The primary web-based interface for business owners and staff, providing access to all Kenko capabilities. Access at [app.gokenko.com](https://app.gokenko.com).
+  <Accordion title="Robust CRM" icon="desktop">
+    The web-based interface for business owners and staff, providing full access to all Kenko features. Access it at [app.gokenko.com](https://app.gokenko.com).
   </Accordion>
-  <Accordion title="Business App" icon="mobile-alt">
-    Mobile application for on-the-go business management, perfect for checking in members, viewing schedules, and monitoring daily operations.
+  <Accordion title="Business App" icon="tablet-screen-button">
+    The mobile app allows you to manage your business on-the-go, from checking in members to reviewing schedules and monitoring operations.
   </Accordion>
-  <Accordion title="Kiosk Mode" icon="tablet-alt">
-    Streamlined interface designed for front-desk check-in stations or self-service kiosks at your facility.
+  <Accordion title="Kiosk Mode" icon="qrcode">
+    A streamlined interface designed for front-desk check-ins or self-service kiosks within your facility.
   </Accordion>
   <Accordion title="Member App" icon="mobile">
-    Branded mobile application for your members to book classes, manage their account, and engage with your community.
+    A branded mobile app for your members to book classes, manage their account, and engage with the community.
   </Accordion>
   <Accordion title="Booking Website" icon="globe">
-    Public-facing website where prospects and members can view schedules and make bookings.
+    A public-facing website where potential clients and current members can view schedules, make bookings, and interact with your business.
   </Accordion>
 </AccordionGroup>
 
 ## Role-Based Access
 
-Kenko uses role-based permissions to ensure each team member has appropriate access:
+Kenko uses role-based access control to ensure that each team member has the appropriate permissions.
 
-| Role            | Primary Access     | Capabilities                                             |
-| --------------- | ------------------ | -------------------------------------------------------- |
-| Owner/Admin     | Full System        | Complete access to all features and settings             |
-| Manager         | Operations         | Member management, scheduling, reports, limited settings |
-| Front Desk      | Member Interaction | Check-in, bookings, basic member info, point of sale     |
-| Instructor      | Class Management   | Class rosters, attendance, member notes                  |
-| Billing Admin   | Financial          | Payments, invoices, financial reports                    |
-| Marketing Admin | Promotion          | Campaigns, referrals, communications                     |
+You can define a role and decide which permission module you want them to have access to.
 
-## Integration Ecosystem
+| Permission Category | Permission module              | Description                                                                                                          | Can Be Toggled On/Off |
+| ------------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------- | --------------------- |
+| **Contacts & POS**  | Contacts & POS                 | Allows access to customer data and the ability to sell products, services, and courses through CRM and Business app. | Yes                   |
+| **Operations**      | Calendar                       | Allows access to and modification of the calendar. Without contacts permission, users cannot book customers.         | Yes                   |
+|                     | Tasks                          | Users can add and edit tasks within the platform.                                                                    | Yes                   |
+|                     | Marketing                      | Allows users to create, run, and edit marketing campaigns.                                                           | Yes                   |
+|                     | Reports                        | Users can view and download business reports.                                                                        | Yes                   |
+| **Admin**           | Settings                       | Users can access and modify general settings of the business, including design and communication settings.           | Yes                   |
+|                     | Setup                          | Users can manage business setup, including services, products, discounts, and notifications.                         | Yes                   |
+|                     | Add New Staff                  | Ability to add and edit staff profiles.                                                                              | Yes                   |
+|                     | Staff Attendance               | Manage staff attendance and clock in/out functionality.                                                              | Yes                   |
+|                     | Roles and Privileges           | Ability to add or modify roles and privileges for other staff members.                                               | Yes                   |
+|                     | Account & Billing              | Users can access account settings, modify subscription, and purchase add-ons like SMS packs.                         | Yes                   |
+| **Inbox**           | Inbox                          | Users can access the inbox and send messages from Bookee.                                                            | Yes                   |
+| **Website Builder** | Website Builder                | Access to the website builder to create and customize the website.                                                   | Yes                   |
+| **Business App**    | Add & Edit Events              | Allows users to add and edit events within the business app.                                                         | Yes                   |
+|                     | Show Events of All Instructors | Ability to view events from all instructors in the app.                                                              | Yes                   |
+|                     | Show Contact Details           | Users can view email and phone number details of contacts in the app.                                                | Yes                   |
 
-Kenko extends its capabilities through integrations with popular third-party services:
+## Best Practices for Role-Based Permissions
+
+| **Role**            | **Primary Access (Modules)**                      | **Capabilities**                                         | **Best Practices**                                                                                                       |
+| ------------------- | ------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Owner/Admin**     | Full System                                       | Complete access to all features and settings             | Grant full control to business owners for overall system management. Limit access to sensitive data only when necessary. |
+| **Manager**         | Member Management, Scheduling, Reports, Marketing | Member management, scheduling, reports, limited settings | Assign to managerial roles who need to oversee day-to-day operations but restrict access to sensitive settings.          |
+| **Front Desk**      | Member Management, Scheduling, Billing & Payments | Check-ins, bookings, basic member info, point of sale    | Perfect for front desk staff who interact directly with members and manage bookings or payments.                         |
+| **Instructor**      | Scheduling, Member Management                     | Class rosters, attendance, member notes                  | Suitable for instructors who need access to class schedules and student records but not financial or marketing settings. |
+| **Billing Admin**   | Billing & Payments, Reports                       | Payments, invoices, financial reports                    | Ideal for handling payments and financial reporting. Restrict access to sensitive business settings and member data.     |
+| **Marketing Admin** | Marketing, Reports                                | Campaigns, referrals, communications                     | Best for marketing staff who need access to create and manage campaigns but should not handle financial or member data.  |
+
+## Kenko Integration Ecosystem
+
+Kenko extends its functionality through seamless integrations with third-party services:
 
 <CardGroup cols="3">
   <Card title="Stripe" icon="credit-card">
-    Payment processing
+    Payment processing for seamless transactions and subscriptions.
+  </Card>
+  <Card title="Adyen Payments" icon="credit-card">
+    Global payment processing platform for easy and secure transactions.
   </Card>
   <Card title="Google Calendar" icon="calendar">
-    Calendar synchronization
+    Sync events with the instructor’s personal calendar.
   </Card>
-  <Card title="Zapier" icon="plug">
-    Automated workflows
+  <Card title="Zoom" icon="video">
+    Host online classes and appointments directly through Zoom integration.
   </Card>
-  <Card title="WhatsApp" icon="comment">
-    Messaging integration
+  <Card title="Google Analytics" icon="chart-line">
+    Track website traffic and user behavior to optimize marketing efforts.
+  </Card>
+  <Card title="Meta Pixel" icon="m">
+    Ad tracking and retargeting tool to improve your marketing campaigns.
   </Card>
   <Card title="Mailchimp" icon="envelope">
-    Email marketing
+    Sync your contacts and send marketing emails to engage members.
   </Card>
-  <Card title="QuickBooks" icon="file-invoice-dollar">
-    Accounting
+  <Card title="Zapier" icon="plug">
+    Push data between apps automatically to automate workflows and processes.
+  </Card>
+  <Card title="Gympass" icon="users">
+    Unlock new revenue streams with Gympass integration.
+  </Card>
+  <Card title="Classpass" icon="calendar">
+    Sell your classes and appointment spots on Classpass.
+  </Card>
+  <Card title="myclubs" icon="club">
+    Leading sports aggregator in Austria and Switzerland to expand your reach.
   </Card>
 </CardGroup>
 
 ## Next Steps
 
-Now that you understand the platform structure, explore these resources:
+Now that you have an understanding of the platform architecture, explore these resources to dive deeper into Kenko:
 
 - [First Login Guide](../first-login)
 - [Member Management](../../member-management/member-profiles)
@@ -116,5 +156,5 @@ Now that you understand the platform structure, explore these resources:
 - [Payment Methods](../../billing/payment-methods)
 
 <Note>
-  Need more detailed information about a specific module? Click on any of the module cards above to dive deeper into its capabilities and setup process.
+  Need more detailed information about a specific module? Click on any of the module cards above to explore its capabilities and setup process.
 </Note>
