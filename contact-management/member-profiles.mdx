@@ -1,75 +1,124 @@
 ---
-title: 'Member Profiles'
-description: 'Create and manage detailed member profiles in the Kenko platform'
+title: "Contact Profile Deep Dive"
+description: "Explore all sections of a contact profile in Kenko Platform — from subscriptions and documents to SOAP notes and referrals."
 ---
 
-# Member Profiles
+# Deep Dive into managing contacts
 
-Member profiles are the foundation of your Kenko system. They store all essential information about your members, allowing you to provide personalized service and track member activities.
+Every contact in Kenko — whether a lead, trial user, or active member — has a rich profile that captures their relationship with your business.
 
-## Creating Member Profiles
+The contact profile is designed to give you and  your team full visibility and control over each person's history, preferences, and engagement.
+
+## What’s Inside a Contact's Profile
+
+A contact profile brings all essential information and activity into one unified view. Here’s a breakdown of what’s included
+
+<AccordionGroup>
+  <Accordion title="Profile Details" icon="user">
+    key details including name, contact information, gender, date of birth, and emergency contacts. This section forms the identity of the contact across all modules.
+
+    ![Screenshot2025 04 08at4 10 12PM Pn](/images/Screenshot2025-04-08at4.10.12PM.png)
+
+    You can edit the Contact's profile and change ther basic details. This section also shows a Contact's Communication preferences and their Emergency contacts.
+
+    You can edit these sections with the Contact's consent.
+
+    ![Screenshot2025 04 08at4 16 03PM Pn](/images/Screenshot2025-04-08at4.16.03PM.png)
+  </Accordion>
+  <Accordion title="Saved Payment Methods" icon="credit-card">
+    Manage customer cards and saved payment options. Add or remove and manage cards on file to streamline billing and subscription renewals.
+
+    ![Screenshot2025 04 08at6 06 40PM Pn](/images/Screenshot2025-04-08at6.06.40PM.png)
+
+    The first added card is always the _default_ card using which auto-deduction for recurring memberships are managed.
+  </Accordion>
+  <Accordion title="Subscriptions" icon="arrows-repeat">
+    Track all active, paused, or canceled subscriptions. Modify billing cycles, view history, or assign new subscriptions directly.
+
+    ![Screenshot2025 04 08at6 14 52PM Pn](/images/Screenshot2025-04-08at6.14.52PM.png)
+
+    Several actions can be taken on the Active subscriptions of the user from the CRM.
+
+    <Card title="Pause and Unpause Pricing option" icon="play-pause">
+      Pricing options can be paused for a certain duration during the unavailability of the customer.
+
+      ![Screenshot2025 04 08at6 20 35PM Pn](/images/Screenshot2025-04-08at6.20.35PM.png)
+    </Card>
+    <Card title="Edit Cycles" icon="pen">
+      Change the end date of the Subscription by altering the number of cycles of the subscription.
+
+      ![Screenshot2025 04 08at6 25 58PM Pn](/images/Screenshot2025-04-08at6.25.58PM.png)
+    </Card>
+  </Accordion>
+  <Accordion title="Bookings" icon="calendar-check">
+    Access the full list of past and upcoming bookings across classes, appointments, and facilities. Quickly rebook or modify as needed.
+  </Accordion>
+  <Accordion title="Payments" icon="dollar-sign">
+    View completed transactions, pending dues, credits, and refund history. Filter payments by type or status for quick audits.
+  </Accordion>
+  <Accordion title="Timeline" icon="clock">
+    A chronological activity log of everything associated with the contact — sign-ups, check-ins, purchases, communications, and more.
+  </Accordion>
+  <Accordion title="Documents & Agreements" icon="file">
+    Upload and access signed waivers, contracts, SOAP notes, and other documents. Keep records organized for legal and operational needs.
+  </Accordion>
+  <Accordion title="Tags" icon="tags">
+    Add custom tags to categorize contacts (e.g., “VIP”, “Needs Follow-up”). Tags are searchable and support segmentation in campaigns.
+  </Accordion>
+  <Accordion title="Related Contacts" icon="users">
+    Link related profiles such as family members, guardians, or staff. Useful for group memberships or shared responsibilities.
+  </Accordion>
+  <Accordion title="Referrals" icon="share">
+    Track referrals made by this contact. See the number of referred members, their activity, and any referral rewards earned.
+  </Accordion>
+</AccordionGroup>
+
+## Editing a Contact Profile
 
 <Steps>
-  <Step title="Access Member Management">
-    Navigate to the **Members** section in your Kenko dashboard.
+  <Step title="Open the Profile">
+    Use the global search bar or go to the **Contacts** tab to find the profile.
   </Step>
-  
-  <Step title="Add New Member">
-    Click the **+ New Member** button in the top right corner of the screen.
+  <Step title="Click Edit">
+    In the top-right corner of the profile, click **Edit** to modify fields like name, contact info, birthday, and more.
   </Step>
-  
-  <Step title="Enter Basic Information">
-    Complete the required fields:
-    - First and last name
-    - Email address
-    - Phone number
-    - Birthdate (optional)
-    - Emergency contact (optional)
-  </Step>
-  
-  <Step title="Add Membership Details">
-    Select the appropriate membership type or package for this member from the dropdown menu. You can also:
-    - Set a custom start date
-    - Apply membership discounts
-    - Set renewal preferences
-  </Step>
-  
-  <Step title="Upload Photo">
-    Add a profile photo to help staff identify members (optional but recommended).
-  </Step>
-  
-  <Step title="Save Profile">
-    Click **Save** to create the member profile. The new member will receive a welcome email with account setup instructions.
+  <Step title="Save Changes">
+    Review your updates and click **Save** to apply.
   </Step>
 </Steps>
 
-## Member Profile Sections
+> **Placeholder for Image**: Contact profile in edit mode.
 
-<AccordionGroup>
-  <Accordion icon="address-card" title="Personal Information">
-    Basic contact details, demographics, and preferences that help you know your members better.
-  </Accordion>
-  
-  <Accordion icon="credit-card" title="Billing Information">
-    Payment methods, billing history, and current subscription status.
-  </Accordion>
-  
-  <Accordion icon="calendar-check" title="Attendance & Activity">
-    Class attendance history, booking patterns, and visit frequency.
-  </Accordion>
-  
-  <Accordion icon="file-signature" title="Waivers & Documents">
-    Signed liability waivers, health questionnaires, and other important documents.
-  </Accordion>
-  
-  <Accordion icon="comments" title="Notes & Communication">
-    Staff notes, communication history, and follow-up reminders.
-  </Accordion>
-  
-  <Accordion icon="chart-line" title="Progress & Metrics">
-    Fitness assessments, goal tracking, and achievement records (if applicable).
-  </Accordion>
-</AccordionGroup>
+---
+
+## Merging Duplicate Contacts
+
+<Steps>
+  <Step title="Identify Duplicates">
+    Search for similar names or email addresses in your **Contacts** tab.
+  </Step>
+  <Step title="Open One Profile">
+    From the Actions menu, choose **Merge Profile**.
+  </Step>
+  <Step title="Select Duplicate">
+    Search and select the second contact to merge.
+  </Step>
+  <Step title="Confirm Merge">
+    Review data from both profiles and confirm to merge them into one.
+  </Step>
+</Steps>
+
+> **Placeholder for Image**: Merge profile interface with selection and confirmation steps.
+
+---
+
+## Final Tips
+
+- Keep profiles up to date to avoid communication issues and improve service quality.
+- Use tags, documents, and timeline views to give staff fast, actionable insights.
+- Merge duplicates regularly to maintain clean, consolidated records.
+
+---
 
 ## Managing Member Profiles
 
@@ -84,8 +133,8 @@ Member profiles are the foundation of your Kenko system. They store all essentia
 
 You can customize member profiles to collect additional information specific to your business:
 
-1. Go to **Admin Settings** > **Member Management** > **Custom Fields**
-2. Click **+ Add Field**
+1. Go to **Admin Settings** \> **Member Management** \> **Custom Fields**
+2. Click **\+ Add Field**
 3. Configure the field type (text, dropdown, checkbox, etc.)
 4. Set visibility permissions (admin-only or member-visible)
 5. Click **Save**
@@ -99,13 +148,13 @@ You can customize member profiles to collect additional information specific to 
 Use tags to categorize and segment your members:
 
 1. Open a member's profile
-2. Click **+ Add Tag** in the Tags section
+2. Click **\+ Add Tag** in the Tags section
 3. Select from existing tags or create a new one
 4. Use tags for targeted marketing, reporting, or special access
 
 ## Best Practices
 
-<CardGroup cols={2}>
+<CardGroup cols="2">
   <Card title="Maintain Data Accuracy" icon="check-circle">
     Regularly review and update member information to ensure it remains current.
   </Card>
@@ -125,4 +174,4 @@ Use tags to categorize and segment your members:
 - [Membership Types](../membership-types)
 - [Check-in Process](../check-in-process)
 - [Member Communication](../communication)
-- [Member Notes](../member-notes) 
+- [Member Notes](../member-notes)
