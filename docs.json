@@ -21,7 +21,7 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "🚀 Getting Started",
+            "group": "Getting Started 🚀 ",
             "pages": [
               "getting-started/introduction",
               "getting-started/quickstart",
@@ -30,18 +30,16 @@
             ]
           },
           {
-            "group": "👥 Contact Management",
+            "group": "Contact Management",
             "pages": [
               "contact-management/contact-management-introduction",
               "contact-management/member-profiles",
               "contact-management/membership-types",
-              "contact-management/check-in-process",
-              "contact-management/communication",
-              "contact-management/member-notes"
+              "contact-management/check-in-process"
             ]
           },
           {
-            "group": "📅 Scheduling & Classes",
+            "group": "Scheduling & Classes",
             "pages": [
               "scheduling/class-setup",
               "scheduling/booking-management",
@@ -52,7 +50,7 @@
             ]
           },
           {
-            "group": "💰 Billing & Payments",
+            "group": "Billing & Payments",
             "pages": [
               "billing/payment-methods",
               "billing/pricing-plans",
@@ -73,7 +71,7 @@
             ]
           },
           {
-            "group": "🌐 Website & App",
+            "group": "Website & App",
             "pages": [
               "website/branded-app",
               "website/booking-widget",
@@ -82,7 +80,7 @@
             ]
           },
           {
-            "group": "📊 Reports & Analytics",
+            "group": "Reports & Analytics",
             "pages": [
               "analytics/business-dashboard",
               "analytics/attendance-reports",
@@ -92,7 +90,7 @@
             ]
           },
           {
-            "group": "⚙️ Admin Settings",
+            "group": "Admin Settings",
             "pages": [
               "admin/user-permissions",
               "admin/location-management",
@@ -102,7 +100,7 @@
             ]
           },
           {
-            "group": "✨ Advanced Features",
+            "group": "Advanced Features",
             "pages": [
               "advanced/member-challenges",
               "advanced/loyalty-program",
@@ -111,7 +109,7 @@
             ]
           },
           {
-            "group": "🔧 Troubleshooting",
+            "group": "Troubleshooting",
             "pages": [
               "troubleshooting/common-issues",
               "troubleshooting/account-access",
@@ -186,6 +184,7 @@
           {
             "group": "🔑 Account & Login",
             "pages": [
+              "faqs/customer-troubleshooting/login-troubleshooting",
               "faqs/account/forgot-password",
               "faqs/account/multiple-locations",
               "faqs/account/user-roles",

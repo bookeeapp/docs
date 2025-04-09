@@ -1,205 +1,129 @@
 ---
-title: 'Membership Types'
-description: 'Configure and manage membership options for your fitness business'
+title: "Pricing Options for Contacts"
+description: "Configure and manage membership options for your fitness business"
 ---
 
-# Membership Types
+# Membership offerings
 
-Membership types define the service packages you offer to clients. Kenko allows you to create flexible membership structures that match your business model, from single-class passes to unlimited recurring memberships.
+Kenko allows you to create a variety of membership types and pricing options, each with unique features that affect how contacts interact with your business. Below are the different types of membership pricing options and key membership features.
 
-## Understanding Membership Types
+## Types of Pricing Options
 
-Membership types in Kenko determine:
+<Tabs>
+  <Tab title="Subscriptions">
+    A recurring payment plan where members pay on a set schedule (e.g., monthly). This option ensures ongoing access to services.
 
-- **Access rights**: What services members can access
-- **Pricing**: How much members pay and when
-- **Duration**: How long the membership lasts
-- **Benefits**: What special perks are included
-- **Restrictions**: Any limitations on usage
+    - **How it affects the contact**: Provides automatic renewals, allowing for continuous access without manual intervention.
+    - **What's Included:** Credits ( Limited or Unlimited every cycle ) that can be spent on Classes/Appointments.
+    - **Perks**: Some perks can also include Buddy passes ( Free or Paid ), Free access to Videos by the studio.
+  </Tab>
+  <Tab title="Credit packs">
+    A one-time purchase of credits that can be used to book classes, services, or products, often with a fixed validity period.
 
-## Creating Membership Types
+    - **How it affects the contact**: Credits are deducted as used, and members can access services on a pay-as-you-go basis.
+    - **What's Included: **Fixed or Unlimited credits for a set duration
+    - **Perks**: Flexible usage, no long-term commitment required.  Buddy passes ( Free or Paid ) and Free access to Videos by the studio.
+  </Tab>
+  <Tab title="Intro Offers">
+    Special pricing options for new customers, often offering discounts for the first month or trial period to encourage sign-ups.
 
-<Steps>
-  <Step title="Access Membership Settings">
-    Navigate to **Admin Settings** > **Membership** > **Membership Types**.
-  </Step>
-  
-  <Step title="Add New Membership">
-    Click the **+ New Membership Type** button.
-  </Step>
-  
-  <Step title="Enter Basic Details">
-    Complete the required information:
-    - Membership name
-    - Description
-    - Status (active/inactive)
-    - Color tag (for visual identification)
-  </Step>
-  
-  <Step title="Configure Pricing">
-    Set the financial terms:
-    - Price amount
-    - Tax settings
-    - Billing frequency (one-time, weekly, monthly, annual)
-    - Free trial period (if applicable)
-    - Joining fee (if applicable)
-  </Step>
-  
-  <Step title="Set Duration and Renewal">
-    Define the membership timeframe:
-    - Duration type (unlimited, fixed period, class count)
-    - Expiration settings
-    - Auto-renewal options
-    - Cancellation terms
-  </Step>
-  
-  <Step title="Configure Access Rights">
-    Specify what this membership can access:
-    - Class types included
-    - Number of visits allowed
-    - Booking privileges (advance booking window)
-    - Facility access
-    - Resource reservations
-  </Step>
-  
-  <Step title="Add Special Benefits">
-    Include any additional perks:
-    - Guest passes
-    - Discounts on retail or services
-    - Priority booking
-    - Special event access
-  </Step>
-  
-  <Step title="Set Availability">
-    Determine who can purchase this membership:
-    - Available to all or specific member groups
-    - Promotional/limited time availability
-    - Hidden/invite-only options
-  </Step>
-  
-  <Step title="Save Membership Type">
-    Click **Save** to create the membership type and make it available for sale.
-  </Step>
-</Steps>
+    - **How it affects the contact**: Attracts new users by offering a low-cost introduction to the service.
+    - **Perks**: Significant discount on initial purchases, typically leading to longer-term membership conversion.
+    - **Restrictions**: Studios can put a cap on the total number of allowed purchases of Intro-offers. This restriction can be Location/Region or Business level.
+  </Tab>
+  <Tab title="Top-up">
+    This option allows members to add more credits to their account once they are nearing depletion, maintaining access to services.
 
-## Common Membership Structures
+    - **How it affects the contact**: Ensures continued service availability once the initial credits are used up.
+    - **Perks**: Convenient for members who prefer flexibility over fixed-term commitments.
+    - **Restrictions**: Top-ups have to be purchased in addition to a credit pack or a subscription. These cannot be used as a standalone Membership option.
+  </Tab>
+</Tabs>
 
-<CardGroup cols={2}>
-  <Card title="Class Passes" icon="ticket-alt">
-    Fixed number of classes with flexible usage timeframe
-    
-    **Example**: 10-Class Pack valid for 3 months
-  </Card>
-  
-  <Card title="Recurring Memberships" icon="sync">
-    Ongoing memberships with regular billing
-    
-    **Example**: Unlimited Monthly Membership
-  </Card>
-  
-  <Card title="Time-Limited Packages" icon="clock">
-    Fixed-duration memberships without auto-renewal
-    
-    **Example**: 3-Month Summer Special
-  </Card>
-  
-  <Card title="Visit-Based Memberships" icon="calendar-check">
-    Regular billing with visit limitations
-    
-    **Example**: 8 Classes per Month Membership
-  </Card>
-</CardGroup>
-
-## Managing Membership Restrictions
+## Pricing option Features
 
 <AccordionGroup>
-  <Accordion icon="calendar-week" title="Time Restrictions">
-    Limit when members can attend:
-    
-    1. In the membership type settings, go to the **Restrictions** tab
-    2. Select **Add Time Restriction**
-    3. Choose days of week and time ranges
-    4. Set whether restrictions apply to all or specific class types
-    
-    **Common example**: "Off-Peak Membership" only valid weekdays 9am-4pm
+  <Accordion title="Roll Over" icon="arrows-turn-right">
+    > Subscriptions offer the ability to roll over unused credits to the next billing cycle, ensuring that customers receive full value for their purchase.
+
+    - Studios can choose whether or not to allow roll-over for any given subscription.
+    - A maximum cap can be set on the total number of credits that can be rolled over.
+
+      ![Screenshot2025 04 09at4 07 49PM Pn](/images/Screenshot2025-04-09at4.07.49PM.png)
   </Accordion>
-  
-  <Accordion icon="map-marker-alt" title="Location Restrictions">
-    For multi-location businesses, restrict access to specific locations:
-    
-    1. Go to the **Locations** tab
-    2. Select applicable locations for this membership
-    3. Choose "All Locations" or select specific ones
-    
-    **Common example**: "Single Club Membership" vs "Multi-Club Access"
+  <Accordion title="Proration" icon="chart-pie-simple-circle-dollar">
+    Proration applies when a member starts a Subscription mid-cycle and that subscription has "Charge on First" enabled. The amount owed is adjusted based on the days already used.
+
+    ![Screenshot2025 04 09at4 12 48PM Pn](/images/Screenshot2025-04-09at4.12.48PM.png)
   </Accordion>
-  
-  <Accordion icon="user-clock" title="Booking Restrictions">
-    Manage how far in advance members can book:
+  <Accordion title="Pause and Cancellation" icon="play-pause">
+    Members can request to pause their membership for a set period or cancel entirely.
+
+    <CardGroup cols="2">
+      <Card title="Pause" icon="pause">
+        Pause the Subscription or Credit pack for a duration. During that duration no Booking is allowed using that Pricing Option.
+
+        Pause affects the End date and Billing date of a pricing option.
+
+        ![Screenshot2025 04 09at4 23 33PM Pn](/images/Screenshot2025-04-09at4.23.33PM.png)
+      </Card>
+      <Card title="Cancellation" icon="ban">
+        A Pricing Option can be canceled preventing any further billing from the customer. Cancellation is allowed both immediately or after a cycle ends.
+
+        Contacts will not be able to avail perks of the membership post cancellation.
+
+        ![Screenshot2025 04 09at4 28 19PM Pn](/images/Screenshot2025-04-09at4.28.19PM.png)
+      </Card>
+    </CardGroup>
+  </Accordion>
+  <Accordion title="Bring a Friend" icon="user-plus">
+    The "Bring a Friend" feature allows members to invite others to use their credits or attend a session, typically with a discount or free trial for the guest.
+  </Accordion>
+  <Accordion title="Shared Membership" icon="users">
+    Shared memberships allow multiple users to access the same membership, ideal for family or group use.
+  </Accordion>
+  <Accordion title="Multi-location Memberships" icon="location-dot">
+    Members can purchase multiple memberships or credits simultaneously, often with added benefits for additional purchases.
+  </Accordion>
+  <Accordion title="Limited and Unlimited Membership" icon="infinity">
+    Memberships can be either limited by time or sessions (fixed number) or unlimited, where the member can access the service as much as they want within the membership's duration.
+  </Accordion>
+  <Accordion title="Book Ahead of Expiry Date" icon="calendar-check">
+    This feature allows members to book classes or services ahead of their membership’s expiration date, ensuring they can use their benefits without rushing.
+  </Accordion>
+  <Accordion title="Enrollment Fee" icon="money-bill-1">
+    Some memberships may require an upfront enrollment fee, which is a one-time charge to access the benefits of the plan.
+  </Accordion>
+  <Accordion title="Payment Plan" icon="money-bill-trend-up">
+    Payment plans divide the membership cost into smaller, manageable payments over time, making it more affordable for members to commit.
+  </Accordion>
+  <Accordion title="Upgrade-Downgrade membership" icon="arrow-up-arrow-down">
     
-    1. Go to the **Booking Privileges** section
-    2. Set the advance booking window (e.g., 7 days)
-    3. Configure maximum active bookings allowed
-    
-    **Common example**: Standard members book 7 days ahead, Premium members 14 days
   </Accordion>
 </AccordionGroup>
 
-## Pricing Strategies
+## Membership Restrictions
 
-Consider these effective pricing approaches for your memberships:
-
-<CardGroup>
-  <Card title="Tiered Pricing" icon="layer-group">
-    Create good/better/best options that increase in price and value
-    
-    **Example**: Basic ($79/mo), Plus ($99/mo), Premium ($129/mo)
+<CardGroup cols="2">
+  <Card title="Time Restrictions" icon="calendar-week">
+    Limit when members can attend services. For example, only allowing access during off-peak hours.
   </Card>
-  
-  <Card title="Commitment-Based Pricing" icon="handshake">
-    Offer discounts for longer commitments
-    
-    **Example**: Month-to-month ($99/mo) vs. 12-month commitment ($79/mo)
+  <Card title="Location Restrictions" icon="map-marker-alt">
+    Restrict access to specific locations, useful for businesses with multiple locations.
   </Card>
-  
-  <Card title="Introductory Offers" icon="tag">
-    Special first-month pricing to reduce signup friction
-    
-    **Example**: First month $49, then $99/month
+  <Card title="Booking Restrictions" icon="calendar-times">
+    Limit how far in advance a member can book services. For example, standard members might book 7 days ahead, while premium members can book 14 days in advance.
+  </Card>
+  <Card title="Visit Limitations" icon="user-clock">
+    Restrict the number of visits a member can make within a given time frame, such as 8 classes per month.
   </Card>
 </CardGroup>
 
-## Managing Existing Membership Types
-
-### Editing Memberships
-
-You can modify existing membership types:
-
-1. Go to **Admin Settings** > **Membership** > **Membership Types**
-2. Find the membership type and click **Edit**
-3. Make your changes and click **Save**
-
-<Warning>
-  Changes to existing membership types will not affect members currently enrolled in that membership. Price or term changes will only apply to new sign-ups unless you specifically migrate existing members.
-</Warning>
-
-### Archiving Memberships
-
-When you no longer want to offer a membership:
-
-1. Go to **Admin Settings** > **Membership** > **Membership Types**
-2. Find the membership type
-3. Click the **Archive** button
-4. Confirm the archiving action
-
-Archived memberships:
-- Are no longer available for purchase
-- Remain active for existing members until expiration
-- Can be unarchived if needed
+## Best Practices
 
 ## Related Resources
 
-- [Member Profiles](../member-profiles)
+- [Membership Reports](../membership-reports)
 - [Billing & Payments](../../billing/payment-methods)
-- [Pricing Plans](../../billing/pricing-plans)
-- [Membership Freezes](../../faqs/billing/membership-freezes) 
+- [Pricing Options](../../pricing-options)
+- [Membership Freezes](../../faqs/billing/membership-freezes)
