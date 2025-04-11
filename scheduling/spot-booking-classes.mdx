@@ -1,0 +1,175 @@
+---
+title: "Book a Spot"
+description: "Let your customers pick their favorite spots in class with Kenko's Spot Booking feature"
+---
+
+import { Callout } from "@/components/mdx/callout"
+import { Card } from "@/components/ui/card"
+import { Steps, Step } from "@/components/mdx/steps"
+import { Accordion, AccordionGroup } from "@/components/mdx/accordion"
+
+# Spot Booking in Classes
+
+With the **Spot Booking** feature in Kenko CRM, you can offer a personalized booking experience. Whether it's a favorite Megaformer in a Lagree studio or a go-to bike in spin class — customers can now select their own spots before class begins.
+
+<info>
+  Spot Booking is a premium feature. To enable it, please contact your rep or email [support@bookeeapp.com](mailto:support@bookeeapp.com).
+</info>
+
+## Setting up Spot Booking in Kenko's CRM
+
+### Facility Setup
+
+<Steps>
+  <Step title="Create or Access Facility">
+    Navigate to `Setup > Facility Creation` in the CRM. Click **Create Facility** for new or select an existing one to edit.
+  </Step>
+  <Step title="Add Facility Details">
+    Provide the basic information and upload a representative image to improve the booking interface in the customer app.
+  </Step>
+  <Step title="Define Layout">
+    Set the layout capacity and column count. This determines the interactive layout your customers will see.
+  </Step>
+  <Step title="Upload Facility Map">
+    Add a detailed layout image showing spot arrangement, instructor area, and any fixed equipment like racks or mirrors.
+  </Step>
+  <Step title="Enable Spot Booking">
+    Go to the Layout tab of an existing facility and click **Setup Now** to activate the Spot Booking feature.
+  </Step>
+</Steps>
+
+<note>
+  If a class was created before Spot Booking was enabled, spots won't be retroactively applied. Only new or unbooked events will inherit the layout.
+</note>
+
+## Assigning Spots to Classes
+
+### New Class Setup
+
+<Steps>
+  <Step title="Add New Class">
+    Go to `Classes > Add Class` and complete the basic information.
+  </Step>
+  <Step title="Link Spot-Enabled Facility">
+    Select a facility where Spot Booking and layout have been configured.
+  </Step>
+  <Step title="Save and Publish">
+    Finalize the schedule. The class will appear in your calendar and customer-facing platforms.
+  </Step>
+</Steps>
+
+### Enable for Existing Classes
+
+<Steps>
+  <Step title="Check Facility Assignment">
+    Ensure a facility is linked to the class.
+  </Step>
+  <Step title="Enable Spot Booking">
+    Confirm the assigned facility has Spot Booking enabled.
+  </Step>
+</Steps>
+
+---
+
+## Publishing for Customer Booking
+
+Customers can select a spot from the interactive layout. If no selection is made, the system will auto-assign a spot.
+
+---
+
+## Customer Experience
+
+<Steps>
+  <Step title="Booking Workflows">
+    <AccordionGroup>
+      <Accordion title="Booking a Spot">
+        Customers can browse schedules, view available spots, and confirm a preferred one. A facility map gives visual context.
+      </Accordion>
+      <Accordion title="Waitlist Handling">
+        Waitlisted customers are either notified or auto-booked when a spot becomes available.
+      </Accordion>
+      <Accordion title="Bring a Friend">
+        Customers can use a Buddy Pass to add a friend and select spots for both during checkout. Each friend receives a confirmation email.
+      </Accordion>
+      <Accordion title="Booking for Someone Else">
+        Customers can assign a spot to a related contact. Confirmation includes the contact's name and assigned spot.
+      </Accordion>
+    </AccordionGroup>
+  </Step>
+</Steps>
+
+---
+
+## Spot Booking on Customer App
+
+Spot Booking is available through both the **customer app** and **website widget**.
+
+<Card>
+  ![Spot selection interface in mobile app](https://help.bookeeapp.com/images/spot-booking-app.png)
+</Card>
+
+---
+
+## CRM Visibility
+
+<AccordionGroup>
+  <Accordion title="Viewing Assigned Spots">
+    <Card>
+      Navigate to `Calendar > [Class]` to view the attendee list and assigned spots. Spot Booking will show seat assignments inline for each participant.
+    </Card>
+  </Accordion>
+  <Accordion title="Admin Booking Behavior">
+    <Card>
+      When admins book clients manually, spots are auto-assigned. This also applies to recurring classes.
+    </Card>
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Third-Party Integration Behavior
+
+<AccordionGroup>
+  <Accordion title="Behavior Overview">
+    <Card>
+      Bookings made via integrations such as ClassPass, GymPass, and MyClubs are automatically assigned spots by the system. These users cannot manually pick a spot.
+    </Card>
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Feature Availability and Limitations
+
+<warning>
+  - Only available for classes (not appointments or courses)
+  - No custom labels or spot names yet
+  - Admins cannot assign spots manually (feature coming soon)
+  - Changing layout capacity resets existing bookings
+</warning>
+
+---
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Can customers pick different spots per class?">
+    Yes, spot selection is independent for each class.
+  </Accordion>
+  <Accordion title="What happens if a customer cancels?">
+    The spot is released and becomes available for others.
+  </Accordion>
+  <Accordion title="Can customers change spots after booking?">
+    They can, as long as the session hasn’t started and the new spot is available.
+  </Accordion>
+  <Accordion title="What if multiple customers try to book the same spot?">
+    First-come-first-confirmed logic is applied by the system.
+  </Accordion>
+  <Accordion title="Is Spot Booking available to all studio types?">
+    Yes, as long as the business offers classes.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+Contact [support@bookeeapp.com](mailto:support@bookeeapp.com) to get Spot Booking enabled for your business.
