@@ -62,14 +62,18 @@ There are several actions that can be taken on the Active Subscription of the Cu
 
         During that duration no Booking is allowed using that Subscriptions.
 
-        Pause affects the End date and Billing date of a pricing option.
+        Pause affects the End date and Billing date of the subscription.
+
+        Incase a paused subscription is unpaused before the tentaive pause end date, the subscription end date and billing date  adjiust automatically.
 
         ![Screenshot2025 04 09at6 46 56PM Pn](/images/Screenshot2025-04-09at6.46.56PM.png)
       </Card>
       <Card title="Cancellation" icon="ban">
-        A Subscriptions can be canceled preventing any further billing from the customer. 
+        A Subscriptions can be canceled preventing any further billing from the customer.
 
         Cancellation is allowed both immediately or after a cycle ends.
+
+        Cancellation before completing minimum cycles may incur a fee. This is defined at the subscription plan level.
 
         Contacts will not be able to avail perks of the membership post cancellation.
 
@@ -92,6 +96,11 @@ There are several actions that can be taken on the Active Subscription of the Cu
   <Accordion title="Limited and Unlimited Credits" icon="infinity">
     Subscriptions can either have limited or unlimited credits, where the member can access the service as much as they want within the membership's duration.
 
+    Unlimited plans can still have usage restrictions (e.g., max X classes per day). These are configured per subscription.
+
+    <Note>
+      Incase of Rollover subscription, If the last cycle's credits are not used in the current cycle, then only the current cycle credits will be carried forward to the next cycle and not the last cycle's.
+    </Note>
     ![Screenshot2025 04 10at7 15 04PM Pn](/images/Screenshot2025-04-10at7.15.04PM.png)
   </Accordion>
   <Accordion title="Upgrade-Downgrade Subscription" icon="arrow-up-arrow-down">
@@ -112,13 +121,23 @@ There are several actions that can be taken on the Active Subscription of the Cu
     ![Payments](/Screenshot2025-04-08at6.52.43PM.png)
   </Accordion>
   <Accordion title="Editing Cycles" icon="pen">
-    Change the end date of the Subscription by altering the number of cycles of the subscription.
-    ![Edit Cycles](/Screenshot2025-04-08at6.39.42PM.png)
+    Total number of cycles for a particular subscription can be edited manually from a customer's profile. This affects the end date of a Subscription and total billing cycles for the customer. ![Edit Cycles](/Screenshot2025-04-08at6.39.42PM.png)
   </Accordion>
   <Accordion title="Credit Usage" icon="coin-vertical">
     Track the usage of credits allocated to each customer. Monitor when they use available credits for services.
 
-    ![Credits Usage](/Screenshot2025-04-08at6.49.37PM.png)
+    ### ![Credits Usage](/Screenshot2025-04-08at6.49.37PM.png)
+
+    Credits Breakdown Metrics ( For a cycle )
+
+    | **Field**            | **Description**                                                                                  |
+    | -------------------- | ------------------------------------------------------------------------------------------------ |
+    | `Starting credits`   | Shows the initial credit count for the cycle. In unlimited plans, this is "Unlimited credits".   |
+    | `Total booked`       | Total number of credits used to book services using this subscription during the selected cycle. |
+    | `Free cancellations` | Number of cancellations that did not result in credit deduction.                                 |
+    | `Rollover credits`   | Credits carried over from previous cycles (0 in unlimited plans).                                |
+    | `Manual changes`     | Admin-added or adjusted credits during this cycle.                                               |
+    | `Cycle credits left` | Remaining credits for the current cycle. Stays "Unlimited credits" in such plans.                |
   </Accordion>
   <Accordion title="Shared Subscriptions" icon="users">
     Shared Subscriptions allow multiple users to access the benefits of the same membership, ideal for family or group use.
