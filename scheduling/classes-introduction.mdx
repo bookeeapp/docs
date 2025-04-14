@@ -1,4 +1,149 @@
 ---
 title: "Introduction to Classes"
-description: "Description of your new file."
+description: "Understand what a class is in Kenko, how it connects to instructors, calendar, attendance, waitlists, and more."
 ---
+
+import { Card, CardGroup, Accordion, AccordionGroup } from '@mintlify/components'
+
+# Classes in Kenko's Platform
+
+**Classes** are the foundational building block of any schedule in Kenko. Whether you're offering yoga, strength training, martial arts, or dance — everything revolves around the structure and flexibility that the **Class** module provides.
+
+Each class session defines a **what**, **where**, **when**, **who**, and **how many** — and links tightly with other modules such as the calendar, instructor tools, facility availability, customer check-in, waitlists, and cancellations.
+
+## Classes are central to
+
+<CardGroup cols="2">
+  <Card title="Scheduling & Calendar" icon="calendar" iconType="solid">
+    Classes populate the master calendar with structured, recurring, or one-time slots.
+  </Card>
+  <Card title="Instructor Assignment" icon="person-chalkboard" iconType="solid">
+    Each class is assigned to one or more instructors, who are notified and shown only relevant sessions.
+  </Card>
+  <Card title="Customer Bookings" icon="user-plus" iconType="solid">
+    Customers can view, book, and track classes based on their subscriptions, passes, or memberships.
+  </Card>
+  <Card title="Facilities" icon="door-open" iconType="solid">
+    Classes are bound to locations (rooms or zones), ensuring conflict-free scheduling with other sessions.
+  </Card>
+  <Card title="Attendance & Check-in" icon="clipboard-check" iconType="solid">
+    Check-ins are tied directly to class rosters and influence attendance, payroll, and analytics.
+  </Card>
+  <Card title="Waitlist & Capacity" icon="users-slash" iconType="solid">
+    Set limits for class size. Let waitlists handle overflow automatically as cancellations come in.
+  </Card>
+  <Card title="Substitutions & Conflicts" icon="people-arrows" iconType="solid">
+    Easily assign substitutes or reallocate instructors when conflicts arise.
+  </Card>
+  <Card title="Cancellation & No-show Policies" icon="ban" iconType="solid">
+    Apply late-cancel, no-show, and refund rules on a per-class or global basis.
+  </Card>
+</CardGroup>
+
+## What Makes Up a Class?
+
+<AccordionGroup>
+  <Accordion title="Class Name & Type" icon="input-text">
+    Every class should have a **clear, unique, and easily recognizable name**. This is the name that customers see on your website, app, and booking screens.
+
+    - Add context to the name, e.g. “Beginner Yoga” vs “Power Yoga Express”
+    - Assign each class to a **Class Type** (e.g., Strength, Mindfulness, HIIT) to organize filters, apply category-level pricing, and track analytics
+    - Class Types also power calendar color-coding and help staff quickly distinguish between different offerings
+
+    **Best practice:** Prefix classes with level tags (“Beginner”, “Intermediate”) or specialty tags (“Prenatal”, “Restorative”) for easier discoverability.
+  </Accordion>
+  <Accordion title="Location & Facility" icon="location-dot">
+    Classes are tied to **specific rooms, zones, or studio locations**.
+
+    - Prevents double-booking by locking a class into a facility
+    - Supports multi-location setups with facility-specific calendars
+    - Allows reporting by room usage (e.g., Studio A occupancy rates)
+
+    You can predefine facility names in the Settings section (e.g., “Main Studio”, “Rooftop Zone”, “Therapy Room”).
+
+    **Note:** If left unassigned, a class may allow scheduling conflicts or confuse front desk teams.
+  </Accordion>
+  <Accordion title="Instructor(s)" icon="person-chalkboard">
+    Every class needs at least one assigned instructor.
+
+    - Instructors see only their assigned classes in their calendar view
+    - Substitution workflows rely on this field — only assigned instructors can initiate or be replaced
+    - Classes can have multiple instructors for co-led sessions (e.g., "Couples Acro Yoga")
+
+    You can set **default instructors** for specific class types to save time during bulk creation.
+
+    **Visibility control:** Admins can restrict which instructors can edit or view class details.
+  </Accordion>
+  <Accordion title="Recurrence & Timing" icon="timer">
+    You can create:
+
+    - One-time classes (e.g., Special Events)
+    - Recurring classes (e.g., Every Monday & Wednesday at 7:00 PM)
+    - Limited-run recurrences (e.g., “Every Sunday for 6 weeks”)
+
+    Available recurrence patterns:
+
+    - Daily / Weekly / Custom Days
+    - End conditions: never ends, ends after X sessions, ends by date
+
+    Set:
+
+    - Start time and end time
+    - Duration (automatically inferred from start/end but editable for reporting purposes)
+
+    **Conflict detection** is active — if any part of the recurrence overlaps with existing classes (instructor or room), you’ll be notified.
+  </Accordion>
+  <Accordion title="Capacity & Visibility" icon="users-viewfinder">
+    Define how many people can join a class:
+
+    - Set maximum capacity (e.g., 12 mats, 16 bikes)
+    - Waitlist activates once capacity is reached (if enabled)
+    - Real-time updates on availability shown to customers
+
+    Visibility options:
+
+    - **Public**: Listed everywhere (app, site, widget)
+    - **Private**: Only bookable via direct link
+    - **Hidden**: For internal use, not bookable by customers
+
+    You can also toggle whether the class shows in instructor calendars or not (useful for testing or staff trainings).
+  </Accordion>
+  <Accordion title="Bookability & Restrictions" icon="check-to-slot">
+    Decide who can book this class:
+
+    - All customers
+    - Members only
+    - Only those with active packs
+    - Only after waiver forms are signed
+
+    Additional options:
+
+    - Booking window: “Can book only up to 2 hours before class”
+    - Restrict bookings to web or app only
+    - Limit per user per day/week (e.g., max 1 booking per day)
+
+    These controls help manage fairness, resource load, and avoid last-minute operational chaos.
+  </Accordion>
+  <Accordion title="Cancellation Policy" icon="ban">
+    Attach a class-level or global cancellation rule:
+
+    - Minimum notice required to cancel (e.g., 2 hrs)
+    - No-show fee or credit deduction
+    - Refund eligibility (partial, full, or none)
+
+    These policies trigger automated notifications and apply across customer journeys (booking confirmations, cancellations, etc.)
+
+    **Tip:** You can define multiple cancellation policies in Settings and reuse them across class types.
+  </Accordion>
+</AccordionGroup>
+
+## Summary
+
+Classes in Kenko are not just calendar blocks — they are deeply connected entities that sync with
+
+- **Instructor tools** and substitution workflows
+- **Customer journeys** from discovery to check-in
+- **Operational logic** like capacity, attendance, and policies
+- **Facility scheduling** and availability conflict management
+
+Each of these connections will be explored in more detail throughout the following sections.

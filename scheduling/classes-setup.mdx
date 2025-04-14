@@ -1,5 +1,346 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "Classes Setup"
+description: "Learn how to create, edit, and configure classes in Kenko. Includes detailed breakdown of each configuration field and behavioral notes."
 ---
 
+# Classes Deep Dive
+
+The class setup flow in Kenko gives you full control over the design, visibility, and behavior of your group sessions. From naming and recurrence to instructor assignment and platform sync, every setting ensures operational efficiency and clarity for both admins and customers.
+
+This guide covers the full lifecycle: creating, editing, and understanding class behavior.
+
+## Class Lifecycle
+
+Classes inside Kenko's platform can be created by
+
+<Note>
+  Navigating to the side **Nav-bar \> Setup \> Classes**
+</Note>
+
+In the classes module, You can take the following actions
+
+- **Create**: Full configuration of a class and its schedule.
+- **Update**: Change details like instructors, time slots, or class size.
+- **Delete**: Removes future unbooked occurrences. Past events are retained for reporting.
+
+## Configuration and Setup of Classes
+
+Kenko’s class set up is split into **3 stages**
+
+### Basic Details
+
+<AccordionGroup>
+  <Accordion title="Class Name" icon="boxing-glove">
+    This is the primary label your customers will see on the app, web, or schedule. It must be short, clear, and meaningful — e.g., “Power Yoga – Intermediate” or “Beginner Boxing”.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at1.39.37PM.png"
+      alt="Class name input"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Upload an Image" icon="image">
+    It's recommended to upload a banner image (under 2MB) to make the class more visually appealing in customer-facing views.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at1.40.59PM.png"
+      alt="Upload image field"
+      className="max-w-[300px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Category" icon="icons">
+    Class types like "HIIT", "Yoga", or "Strength" help group classes under filters and also determine reporting behavior.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at1.58.32PM.png"
+      alt="Category dropdown"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    <Note>
+      To create a new category, go to **Settings → General Settings → Bookings → General**.
+    </Note>
+  </Accordion>
+  <Accordion title="Description" icon="pen-to-square">
+    Add a detailed class description that appears in tooltips, class cards, or marketing widgets.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at2.06.17PM.png"
+      alt="Class description field"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Start & End Dates" icon="calendar">
+    **Start Date**: When the class should begin appearing in the calendar
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at2.07.57PM.png"
+      alt="Start date selector"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    **End Date**: Toggle this on to define a fixed duration for the class (e.g., seasonal offerings)
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-14at2.08.21PM.png"
+      alt="End date toggle"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Online Classes" icon="screen-users">
+    If the "Online" toggle is enabled, Kenko will support automated Zoom links (if configured via the App Store).
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at2.10.50PM.png"
+      alt="Class size and online class toggle"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Instructor Assignment" icon="chalkboard-user">
+    Assign one or more instructors. Customers may see instructor names during booking, and these assignments control calendar visibility.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at3.04.40PM.png"
+      alt="Instructor selector"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Facility" icon="house">
+    Define which room or space this class takes place in. Kenko will validate conflicts with other scheduled classes in the same facility.
+
+    <Note>
+      Facility selection is disabled for **_online classes._**
+    </Note>
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at3.08.34PM.png"
+      alt="Facility selector"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Prerequisites" icon="filter-list">
+    Enable logic to restrict booking to only customers with specific tags, This ensures exclusivity for some of the Studio's offerings.
+
+    e.g. - Advance classes will be restricted only for people with Advance Tags.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at3.10.19PM.png"
+      alt="Prerequisite conditions"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    ### Pre-requisites Logic
+
+    | Rule       | Description                                             |
+    | ---------- | ------------------------------------------------------- |
+    | All Of     | Customer must have **all selected tags**                |
+    | Any One Of | Customer can have **at least one of the selected tags** |
+    | None Of    | Customer **must not have** any of the selected tags     |
+
+    The system will block the user from booking and display a custom message like:
+
+    > “Oops\! It seems you aren’t meeting the requirements for this class.”
+
+    Admins can also add a helpful description that explains the requirements (e.g., “Complete Beginner Level 1 first”).
+  </Accordion>
+  <Accordion title="Cancellation & No-Show Policy" icon="xmark">
+    Define what happens when someone cancels too late or doesn’t show up.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at3.12.15PM.png"
+      alt="Cancellation policy selector"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Level" icon="stairs">
+    Tag a class with a skill level (e.g., Beginner, Intermediate, Advanced). This helps customers understand the difficulty and scope of the class.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at3.12.48PM.png"
+      alt="Class level dropdown"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Gympass & myClubs sync" icon="arrows-rotate">
+    You can choose whether you want to sync your class offerings with third party class aggregators. We currently offer sync with Gympass and myClubs.
+
+    <CardGroup cols="2">
+      <Card title="Gympass" icon="dumbbell">
+        Gympass is a leading corporate wellness aggregator that allows employees across companies to access fitness classes through a single membership. It is widely used in the USA.
+
+        When you enable Gympass sync
+
+        - **_The class becomes available for Gympass users to book via their app_**
+        - **_Attendance and bookings are managed through Kenko's calendar as usual_**
+        - _Payouts are reconciled via your Gympass agreement_
+        - 
+        - 
+
+        <div className="flex justify-center">
+        <img
+          src="/images/Screenshot2025-04-14at3.16.17PM.png"
+          alt="Gympass toggle"
+          className="max-w-[300px] w-full rounded-lg shadow-sm"
+        />
+
+        </div>
+      </Card>
+      <Card title="myClubs" icon="puzzle-piece">
+        myClubs is an Austria-based fitness aggregator that enables users to book classes at various studios using a unified subscription or access pass. It's popular in Europe.
+
+        Enabling this toggle allows
+
+        - **_External booking by verified myClubs users_**
+        - **_Your class to be discoverable in the myClubs ecosystem_**
+        - _Standard Kenko attendance and scheduling logic to remain unaffected_
+
+          <div className="flex justify-center">
+          <img
+            src="/images/Screenshot2025-04-14at3.16.29PM.png"
+            alt="myClubs toggle"
+            className="max-w-[300px] w-full rounded-lg shadow-sm"
+          />
+
+          </div>
+      </Card>
+    </CardGroup>
+  </Accordion>
+  <Accordion title="Visibility & Tags" icon="eye">
+    These settings control where and how the class appears in your platform:
+
+    - **Visible to customers**: Show on app/web
+    - **Featured**: Highlight this class in listings
+    - **Book for someone else**: Great for dependents
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at3.18.09PM.png"
+      alt="Visibility toggles"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    **Calendar Color**: Helps distinguish classes by level or category
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-14at3.18.45PM.png"
+      alt="Color tag selector"
+      className="max-w-[300px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+</AccordionGroup>
+
+### 2. Schedule
+
+You’ll define when and how often the class occurs.
+
+- **Repeat Schedule Every**: Choose the recurrence interval (e.g., every 1 week).
+- **Select Days**: Pick one or more weekdays (e.g., Mon, Wed, Fri).
+- **Add Time Slots**: Add a start and end time (e.g., 7:00 AM – 8:00 AM)
+
+  Once you choose a day, you’ll see the **Time-slot settings**:
+  - **Facility** (reconfirmation)
+  - **Instructors** (if not global)
+  - **Class size** (can override the global cap)
+- **Apply to All**: Apply the same settings across all selected weekdays.
+- **Check for Conflicts**: Validates for overlapping instructors or room allocations.
+
+### 3. Pricing
+
+Classes can be:
+
+- **Credit-based**
+- **Free**
+
+If credit-based:
+
+- Choose between **One credit per class** or **Multiple credits**
+- Set booking eligibility:
+  - All pricing options
+  - Specific pricing rules (e.g., only valid for Premium packs or Monthly Passes)
+
+## Editing a Class: Behavioral Nuances
+
+Kenko’s class behavior is designed to preserve historical integrity and avoid unintentional disruptions. Here’s what happens under the hood when you edit existing classes:
+
+<AccordionGroup>
+  <Accordion title="🔁 Changing Recurrence">
+    - If you change the **start date** or **end date**, all **unbooked future events** between the old and new range will be deleted.
+    - If you remove a time slot (e.g., remove Fridays), those sessions become **detached**. They no longer update based on the class template.
+    - This protects against accidental deletion of already booked sessions.
+  </Accordion>
+  <Accordion title="👥 Changing Instructors">
+    - You can swap out instructors at the session level or globally across all recurring events.
+    - Changes only apply to **unbooked or editable** sessions.
+    - Substitute tracking is handled automatically if the original instructor was removed mid-schedule.
+  </Accordion>
+  <Accordion title="🛠️ Schedule-Level Edits">
+    - Editing fields like capacity, facility, or time will **only affect future, unbooked occurrences**.
+    - Booked sessions retain original details to preserve customer expectations and historical data.
+    - You can override specific sessions individually by detaching them from the template.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Best Practices
+
+<CardGroup cols="2">
+  <Card title="Use Categories Consistently" icon="tags" iconType="solid">
+    Categories not only organize listings but also streamline reporting, marketing visibility, and color-coding in calendars.
+  </Card>
+  <Card title="Don’t Skip the Conflict Checker" icon="exclamation-triangle" iconType="solid">
+    Always run the conflict checker after adding time slots — this prevents instructor or facility overlap errors.
+  </Card>
+  <Card title="Apply Prerequisites for Progression Programs" icon="check-double" iconType="solid">
+    Use the prerequisites toggle to gate classes by completion status — perfect for multi-level programs.
+  </Card>
+  <Card title="Color Code By Format" icon="palette" iconType="solid">
+    Pick a standard color scheme for live, virtual, or specialty formats to make admin navigation easier.
+  </Card>
+  <Card title="Test with Hidden Visibility First" icon="eye-slash" iconType="solid">
+    If you're unsure how a class will render, hide it from customers and preview internally first.
+  </Card>
+  <Card title="Use 'Apply to All' for Fast Recurrence" icon="calendar-plus" iconType="solid">
+    Set up a master schedule and apply across days to speed up weekly recurring setups.
+  </Card>
+</CardGroup>
