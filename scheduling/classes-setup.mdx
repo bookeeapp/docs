@@ -273,54 +273,170 @@ Kenko’s class set up is split into **3 stages**
 
 You’ll define **_when_** and **_how_** often the class occurs.
 
-- **Repeat Schedule Every**: Choose the recurrence interval (e.g., every 1 week).
-- **Select Days**: Pick one or more weekdays (e.g., Mon, Wed, Fri).
-- **Add Time Slots**: Add a start and end time (e.g., 7:00 AM – 8:00 AM)
-
-  Once you choose a day, you’ll see the **Time-slot settings**:
-  - **Facility** (reconfirmation)
-  - **Instructors** (if not global)
-  - **Class size** (can override the global cap)
-- **Apply to All**: Apply the same settings across all selected weekdays.
-- **Check for Conflicts**: Validates for overlapping instructors or room allocations.
-
-### 3. Pricing
-
-Classes can be:
-
-- **Credit-based**
-- **Free**
-
-If credit-based:
-
-- Choose between **One credit per class** or **Multiple credits**
-- Set booking eligibility:
-  - All pricing options
-  - Specific pricing rules (e.g., only valid for Premium packs or Monthly Passes)
-
-## Editing a Class: Behavioral Nuances
-
-Kenko’s class behavior is designed to preserve historical integrity and avoid unintentional disruptions. Here’s what happens under the hood when you edit existing classes:
-
 <AccordionGroup>
-  <Accordion title="🔁 Changing Recurrence">
-    - If you change the **start date** or **end date**, all **unbooked future events** between the old and new range will be deleted.
-    - If you remove a time slot (e.g., remove Fridays), those sessions become **detached**. They no longer update based on the class template.
-    - This protects against accidental deletion of already booked sessions.
+  <Accordion title="Recurring Schedule" icon="arrows-repeat">
+    Choose how often the class repeats, whether it's daily, weekly, or custom intervals.
+
+    - **Recurring Interval**: Choose an interval like “1 week” for weekly classes or “every 2 weeks” for bi-weekly events.
+    - This ensures that classes are scheduled automatically, and you don’t need to manually set up each occurrence.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at6.07.48PM.png"
+      alt="Recurring schedule"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
-  <Accordion title="👥 Changing Instructors">
-    - You can swap out instructors at the session level or globally across all recurring events.
-    - Changes only apply to **unbooked or editable** sessions.
-    - Substitute tracking is handled automatically if the original instructor was removed mid-schedule.
+  <Accordion title="Select Days" icon="calendar-day">
+    Select the days on which the class will occur. You can pick multiple weekdays like Monday, Wednesday, and Friday or just one day for a less frequent schedule.
+
+    - **Days of the Week**: Simply check the days on which this class will repeat (e.g., Mon, Wed, Fri).
+    - This flexibility helps you tailor the schedule to your customer needs and your staff’s availability.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at6.08.44PM.png"
+      alt="Select days"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
-  <Accordion title="🛠️ Schedule-Level Edits">
-    - Editing fields like capacity, facility, or time will **only affect future, unbooked occurrences**.
-    - Booked sessions retain original details to preserve customer expectations and historical data.
-    - You can override specific sessions individually by detaching them from the template.
+  <Accordion title="Add Time Slots" icon="business-time">
+    Define the exact start and end times for the class. For example, you may have a morning class from 7:00 AM to 8:00 AM.
+
+    - **Time Slots**: Choose the start time and the end time for the class.
+    - You can have multiple time slots on a single day for flexibility (e.g., an early morning class and a late evening class).
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at6.10.14PM.png"
+      alt="Add time slots"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    <Info>
+      You can add multiple time slots on a single day, which will create two separate occurrences of the class on that day.
+    </Info>
+    **Override Global Settings**: If necessary, you can make adjustments to certain time slots without affecting the entire class. This is particularly useful if:
+
+    - **Facility** needs to change for a specific session
+    - **Instructor** is unavailable, so you want to assign a substitute for certain dates
+    - **Class Size** needs to be adjusted for a specific session (for example, during a special workshop)
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-14at6.12.12PM.png"
+      alt="Override global settings"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Apply to All" icon="plus">
+    After selecting the desired days and time slots, you can apply the same settings across all the selected weekdays.
+
+    - **Apply Changes**: Clicking "Apply to All" will replicate the same settings for all selected days and time slots.
+    - This makes scheduling faster and ensures consistency across the entire series of classes.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at6.12.12PM.png"
+      alt="Apply to all"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
 </AccordionGroup>
 
----
+### Pricing
+
+<AccordionGroup>
+  <Accordion title="Pricing Types" icon="money-bill">
+    You can choose how the class is priced: either **credit-based** or **free**.
+
+    - **Credit-based Classes**: Requires credits to book the class.
+    - **Free Classes**: No credits required for booking, typically used for promotional or introductory sessions.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at7.30.49PM.png"
+      alt="Pricing types"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="For Credit-based Classes" icon="coin-vertical">
+    If you choose **Credit-based**, you can set the number of credits required for booking the class.
+
+    - **One Credit per Class**: Standard single credit system.
+    - **Multiple Credits per Class**: Set multiple credits for a class, useful for higher-value or longer sessions (e.g., a workshop or special event).
+
+    This flexibility allows you to align pricing with session length, exclusivity, or membership levels.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at7.33.08PM.png"
+      alt="One or multiple credits selection"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Set Eligible Pricing Options for the Class" icon="money-check-dollar">
+    Choose which pricing options can be used to book this class. You can restrict the class to specific membership or subscription types.
+
+    - **All Pricing Options**: Customers can use any pricing model, including pay-as-you-go, memberships, or credits.
+    - **Specific Pricing Rules**: For example, this class might only be available for **Premium Pack** members or those with a **Monthly Pass**.
+
+    This ensures that you can tailor access to your premium offerings, ensuring that your best customers get exclusive access to certain classes.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at7.35.56PM.png"
+      alt="Pricing options selector"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+</AccordionGroup>
+
+## Editing a Class
+
+Kenko’s class behavior is designed to preserve historical integrity and avoid unintentional disruptions. 
+
+<Note>
+  You can edit the class by Navigating to **Setup \> Classes \> Select an exisitng class and click on Edit**
+</Note>
+
+Here’s what happens when you edit existing classes
+
+<AccordionGroup>
+  <Accordion title="Change Recurrence" icon="repeat">
+    - If you change the **start date** or **end date**, all **unbooked future events** between the old and new range will be deleted.
+    - If you remove a time slot (e.g., removing Fridays), those sessions will become **detached**. This means that those sessions will no longer be linked to the original class template and will not be updated with future changes (e.g., instructor or facility changes).
+    - **Detached classes** are essentially stand-alone occurrences that no longer follow the recurring class template.
+    - This ensures that already booked sessions remain unchanged and aren’t unintentionally deleted.
+  </Accordion>
+  <Accordion title="Change Instructors" icon="chalkboard-user">
+    - You can swap instructors at the session level or globally for all recurring events.
+    - The change will **only apply to unbooked or editable sessions**.
+    - If you remove an instructor mid-schedule, the system will automatically handle **substitute tracking** to ensure continuity for your customers.
+    - Any changes made to the instructor assignment for future sessions will be applied seamlessly to those unbooked events.
+  </Accordion>
+  <Accordion title="Schedule-Level Edits" icon="calendar-days">
+    - Editing fields like **capacity**, **facility**, or **time slots** will **only affect future, unbooked occurrences**.
+    - **Booked sessions** retain their original details to preserve customer expectations and avoid confusion. These sessions will remain intact, and customers won’t be notified of changes that impact their bookings.
+    - If needed, you can override specific sessions (e.g., a particular class on a specific day) by detaching them from the template. This allows you to modify those individual sessions without affecting the entire recurring schedule.
+  </Accordion>
+</AccordionGroup>
 
 ## Best Practices
 
