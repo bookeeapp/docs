@@ -44,11 +44,14 @@
               "scheduling/classes-introduction",
               "scheduling/classes-setup",
               "scheduling/spot-booking-classes",
-              "scheduling/booking-management",
-              "scheduling/attendance-tracking",
-              "scheduling/waitlists",
-              "scheduling/staff-scheduling",
-              "scheduling/room-management"
+              "scheduling/appointments-introduction",
+              "scheduling/appointments-setup",
+              "scheduling/courses-introduction",
+              "scheduling/courses-setup",
+              "scheduling/calendar-introduction",
+              "scheduling/calendar-classes",
+              "scheduling/calendar-appointments",
+              "scheduling/calendar-courses"
             ]
           },
           {
