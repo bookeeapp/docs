@@ -38,9 +38,12 @@
             ]
           },
           {
-            "group": "Scheduling & Classes",
+            "group": "Scheduling & Management",
             "pages": [
-              "scheduling/class-setup",
+              "scheduling/introduction",
+              "scheduling/classes-introduction",
+              "scheduling/classes-setup",
+              "scheduling/spot-booking-classes",
               "scheduling/booking-management",
               "scheduling/attendance-tracking",
               "scheduling/waitlists",
