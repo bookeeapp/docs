@@ -276,37 +276,38 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
     No payment method is required during booking, making them frictionless for new clients.
 
     <div className="flex justify-center mt-4">
-      <img
-        src="/images/Screenshot2025-04-15at5.20.09PM.png"
-        alt="Free appointment setup screenshot"
-        className="max-w-[600px] w-full rounded-lg shadow-sm"
-      />
+    <img
+      src="/images/Screenshot2025-04-15at5.20.09PM.png"
+      alt="Free appointment setup screenshot"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
     </div>
   </Accordion>
-
   <Accordion title="Quick Pay Appointment" icon="credit-card">
     Customers can pay instantly at the time of booking via available online payment methods. Useful for drop-in services or pay-as-you-go models.
     You can associate a fixed price and track payments inside Kenko CRM.
 
     <div className="flex justify-center mt-4">
-      <img
-        src="/images/Screenshot2025-04-15at5.21.03PM.png"
-        alt="Quick Pay appointment setup"
-        className="max-w-[600px] w-full rounded-lg shadow-sm"
-      />
+    <img
+      src="/images/Screenshot2025-04-15at5.21.03PM.png"
+      alt="Quick Pay appointment setup"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
     </div>
   </Accordion>
-
   <Accordion title="Credit Based Appointment" icon="coins">
     These require customers to use their membership or pack credits to book.
     You can configure how many credits are needed, allowing greater control over access for premium services or recurring check-ins.
 
     <div className="flex justify-center mt-4">
-      <img
-        src="/images/Screenshot2025-04-15at5.21.46PM.png"
-        alt="Credit based appointment configuration"
-        className="max-w-[600px] w-full rounded-lg shadow-sm"
-      />
+    <img
+      src="/images/Screenshot2025-04-15at5.21.46PM.png"
+      alt="Credit based appointment configuration"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
     </div>
 
     <Note>
@@ -314,7 +315,6 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
     </Note>
   </Accordion>
 </AccordionGroup>
-
 
 ## Appointment Types in Kenko
 
@@ -400,6 +400,47 @@ Kenko automatically generates bookable appointment slots based on a combination 
     Only if both the instructor and facility are available during the full buffered window.
   </Accordion>
 </AccordionGroup>
+
+## Appointments & Calendar
+
+## Appointments and Calendar
+
+Unlike Classes, **Appointments do not auto-populate on the calendar** when you create them from the Setup module. Instead, you must manually **add appointments** through the calendar interface.
+
+<Note>
+  Once you add an appointment to the Calendar, you will be immediately prompted to add a customer to the appointment.
+</Note>
+
+This workflow offers maximum flexibility — allowing different instructors or facilities to offer the same appointment types across custom time windows.
+
+<div className="flex justify-center mt-4">
+<img
+  src="/images/Screenshot2025-04-15at6.23.38PM.png"
+  alt="Admin view of adding appointment availability"
+  className="max-w-[600px] w-full rounded-lg shadow-sm"
+/>
+
+</div>
+
+<Info>
+  Appointment availability must be defined per instructor or facility — they do not follow a global recurring pattern unless explicitly configured that way.
+</Info>
+
+### What Customers See
+
+- Customers will see available appointment **time slots** as set in the CRM in the mobile app or website widget.
+- They can choose the service, instructor (if multiple options exist), and book instantly based on eligibility and pricing rules.
+
+<div className="flex justify-center mt-4">
+<img
+  src="/images/Screenshot2025-04-15at6.33.07PM.png"
+  alt="Customer-facing view of appointment booking"
+  className="max-w-[600px] w-full rounded-lg shadow-sm"
+/>
+
+</div>
+
+This setup ensures dynamic control over appointment timing while maintaining personalized booking flexibility for end users.
 
 ## Best Practices
 
