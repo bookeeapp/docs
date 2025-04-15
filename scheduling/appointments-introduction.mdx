@@ -1,0 +1,139 @@
+---
+title: "Introduction to Appointments"
+description: "Get an overview of how Appointments work inside Kenko CRM"
+---
+
+import { AccordionGroup, Accordion } from "@/components/mdx/accordion"
+import { CardGroup, Card } from "@/components/ui/card"
+import { Callout } from "@/components/mdx/callout"
+
+# Appointments in Kenko
+
+Appointments in Kenko allow for **1-on-1 or small group services** to be booked with instructors across flexible time slots. Whether it’s personal training, physiotherapy, massage, assessments, or coaching — appointments are designed to be service-specific, staff-availability-driven, and highly customizable.
+
+## What Makes Appointments Unique?
+
+Unlike classes, which are scheduled on fixed days and times, **appointments work off Instructor or Facility availability**. They are **dynamic**, **real-time**, and rely on the system's ability to check
+
+- Service durations
+- Buffers before/after
+- Instructor working hours
+- Facility usage
+
+Customers see only time slots that satisfy all conditions.
+
+## Core Appointment Concepts
+
+<AccordionGroup>
+  <Accordion title="Service-Based Configuration">
+    Appointments are created as **individual services** (e.g., “30-Min Physio”, “60-min Massage”, “1:1 Assessment”).
+
+    Each service has:
+
+    - A fixed **duration**
+    - Allowed **instructors**
+    - Optional **facility**
+    - Pricing (credits or free)
+    - Custom cancellation policy
+
+    Services are then grouped into categories for discoverability in the booking interface.
+  </Accordion>
+  <Accordion title="Instructor-Driven Availability">
+    Appointment booking times are based on:
+
+    - Instructor’s **working hours**
+    - Existing bookings
+    - Service-level duration \+ buffers
+
+    If an instructor is unavailable or has time blocked off (e.g., meetings, personal breaks), those slots won’t appear.
+
+    Each instructor can also specify:
+
+    - Days they are available for appointments
+    - Maximum number of appointments per day
+    - Auto-approval or manual approval preferences
+  </Accordion>
+  <Accordion title="Buffer Management & Flexibility">
+    Buffers help ensure smooth transitions between sessions.
+
+    - You can define buffer time **before and/or after** a session.
+    - These buffers are invisible to the customer but respected in calendar logic.
+    - Example: A 60-min massage with a 15-min post-buffer will block 75 mins total in the instructor's calendar.
+  </Accordion>
+  <Accordion title="Recurring Appointments">
+    Customers can optionally book recurring appointments (e.g., every Tuesday at 3 PM).
+
+    - Recurrence depends on availability across all requested dates.
+    - If any slot is unavailable, the system notifies the customer before confirming.
+  </Accordion>
+  <Accordion title="Booking for Someone Else & Dependencies">
+    Customers can book appointments on behalf of:
+
+    - Family members
+    - Children
+    - Other saved profiles (e.g., athletes, patients)
+
+    The system shows eligibility and credits for the selected contact, and appointment confirmations reflect their name.
+  </Accordion>
+  <Accordion title="Visibility, Eligibility & Rules">
+    - Appointments can be public or visible only via direct links
+    - Booking restrictions include:
+      - Credit pack requirements
+      - Membership eligibility
+      - Tag-based visibility (e.g., only for “Gold” members)
+    - Custom cancellation & no-show rules can be applied per service
+  </Accordion>
+  <Accordion title="Integration Behavior">
+    Appointment bookings via **Gympass** and **MyClubs** are **auto-assigned** to instructors based on availability.
+
+    - These platforms do not allow customers to pick a specific instructor
+    - Only services enabled for these integrations will show up on their platforms
+    - Reporting and payout logic flows through your existing aggregator contract
+  </Accordion>
+</AccordionGroup>
+
+## Use Cases
+
+<CardGroup cols={2}>
+  <Card title="Personal Training" icon="dumbbell">
+    Offer 1-on-1 or small group coaching sessions tailored to fitness goals, form correction, or strength building.
+  </Card>
+  <Card title="Body Composition Analysis" icon="child">
+    Book assessment slots for measuring body fat, muscle mass, and other fitness metrics using tools like InBody or calipers.
+  </Card>
+  <Card title="Physiotherapy & Recovery" icon="spa">
+    Enable injury recovery, mobility improvement, or corrective therapy through licensed professionals.
+  </Card>
+  <Card title="Nutrition Consults" icon="salad">
+    Allow customers to book appointments with certified nutritionists for diet planning or supplementation.
+  </Card>
+  <Card title="Goal Planning / 1-on-1 Check-ins" icon="bullseye">
+    Use appointment slots to set personal goals, review progress, or create structured accountability with coaches or mentors.
+  </Card>
+  <Card title="Massage & Relaxation" icon="spa">
+    Schedule massage therapy, recovery-focused bodywork, or relaxation appointments to complement training.
+  </Card>
+</CardGroup>
+
+## Key Differences from Classes
+
+| Feature               | Appointments              | Classes                    |
+| --------------------- | ------------------------- | -------------------------- |
+| Scheduled By          | Instructor availability   | Admin or recurring pattern |
+| Group Size            | 1–2 (typically)           | Multiple participants      |
+| Buffers Supported     | Yes - Before/After        | No - (fixed block)         |
+| Recurrence Control    | Optional, customer-driven | Admin-defined              |
+| Instructor Choosable? | Yes -  If allowed         | No - Usually fixed         |
+| Booking Window        | Real-time (live)          | Pre-scheduled              |
+
+---
+
+## Summary
+
+Appointments in Kenko give you the power to offer flexible, high-touch services with real-time availability logic, detailed control over scheduling rules, and smooth integration into your studio’s customer experience.
+
+Whether you're a coach, therapist, or wellness studio — appointments help you scale 1:1 engagement while maintaining structure and simplicity.
+
+---
+
+Let me know if you want a follow-up article like **“Creating Your First Appointment Service”** or **“Instructor Calendar Management for Appointments”**.
