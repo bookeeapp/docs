@@ -15,7 +15,7 @@ Appointments can be managed from the CRM by
   Navigating to **Setup → Services → Appointment Services**
 </Note>
 
-You can
+You can do the following action items
 
 - **Create**: Build appointment groups and define services within them.
 - **Edit**: Modify service settings, instructor assignments, or pricing.
@@ -48,57 +48,156 @@ You can
 
 Appointment setup is split into **2 stages** — Basic Details & Pricing.
 
-### Step 1: Basic Details
+### Basic Details
 
 <AccordionGroup>
-  <Accordion title="Appointment Name & Group" icon="signature">
-    Define a clear service name (e.g., “Massage – Deep Tissue”) and organize services using groups (like Private Rooms).
+  <Accordion title="Appointment Name" icon="boxing-glove">
+    This is the primary label your customers will see when booking an appointment via the app or website.
+
+    Make it concise and relevant to the type of service (e.g., “15-min Physio Check” or “1:1 Nutrition Consult”).
+
+    ![Screenshot2025 04 15at4 16 39PM Pn](/images/Screenshot2025-04-15at4.16.39PM.png)
+
+    <div className="flex justify-center" />
+  </Accordion>
+  <Accordion title="Upload an Image" icon="image">
+    Uploading a visual for your appointment helps it stand out in listings. Recommended image size is under 2MB. Use a representative image of the space, therapist, or service offered.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-14at1.40.59PM.png"
+      alt="Upload image field"
+      className="max-w-[300px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Appointment Category" icon="icons">
+    Categories help organize your appointments for both admins and customers. Examples include "Private Room", "Therapy", or "Nutrition".
+
+    ![Screenshot2025 04 15at4 15 38PM Pn](/images/Screenshot2025-04-15at4.15.38PM.png)
+
+    <Note>
+      To create a new category, go to **Settings → General Settings → Bookings → General**.
+    </Note>
+  </Accordion>
+  <Accordion title="Description" icon="pen-to-square">
+    Add a brief yet informative explanation of the appointment’s purpose. This will show up on tooltips and the customer app/web when booking.
+
+    ![Screenshot2025 04 15at4 35 06PM Pn](/images/Screenshot2025-04-15at4.35.06PM.png)
+
+    <div className="flex justify-center" />
+  </Accordion>
+  <Accordion title="Maximum Number of People Allowed" icon="users">
+    Define how many clients can book the appointment slot. For most 1-on-1 services, this will be set to 1. For partner sessions, increase accordingly.
+
+    ( Appointments with more than 1 attendee are called Semi-Private sessions )
+
+    ![Screenshot2025 04 15at4 35 43PM Pn](/images/Screenshot2025-04-15at4.35.43PM.png)
 
     <div className="flex justify-center" />
 
     <div className="flex justify-center mt-4" />
   </Accordion>
-  <Accordion title="Service Details" icon="pen-to-square">
-    Enter description, upload an image, and add tags like “Yoga Mat” under "Things to bring".
+  <Accordion title="Online Appointment" icon="screen-users">
+    Toggle this on if the appointment is delivered virtually. Kenko can generate Zoom links automatically (if integrated under Apps). You can also add links Manually to the appointments just like Classes.
+
+    ![Screenshot2025 04 15at4 37 02PM Pn](/images/Screenshot2025-04-15at4.37.02PM.png)
+
+    <div className="flex justify-center" />
+  </Accordion>
+  <Accordion title="Instructor Selection" icon="chalkboard-user">
+    Assign eligible instructors who can be booked for this appointment. You can also let customers choose their preferred instructor during booking.
+
+    ![Screenshot2025 04 15at4 38 14PM Pn](/images/Screenshot2025-04-15at4.38.14PM.png)
+
+    <div className="flex justify-center" />
+  </Accordion>
+  <Accordion title="Facility Selection" icon="house">
+    Assign a facility (e.g., Room A, Massage Table 1) where this appointment takes place. Kenko prevents scheduling conflicts by cross-checking overlapping events.
+
+    <Note>
+      Facility selection is disabled for **_online appointments._**
+    </Note>
+    <div className="flex justify-center" />
+  </Accordion>
+  <Accordion title="Prerequisites for Appointment" icon="filter-list">
+    Add conditions that customers must meet before they can book. For example, restrict appointments to users tagged "PT Level 2" or exclude "Newbies".
+
+    <div className="flex justify-center" />
+
+    ### Pre-requisites Logic
+
+    | Rule       | Description                                             |
+    | ---------- | ------------------------------------------------------- |
+    | All Of     | Customer must have **all selected tags**                |
+    | Any One Of | Customer can have **at least one of the selected tags** |
+    | None Of    | Customer **must not have** any of the selected tags     |
+
+    Customers not meeting the conditions will see a message like:
+
+    > “Oops\! It seems you aren’t meeting the requirements for this appointment.”
+
+    Add a description to explain the logic (e.g., "Only available for returning clients who completed onboarding").
+  </Accordion>
+  <Accordion title="Cancellation & No-Show Policy" icon="xmark">
+    Link a policy that determines whether the customer is charged, refunded, or warned if they cancel too late or don’t show.
 
     <div className="flex justify-center">
     <img
-      src="/images/Screenshot2025-04-15at3.48.26PM.png"
-      alt="Appointment service details"
-      className="max-w-[700px] w-full rounded-lg shadow-sm"
+      src="/images/Screenshot2025-04-14at3.12.15PM.png"
+      alt="Cancellation policy selector"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
 
     </div>
   </Accordion>
-  <Accordion title="Duration & Instructors" icon="user-clock">
-    Specify duration (e.g., 15/30/60 mins) and assign eligible instructors. Optionally let customers choose.
+  <Accordion title="Start Time Increments" icon="stairs">
+    Choose how often appointment slots should appear. Common settings are 5, 10, or 15-minute intervals — giving flexibility in how frequently customers can book.
+
+    For example:
+
+    - 5 mins = Slots at 9:00, 9:05, 9:10...
+    - 15 mins = Slots at 9:00, 9:15, 9:30...
+  </Accordion>
+  <Accordion title="Visibility & Tags" icon="eye">
+    Control who sees this appointment:
+
+    - **Visible to customers**: Toggle to show/hide this offering
+    - **Featured Appointment**: Highlight on booking screens
+    - **Book for someone else**: Enable for dependents or guests
 
     <div className="flex justify-center">
     <img
-      src="/images/Screenshot2025-04-15at3.48.44PM.png"
-      alt="Duration and instructor selector"
-      className="max-w-[700px] w-full rounded-lg shadow-sm"
+      src="/images/Screenshot2025-04-14at3.18.09PM.png"
+      alt="Visibility toggles"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    **Color Tag**: Use color to organize and visually differentiate appointments on the calendar.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-14at3.18.45PM.png"
+      alt="Color tag selector"
+      className="max-w-[300px] w-full rounded-lg shadow-sm"
     />
 
     </div>
   </Accordion>
-  <Accordion title="Facility, Prerequisites, Visibility" icon="building">
-    - Enable “Requires a Facility” if this service needs room allocation (e.g., massage room).
-    - Configure prerequisites and buffer time before/after.
-    - Manage visibility, featured status, and booking for dependents.
+  <Accordion title="Buffer Time" icon="clock">
+    Add buffer time before and/or after appointments to prevent back-to-back bookings. This is useful for setup, cleaning, or transitions.
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-15at3.49.03PM.png"
-      alt="Facility and visibility toggles"
-      className="max-w-[700px] w-full rounded-lg shadow-sm"
-    />
-
-    </div>
+    Example: 5 mins before & 10 mins after.
+  </Accordion>
+  <Accordion title="Featured Appointment" icon="star">
+    Mark an appointment as **Featured** to pin it to the top of the booking list in your app or website. Ideal for promoting popular or seasonal services.
   </Accordion>
 </AccordionGroup>
 
-### Step 2: Pricing
+### Pricing
 
 <AccordionGroup>
   <Accordion title="Set Price Type & Payment Modes" icon="money-bill">
@@ -116,7 +215,90 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
   </Accordion>
 </AccordionGroup>
 
----
+## Appointment Types in Kenko
+
+| Criteria                    | **Facility-led**                                                                | **Instructor-led**                                                                  | **Facility \+ Instructor-led**                                                             |
+| --------------------------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Definition**              | Appointment is tied to a facility only, no specific instructor is needed.       | Appointment is tied to a specific instructor only, no facility is assigned.         | Appointment depends on both a facility and an instructor being available at the same time. |
+| **Use Case Examples**       | Infrared Sauna, Cryo Chamber, Tanning Booth                                     | Nutrition Consult, Therapy Session, Personal Training                               | Deep Tissue Massage, Physiotherapy with specialist in Studio B                             |
+| **Booking Logic**           | Customer sees available time slots based on room or facility availability only. | Customer sees time slots based on instructor's calendar.                            | Customer sees time slots that match both instructor and facility availability.             |
+| **Resource Conflict Check** | Facility conflict is checked, instructor is ignored.                            | Instructor conflict is checked, facility is ignored.                                | Both facility and instructor calendars are checked for conflicts.                          |
+| **Customer Experience**     | Customer selects the service and time, no staff is shown.                       | Customer may select preferred instructor (if allowed) or pick from available slots. | Customer chooses a time where both staff and space are free, instructor name is shown.     |
+| **Setup Requirements**      | Enable “Requires Facility”, Instructor toggle off                               | Enable “Requires Instructor”, Facility toggle off                                   | Enable both “Requires Facility” and “Requires Instructor”                                  |
+| **Best Suited For**         | Equipment-based or room-only services without staff dependency                  | Personalized 1-on-1 services, therapy, training                                     | High-touch services needing private space and certified personnel                          |
+
+## Appointment Slot Creation Logic
+
+Kenko automatically generates bookable appointment slots based on a combination of configuration settings. Here's how each element plays a role:
+
+<AccordionGroup>
+  <Accordion title="Start Time Increments" icon="clock">
+    This defines how frequently new slots appear for booking.
+
+    | Increment Setting | Example Slots Generated |
+    | ----------------- | ----------------------- |
+    | 5 minutes         | 9:00, 9:05, 9:10, 9:15  |
+    | 10 minutes        | 9:00, 9:10, 9:20, 9:30  |
+    | 15 minutes        | 9:00, 9:15, 9:30, 9:45  |
+
+    - Shorter increments offer more granular options for shorter services.
+    - Longer increments are ideal for appointments requiring more setup or turnaround.
+  </Accordion>
+  <Accordion title="Service Duration" icon="hourglass-half">
+    The core duration of the appointment itself (e.g., 30, 45, or 60 minutes). Kenko ensures the duration fits within both resource and availability blocks.
+
+    If duration = 30 minutes and increment = 15 minutes, overlapping slots like these may appear:
+
+    - 9:00–9:30
+    - 9:15–9:45
+    - 9:30–10:00
+  </Accordion>
+  <Accordion title="Buffer Time (Pre & Post)" icon="clock-rotate-left">
+    Kenko supports adding buffer time before and after each service to allow for prep, cleanup, or transition.
+
+    | Buffer Type | Description            | Example                |
+    | ----------- | ---------------------- | ---------------------- |
+    | Pre-buffer  | Setup/prep time        | 5 minutes before start |
+    | Post-buffer | Cleanup/recovery/reset | 10 minutes after end   |
+
+    If a 30-minute service has 5 min pre-buffer and 10 min post-buffer, Kenko blocks 45 mins total.
+  </Accordion>
+  <Accordion title="Instructor & Facility Availability" icon="user-clock">
+    Slots are only generated when required resources are simultaneously available:
+
+    - Instructor-led: Only checks instructor availability.
+    - Facility-led: Only checks facility availability.
+    - Facility \+ Instructor-led: Checks both calendars simultaneously (including buffers).
+  </Accordion>
+  <Accordion title="Working Hours & Time Blocks" icon="calendar-days">
+    Each instructor and facility has defined working hours. Time outside this window is not eligible for slot generation. Instructors can also block out specific hours or days as unavailable which is known as Block Time.
+  </Accordion>
+  <Accordion title="Conflict & Suppression Logic" icon="ban">
+    Slots are automatically suppressed if:
+
+    - They overlap with existing bookings (including buffers).
+    - They conflict with instructor or facility schedules.
+    - They fall outside allowed windows or working hours.
+  </Accordion>
+  <Accordion title="Example Scenario" icon="eyes">
+    - **Service Duration**: 30 mins
+    - **Pre-buffer**: 5 mins
+    - **Post-buffer**: 10 mins
+    - **Increment**: 15 mins
+    - **Available window**: 9:00 AM – 12:00 PM
+    - **Resources Required**: Instructor \+ Facility
+
+    **Generated Slots**:
+
+    - 9:00 – 9:45
+    - 9:15 – 10:00
+    - 9:30 – 10:15
+    - 9:45 – 10:30
+    - 11:15 – 12:00
+
+    Only if both the instructor and facility are available during the full buffered window.
+  </Accordion>
+</AccordionGroup>
 
 ## Best Practices
 
