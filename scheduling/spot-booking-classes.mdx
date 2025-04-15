@@ -126,38 +126,72 @@ With the **Spot Booking** feature in Kenko CRM, you can offer a personalized boo
 
 ## Assigning Spots to Classes
 
-### For New Class Setup
+To enable Spot Booking, you must assign a facility with Spot Booking enabled to your class. This applies to both newly created and existing classes.
 
-<Steps>
-  <Step title="Add New Class">
-    Go to `Classes > Add Class` and complete the basic information.
-  </Step>
-  <Step title="Link Spot-Enabled Facility">
-    Select a facility where Spot Booking and layout have been configured.
-  </Step>
-  <Step title="Save and Publish">
-    Finalize the schedule. The class will appear in your calendar and customer-facing platforms.
-  </Step>
-</Steps>
+### Assigning a Spot-Enabled Facility to a New Class
 
-### Enable for Existing Classes
+When creating a new class inside Kenko:
 
-<Steps>
-  <Step title="Check Facility Assignment">
-    Ensure a facility with Spot Booking enabled is linked to the class.
-  </Step>
-  <Step title="Enable Spot Booking">
-    Confirm the assigned facility has Spot Booking enabled.
-  </Step>
-</Steps>
+1. Start by filling in the basic class details — such as the name, instructors, description, and recurrence.
 
----
+   <div className="flex justify-center">
+   <img
+     src="/images/Screenshot2025-04-15at12.55.09PM.png"
+     alt="New class setup basic details"
+     className="max-w-[600px] w-full rounded-lg shadow-sm"
+   />
+
+   </div>
+2. While choosing the **facility**, be sure to select one that has the **Spot Booking toggle enabled** and a layout already configured.
+
+   <div className="flex justify-center mt-4">
+   <img
+     src="/images/Screenshot2025-04-15at12.56.59PM.png"
+     alt="Facility selector with Spot Booking"
+     className="max-w-[600px] w-full rounded-lg shadow-sm"
+   />
+
+   </div>
+3. Once saved and published, the class will appear in both the admin calendar and your customer-facing app or website.
+
+   From here on, customers booking this class will be able to choose their preferred spot through the Website or App.
+
+   <div className="flex justify-center mt-4">
+   <img
+     src="/images/Screenshot2025-02-28at2.17.28PM.png"
+     alt="Customer app spot booking interface"
+     className="max-w-[600px] w-full rounded-lg shadow-sm"
+   />
+
+   </div>
+
+> 💡 You can link multiple classes to the same facility — especially useful for studios with shared spaces like spin studios or group fitness halls.
+
+### Enabling Spot Booking on an Existing Class
+
+If you're updating an already-created class to support Spot Booking:
+
+- Make sure a **facility** is assigned to the class.
+- Confirm that the selected facility has **Spot Booking enabled** and has a defined layout.
+
+Once both of these conditions are met, new or **unbooked future sessions** of that class will inherit the layout and display available spots to customers at the time of booking.
 
 ## Publishing for Customer Booking
 
-Once the layout is defined, customers can select a spot from the interactive layout. If no selection is made, the system will automatically assign a spot to the customer based on availability.
+_Once Spot Booking is fully configured_
 
----
+- Customers will see an **interactive facility layout** during booking.
+- They can pick their preferred spot visually — whether that’s a front-row mat, a corner bike, or a zone near the mirror.
+- If no spot is chosen, the system will automatically assign one based on availability.
+
+<div className="flex justify-center mt-4">
+<img
+  src="/images/Screenshot2025-03-10at4.08.16PM.png"
+  alt="Customer booking with spots"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
+
+</div>
 
 ## Customer Experience
 
