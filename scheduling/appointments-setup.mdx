@@ -56,9 +56,13 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
 
     Make it concise and relevant to the type of service (e.g., “15-min Physio Check” or “1:1 Nutrition Consult”).
 
-    ![Screenshot2025 04 15at4 16 39PM Pn](/images/Screenshot2025-04-15at4.16.39PM.png)
-
-    <div className="flex justify-center" />
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.16.39PM.png"
+      alt="Appointment name input"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+    </div>
   </Accordion>
   <Accordion title="Upload an Image" icon="image">
     Uploading a visual for your appointment helps it stand out in listings. Recommended image size is under 2MB. Use a representative image of the space, therapist, or service offered.
@@ -69,13 +73,18 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Upload image field"
       className="max-w-[300px] w-full rounded-lg shadow-sm"
     />
-
     </div>
   </Accordion>
   <Accordion title="Appointment Category" icon="icons">
     Categories help organize your appointments for both admins and customers. Examples include "Private Room", "Therapy", or "Nutrition".
 
-    ![Screenshot2025 04 15at4 15 38PM Pn](/images/Screenshot2025-04-15at4.15.38PM.png)
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.15.38PM.png"
+      alt="Appointment category dropdown"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+    </div>
 
     <Note>
       To create a new category, go to **Settings → General Settings → Bookings → General**.
@@ -84,47 +93,74 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
   <Accordion title="Description" icon="pen-to-square">
     Add a brief yet informative explanation of the appointment’s purpose. This will show up on tooltips and the customer app/web when booking.
 
-    ![Screenshot2025 04 15at4 35 06PM Pn](/images/Screenshot2025-04-15at4.35.06PM.png)
-
-    <div className="flex justify-center" />
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.35.06PM.png"
+      alt="Appointment description field"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+    </div>
   </Accordion>
   <Accordion title="Maximum Number of People Allowed" icon="users">
     Define how many clients can book the appointment slot. For most 1-on-1 services, this will be set to 1. For partner sessions, increase accordingly.
 
-    ( Appointments with more than 1 attendee are called Semi-Private sessions )
+    (Appointments with more than 1 attendee are called Semi-Private sessions)
 
-    ![Screenshot2025 04 15at4 35 43PM Pn](/images/Screenshot2025-04-15at4.35.43PM.png)
-
-    <div className="flex justify-center" />
-
-    <div className="flex justify-center mt-4" />
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.35.43PM.png"
+      alt="Max attendees selector"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+    </div>
   </Accordion>
   <Accordion title="Online Appointment" icon="screen-users">
-    Toggle this on if the appointment is delivered virtually. Kenko can generate Zoom links automatically (if integrated under Apps). You can also add links Manually to the appointments just like Classes.
+    Toggle this on if the appointment is delivered virtually. Kenko can generate Zoom links automatically (if integrated under Apps). You can also add links manually.
 
-    ![Screenshot2025 04 15at4 37 02PM Pn](/images/Screenshot2025-04-15at4.37.02PM.png)
-
-    <div className="flex justify-center" />
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.37.02PM.png"
+      alt="Online toggle for appointments"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+    </div>
   </Accordion>
   <Accordion title="Instructor Selection" icon="chalkboard-user">
     Assign eligible instructors who can be booked for this appointment. You can also let customers choose their preferred instructor during booking.
 
-    ![Screenshot2025 04 15at4 38 14PM Pn](/images/Screenshot2025-04-15at4.38.14PM.png)
-
-    <div className="flex justify-center" />
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.38.14PM.png"
+      alt="Instructor selector"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+    </div>
   </Accordion>
   <Accordion title="Facility Selection" icon="house">
     Assign a facility (e.g., Room A, Massage Table 1) where this appointment takes place. Kenko prevents scheduling conflicts by cross-checking overlapping events.
 
     <Note>
-      Facility selection is disabled for **_online appointments._**
+      Facility selection is disabled for **online appointments**.
     </Note>
-    <div className="flex justify-center" />
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.54.04PM.png"
+      alt="Facility selection"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+    </div>
   </Accordion>
   <Accordion title="Prerequisites for Appointment" icon="filter-list">
     Add conditions that customers must meet before they can book. For example, restrict appointments to users tagged "PT Level 2" or exclude "Newbies".
 
-    <div className="flex justify-center" />
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.54.50PM.png"
+      alt="Prerequisite settings"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+    </div>
 
     ### Pre-requisites Logic
 
@@ -136,7 +172,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
 
     Customers not meeting the conditions will see a message like:
 
-    > “Oops\! It seems you aren’t meeting the requirements for this appointment.”
+    > “Oops! It seems you aren’t meeting the requirements for this appointment.”
 
     Add a description to explain the logic (e.g., "Only available for returning clients who completed onboarding").
   </Accordion>
@@ -149,7 +185,6 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Cancellation policy selector"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
-
     </div>
   </Accordion>
   <Accordion title="Start Time Increments" icon="stairs">
@@ -159,6 +194,14 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
 
     - 5 mins = Slots at 9:00, 9:05, 9:10...
     - 15 mins = Slots at 9:00, 9:15, 9:30...
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.55.39PM.png"
+      alt="Start time increment selector"
+      className="max-w-[400px] w-full rounded-lg shadow-sm"
+    />
+    </div>
   </Accordion>
   <Accordion title="Visibility & Tags" icon="eye">
     Control who sees this appointment:
@@ -173,7 +216,6 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Visibility toggles"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
-
     </div>
 
     **Color Tag**: Use color to organize and visually differentiate appointments on the calendar.
@@ -184,19 +226,33 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Color tag selector"
       className="max-w-[300px] w-full rounded-lg shadow-sm"
     />
-
     </div>
   </Accordion>
   <Accordion title="Buffer Time" icon="clock">
     Add buffer time before and/or after appointments to prevent back-to-back bookings. This is useful for setup, cleaning, or transitions.
 
     Example: 5 mins before & 10 mins after.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.56.19PM.png"
+      alt="Buffer time settings"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+    </div>
   </Accordion>
   <Accordion title="Featured Appointment" icon="star">
     Mark an appointment as **Featured** to pin it to the top of the booking list in your app or website. Ideal for promoting popular or seasonal services.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at4.57.02PM.png"
+      alt="Featured appointment toggle"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+    </div>
   </Accordion>
 </AccordionGroup>
-
 ### Pricing
 
 <AccordionGroup>
