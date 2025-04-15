@@ -1,5 +1,138 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "Appointments Setup"
+description: "Learn how to create, configure, and manage appointments in Kenko. Ideal for personalized services like consultations, massages, and more"
 ---
 
+# Appointments Deep Dive in Kenko
+
+Kenko's **Appointments** module allows you to offer personalized, 1-on-1 sessions in a structured and efficient manner. You can define services, attach instructors, limit capacities, and optionally map them to specific facilities. Appointments are highly configurable and suitable for various industries — from fitness to wellness to consulting.
+
+## Appointment Lifecycle
+
+Appointments can be managed from the CRM by
+
+<Note>
+  Navigating to **Setup → Services → Appointment Services**
+</Note>
+
+You can
+
+- **Create**: Build appointment groups and define services within them.
+- **Edit**: Modify service settings, instructor assignments, or pricing.
+- **Remove**: Delete obsolete or inactive appointment types.
+
+## Common Use Cases
+
+<CardGroup cols="2">
+  <Card title="Personal Training" icon="dumbbell">
+    Book 1-on-1 personal training sessions tailored to member goals.
+  </Card>
+  <Card title="Body Composition Analysis" icon="weight-scale">
+    Offer body scan appointments using InBody or similar tools.
+  </Card>
+  <Card title="Physiotherapy & Recovery" icon="heart-pulse">
+    Schedule physical therapy, injury rehab, or recovery sessions.
+  </Card>
+  <Card title="Nutrition Consults" icon="apple-whole">
+    Let members book time with certified nutritionists.
+  </Card>
+  <Card title="Goal Planning / 1-on-1 Check-ins" icon="clipboard-check">
+    Enable goal reviews, progress check-ins, or assessments.
+  </Card>
+  <Card title="Massage & Relaxation" icon="spa">
+    Provide massage therapy or stress-relief services.
+  </Card>
+</CardGroup>
+
+## Appointment Configuration
+
+Appointment setup is split into **2 stages** — Basic Details & Pricing.
+
+### Step 1: Basic Details
+
+<AccordionGroup>
+  <Accordion title="Appointment Name & Group" icon="signature">
+    Define a clear service name (e.g., “Massage – Deep Tissue”) and organize services using groups (like Private Rooms).
+
+    <div className="flex justify-center" />
+
+    <div className="flex justify-center mt-4" />
+  </Accordion>
+  <Accordion title="Service Details" icon="pen-to-square">
+    Enter description, upload an image, and add tags like “Yoga Mat” under "Things to bring".
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at3.48.26PM.png"
+      alt="Appointment service details"
+      className="max-w-[700px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Duration & Instructors" icon="user-clock">
+    Specify duration (e.g., 15/30/60 mins) and assign eligible instructors. Optionally let customers choose.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at3.48.44PM.png"
+      alt="Duration and instructor selector"
+      className="max-w-[700px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Facility, Prerequisites, Visibility" icon="building">
+    - Enable “Requires a Facility” if this service needs room allocation (e.g., massage room).
+    - Configure prerequisites and buffer time before/after.
+    - Manage visibility, featured status, and booking for dependents.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at3.49.03PM.png"
+      alt="Facility and visibility toggles"
+      className="max-w-[700px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+</AccordionGroup>
+
+### Step 2: Pricing
+
+<AccordionGroup>
+  <Accordion title="Set Price Type & Payment Modes" icon="money-bill">
+    - Choose whether this is a **free** or **paid** appointment.
+    - Enable **Quick Pay** or **Credits** for booking.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-04-15at3.49.35PM.png"
+      alt="Payment methods for appointment"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Best Practices
+
+<CardGroup cols="2">
+  <Card title="Group by Service Type" icon="layer-group" iconType="solid">
+    Use service groups like “Private Rooms” to keep your offerings organized.
+  </Card>
+  <Card title="Enable Instructor Selection" icon="user-check" iconType="solid">
+    Let customers pick who they want to book with for better personalization.
+  </Card>
+  <Card title="Use Facility Tagging for Conflicts" icon="house" iconType="solid">
+    Tag services with facilities to avoid double-booking.
+  </Card>
+  <Card title="Color Code for Visibility" icon="palette" iconType="solid">
+    Differentiate appointment types on calendar with color tags.
+  </Card>
+</CardGroup>
+
+---
