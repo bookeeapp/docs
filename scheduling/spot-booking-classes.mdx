@@ -364,33 +364,24 @@ _Once Spot Booking is fully configured_
 ## CRM Visibility
 
 <AccordionGroup>
-  <Accordion title="Viewing Assigned Spots">
+  <Accordion title="Viewing Assigned Spots" icon="eye">
     <Card>
-      Navigate to `Calendar > [Class]` to view the attendee list and assigned spots. Spot Booking will show seat assignments inline for each participant.
+      Navigate to `Calendar > [A particular Class]` to view the attendee list and assigned spots. Spot Booking will show seat assignments inline for each participant.
 
-      <div className="flex justify-center mt-4">
-      <img
-        src="https://via.placeholder.com/600x400.png?text=Assigned+Spots+Calendar+View"
-        alt="Assigned spots in calendar view"
-        className="max-w-[600px] w-full rounded-lg shadow-sm"
-      />
-
-      </div>
+      ![Screenshot2025 02 28at5 41 56PM Pn](/images/Screenshot2025-02-28at5.41.56PM.png)
     </Card>
   </Accordion>
-  <Accordion title="Admin Booking Behavior">
+  <Accordion title="Admin Booking Behavior" icon="user-secret">
     <Card>
       When admins book clients manually, spots are auto-assigned. This also applies to recurring classes where spots will be allocated automatically for each participant.
     </Card>
   </Accordion>
 </AccordionGroup>
 
----
-
-## Third-Party Integration Behavior
+## Third-Party Integrations & Spot Booking
 
 <AccordionGroup>
-  <Accordion title="Behavior Overview">
+  <Accordion title="Behavior Overview" icon="icons">
     <Card>
       Bookings made via integrations such as **ClassPass**, **GymPass**, and **MyClubs** are automatically assigned spots by the system. These users cannot manually pick a spot, as their selections are made by the platform based on availability.
     </Card>
@@ -408,27 +399,31 @@ _Once Spot Booking is fully configured_
   - Changing layout capacity **resets existing bookings** for that class.
 </Warning>
 
----
-
 ## Best Practices
 
-<AccordionGroup>
-  <Accordion title="Can customers pick different spots per class?">
-    Yes, spot selection is independent for each class. Customers can choose a different spot each time they book.
-  </Accordion>
-  <Accordion title="What happens if a customer cancels?">
-    The spot is released and becomes available for other customers to book.
-  </Accordion>
-  <Accordion title="Can customers change spots after booking?">
-    They can, as long as the session hasn't started, and the new spot is available.
-  </Accordion>
-  <Accordion title="What if multiple customers try to book the same spot?">
-    First-come-first-confirmed logic is applied by the system, meaning the first customer to confirm their spot gets it.
-  </Accordion>
-  <Accordion title="Is Spot Booking available to all studio types?">
-    Yes, as long as the business offers **classes** (Spot Booking is not supported for appointments or courses).
-  </Accordion>
-</AccordionGroup>
+<CardGroup cols={2}>
+  <Card title="Design Your Layout Before Enabling" icon="pen">
+    Set up your facility map and column structure **before enabling the Spot Booking toggle**. Once enabled, this becomes the base layout customers interact with. Use tools like Canva for a clear top-down view of your studio.
+  </Card>
+  <Card title="Label Spots Clearly" icon="tags">
+    Keep labels **short and intuitive** — up to 5 characters. Combine **letters, numbers, or emojis** (e.g., 🧘 A1, 💪 B3) to make spots easy to identify. This improves the customer experience and instructor visibility during check-in.
+  </Card>
+  <Card title="Assign Spot-Enabled Facility Early" icon="building">
+    Always select a **Spot Booking-enabled facility** during class creation. If you add a facility later, only unbooked future sessions will inherit the layout. Avoid retroactive edits to prevent inconsistencies.
+  </Card>
+  <Card title="Use Facility Map for Orientation" icon="map">
+    Upload a visual **facility map** that mirrors the real studio layout. This helps customers understand where each spot is in relation to the instructor, mirrors, or doors — especially in dark studios or packed rooms.
+  </Card>
+  <Card title="Don't Overwrite Layout Mid-Schedule" icon="exclamation">
+    Changing the **layout capacity** resets existing bookings. Finalize your layout first, then attach it to classes. If changes are needed, ensure all affected customers are notified.
+  </Card>
+  <Card title="Test Before Going Live" icon="flask">
+    Try a hidden or internal-only class to preview how Spot Booking behaves. Book as a test user, check how the layout displays, and confirm the confirmation flow. This minimizes customer confusion when you launch.
+  </Card>
+  <Card title="Set Expectations with Auto-Assignment" icon="robot">
+    Make it clear to customers: if they don’t choose a spot, **the system will auto-assign one**. This keeps classes moving efficiently while giving flexibility to those who want specific locations.
+  </Card>
+</CardGroup>
 
 ---
 
