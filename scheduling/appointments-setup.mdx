@@ -62,6 +62,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Appointment name input"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Upload an Image" icon="image">
@@ -73,6 +74,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Upload image field"
       className="max-w-[300px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Appointment Category" icon="icons">
@@ -84,6 +86,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Appointment category dropdown"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
 
     <Note>
@@ -99,6 +102,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Appointment description field"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Maximum Number of People Allowed" icon="users">
@@ -112,6 +116,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Max attendees selector"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Online Appointment" icon="screen-users">
@@ -123,6 +128,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Online toggle for appointments"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Instructor Selection" icon="chalkboard-user">
@@ -134,6 +140,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Instructor selector"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Facility Selection" icon="house">
@@ -142,13 +149,13 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
     <Note>
       Facility selection is disabled for **online appointments**.
     </Note>
-
     <div className="flex justify-center">
     <img
       src="/images/Screenshot2025-04-15at4.54.04PM.png"
       alt="Facility selection"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Prerequisites for Appointment" icon="filter-list">
@@ -160,6 +167,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Prerequisite settings"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
 
     ### Pre-requisites Logic
@@ -172,7 +180,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
 
     Customers not meeting the conditions will see a message like:
 
-    > “Oops! It seems you aren’t meeting the requirements for this appointment.”
+    > “Oops\! It seems you aren’t meeting the requirements for this appointment.”
 
     Add a description to explain the logic (e.g., "Only available for returning clients who completed onboarding").
   </Accordion>
@@ -185,6 +193,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Cancellation policy selector"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Start Time Increments" icon="stairs">
@@ -201,6 +210,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Start time increment selector"
       className="max-w-[400px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Visibility & Tags" icon="eye">
@@ -216,6 +226,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Visibility toggles"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
 
     **Color Tag**: Use color to organize and visually differentiate appointments on the calendar.
@@ -226,6 +237,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Color tag selector"
       className="max-w-[300px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Buffer Time" icon="clock">
@@ -239,6 +251,7 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Buffer time settings"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
   <Accordion title="Featured Appointment" icon="star">
@@ -250,26 +263,58 @@ Appointment setup is split into **2 stages** — Basic Details & Pricing.
       alt="Featured appointment toggle"
       className="max-w-[600px] w-full rounded-lg shadow-sm"
     />
+
     </div>
   </Accordion>
 </AccordionGroup>
+
 ### Pricing
 
 <AccordionGroup>
-  <Accordion title="Set Price Type & Payment Modes" icon="money-bill">
-    - Choose whether this is a **free** or **paid** appointment.
-    - Enable **Quick Pay** or **Credits** for booking.
+  <Accordion title="Free Appointment" icon="circle-check">
+    These appointments are offered at no cost to the customer. They are ideal for intro sessions, onboarding consults, or community events.
+    No payment method is required during booking, making them frictionless for new clients.
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-15at3.49.35PM.png"
-      alt="Payment methods for appointment"
-      className="max-w-[600px] w-full rounded-lg shadow-sm"
-    />
-
+    <div className="flex justify-center mt-4">
+      <img
+        src="/images/Screenshot2025-04-15at5.20.09PM.png"
+        alt="Free appointment setup screenshot"
+        className="max-w-[600px] w-full rounded-lg shadow-sm"
+      />
     </div>
   </Accordion>
+
+  <Accordion title="Quick Pay Appointment" icon="credit-card">
+    Customers can pay instantly at the time of booking via available online payment methods. Useful for drop-in services or pay-as-you-go models.
+    You can associate a fixed price and track payments inside Kenko CRM.
+
+    <div className="flex justify-center mt-4">
+      <img
+        src="/images/Screenshot2025-04-15at5.21.03PM.png"
+        alt="Quick Pay appointment setup"
+        className="max-w-[600px] w-full rounded-lg shadow-sm"
+      />
+    </div>
+  </Accordion>
+
+  <Accordion title="Credit Based Appointment" icon="coins">
+    These require customers to use their membership or pack credits to book.
+    You can configure how many credits are needed, allowing greater control over access for premium services or recurring check-ins.
+
+    <div className="flex justify-center mt-4">
+      <img
+        src="/images/Screenshot2025-04-15at5.21.46PM.png"
+        alt="Credit based appointment configuration"
+        className="max-w-[600px] w-full rounded-lg shadow-sm"
+      />
+    </div>
+
+    <Note>
+      Both Quick Pay and Credit Based Pricing can be set for an Appointment's Pricing simultaneously.
+    </Note>
+  </Accordion>
 </AccordionGroup>
+
 
 ## Appointment Types in Kenko
 
