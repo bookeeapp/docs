@@ -5,62 +5,95 @@ description: "Understand how Courses work inside Kenko, and when to use them ove
 
 # Courses in Kenko
 
-Courses in Kenko are designed for structured, multi-session experiences — ideal for **bootcamps**, **progressive learning**, **retreats** and more.
+Courses in Kenko allow you to deliver **structured, goal-oriented programs** that span multiple sessions — think **skill-building tracks**, **retreats**, or **teacher training modules**.
 
-Unlike regular classes or appointments, Courses are built as a **series of linked sessions** with clear start and end dates, fixed capacity, and controlled access. This structure ensures consistency in attendance, pricing, and curriculum delivery.
+Each course is made up of **linked sessions** with shared enrollment and rules, giving you total control over pricing, visibility, capacity, and booking logic.
 
-## What Makes Courses Unique?
+## How Courses Differ from Classes & Appointments
+
+| Feature              | **Courses**                                    | **Classes**                               | **Appointments**                        |
+| -------------------- | ---------------------------------------------- | ----------------------------------------- | --------------------------------------- |
+| Delivery Format      | Multi-session, fixed start/end                 | One-off or recurring drop-ins             | 1:1 or semi-private time slots          |
+| Booking Type         | Full-course enrollment (all sessions at once)  | Per-session booking                       | Per-slot selection                      |
+| Ideal For            | Bootcamps, rehab tracks, structured training   | Fitness, drop-in workouts, group sessions | 1:1 consults, therapy, assessments      |
+| Capacity Management  | Global to all sessions                         | Per session                               | Per slot                                |
+| Pricing              | Flat fee or course-level credits               | Credits, free, or quick pay               | Credits, free, or quick pay             |
+| Customer Experience  | Enroll once → join all linked sessions         | Book each class individually              | Select time slot \+ instructor/facility |
+| Attendance Tracking  | Cumulative, across course                      | Per session                               | Per slot                                |
+| Linking with Classes | Yes (linked sessions based on class templates) | N/A                                       | N/A                                     |
+
+## Why Use Courses?
+
+Courses provide structure and clarity for progressive programs. They’re best used when you want:
+
+- A defined start and end date
+- Consistent instructors or instructors rotating through predefined sessions
+- One-time booking/payment that grants access to multiple sessions
+- Grouped attendance reporting
+- Fixed rosters and capacity enforcement
+
+## Key Features of Courses
 
 <AccordionGroup>
-  <Accordion title="Structured Progression" icon="layer-group">
-    Courses are ideal for programs that require sequential participation across multiple sessions. Think of it as a fixed calendar of interdependent sessions rather than a recurring drop-in format.
-
-    - Example: A 6-week Prenatal Yoga course held every Tuesday & Thursday at 6PM.
+  <Accordion title="Linked Sessions" icon="calendar-days">
+    Each course is composed of **linked class templates** that define time, location, instructor, and recurrence. Once the course is published, sessions auto-populate into your CRM calendar.
   </Accordion>
-  <Accordion title="Single Purchase Access" icon="credit-card">
-    Customers pay once to enroll in the full course — no per-session booking required.
-
-    - Pricing can be flat (e.g., $99 for the course) or credit-based.
-    - Course bookings do not allow partial sign-ups (unless you choose otherwise).
-    - Customers can opt to use Payment plans to pay for the Course amount in Installments.
+  <Accordion title="Fixed Enrollment Logic" icon="lock">
+    Customers **must book the entire course**, not individual sessions. This keeps rosters consistent and ensures full engagement throughout the program.
   </Accordion>
-  <Accordion title="Session Linking & Management" icon="calendar-days">
-    Each course is tied to a specific number of sessions. Number of sessions is editable.
+  <Accordion title="Unified Pricing" icon="money-bill-trend-up">
+    You can define course pricing as:
 
-    Additional sessions can be added to the Course past it's end date and is entirely upto the Client's descretion.
-
-    - Sessions are managed as a group and inherit course visibility and capacity rules.
+    - Fixed price (e.g., $150 for 10 sessions)
+    - Credit-based (e.g., 5 credits for the full course)
+      This pricing applies at the course level — not per session.
   </Accordion>
-  <Accordion title="Roster Consistency" icon="users-rectangle">
-    Since enrollment happens once, Kenko tracks consistent attendance per customer across the entire course lifecycle.
-
-    - Great for tracking progress in programs like Beginner → Intermediate → Advanced levels.
+  <Accordion title="Capacity Control" icon="users-gear">
+    The course enforces a single capacity across all sessions. Once it fills up, no additional customers can enroll — even if certain sessions show availability.
   </Accordion>
-  <Accordion title="Central Visibility & Control" icon="eye">
-    Admins get a central view of all courses under setup, their linked sessions, pricing, capacity, and booking status — making it easier to manage session-wide policies and performance.
+  <Accordion title="Instructor Assignment & Visibility" icon="chalkboard-user">
+    Instructors can be assigned globally or per session. Visibility rules allow you to show/hide instructor details to customers and control instructor-specific access.
+  </Accordion>
+  <Accordion title="Progress Tracking & Roster Locking" icon="clipboard-check">
+    Kenko automatically tracks who attended each session within a course. Rosters are locked after enrollment to prevent inconsistent participation.
+  </Accordion>
+  <Accordion title="Customer View" icon="mobile-screen">
+    Courses show up under a dedicated tab in your app and web widget. Users can:
+
+    - View upcoming course sessions
+    - See description, instructors, and schedule
+    - Enroll and track progress across sessions
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/placeholder-course-mobile-ui.png"
+      alt="Customer view of course booking"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
 </AccordionGroup>
 
-## When to Use Courses (vs. Classes or Appointments)
+## Use Cases for Courses
 
-_Use _**_Courses_**_ when_
-
-- You need fixed start and end dates.
-- You want to charge customers once for multiple sessions.
-- Attendance should be tracked as a full program.
-- The experience is progressive (e.g., Skills Bootcamp, Recovery Track).
-
-_Avoid using Courses if_
-
-- You want customers to drop into any session at will → use **Classes**.
-- You want flexible 1-on-1 scheduling or therapist availability → use **Appointments**.
-
-## Where Courses Appear
-
-Once published, courses show up in
-
-- Kenko CRM's Calendar
-- Customer app and website widget under the “Courses” tab
-- Booking and visibility filters, like instructors and location
-
----
+<CardGroup cols="2">
+  <Card title="Skill Development" icon="dumbbell">
+    Ideal for progressive training programs like Yoga Teacher Training, Pilates Fundamentals, or Handstand Mastery.
+  </Card>
+  <Card title="Rehabilitation Tracks" icon="heart-pulse">
+    Use Courses to structure multi-week recovery plans like Posture Correction or Physiotherapy programs.
+  </Card>
+  <Card title="Academy-Style Learning" icon="graduation-cap">
+    Perfect for leveled learning formats, such as Kids Martial Arts Level 1-3 or progressive Dance academies.
+  </Card>
+  <Card title="Corporate Programs" icon="briefcase">
+    Offer 4–8 week team programs like a Wellness Bootcamp or Employee Fitness Challenge using the course format.
+  </Card>
+  <Card title="Seasonal Formats" icon="calendar-days">
+    Great for time-bound offerings like Summer Intensives, New Year Reset Programs, or Festive Training Batches.
+  </Card>
+  <Card title="Retreats" icon="tree-palm">
+    Host multi-day yoga or wellness retreats with bundled sessions, meals, and stays.  Courses upfront payment, and clear scheduling.
+  </Card>
+</CardGroup>
