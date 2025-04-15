@@ -195,49 +195,171 @@ _Once Spot Booking is fully configured_
 
 ## Customer Experience
 
-<Steps>
-  <Step title="Booking Workflows">
-    <AccordionGroup>
-      <Accordion title="Booking a Spot">
-        Customers can browse schedules, view available spots, and confirm a preferred one. A facility map provides visual context.
+<AccordionGroup>
+  <Accordion title="Booking a Spot" icon="calendar-check">
+    Customers go through the following flow when booking a class with Spot Booking enabled:
 
-        <div className="flex justify-center">
-        <img
-          src="https://via.placeholder.com/600x400.png?text=Spot+Booking+UI+Placeholder"
-          alt="Spot booking interface"
-          className="max-w-[600px] w-full rounded-lg shadow-sm"
-        />
+    a. **They view the class schedule** on a preferred date.
 
-        </div>
-      </Accordion>
-      <Accordion title="Waitlist Handling">
-        Waitlisted customers are notified or automatically booked when a spot becomes available. They are given the option to select a new spot if needed.
-      </Accordion>
-      <Accordion title="Bring a Friend">
-        Customers can use a **Buddy Pass** to add a friend and select spots for both during checkout. Each friend receives a confirmation email.
-      </Accordion>
-      <Accordion title="Booking for Someone Else">
-        Customers can assign a spot to a related contact. Confirmation includes the contact's name and assigned spot.
-      </Accordion>
-    </AccordionGroup>
-  </Step>
-</Steps>
+    <div className="flex justify-center">
+    <img
+      src="/images/Screenshot2025-02-28at3.11.03PM.png"
+      alt="Class schedule view"
+      className="max-w-[600px] max-h-[400px] w-full rounded-lg shadow-sm"
+    />
 
----
+    </div>
 
-## Spot Booking on Customer App
+    b. **They choose a class** from the available list.
 
-Spot Booking is available both through the **customer app** and **website widget**. Below is an example of the spot selection interface on mobile:
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-02-28at3.15.30PM.png"
+      alt="Choose class"
+      className="max-w-[600px] max-h-[400px] w-full rounded-lg shadow-sm"
+    />
 
-<Card>
-  <img
-    src="https://via.placeholder.com/600x400.png?text=Spot+Selection+Mobile+App+Example"
-    alt="Spot selection interface in mobile app"
-    className="max-w-[600px] w-full rounded-lg shadow-sm"
-  />
-</Card>
+    </div>
 
----
+    c. They are shown a **live interactive layout** of the facility for that class. If the class's facility has Spot Booking enabled, they’ll be prompted to select a spot.
+
+    > If no selection is made, the system will auto-assign a spot based on availability.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-02-28at3.25.05PM.png"
+      alt="Live spot layout"
+      className="max-w-[600px] max-h-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    d. **Customers choose their preferred spot** by tapping it.
+
+    e. For better orientation, they can **view the facility map** which displays the real-life layout (instructor zone, mirrors, entry, etc.).
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-03-10at4.08.16PM.png"
+      alt="Facility map preview"
+      className="max-w-[600px] max-h-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    f. Upon **booking confirmation**, the spot is shown in the upcoming bookings section, clearly marked with the selected position.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-02-28at3.32.25PM.png"
+      alt="Confirmation view"
+      className="max-w-[600px] max-h-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Waitlist Handling" icon="user-clock">
+    Kenko’s waitlist system supports both manual and automated modes:
+
+    - **Manual Notifications**: Everyone on the waitlist is notified when a spot opens.
+    - **Auto-Enrollment**: The system automatically books the next person in line when a spot becomes free.
+
+    In either case, a **spot is automatically assigned** based on real-time availability.
+  </Accordion>
+  <Accordion title="Bring a Friend & Spot Booking" icon="users">
+    If a customer has access to **Buddy Passes** through their membership:
+
+    a. The customer can **add a friend** and proceed with booking.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-02-28at4.49.30PM.png"
+      alt="Add friend"
+      className="max-w-[600px] max-h-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    b. Once details are added, the **facility layout opens**, showing available spots.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-02-28at4.50.13PM-2.png"
+      alt="Buddy spot layout"
+      className="max-w-[600px] max-h-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    c. The main customer can select spots for both themselves and their guest(s).
+
+    > Note: This feature only works if the customer has an eligible membership that supports "Bring a Friend".
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-02-28at4.52.23PM.png"
+      alt="Select spots"
+      className="max-w-[600px] max-h-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    After booking, each friend receives a separate **confirmation email with their assigned spot**.
+  </Accordion>
+  <Accordion title="Booking for Someone Else" icon="people-arrows">
+    Spot Booking also supports scenarios where a customer books for a **related contact**, such as a dependent or another registered user:
+
+    a. The customer chooses a related contact from their linked profiles.
+
+    <div className="flex justify-center gap-4 mt-4">
+    <img
+      src="/images/Screenshot2025-02-28at5.20.26PM.png"
+      alt="Related contact list"
+      className="max-w-[300px] max-h-[300px] w-full rounded-lg shadow-sm"
+    />
+
+    <img
+      src="/images/Screenshot2025-02-28at5.20.58PM.png"
+      alt="Contact profile selection"
+      className="max-w-[300px] max-h-[300px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    b. The customer selects a spot on behalf of the contact.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-02-28at5.22.11PM.png"
+      alt="Spot selection for related contact"
+      className="max-w-[600px] max-h-[400px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    > Once the booking is complete, the contact receives their confirmation along with their assigned spot.
+
+    If the contact does not have a valid membership, the system will **allow purchasing a membership during checkout** while still holding the selected spot.
+  </Accordion>
+  <Accordion title="Spot Booking in the Customer App" icon="mobile">
+    Spot Booking is fully supported in the **Kenko customer mobile app** and **website widget**.
+
+    Customers get the same experience across both platforms, including:
+
+    - Interactive layouts
+    - Facility map previews
+    - Confirmation views with assigned spots
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/IMG_6191-2.png"
+      alt="Mobile app spot booking UI"
+      className="max-w-[400px] max-h-[350px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+</AccordionGroup>
 
 ## CRM Visibility
 
