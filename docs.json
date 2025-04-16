@@ -48,10 +48,13 @@
               "scheduling/appointments-setup",
               "scheduling/courses-introduction",
               "scheduling/courses-setup",
+              "scheduling/facilities-introduction",
+              "scheduling/facilities-setup",
               "scheduling/calendar-introduction",
               "scheduling/calendar-classes",
               "scheduling/calendar-appointments",
               "scheduling/calendar-courses"
+
             ]
           },
           {
