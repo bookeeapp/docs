@@ -1,19 +1,17 @@
 ---
-title: "Introduction to Facilities"
-description: "Learn what Facilities are in Kenko and how they power scheduling, conflict checks, spot booking, and more."
+title: "New file"
+description: "Description of your new file."
 ---
 
 # Facilities in Kenko
 
 Facilities in Kenko represent **physical or virtual spaces** where your services take place — such as rooms, studios, zones, or even Zoom-based venues. They’re foundational to conflict resolution, scheduling logistics, spot-based layouts, and instructor visibility.
 
-If Classes, Appointments, and Courses define the *what*, Facilities define the *where*.
-
----
+If Classes, Appointments, and Courses define the _what_, Facilities define the _where_.
 
 ## What is a Facility?
 
-A Facility can be:
+A Facility can be
 
 - A physical studio or room (e.g., “Room A – Floor 2” or “Spin Zone”)
 - A virtual space (e.g., “Online – Zoom”)
@@ -21,36 +19,29 @@ A Facility can be:
 
 Facilities are **reusable across multiple services** and help control availability, instructor assignments, and booking logic.
 
----
-
 ## Why Facilities Matter
 
 <AccordionGroup>
   <Accordion title="Scheduling Conflict Checks" icon="triangle-exclamation">
     Kenko automatically checks for scheduling collisions when assigning instructors or rooms to classes and appointments. This prevents overbooking the same room or instructor at the same time.
   </Accordion>
-
   <Accordion title="Instructor & Resource Visibility" icon="eye">
     Instructors can be linked to specific facilities. Their calendar visibility and booking permissions depend on what facilities they’re assigned to.
   </Accordion>
-
   <Accordion title="Spot Booking Integration" icon="border-all">
     For studios using **Spot Booking**, facilities allow you to upload **interactive layouts**, define columns and capacity, and enable customers to select specific spots during booking.
   </Accordion>
-
   <Accordion title="Used Across Services" icon="arrows-left-right">
     Facilities are used across:
+
     - **Classes** (to define physical room & avoid double bookings)
     - **Appointments** (to assign therapy rooms, private zones, etc.)
     - **Courses** (sessions inherit facility settings from linked classes)
   </Accordion>
-
   <Accordion title="Operational Analytics & Filtering" icon="chart-column">
     Reports and calendar views can be filtered by facility to understand how different spaces are utilized — helping you manage capacity, optimize scheduling, and forecast needs.
   </Accordion>
 </AccordionGroup>
-
----
 
 ## Facility Setup Overview
 
@@ -62,83 +53,68 @@ To create or edit facilities, navigate to:
 
 Here’s what you can define for each facility:
 
-<CardGroup cols={2}>
+<CardGroup cols="2">
   <Card title="Name & Type" icon="keyboard">
     Give the facility a name (e.g., “Room A”) and define whether it’s a class space, appointment room, or virtual.
   </Card>
-
   <Card title="Upload Image" icon="image">
     Images help customers identify the space — especially useful for Spot Booking previews.
   </Card>
-
   <Card title="General Availability" icon="clock">
     Define working hours or restrict usage to certain time windows. This controls when services can be scheduled.
   </Card>
-
   <Card title="Facility Layout" icon="grid">
     Optional — used only for Spot Booking. Upload a custom layout, set columns, and configure spot-level behavior.
   </Card>
-
   <Card title="Enable Spot Booking" icon="bullseye">
     Toggle Spot Booking if you want customers to select their own spot during booking. Required to enable the layout view.
   </Card>
-
   <Card title="Tags & Zone Type" icon="tags">
     Categorize the facility (e.g., Strength Zone, Recovery Bay) for reporting, filters, or business-specific groupings.
   </Card>
 </CardGroup>
 
----
-
 ## Where Facilities Are Used
 
 Facilities are a shared resource across:
 
-| Feature Area     | Use Case                                                       |
-|------------------|----------------------------------------------------------------|
-| **Classes**       | Assign rooms to group classes and prevent instructor/room clashes |
-| **Appointments**  | Assign therapy rooms or semi-private spaces                   |
-| **Courses**       | Inherit linked facility from the class session                |
-| **Spot Booking**  | Enable layout view and spot reservation                       |
-| **Calendar Views**| Filter by facility to see availability                        |
-
----
+| Feature Area       | Use Case                                                          |
+| ------------------ | ----------------------------------------------------------------- |
+| **Classes**        | Assign rooms to group classes and prevent instructor/room clashes |
+| **Appointments**   | Assign therapy rooms or semi-private spaces                       |
+| **Courses**        | Inherit linked facility from the class session                    |
+| **Spot Booking**   | Enable layout view and spot reservation                           |
+| **Calendar Views** | Filter by facility to see availability                            |
 
 ## Customer View of Facilities
 
 Facilities play a role in customer experience, especially when:
 
-- Using **Spot Booking** (they see the layout image + interactive selector)
+- Using **Spot Booking** (they see the layout image \+ interactive selector)
 - Booking online vs. in-studio classes (based on “Online” toggle)
 - Navigating location-based bookings (multi-location setup)
 
 Customers won’t directly select a facility, but it impacts:
+
 - What time slots are shown
 - What services are available
 - How instructors and classes appear on their calendars
 
----
-
 ## Best Practices
 
-<CardGroup cols={2}>
+<CardGroup cols="2">
   <Card title="Use Clear Facility Names" icon="tag">
     Use labels like “Spin Studio – L1” instead of generic names to reduce admin confusion and improve reporting.
   </Card>
-
   <Card title="Restrict General Availability" icon="clock-rotate-left">
     Limit hours for rooms used by certain appointments (e.g., massage rooms only available 10AM–5PM).
   </Card>
-
   <Card title="Create Separate Facilities for Spot Booking" icon="table-cells">
     Don’t reuse non-spot facilities for spot-enabled sessions. Spot Booking requires layout, which changes the booking UI.
   </Card>
-
   <Card title="Color Code by Zone" icon="palette">
     Use consistent color tags (e.g., Green = Recovery, Blue = Strength) for easy calendar visibility.
   </Card>
 </CardGroup>
 
 ---
-
-Let me know when you're ready to move into **Facility Creation** or **Spot Booking Layout Setup** next!
