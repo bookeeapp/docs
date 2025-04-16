@@ -1,0 +1,179 @@
+---
+title: "Courses & Workshop Setup"
+description: "Learn how to create, configure, and price courses in Kenko with group structure, scheduling, and installment options."
+---
+
+# Courses Deep Dive
+
+Kenko’s **Courses** module is designed to support structured, multi-session programs such as certifications, workshops, or progressive skill tracks. Unlike classes or appointments, courses have defined start/end dates, consistent instructors, and fixed batch sizes.
+
+This guide walks through the full lifecycle: grouping, configuring, and scheduling courses.
+
+## Course Lifecycle
+
+Courses in Kenko can be created via
+
+<Note>
+  Navigating to the side **Nav-bar → Setup → Courses & Workshops**
+</Note>
+
+From here, you will be able to
+
+- **Create Groups**: Organize multiple related courses under one umbrella
+- **Create Courses**: Define the sessions, price, and rules for each course
+- **Edit or Delete**: Modify future courses or clean up test versions
+
+## Configuration and Setup of Courses
+
+Course creation is split into **3 stages**
+
+### Basic Details
+
+<AccordionGroup>
+  <Accordion title="Course Group & Name" icon="layer-group">
+    Select a group under which this course will live. Then give it a meaningful name (e.g., “Teacher Training – Level 1” or “6-Week Strength Bootcamp”).
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-16at4.06.06PM.png"
+      alt="Course group and name"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Upload Image & Description" icon="image">
+    Upload a banner image under 2MB to represent the course. Add a description that clearly explains the purpose and structure of the program.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-16at4.06.20PM.png"
+      alt="Upload image and description"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Instructor, Facility & Type" icon="chalkboard-user">
+    Assign one or more instructors and choose the facility where the course takes place. Optionally toggle if it’s an online course.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-16at4.06.34PM.png"
+      alt="Instructor and facility selector"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Size, Visibility & Featured" icon="eye">
+    Set the total number of allowed participants. Toggle visibility to customers and optionally highlight as a featured course.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-16at4.06.44PM.png"
+      alt="Visibility and featured toggles"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Start & End Dates" icon="calendar">
+    Define when the course will run. All session logic and enrollments will be restricted to this date range.
+
+    <Note>
+      Additional sessions can be added to the Course past its end date and is entirely up to the Client's discretion.
+    </Note>
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-16at4.06.50PM.png"
+      alt="Start and end dates"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+  <Accordion title="Color Tag" icon="palette">
+    Pick a color to easily distinguish this course in the calendar.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-16at4.07.13PM.png"
+      alt="Color selector"
+      className="max-w-[300px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+</AccordionGroup>
+
+### Schedule
+
+<AccordionGroup>
+  <Accordion title="Recurring Pattern" icon="arrows-repeat">
+    Choose the frequency at which course sessions repeat (e.g., every 1 week).
+  </Accordion>
+  <Accordion title="Days & Time Slots" icon="calendar-days">
+    Select one or more weekdays for sessions to occur. Then define start and end times for each day.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-16at4.07.23PM.png"
+      alt="Repeat schedule and time slots"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+</AccordionGroup>
+
+### Pricing
+
+<AccordionGroup>
+  <Accordion title="One-time or Installment Payment" icon="credit-card">
+    You can set a one-time payment amount or offer installment plans.
+  </Accordion>
+  <Accordion title="Installment Plan Options" icon="coins">
+    If enabled, define:
+
+    - **Total Amount**
+    - **Initial Payment**
+    - **Number of Installments**
+
+    This is perfect for longer, high-value programs.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-16at4.07.23PM.png"
+      alt="Installment payment config"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+  </Accordion>
+</AccordionGroup>
+
+## Best Practices
+
+<CardGroup cols="2">
+  <Card title="Use Clear Group Labels" icon="layer-group" iconType="solid">
+    Group related courses under intuitive names like "Wellness Tracks" or "Martial Arts Levels" to help admins stay organized.
+  </Card>
+  <Card title="Assign Fixed Instructors" icon="chalkboard-user" iconType="solid">
+    Courses work best when led by consistent instructors to ensure continuity and build learner rapport.
+  </Card>
+  <Card title="Keep Sizes Limited" icon="users" iconType="solid">
+    Cap participant limits to preserve attention and quality in training-heavy formats.
+  </Card>
+  <Card title="Enable Installments for High-Value Courses" icon="coins" iconType="solid">
+    For expensive programs, use the payment plan option to increase accessibility.
+  </Card>
+  <Card title="Color Code by Department" icon="palette" iconType="solid">
+    Use colors to distinguish programs (e.g., Green for Rehab, Purple for Yoga).
+  </Card>
+  <Card title="Spotlight with 'Featured' Toggle" icon="star" iconType="solid">
+    Boost visibility of new or seasonal courses by marking them as Featured.
+  </Card>
+</CardGroup>
+
+---
