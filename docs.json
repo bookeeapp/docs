@@ -51,8 +51,8 @@
               "scheduling/facilities-introduction",
               "scheduling/facilities-setup",
               "scheduling/calendar-introduction",
-              "scheduling/calendar-classes",
-              "scheduling/calendar-appointments",
+              "scheduling/classes-calendar",
+              "scheduling/appointmentscalendar",
               "scheduling/calendar-courses"
 
             ]
