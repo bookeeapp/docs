@@ -62,8 +62,8 @@
             "pages": [
               "billing/introduction-billing-payments",
               "billing/introduction-memberships",
-              "billing/invoicing",
-              "billing/subscriptions",
+              "billing/setup-subscriptions",
+              "billing/setup-credit-packs",
               "billing/refunds",
               "billing/payment-reports"
             ]
