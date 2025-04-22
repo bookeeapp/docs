@@ -60,7 +60,7 @@
           {
             "group": "Billing & Payments",
             "pages": [
-              "billing/payment-methods",
+              "billing/introduction-billing-payments",
               "billing/pricing-plans",
               "billing/invoicing",
               "billing/subscriptions",
