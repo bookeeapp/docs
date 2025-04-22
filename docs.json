@@ -61,7 +61,7 @@
             "group": "Billing & Payments",
             "pages": [
               "billing/introduction-billing-payments",
-              "billing/pricing-plans",
+              "billing/introduction-memberships",
               "billing/invoicing",
               "billing/subscriptions",
               "billing/refunds",
