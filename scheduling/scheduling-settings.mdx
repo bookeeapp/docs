@@ -20,32 +20,97 @@ The **General Settings** for scheduling allow you to control how the calendar is
 
 <AccordionGroup>
   <Accordion title="Calendar View" icon="calendar">
-    - **Calendar shows up to**: Controls how many weeks of events are shown on the calendar at any given time.
-    - **My week starts on**: Set the first day of the week (e.g., Sunday or Monday) to align with your business or regional workweek.
+    Configure your calendar's weekly structure and preview window.
 
-      ![Screenshot2025 04 21at9 54 39PM Pn](/images/Screenshot2025-04-21at9.54.39PM.png)
+    - **Calendar shows up to**: Controls how many weeks of events are shown at once.
+    - **My week starts on**: Choose the start day of the calendar week (e.g., Sunday).
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.54.39PM.png"
+      alt="Calendar view setting"
+      className="max-w-[500px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Cancellation policy" icon="ban">
-    Cancellation policies have the following nuances associated
+    Define rules for cancellations and charges outside of free cancellation windows.
 
-    - **Cancellation Policy**: Determine how far in advance a member can cancel without charge and any fees for cancellations beyond this window.
+    - **Free Cancellation vs Window based cancellation fee**: Set whether you want to apply free cancellation for the policy or window based cancellation policy.
+    - **Free window**: Set how far in advance a booking can be canceled before the Class or Appointments starts without a fee.
+    - **Fee Structure**: Define charges for unlimited vs. limited credits, or QuickPay transactions.
 
-      ![Screenshot2025 04 21at9 55 55PM Pn](/images/Screenshot2025-04-21at9.55.55PM.png)
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.55.55PM.png"
+      alt="Cancellation policy configuration"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
 
-      ![Screenshot2025 04 21at9 56 31PM Pn](/images/Screenshot2025-04-21at9.56.31PM.png)
+    </div>
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.56.31PM.png"
+      alt="Cancellation fee settings"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="No-show policy" icon="user-slash">
-    - **No-show Policy**: Set fees or actions when a member doesn't show up for an event.
+    Set how members are charged or penalized for missing a scheduled session without notice.
 
-      ![Screenshot2025 04 21at9 57 38PM Pn](/images/Screenshot2025-04-21at9.57.38PM.png)
+    The structure is very similar to that of the Cancellation policy.
 
-      ![Screenshot2025 04 21at9 58 07PM Pn](/images/Screenshot2025-04-21at9.58.07PM.png)
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.57.38PM.png"
+      alt="No-show configuration"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.58.07PM.png"
+      alt="No-show policy fee settings"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Policy Document" icon="file">
-    
+    Add a customer-facing description for the booking policy. The Policy combines Cancellation policy and No-show policy.
+
+    You can make multiple policies for different Services.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-22at11.23.07AM.png"
+      alt="Policy document section"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
+
+    <Note>
+      A single policy consists of a Cancellation Policy, No-show Policy, and a Policy Document bundled together.
+    </Note>
   </Accordion>
   <Accordion title="Service Category" icon="icons">
-    
+    Manage custom categories for services that help organize offerings. ( Classes and Appointments )
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-22at11.21.52AM.png"
+      alt="Service category creation"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
 </AccordionGroup>
 
@@ -55,28 +120,106 @@ The **Classes Settings** allow you to configure rules and policies specific to c
 
 <AccordionGroup>
   <Accordion title="Remaining Spots" icon="users">
-    ![Screenshot2025 04 21at9 49 33PM Pn](/images/Screenshot2025-04-21at9.49.33PM.png)
+    Set at what percentage of class's availability remaining spots should be shown to Customers to nudge urgency.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.49.33PM.png"
+      alt="Remaining spots"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Booking Window" icon="clock">
-    ![Screenshot2025 04 21at9 50 10PM Pn](/images/Screenshot2025-04-21at9.50.10PM.png)
+    Set when the booking window opens and closes for Classes for Customer Bookings.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.50.10PM.png"
+      alt="Booking window"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Auto-Submit Attendance" icon="check">
-    ![Screenshot2025 04 21at9 50 54PM Pn](/images/Screenshot2025-04-21at9.50.54PM.png)
+    Avoid manual submission of attendance by setting auto-submission of attendance.
+
+    <Note>
+      Customers should be checked-in before the attendance submission or they will be marked as No-Show.
+    </Note>
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.50.54PM.png"
+      alt="Auto-submit attendance"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Book for Someone Else" icon="user-plus">
-    ![Screenshot2025 04 21at9 51 51PM Pn](/images/Screenshot2025-04-21at9.51.51PM.png)
+    Enable Book for someone else so that customers can book sessions for their related contacts.
+    This is a good way to get more leads and ensure convenience for customers.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.51.51PM.png"
+      alt="Book for someone else"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Waitlist Management" icon="user-clock">
-    ![Screenshot2025 04 21at9 53 28PM Pn](/images/Screenshot2025-04-21at9.53.28PM.png)
+    The **Waitlist Management** settings provide greater flexibility in handling overbooked classes and ensuring efficient use of available spots.
 
-    ![Screenshot2025 04 21at9 54 04PM Pn](/images/Screenshot2025-04-21at9.54.04PM.png)
+    Here are the key components of the waitlist configuration:
+
+    - **Waitlist Activation**:\
+      In the event a booking is canceled, the system can automatically book the first customer from the waitlist until the **waitlist auto-booking time** is reached. You can choose to:
+      - **Automatically book the first person on the waitlist** until a set time (e.g., 2 hours before the class starts).
+      - **Inform everyone on the waitlist when a spot becomes free** after the auto-booking time.
+
+      This provides flexibility to either auto-assign customers or notify them of available spots.
+
+      <div className="flex justify-center mt-4">
+      <img
+        src="/images/Screenshot2025-04-21at9.53.28PM.png"
+        alt="Waitlist management"
+        className="max-w-[600px] w-full rounded-lg shadow-sm"
+      />
+
+      </div>
+    - **Maximum Waiting Spots**:\
+      Define the maximum number of people that can be placed on the waitlist. If a class is fully booked, you can set a limit to ensure that the waitlist doesn’t become too large and is manageable. For example, you can set it to 5 waiting spots for a class.
+    - **Waitlist Removal Window**:\
+      This setting controls how long after the class ends a customer remains on the waitlist. You can specify how long the system will keep customers on the waitlist for future booking purposes before removing them. For instance, you can set it to "Immediately" after the class ends, meaning their waitlist status will be removed and they will be refunded their booking credit if applicable.
+    - **Enable Public Access to Waitlist Information**:\
+      When enabled, members and visitors can view the waitlist details of a class before and after booking. This transparency allows customers to see their position on the waitlist and how many others are ahead of them. It also helps in making informed decisions about booking classes or looking for alternate times.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.54.04PM.png"
+      alt="Waitlist settings"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Forgive Late Cancellation" icon="money-bill">
-    ![Screenshot2025 04 21at9 52 36PM Pn](/images/Screenshot2025-04-21at9.52.36PM.png)
+    You can enable auto-forgive late-cancellation upto X times in Y year/month for customer's first few cancellations as a goodwill gesture.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.52.36PM.png"
+      alt="Late cancellation"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
 </AccordionGroup>
-
-<div className="flex justify-center" />
 
 ## Appointments Settings
 
@@ -84,51 +227,127 @@ The **Appointments Settings** control how individual appointment bookings are ma
 
 <AccordionGroup>
   <Accordion title="Booking Window" icon="clock">
-    ![Screenshot2025 04 21at9 48 28PM Pn](/images/Screenshot2025-04-21at9.48.28PM.png)
+    Define when the appointment booking window should open and close. For example, you can set a window for booking a session, ensuring customers don’t book too far in advance or at the last minute.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.48.28PM.png"
+      alt="Appointment booking window"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
-  <Accordion title="Auto-Submit-Attendace" icon="check">
-    ![Screenshot2025 04 21at9 48 01PM Pn](/images/Screenshot2025-04-21at9.48.01PM.png)
+  <Accordion title="Auto-Submit Attendance" icon="check">
+    You can configure auto-submission of attendance, so no manual intervention is required. This ensures that attendees are recorded without any extra effort.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.48.01PM.png"
+      alt="Auto-submit attendance"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Book For Someone Else" icon="user-plus">
-    ![Screenshot2025 04 21at9 47 34PM Pn](/images/Screenshot2025-04-21at9.47.34PM.png)
+    Allow customers to book appointments for other people, making it easier for them to manage their contacts.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.47.34PM.png"
+      alt="Book for someone else"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Appointment Cancellation" icon="money-bill">
-    ![Screenshot2025 04 21at9 46 55PM Pn](/images/Screenshot2025-04-21at9.46.55PM.png)
+    You can enable whether or not a customer can cancel an appointment from app and website.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.46.55PM.png"
+      alt="Appointment cancellation"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
 </AccordionGroup>
 
-### Courses Settings
+## Courses Settings
 
 The **Courses Settings** help you manage course bookings, especially when dealing with multi-session bookings, course limits, and payment structure.
 
 <AccordionGroup>
   <Accordion title="Course Visibility" icon="eye">
-    ![Screenshot2025 04 21at9 44 31PM Pn](/images/Screenshot2025-04-21at9.44.31PM.png)
+    Control the visibility of your courses, deciding whether or not customers can see or book courses based on their availability or other rules.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.44.31PM.png"
+      alt="Course visibility"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Auto-Submit Attendance" icon="check">
-    ![Screenshot2025 04 21at9 43 53PM Pn](/images/Screenshot2025-04-21at9.43.53PM.png)
+    Just like for classes and appointments, auto-submit attendance for courses ensures a seamless tracking experience.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.43.53PM.png"
+      alt="Auto-submit attendance"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
   <Accordion title="Waitlist Management" icon="user-clock">
-    ![Screenshot2025 04 21at9 43 18PM Pn](/images/Screenshot2025-04-21at9.43.18PM.png)
+    For courses, similar waitlist management can be set, ensuring that you can manage full courses effectively, offering slots to people on the waitlist.
+
+    <div className="flex justify-center mt-4">
+    <img
+      src="/images/Screenshot2025-04-21at9.43.18PM.png"
+      alt="Course waitlist"
+      className="max-w-[600px] w-full rounded-lg shadow-sm"
+    />
+
+    </div>
   </Accordion>
 </AccordionGroup>
 
-<div className="flex justify-center" />
+---
 
 ## Best Practices for Booking Settings
 
 <CardGroup cols="2">
   <Card title="Review All Policies Regularly" icon="refresh">
-    Regularly review and adjust cancellation, no-show, and payment policies to ensure they meet customer expectations and business needs.
+    Regularly review and adjust cancellation, no-show, and payment policies to ensure they meet customer expectations and business needs. Set aside time quarterly or after key changes in your business to evaluate your policies.
   </Card>
   <Card title="Use Waitlists for Fully Booked Classes" icon="list-ul">
-    If a class or appointment is fully booked, using a waitlist can ensure you're maximizing attendance while managing demand effectively.
+    If a class or appointment is fully booked, using a waitlist can ensure you're maximizing attendance while managing demand effectively. It helps to increase customer satisfaction by giving them a chance to attend a fully booked event.
   </Card>
   <Card title="Consider Flexible Payment Options" icon="credit-card">
-    Offering installment payments for courses or high-value appointments can increase accessibility for customers and reduce cancellations.
+    Offering installment payments for courses or high-value appointments can increase accessibility for customers and reduce cancellations. Breaking down the cost into smaller payments makes it easier for customers to commit to long-term courses.
+  </Card>
+  <Card title="Set Realistic Booking Windows" icon="clock">
+    Ensure that your booking window settings match your business model and customer behavior. Having too short or too long a window may create unnecessary friction or missed opportunities. Adjust the booking window depending on the time-sensitive nature of your services.
+  </Card>
+  <Card title="Use Auto-Submit Attendance for Efficiency" icon="check">
+    Enabling auto-submit attendance reduces the need for manual tracking and ensures that your class or appointment records are accurate. This saves time for both customers and staff and helps maintain accurate records for billing and no-show policies.
+  </Card>
+  <Card title="Segment Your Services" icon="filter">
+    Use the Service Categories feature to organize services like classes, appointments, and courses effectively. By segmenting services, you can apply specific policies and booking rules to each service type, making it easier to manage them.
+  </Card>
+  <Card title="Communicate Booking Policies Clearly" icon="bullhorn">
+    Make sure customers are aware of your booking, cancellation, and no-show policies before they finalize their bookings. Clear communication can reduce confusion and avoid conflicts later on. Add policy reminders at key points during the booking process.
+  </Card>
+  <Card title="Track Customer Behavior and Adjust" icon="graph">
+    Regularly monitor customer behavior around cancellations and no-shows. If you notice patterns (e.g., frequent cancellations on a specific day or time), adjust your policies or offer special incentives to reduce cancellations.
   </Card>
 </CardGroup>
 
 ---
-
-Let me know if you would like to proceed with any specific section or need further changes\!
