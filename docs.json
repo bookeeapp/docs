@@ -65,6 +65,7 @@
               "billing/setup-subscriptions",
               "billing/setup-credit-packs",
               "billing/intro-packs",
+              "billing/setup-top-up",
               "billing/bring-a-friend",
               "billing/payment-reports"
             ]
