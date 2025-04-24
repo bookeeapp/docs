@@ -69,7 +69,8 @@
               "billing/bring-a-friend",
               "billing/general-payment-settings",
               "billing/invoicing",
-              "billing/payment-methods"
+              "billing/payment-methods",
+              "billing/introduction-pos"
             ]
           },
           {
