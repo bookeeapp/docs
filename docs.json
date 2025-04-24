@@ -68,7 +68,8 @@
               "billing/setup-top-up",
               "billing/bring-a-friend",
               "billing/general-payment-settings",
-              "billing/invoicing"
+              "billing/invoicing",
+              "billing/payment-methods",
             ]
           },
           {
