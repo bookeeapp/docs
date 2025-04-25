@@ -70,7 +70,8 @@
               "billing/general-payment-settings",
               "billing/invoicing",
               "billing/payment-methods",
-              "billing/introduction-pos"
+              "billing/introduction-pos",
+              "billing/pos-deep-dive"
             ]
           },
           {
