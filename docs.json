@@ -1,13 +1,13 @@
 {
 	"$schema": "https://mintlify.com/docs.json",
-	"theme": "mint",
+	"theme": "linden",
 	"fonts": {
 		"family": "Plus Jakarta Sans"
 	},
 	"name": "KENKO",
 	"colors": {
 		"primary": "#0D9373",
-		"light": "#07C983",
+		"light": "#FFFFFF",
 		"dark": "#0D9373"
 	},
 	"favicon": "/favicon.svg",
@@ -34,7 +34,8 @@
 						"pages": [
 							"contact-management/contact-management-introduction",
 							"contact-management/member-profiles",
-							"contact-management/membership-types"
+							"contact-management/membership-types",
+							"contact-management/customers-vs-leads"
 						]
 					},
 					{
@@ -214,64 +215,75 @@
 				"tab": "FAQs",
 				"groups": [
 					{
-						"group": "🔑 Account & Login",
+						"group": "📅 Classes & Scheduling",
 						"pages": [
-							"faqs/customer-troubleshooting/login-troubleshooting",
-							"faqs/account/forgot-password",
-							"faqs/account/multiple-locations",
-							"faqs/account/user-roles",
-							"faqs/account/login-issues",
-							"faqs/account/profile-settings"
+							"faqs/classes/complete-guide-classes",
+							"faqs/classes/adding-class-schedule",
+							"faqs/classes/editing-class-schedule",
+							"faqs/classes/booking-window",
+							"faqs/classes/spot-booking",
+							"faqs/classes/class-notifications"
 						]
 					},
 					{
-						"group": "💳 Membership & Billing",
+						"group": "🤝 Appointments & Bookings",
 						"pages": [
-							"faqs/billing/failed-payments",
-							"faqs/billing/changing-plans",
-							"faqs/billing/prorated-charges",
-							"faqs/billing/membership-freezes",
-							"faqs/billing/tax-settings"
+							"faqs/appointments/online-booking-guide",
+							"faqs/appointments/no-show-policy",
+							"faqs/appointments/booking-management",
+							"faqs/appointments/staff-availability",
+							"faqs/appointments/appointment-notifications"
 						]
 					},
 					{
-						"group": "⏰ Scheduling Issues",
+						"group": "💳 Memberships & Subscriptions",
 						"pages": [
-							"faqs/scheduling/waitlist-management",
-							"faqs/scheduling/cancellation-policy",
-							"faqs/scheduling/recurring-bookings",
-							"faqs/scheduling/capacity-limits",
-							"faqs/scheduling/instructor-substitution"
+							"faqs/memberships/creating-subscription-plans",
+							"faqs/memberships/shared-membership-tracking",
+							"faqs/memberships/credit-usage-guide",
+							"faqs/memberships/membership-reports",
+							"faqs/memberships/subscription-management"
 						]
 					},
 					{
-						"group": "📲 Mobile App",
+						"group": "💰 Payments & POS",
 						"pages": [
-							"faqs/mobile/installation-problems",
-							"faqs/mobile/notification-settings",
-							"faqs/mobile/booking-classes",
-							"faqs/mobile/app-performance",
-							"faqs/mobile/offline-access"
+							"faqs/payments/pos-sales-guide",
+							"faqs/payments/gift-card-management",
+							"faqs/payments/payment-reports",
+							"faqs/payments/refund-process",
+							"faqs/payments/partial-payments",
+							"faqs/payments/stripe-integration"
 						]
 					},
 					{
-						"group": "🔗 Integrations",
+						"group": "📊 Reports & Analytics",
 						"pages": [
-							"faqs/integrations/sync-issues",
-							"faqs/integrations/payment-processors",
-							"faqs/integrations/calendar-connections",
-							"faqs/integrations/third-party-tools",
-							"faqs/integrations/data-sharing"
+							"faqs/analytics/sales-reports",
+							"faqs/analytics/membership-analytics",
+							"faqs/analytics/customer-insights",
+							"faqs/analytics/staff-attendance-reports",
+							"faqs/analytics/payment-analytics"
 						]
 					},
 					{
-						"group": "🆘 Support & Troubleshooting",
+						"group": "🔗 Integrations & Apps",
 						"pages": [
-							"faqs/support/response-times",
-							"faqs/support/reporting-bugs",
-							"faqs/support/feature-requests",
-							"faqs/support/account-recovery",
-							"faqs/support/technical-requirements"
+							"faqs/integrations/google-calendar-setup",
+							"faqs/integrations/classpass-integration",
+							"faqs/integrations/stripe-terminal",
+							"faqs/integrations/kiosk-setup",
+							"faqs/integrations/business-app-access"
+						]
+					},
+					{
+						"group": "💯 Pricing & Discounts",
+						"pages": [
+							"faqs/pricing/pricing-options",
+							"faqs/pricing/creating-discounts",
+							"faqs/pricing/applying-discounts",
+							"faqs/pricing/subscription-pricing",
+							"faqs/pricing/price-changes"
 						]
 					}
 				]
