@@ -87,7 +87,8 @@
               "billing/payment-methods",
               "billing/introduction-pos",
               "billing/pos-deep-dive",
-              "billing/intro-giftcard-discounts"
+              "billing/intro-giftcard-discounts",
+              "billing/setup-giftcard"
             ]
           },
           {
