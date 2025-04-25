@@ -38,16 +38,9 @@
             ]
           },
           {
-            "group": "Scheduling & Management",
+            "group": "Calendar & Scheduling",
             "pages": [
               "scheduling/introduction",
-              "scheduling/classes-introduction",
-              "scheduling/classes-setup",
-              "scheduling/spot-booking-classes",
-              "scheduling/appointments-introduction",
-              "scheduling/appointments-setup",
-              "scheduling/courses-introduction",
-              "scheduling/courses-setup",
               "scheduling/facilities-introduction",
               "scheduling/facilities-setup",
               "scheduling/calendar-introduction",
@@ -55,6 +48,28 @@
               "scheduling/appointments-calendar",
               "scheduling/courses-calendar",
               "scheduling/scheduling-settings"
+            ]
+          },
+          {
+            "group": "Classes",
+            "pages": [
+              "scheduling/classes-introduction",
+              "scheduling/classes-setup",
+              "scheduling/spot-booking-classes"
+            ]
+          },
+           {
+            "group": "Appointments",
+            "pages": [
+              "scheduling/appointments-introduction",
+              "scheduling/appointments-setup"
+            ]
+          },
+             {
+            "group": "Courses & Workshops",
+            "pages": [
+             "scheduling/courses-introduction",
+             "scheduling/courses-setup",
             ]
           },
           {
