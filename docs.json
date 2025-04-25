@@ -1,389 +1,388 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
-  "fonts": {
-    "family": "Plus Jakarta Sans"
-  },
-  "name": "KENKO",
-  "colors": {
-    "primary": "#071819",
-    "light": "#abcb6f",
-    "dark": "#071819"
-  },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "dark": "/images/kenko.png",
-    "light": "/images/kenko.png"
-  },
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Documentation",
-        "groups": [
-          {
-            "group": "Getting Started 🚀 ",
-            "pages": [
-              "getting-started/introduction",
-              "getting-started/quickstart",
-              "getting-started/platform-overview",
-              "getting-started/first-login"
-            ]
-          },
-          {
-            "group": "Contact Management",
-            "pages": [
-              "contact-management/contact-management-introduction",
-              "contact-management/member-profiles",
-              "contact-management/membership-types"
-            ]
-          },
-          {
-            "group": "Calendar & Scheduling",
-            "pages": [
-              "scheduling/introduction",
-              "scheduling/facilities-introduction",
-              "scheduling/facilities-setup",
-              "scheduling/calendar-introduction",
-              "scheduling/classes-calendar",
-              "scheduling/appointments-calendar",
-              "scheduling/courses-calendar",
-              "scheduling/scheduling-settings"
-            ]
-          },
-          {
-            "group": "Classes",
-            "pages": [
-              "scheduling/classes-introduction",
-              "scheduling/classes-setup",
-              "scheduling/spot-booking-classes"
-            ]
-          },
-           {
-            "group": "Appointments",
-            "pages": [
-              "scheduling/appointments-introduction",
-              "scheduling/appointments-setup"
-            ]
-          },
-             {
-            "group": "Courses & Workshops",
-            "pages": [
-             "scheduling/courses-introduction",
-             "scheduling/courses-setup"
-            ]
-          },
-          {
-            "group": "Billing & Payments",
-            "pages": [
-              "billing/introduction-billing-payments",
-              "billing/introduction-memberships",
-              "billing/setup-subscriptions",
-              "billing/setup-credit-packs",
-              "billing/intro-packs",
-              "billing/setup-top-up",
-              "billing/bring-a-friend",
-              "billing/general-payment-settings",
-              "billing/invoicing",
-              "billing/payment-methods",
-              "billing/introduction-pos",
-              "billing/pos-deep-dive",
-              "billing/intro-giftcard-discounts",
-              "billing/setup-giftcard",
-              "billing/setup-discounts"
-              
-            ]
-          },
-          {
-            "group": "Marketing & Journeys",
-            "pages": [
-              "marketing/introduction",
-              "marketing/promotions",
-              "marketing/email-templates",
-              "marketing/sms-messaging",
-              "marketing/client-acquisition"
-            ]
-          },
-          {
-            "group": "Website & App",
-            "pages": [
-              "website/branded-app",
-              "website/booking-widget",
-              "website/customization",
-              "website/member-portal"
-            ]
-          },
-          {
-            "group": "Reports & Analytics",
-            "pages": [
-              "analytics/business-dashboard",
-              "analytics/attendance-reports",
-              "analytics/revenue-tracking",
-              "analytics/member-insights",
-              "analytics/export-data"
-            ]
-          },
-          {
-            "group": "Admin Settings",
-            "pages": [
-              "admin/user-permissions",
-              "admin/location-management",
-              "admin/branding-settings",
-              "admin/notification-preferences",
-              "admin/account-security"
-            ]
-          },
-          {
-            "group": "Advanced Features",
-            "pages": [
-              "advanced/member-challenges",
-              "advanced/loyalty-program",
-              "advanced/digital-waivers",
-              "advanced/resource-booking"
-            ]
-          },
-          {
-            "group": "Troubleshooting",
-            "pages": [
-              "troubleshooting/common-issues",
-              "troubleshooting/account-access",
-              "troubleshooting/payment-problems",
-              "troubleshooting/mobile-app-help"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "🛤️ Grow Your Studio with Journeys",
-            "pages": [
-              "guides/journeys/introduction",
-              "guides/journeys/setup-journey",
-              "guides/journeys/tracking-progress",
-              "guides/journeys/journey-templates"
-            ]
-          },
-          {
-            "group": "👋 Launch a Referral Program",
-            "pages": [
-              "guides/referrals/program-setup",
-              "guides/referrals/tracking-referrals",
-              "guides/referrals/rewarding-members",
-              "guides/referrals/best-practices"
-            ]
-          },
-          {
-            "group": "🔄 Migrate from Mindbody",
-            "pages": [
-              "guides/migration/preparation",
-              "guides/migration/data-export",
-              "guides/migration/importing-to-kenko",
-              "guides/migration/post-migration-checklist"
-            ]
-          },
-          {
-            "group": "📈 Analyze Class Performance",
-            "pages": [
-              "guides/class-analysis/key-metrics",
-              "guides/class-analysis/instructor-impact",
-              "guides/class-analysis/optimizing-schedule",
-              "guides/class-analysis/attendance-patterns"
-            ]
-          },
-          {
-            "group": "📱 Master the Mobile App",
-            "pages": [
-              "guides/mobile/owner-features",
-              "guides/mobile/staff-tools",
-              "guides/mobile/client-experience",
-              "guides/mobile/offline-capabilities"
-            ]
-          },
-          {
-            "group": "🤝 Best Practices for Member Engagement",
-            "pages": [
-              "guides/engagement/communication-strategy",
-              "guides/engagement/retention-tools",
-              "guides/engagement/personalization",
-              "guides/engagement/feedback-collection"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "FAQs",
-        "groups": [
-          {
-            "group": "🔑 Account & Login",
-            "pages": [
-              "faqs/customer-troubleshooting/login-troubleshooting",
-              "faqs/account/forgot-password",
-              "faqs/account/multiple-locations",
-              "faqs/account/user-roles",
-              "faqs/account/login-issues",
-              "faqs/account/profile-settings"
-            ]
-          },
-          {
-            "group": "💳 Membership & Billing",
-            "pages": [
-              "faqs/billing/failed-payments",
-              "faqs/billing/changing-plans",
-              "faqs/billing/prorated-charges",
-              "faqs/billing/membership-freezes",
-              "faqs/billing/tax-settings"
-            ]
-          },
-          {
-            "group": "⏰ Scheduling Issues",
-            "pages": [
-              "faqs/scheduling/waitlist-management",
-              "faqs/scheduling/cancellation-policy",
-              "faqs/scheduling/recurring-bookings",
-              "faqs/scheduling/capacity-limits",
-              "faqs/scheduling/instructor-substitution"
-            ]
-          },
-          {
-            "group": "📲 Mobile App",
-            "pages": [
-              "faqs/mobile/installation-problems",
-              "faqs/mobile/notification-settings",
-              "faqs/mobile/booking-classes",
-              "faqs/mobile/app-performance",
-              "faqs/mobile/offline-access"
-            ]
-          },
-          {
-            "group": "🔗 Integrations",
-            "pages": [
-              "faqs/integrations/sync-issues",
-              "faqs/integrations/payment-processors",
-              "faqs/integrations/calendar-connections",
-              "faqs/integrations/third-party-tools",
-              "faqs/integrations/data-sharing"
-            ]
-          },
-          {
-            "group": "🆘 Support & Troubleshooting",
-            "pages": [
-              "faqs/support/response-times",
-              "faqs/support/reporting-bugs",
-              "faqs/support/feature-requests",
-              "faqs/support/account-recovery",
-              "faqs/support/technical-requirements"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Integrations",
-        "groups": [
-          {
-            "group": "⚡ Zapier",
-            "pages": [
-              "integrations/zapier/getting-started",
-              "integrations/zapier/available-triggers",
-              "integrations/zapier/common-workflows",
-              "integrations/zapier/troubleshooting"
-            ]
-          },
-          {
-            "group": "💸 Stripe",
-            "pages": [
-              "integrations/stripe/account-connection",
-              "integrations/stripe/payment-flow",
-              "integrations/stripe/subscription-management",
-              "integrations/stripe/reporting"
-            ]
-          },
-          {
-            "group": "📆 Google Calendar",
-            "pages": [
-              "integrations/google/setup-sync",
-              "integrations/google/two-way-sync",
-              "integrations/google/staff-calendars",
-              "integrations/google/troubleshooting"
-            ]
-          },
-          {
-            "group": "💬 WhatsApp Messaging",
-            "pages": [
-              "integrations/whatsapp/connection",
-              "integrations/whatsapp/message-templates",
-              "integrations/whatsapp/automations",
-              "integrations/whatsapp/compliance"
-            ]
-          },
-          {
-            "group": "🔌 Webhooks (Basic Use Cases)",
-            "pages": [
-              "integrations/webhooks/setup-guide",
-              "integrations/webhooks/event-types",
-              "integrations/webhooks/security",
-              "integrations/webhooks/examples"
-            ]
-          },
-          {
-            "group": "🔐 API Key Access",
-            "pages": [
-              "integrations/api/generating-keys",
-              "integrations/api/authorization",
-              "integrations/api/rate-limits",
-              "integrations/api/best-practices"
-            ]
-          },
-          {
-            "group": "📦 Data Migration",
-            "pages": [
-              "integrations/migration/supported-platforms",
-              "integrations/migration/data-mapping",
-              "integrations/migration/validation",
-              "integrations/migration/post-migration"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Kenko Website",
-          "href": "https://gokenko.com",
-          "icon": "globe"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://gokenko.com/community",
-          "icon": "users"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://gokenko.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@gokenko.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://crm.bookeeapp.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "twitter": "https://twitter.com/gokenko",
-      "instagram": "https://instagram.com/gokenko",
-      "linkedin": "https://linkedin.com/company/gokenko"
-    }
-  }
+	"$schema": "https://mintlify.com/docs.json",
+	"theme": "mint",
+	"fonts": {
+		"family": "Plus Jakarta Sans"
+	},
+	"name": "KENKO",
+	"colors": {
+		"primary": "#0D9373",
+		"light": "#07C983",
+		"dark": "#0D9373"
+	},
+	"favicon": "/favicon.svg",
+	"logo": {
+		"dark": "/images/kenko.png",
+		"light": "/images/kenko.png"
+	},
+	"navigation": {
+		"tabs": [
+			{
+				"tab": "Documentation",
+				"groups": [
+					{
+						"group": "Getting Started 🚀 ",
+						"pages": [
+							"getting-started/introduction",
+							"getting-started/quickstart",
+							"getting-started/platform-overview",
+							"getting-started/first-login"
+						]
+					},
+					{
+						"group": "Contact Management",
+						"pages": [
+							"contact-management/contact-management-introduction",
+							"contact-management/member-profiles",
+							"contact-management/membership-types"
+						]
+					},
+					{
+						"group": "Calendar & Scheduling",
+						"pages": [
+							"scheduling/introduction",
+							"scheduling/facilities-introduction",
+							"scheduling/facilities-setup",
+							"scheduling/calendar-introduction",
+							"scheduling/scheduling-settings",
+							{
+								"group": "Classes",
+								"pages": [
+									"scheduling/classes-introduction",
+									"scheduling/classes-setup",
+									"scheduling/spot-booking-classes",
+									"scheduling/classes-calendar"
+								]
+							},
+							{
+								"group": "Appointments",
+								"pages": [
+									"scheduling/appointments-introduction",
+									"scheduling/appointments-setup",
+									"scheduling/appointments-calendar"
+								]
+							},
+							{
+								"group": "Courses & Workshops",
+								"pages": [
+									"scheduling/courses-introduction",
+									"scheduling/courses-setup",
+									"scheduling/courses-calendar"
+								]
+							}
+						]
+					},
+					{
+						"group": "Billing & Payments",
+						"pages": [
+							"billing/introduction-billing-payments",
+							"billing/introduction-memberships",
+							"billing/setup-subscriptions",
+							"billing/setup-credit-packs",
+							"billing/intro-packs",
+							"billing/setup-top-up",
+							"billing/bring-a-friend",
+							"billing/general-payment-settings",
+							"billing/invoicing",
+							"billing/payment-methods",
+							"billing/introduction-pos",
+							"billing/pos-deep-dive",
+							"billing/intro-giftcard-discounts",
+							"billing/setup-giftcard",
+							"billing/setup-discounts"
+						]
+					},
+					{
+						"group": "Marketing & Journeys",
+						"pages": [
+							"marketing/introduction",
+							"marketing/promotions",
+							"marketing/email-templates",
+							"marketing/sms-messaging",
+							"marketing/client-acquisition"
+						]
+					},
+					{
+						"group": "Website & App",
+						"pages": [
+							"website/branded-app",
+							"website/booking-widget",
+							"website/customization",
+							"website/member-portal"
+						]
+					},
+					{
+						"group": "Reports & Analytics",
+						"pages": [
+							"analytics/business-dashboard",
+							"analytics/attendance-reports",
+							"analytics/revenue-tracking",
+							"analytics/member-insights",
+							"analytics/export-data"
+						]
+					},
+					{
+						"group": "Admin Settings",
+						"pages": [
+							"admin/user-permissions",
+							"admin/location-management",
+							"admin/branding-settings",
+							"admin/notification-preferences",
+							"admin/account-security"
+						]
+					},
+					{
+						"group": "Advanced Features",
+						"pages": [
+							"advanced/member-challenges",
+							"advanced/loyalty-program",
+							"advanced/digital-waivers",
+							"advanced/resource-booking"
+						]
+					},
+					{
+						"group": "Troubleshooting",
+						"pages": [
+							"troubleshooting/common-issues",
+							"troubleshooting/account-access",
+							"troubleshooting/payment-problems",
+							"troubleshooting/mobile-app-help"
+						]
+					}
+				]
+			},
+			{
+				"tab": "Guides",
+				"groups": [
+					{
+						"group": "🛤️ Grow Your Studio with Journeys",
+						"pages": [
+							"guides/journeys/introduction",
+							"guides/journeys/setup-journey",
+							"guides/journeys/tracking-progress",
+							"guides/journeys/journey-templates"
+						]
+					},
+					{
+						"group": "👋 Launch a Referral Program",
+						"pages": [
+							"guides/referrals/program-setup",
+							"guides/referrals/tracking-referrals",
+							"guides/referrals/rewarding-members",
+							"guides/referrals/best-practices"
+						]
+					},
+					{
+						"group": "🔄 Migrate from Mindbody",
+						"pages": [
+							"guides/migration/preparation",
+							"guides/migration/data-export",
+							"guides/migration/importing-to-kenko",
+							"guides/migration/post-migration-checklist"
+						]
+					},
+					{
+						"group": "📈 Analyze Class Performance",
+						"pages": [
+							"guides/class-analysis/key-metrics",
+							"guides/class-analysis/instructor-impact",
+							"guides/class-analysis/optimizing-schedule",
+							"guides/class-analysis/attendance-patterns"
+						]
+					},
+					{
+						"group": "📱 Master the Mobile App",
+						"pages": [
+							"guides/mobile/owner-features",
+							"guides/mobile/staff-tools",
+							"guides/mobile/client-experience",
+							"guides/mobile/offline-capabilities"
+						]
+					},
+					{
+						"group": "🤝 Best Practices for Member Engagement",
+						"pages": [
+							"guides/engagement/communication-strategy",
+							"guides/engagement/retention-tools",
+							"guides/engagement/personalization",
+							"guides/engagement/feedback-collection"
+						]
+					}
+				]
+			},
+			{
+				"tab": "FAQs",
+				"groups": [
+					{
+						"group": "🔑 Account & Login",
+						"pages": [
+							"faqs/customer-troubleshooting/login-troubleshooting",
+							"faqs/account/forgot-password",
+							"faqs/account/multiple-locations",
+							"faqs/account/user-roles",
+							"faqs/account/login-issues",
+							"faqs/account/profile-settings"
+						]
+					},
+					{
+						"group": "💳 Membership & Billing",
+						"pages": [
+							"faqs/billing/failed-payments",
+							"faqs/billing/changing-plans",
+							"faqs/billing/prorated-charges",
+							"faqs/billing/membership-freezes",
+							"faqs/billing/tax-settings"
+						]
+					},
+					{
+						"group": "⏰ Scheduling Issues",
+						"pages": [
+							"faqs/scheduling/waitlist-management",
+							"faqs/scheduling/cancellation-policy",
+							"faqs/scheduling/recurring-bookings",
+							"faqs/scheduling/capacity-limits",
+							"faqs/scheduling/instructor-substitution"
+						]
+					},
+					{
+						"group": "📲 Mobile App",
+						"pages": [
+							"faqs/mobile/installation-problems",
+							"faqs/mobile/notification-settings",
+							"faqs/mobile/booking-classes",
+							"faqs/mobile/app-performance",
+							"faqs/mobile/offline-access"
+						]
+					},
+					{
+						"group": "🔗 Integrations",
+						"pages": [
+							"faqs/integrations/sync-issues",
+							"faqs/integrations/payment-processors",
+							"faqs/integrations/calendar-connections",
+							"faqs/integrations/third-party-tools",
+							"faqs/integrations/data-sharing"
+						]
+					},
+					{
+						"group": "🆘 Support & Troubleshooting",
+						"pages": [
+							"faqs/support/response-times",
+							"faqs/support/reporting-bugs",
+							"faqs/support/feature-requests",
+							"faqs/support/account-recovery",
+							"faqs/support/technical-requirements"
+						]
+					}
+				]
+			},
+			{
+				"tab": "Integrations",
+				"groups": [
+					{
+						"group": "⚡ Zapier",
+						"pages": [
+							"integrations/zapier/getting-started",
+							"integrations/zapier/available-triggers",
+							"integrations/zapier/common-workflows",
+							"integrations/zapier/troubleshooting"
+						]
+					},
+					{
+						"group": "💸 Stripe",
+						"pages": [
+							"integrations/stripe/account-connection",
+							"integrations/stripe/payment-flow",
+							"integrations/stripe/subscription-management",
+							"integrations/stripe/reporting"
+						]
+					},
+					{
+						"group": "📆 Google Calendar",
+						"pages": [
+							"integrations/google/setup-sync",
+							"integrations/google/two-way-sync",
+							"integrations/google/staff-calendars",
+							"integrations/google/troubleshooting"
+						]
+					},
+					{
+						"group": "💬 WhatsApp Messaging",
+						"pages": [
+							"integrations/whatsapp/connection",
+							"integrations/whatsapp/message-templates",
+							"integrations/whatsapp/automations",
+							"integrations/whatsapp/compliance"
+						]
+					},
+					{
+						"group": "🔌 Webhooks (Basic Use Cases)",
+						"pages": [
+							"integrations/webhooks/setup-guide",
+							"integrations/webhooks/event-types",
+							"integrations/webhooks/security",
+							"integrations/webhooks/examples"
+						]
+					},
+					{
+						"group": "🔐 API Key Access",
+						"pages": [
+							"integrations/api/generating-keys",
+							"integrations/api/authorization",
+							"integrations/api/rate-limits",
+							"integrations/api/best-practices"
+						]
+					},
+					{
+						"group": "📦 Data Migration",
+						"pages": [
+							"integrations/migration/supported-platforms",
+							"integrations/migration/data-mapping",
+							"integrations/migration/validation",
+							"integrations/migration/post-migration"
+						]
+					}
+				]
+			}
+		],
+		"global": {
+			"anchors": [
+				{
+					"anchor": "Kenko Website",
+					"href": "https://gokenko.com",
+					"icon": "globe"
+				},
+				{
+					"anchor": "Community",
+					"href": "https://gokenko.com/community",
+					"icon": "users"
+				},
+				{
+					"anchor": "Blog",
+					"href": "https://gokenko.com/blog",
+					"icon": "newspaper"
+				}
+			]
+		}
+	},
+	"navbar": {
+		"links": [
+			{
+				"label": "Support",
+				"href": "mailto:support@gokenko.com"
+			}
+		],
+		"primary": {
+			"type": "button",
+			"label": "Dashboard",
+			"href": "https://crm.bookeeapp.com"
+		}
+	},
+	"footer": {
+		"socials": {
+			"twitter": "https://twitter.com/gokenko",
+			"instagram": "https://instagram.com/gokenko",
+			"linkedin": "https://linkedin.com/company/gokenko"
+		}
+	}
 }
