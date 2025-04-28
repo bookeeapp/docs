@@ -117,16 +117,25 @@
 							"billing/bring-a-friend" 
                             ]
                           },
-						
-							"billing/general-payment-settings",
+                           {
+                            "group": "Payment Settings",
+                            "pages": [
+                            "billing/general-payment-settings",
 							"billing/invoicing",
-							"billing/payment-methods",
-							"billing/introduction-pos",
+							"billing/payment-methods"
+                            ]
+                          },
+                           {
+                            "group": "Point of Sale & Payment Methods",
+                            "pages": [
+                            "billing/introduction-pos",
 							"billing/pos-deep-dive",
 							"billing/intro-giftcard-discounts",
 							"billing/setup-giftcard",
 							"billing/setup-discounts",
-                            "billing/contacts-payments",
+                            "billing/contacts-payments"
+                            ]
+                          },
                             "billing/payroll-settings",
                             "billing/your-kenko-subscription"
 						]
