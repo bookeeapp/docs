@@ -122,6 +122,12 @@
 						"group": "Marketing & Journeys",
 						"pages": [
 							"marketing/introduction",
+                          {
+						"group": "Journeys",
+						"pages": [
+							"marketing/journeys/introduction"
+						]
+					},
 							"marketing/promotions",
 							"marketing/email-templates",
 							"marketing/sms-messaging",
