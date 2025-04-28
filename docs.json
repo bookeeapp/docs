@@ -125,7 +125,7 @@
                           {
 						"group": "Journeys",
 						"pages": [
-							"marketing/journeys/introduction_journeys"
+							"journeys/introduction_journeys"
 						]
 					},
 							"marketing/promotions",
