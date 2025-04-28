@@ -92,7 +92,8 @@
 							"billing/setup-giftcard",
 							"billing/setup-discounts",
                             "billing/contacts-payments",
-                            "billing/payroll-settings"
+                            "billing/payroll-settings",
+                            "billing/your-kenko-subscription"
 						]
 					},
 					{
