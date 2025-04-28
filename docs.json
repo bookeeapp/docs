@@ -92,7 +92,7 @@
 							"billing/setup-giftcard",
 							"billing/setup-discounts",
                             "billing/contacts-payments",
-                            "billing/payrolls"
+                            "billing/payroll-settings"
 						]
 					},
 					{
