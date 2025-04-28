@@ -1,0 +1,178 @@
+---
+title: "Payroll Management"
+description: "Comprehensive guide to configuring payroll templates, staff compensation, statuses, and common FAQs."
+---
+
+# Payroll Setup & Management
+
+Kenko provides a robust Payroll system that allows you to automate compensation, manage pay periods, and ensure your staff is paid accurately and on time. This guide covers running payroll, templates, settings, and payroll history.
+
+## Payroll Overview
+
+The Payroll module is divided into four main areas
+
+- **Run Payroll**
+- **Payroll History**
+- **Payroll Templates**
+- **Payroll Settings**
+
+Each section is designed to make your payroll management easy and compliant.
+
+## ![Screenshot2025 04 28at11 58 03AM Pn](/images/Screenshot2025-04-28at11.58.03AM.png)
+
+Run Payroll
+
+Running payroll is the final step where all staff compensations are calculated and processed.
+
+<Steps>
+  <Step title="Select Pay Period">
+    Navigate to `Payroll > Run Payroll`.\
+    Choose the pay period you want to finalize payroll for.
+
+    ![Screenshot2025 04 28at12 00 52PM Pn](/images/Screenshot2025-04-28at12.00.52PM.png)
+
+    ![Screenshot2025 04 28at11 59 19AM Pn](/images/Screenshot2025-04-28at11.59.19AM.png)
+  </Step>
+  <Step title="Review Draft Payroll">
+    Check each staff’s
+
+    - Total hours/classes
+    - Bonuses, adjustments, and deductions
+    - Deductions, Gross Pay and Reimbursements and Fixed Pay
+
+    ![Screenshot2025 04 28at12 12 45PM Pn](/images/Screenshot2025-04-28at12.12.45PM.png)
+
+    You can also edit it for an individual staff as follows. ( Editable items are Bonus, Tips, Other earnings, Deductions and Reimbusement )
+
+    ![Screenshot2025 04 28at12 14 11PM Pn](/images/Screenshot2025-04-28at12.14.11PM.png)
+  </Step>
+  <Step title="Submit Payroll">
+    Once finalized, Run the payroll. Once you make the payment to yout Staff and Instructors, you can record the payment date and Export the details for your records.
+
+    <Note>
+      Once submitted, it moves from **Draft** ➔ **Finalized** status.
+    </Note>
+    <Warning>
+      Kenko does not record the payment and bank details of Staffs. You have to use a trhird party software like Quickbooks or Gusto to process the payment to your staff.
+    </Warning>
+  </Step>
+</Steps>
+
+<Warning>
+  Payroll cannot be submitted until the pay period has ended to ensure complete and accurate data capture.
+</Warning>
+
+## Payroll History
+
+View previously processed payroll batches for audits, corrections, or reference.
+
+<AccordionGroup>
+  <Accordion title="Statuses in Payroll History" icon="clock">
+    Payrolls have certain statuses that indicate the status of the payroll.
+
+    | Status     | Meaning                           |
+    | ---------- | --------------------------------- |
+    | Draft      | Saved but not submitted           |
+    | Processing | Being reviewed                    |
+    | Finalized  | Completed and processed payroll   |
+    | Voided     | Canceled or errored payroll batch |
+  </Accordion>
+  <Accordion title="Actions Available" icon="rotate">
+    - Download detailed reports (PDF, CSV)
+    - View individual staff payouts ![Screenshot2025 04 28at12 24 54PM Pn](/images/Screenshot2025-04-28at12.24.54PM.png)
+  </Accordion>
+</AccordionGroup>
+
+## Payroll Templates
+
+Templates standardize how compensation is calculated.
+
+<Steps>
+  <Step title="Navigate to Templates">
+    Go to `Payroll > Payroll Templates` and click `Create Template`.
+  </Step>
+  <Step title="Select Template Type">
+    Choose based on staff role:
+
+    - **Hourly Pay Rate**
+    - **Per Class**
+    - **Fixed Salary**
+  </Step>
+  <Step title="Configure Pay Rates">
+    Define base rates, overtime multipliers, and bonus eligibility.
+  </Step>
+  <Step title="Apply Templates">
+    Assign templates to individual staff profiles or roles.
+  </Step>
+</Steps>
+
+<Info>
+  Hourly pay rate templates automatically calculate based on logged hours during the selected pay period.
+</Info>
+
+## Payroll Settings
+
+Configure global settings that govern how payroll is calculated and run.
+
+<AccordionGroup>
+  <Accordion title="Pay Period Setup" icon="calendar-days">
+    Define if pay runs weekly, bi-weekly, or monthly across locations.
+  </Accordion>
+  <Accordion title="Banking Information" icon="money-check-pen">
+    Set payout methods (direct bank transfer, manual payment).
+  </Accordion>
+  <Accordion title="Tax & Deductions" icon="money-bill">
+    Manage statutory deductions (e.g., taxes, insurance) if applicable.
+  </Accordion>
+</AccordionGroup>
+
+## Setting Staff Compensation
+
+Compensation settings control individual payout configurations.
+
+<Steps>
+  <Step title="Go to Staff Profile">
+    Navigate to `Contacts > Staff > Compensation Settings`.
+  </Step>
+  <Step title="Attach Payroll Template">
+    Link the appropriate payroll template (Hourly, Per Class, Fixed).
+  </Step>
+  <Step title="Set Custom Overrides (Optional)">
+    You can override default template values for specific staff members.
+  </Step>
+</Steps>
+
+<Note>
+  Staff compensation changes will take effect starting the next open pay period.
+</Note>
+
+## FAQ
+
+<AccordionGroup>
+  <Accordion title="Why can't I run my payroll before the pay period ends?" icon="question-mark-circle">
+    To ensure complete data integrity (attendance, hours, sales), payrolls are locked until the pay cycle is complete.
+  </Accordion>
+  <Accordion title="How does Hourly Pay calculate in payroll?" icon="calculator">
+    Kenko automatically multiplies the hourly rate by the total logged hours in the period and applies overtime if configured.
+  </Accordion>
+  <Accordion title="Can I edit a payroll after submission?" icon="pencil">
+    Only drafts can be edited. Once submitted, you must void and recreate if corrections are needed.
+  </Accordion>
+</AccordionGroup>
+
+## Best Practices
+
+<CardGroup cols="2">
+  <Card title="Set Templates Before Hiring" icon="clipboard-list">
+    Ensure templates are ready before onboarding new employees.
+  </Card>
+  <Card title="Review Payroll Drafts" icon="magnifying-glass">
+    Carefully verify each payroll draft for errors before finalization.
+  </Card>
+  <Card title="Use Pay Period Alerts" icon="bell">
+    Enable notifications for upcoming pay period endings.
+  </Card>
+  <Card title="Audit Payroll History Monthly" icon="eye">
+    Regularly audit payroll reports for discrepancies or missed bonuses.
+  </Card>
+</CardGroup>
