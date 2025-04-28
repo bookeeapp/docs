@@ -76,7 +76,8 @@
 					{
 						"group": "Videos on Demand",
 						"pages": [
-							"videos-on-demand/vod-introduction"
+							"videos-on-demand/vod-introduction",
+                            "video-on-demand/vod-setup"
 						]
 					},
                    {
