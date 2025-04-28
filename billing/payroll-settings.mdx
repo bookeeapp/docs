@@ -58,9 +58,9 @@ Running payroll is the final step where all staff compensations are calculated a
   </Step>
 </Steps>
 
-<Warning>
+<Info>
   Payroll cannot be submitted until the pay period has ended to ensure complete and accurate data capture.
-</Warning>
+</Info>
 
 ## Payroll History
 
@@ -90,16 +90,95 @@ Templates standardize how compensation is calculated.
 <Steps>
   <Step title="Navigate to Templates">
     Go to `Payroll > Payroll Templates` and click `Create Template`.
+
+    ![Screenshot2025 04 28at12 33 05PM Pn](/images/Screenshot2025-04-28at12.33.05PM.png)
+
+    Add name and description for better identification eventually.
   </Step>
   <Step title="Select Template Type">
-    Choose based on staff role:
+    Choose based on staff role and the services they are offering
 
-    - **Hourly Pay Rate**
-    - **Per Class**
-    - **Fixed Salary**
+    <AccordionGroup>
+      <Accordion title="Fixed Salary" icon="money-bill">
+        Set a fixed weekly or monthly amount for staff, regardless of the number of hours, classes, or appointments.
+
+        **Use Case**\
+        Ideal for full-time or part-time employees on a consistent schedule, such as Studio Managers or Administrative roles.
+
+        ![Screenshot2025 04 28at12 39 35PM Pn](/images/Screenshot2025-04-28at12.39.35PM.png)
+      </Accordion>
+      <Accordion title="Class Pay Rate" icon="school">
+        Assign a flat rate, tiered or Flat tiered amount for every class an instructor teaches.
+
+        | Pay Rate Model       | How Payment Works                                                       | Best Use Case                                      | Example Calculation                                                                                         |
+        | -------------------- | ----------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+        | **Flat Rate**        | Fixed amount paid **per booking**.                                      | Standard simple classes or 1:1 sessions.           | \$20 per booking × 5 bookings → **\$100 total**                                                             |
+        | **Tiered Rate**      | Different **rate per booking** based on booking volume thresholds.      | Encouraging instructors to bring in more bookings. | First 5 bookings @ \$10 each, next 5 bookings @ \$15 each → **(5×\$10) \+ (5×\$15) = \$125 total**          |
+        | **Flat Tiered Rate** | **Single flat amount** based on total bookings range (not per booking). | High-volume performance bonuses.                   | 20 bookings qualifies for \$300 payout flat → **\$300 total** (NOT multiplied by 20 bookings individually). |
+
+        <info>
+  In **Tiered**, you pay for **each** booking at its respective rate.\
+  In **Flat Tiered**, you pay **once** based on where total bookings fall — **NOT per booking**.
+</info>
+
+        **Use Case**\
+        Best suited for Yoga, Pilates, or Group Fitness instructors where payment is tied to classes delivered.
+
+        ![Screenshot2025 04 28at12 41 11PM Pn](/images/Screenshot2025-04-28at12.41.11PM.png)
+      </Accordion>
+      <Accordion title="Course Pay Rate" icon="book">
+        Define a payment type for staff completing a full course or workshop series.
+
+        | Pay Rate Model  | How Payment Works                                                    | Best Use Case                                    | Example Calculation                                                                                  |
+        | --------------- | -------------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
+        | **Flat Rate**   | Fixed amount paid **per course sale**.                               | Small fixed-value courses or internal workshops. | Instructor earns \$50 flat per course sold, regardless of sale price.                                |
+        | **Percentage**  | Pays a **% of the course sale value**.                               | Varying course prices or incentivizing sales.    | Course sold for \$200 → 10% payout = **\$20 earned per sale**.                                       |
+        | **Tiered Rate** | Pays a **different rate per sale based on sales volume** thresholds. | Motivating staff for higher enrollments.         | 1–10 sales: \$10/sale, 11–20 sales: \$15/sale → 15 sales = **(10×\$10) \+ (5×\$15) = \$175 earned**. |
+
+        <info>
+  **Flat** = same amount per course sold.
+
+  **Percentage** = dynamic, based on course price.
+
+  **Tiered** = progressive earnings increase with more sales.
+</info>
+
+        <tip>
+  Combine "Pay per course session" and "Pay per sale" for flexible compensation!\
+  (e.g., Instructor earns $20 per session + 10% per course sold.)
+</tip>
+
+        **Use Case**\
+        Useful for seasonal or special event instructors running multi-session courses like Bootcamps or Retreats.
+
+        ![Screenshot2025 04 28at12 50 25PM Pn](/images/Screenshot2025-04-28at12.50.25PM.png)
+      </Accordion>
+      <Accordion title="Appointment Pay Rate" icon="calendar-clock">
+        Set payment for each appointment or 1:1 session completed.
+
+        Appointment's template is same as of Class's payment template
+
+        **Use Case**\
+        Perfect for personal trainers, massage therapists, wellness consultants, and others offering appointment-based services.
+
+        ![Screenshot2025 04 28at12 55 10PM Pn](/images/Screenshot2025-04-28at12.55.10PM.png)
+      </Accordion>
+      <Accordion title="Hourly Pay Rate" icon="clock">
+        Pay staff according to the number of hours worked or tracked.
+
+        **Use Case**\
+        Ideal for flexible roles such as substitute teachers, front-desk assistants, or cleaning/maintenance crews.
+
+        ![Screenshot2025 04 28at12 56 44PM Pn](/images/Screenshot2025-04-28at12.56.44PM.png)
+      </Accordion>
+    </AccordionGroup>
+    <Info>
+      It's common to assign a **combination of these compensation types** to a single staff member.\
+      (e.g., a staff member may receive a fixed salary plus per-class bonuses.)
+    </Info>
   </Step>
   <Step title="Configure Pay Rates">
-    Define base rates, overtime multipliers, and bonus eligibility.
+    Define base rates, overtime multipliers, and bonus eligibility. Choose whether to add late cancellations ( Staff will still get paid incase the Customer decides to cancel late )
   </Step>
   <Step title="Apply Templates">
     Assign templates to individual staff profiles or roles.
@@ -117,12 +196,11 @@ Configure global settings that govern how payroll is calculated and run.
 <AccordionGroup>
   <Accordion title="Pay Period Setup" icon="calendar-days">
     Define if pay runs weekly, bi-weekly, or monthly across locations.
+
+    ![Screenshot2025 04 28at12 59 48PM Pn](/images/Screenshot2025-04-28at12.59.48PM.png)
   </Accordion>
   <Accordion title="Banking Information" icon="money-check-pen">
-    Set payout methods (direct bank transfer, manual payment).
-  </Accordion>
-  <Accordion title="Tax & Deductions" icon="money-bill">
-    Manage statutory deductions (e.g., taxes, insurance) if applicable.
+    Set payout methods (direct bank transfer, manual payment) in third party softwares like Quickbooks or Gusto.
   </Accordion>
 </AccordionGroup>
 
@@ -136,6 +214,44 @@ Compensation settings control individual payout configurations.
   </Step>
   <Step title="Attach Payroll Template">
     Link the appropriate payroll template (Hourly, Per Class, Fixed).
+
+    <AccordionGroup>
+      <Accordion title="Fixed Salary (Weekly or Monthly)" icon="calendar">
+        Assign a fixed salary amount to staff, either on a weekly or monthly basis.
+
+        - Ideal for full-time or part-time employees with a consistent workload.
+        - Salary is calculated automatically for each pay period.
+        - Does not vary based on hours, classes, or bookings.
+      </Accordion>
+      <Accordion title="Hourly Pay" icon="clock">
+        Pay staff based on the number of hours they work.
+
+        - Staff members can clock in/out or have hours logged manually.
+        - Payroll will calculate total hours multiplied by the hourly rate.
+        - Useful for flexible roles like front desk managers or cleaners.
+      </Accordion>
+      <Accordion title="Pay per Class" icon="graduation-cap">
+        Compensate staff based on the number of classes they teach.
+
+        - Set a fixed amount for each class type or session.
+        - Ideal for fitness instructors, yoga teachers, etc.
+        - Each taught class triggers an automatic earning entry.
+      </Accordion>
+      <Accordion title="Pay per Course" icon="chalkboard">
+        Staff are paid a set amount per completed course they deliver.
+
+        - Works best for longer multi-session workshops or academies.
+        - One payout per course, regardless of the number of sessions.
+        - Encourages end-to-end delivery responsibility.
+      </Accordion>
+      <Accordion title="Pay per Appointment" icon="calendar-days">
+        Pay staff individually for each appointment completed.
+
+        - Applicable for services like personal training, massages, consultations.
+        - Amount earned is tied to each successful appointment.
+        - Can be configured separately for different appointment types.
+      </Accordion>
+    </AccordionGroup>
   </Step>
   <Step title="Set Custom Overrides (Optional)">
     You can override default template values for specific staff members.
