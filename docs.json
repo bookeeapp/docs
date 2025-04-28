@@ -90,7 +90,8 @@
 							"billing/pos-deep-dive",
 							"billing/intro-giftcard-discounts",
 							"billing/setup-giftcard",
-							"billing/setup-discounts"
+							"billing/setup-discounts",
+                            "billing/contacts-payments"
 						]
 					},
 					{
