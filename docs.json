@@ -91,7 +91,8 @@
 							"billing/intro-giftcard-discounts",
 							"billing/setup-giftcard",
 							"billing/setup-discounts",
-                            "billing/contacts-payments"
+                            "billing/contacts-payments",
+                            "billing/payrolls"
 						]
 					},
 					{
