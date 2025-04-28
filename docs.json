@@ -79,29 +79,6 @@
 							"videos-on-demand/vod-introduction"
 						]
 					},
-                  {
-                  "group": "Billing & Payments",
-						"pages": [
-							"billing/introduction-billing-payments",
-							"billing/introduction-memberships",
-							"billing/setup-subscriptions",
-							"billing/setup-credit-packs",
-							"billing/intro-packs",
-							"billing/setup-top-up",
-							"billing/bring-a-friend",
-							"billing/general-payment-settings",
-							"billing/invoicing",
-							"billing/payment-methods",
-							"billing/introduction-pos",
-							"billing/pos-deep-dive",
-							"billing/intro-giftcard-discounts",
-							"billing/setup-giftcard",
-							"billing/setup-discounts",
-                            "billing/contacts-payments",
-                            "billing/payroll-settings",
-                            "billing/your-kenko-subscription"
-						]
-					},
                    {
                   "group": "Billing & Payments",
 						"pages": [
