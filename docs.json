@@ -128,12 +128,14 @@
 							"/marketing/journeys/introduction_journeys",
                             "/marketing/journeys/journeys-building-blocks",
                             "/marketing/journeys/journeys-templates"
+                            
 						]
 					},
                     {
 						"group": "Campaigns",
 						"pages": [
-                          "/marketing/campaigns/introduction_campaigns"
+                          "/marketing/campaigns/introduction_campaigns",
+                          "/marketing/campaigns/a2p10dlc"
 							
 						]
 					},

@@ -1,0 +1,129 @@
+---
+title: "Campaign Pre-requisites"
+description: "Ensure compliance and deliverability by completing A2P 10DLC registration and configuring a custom email domain in Kenko."
+---
+
+# A2P 10DLC & Custom Email Setup
+
+To run successful and compliant campaigns in Kenko, you must set up two foundational elements:
+
+- **A2P 10DLC registration** to legally send SMS in the U.S.
+- **Custom email configuration** to improve brand deliverability and sender trust.
+
+## A2P 10DLC Registration
+
+### What is A2P 10DLC?
+
+A2P (Application-to-Person) 10DLC is a regulatory system by U.S. mobile carriers to authenticate business messaging over 10-digit long codes. All SMS messages to U.S. numbers must go through this framework.
+
+<Info>
+  If you send any promotional or transactional SMS messages to U.S.-based phone numbers, A2P 10DLC registration is mandatory.
+</Info>
+
+### Benefits
+
+<CardGroup cols="2">
+  <Card title="Higher Deliverability" icon="arrow-up-right">
+    Messages sent through registered campaigns are more likely to be delivered successfully.
+  </Card>
+  <Card title="Regulatory Compliance" icon="shield-check">
+    Fulfill FCC and carrier-level requirements to avoid blocking or penalties.
+  </Card>
+  <Card title="Improved Reputation" icon="user-check">
+    Your brand is verified, reducing chances of being flagged as spam.
+  </Card>
+  <Card title="Detailed Use Case Tracking" icon="chart-bar">
+    Track and manage each campaign by its specific purpose or audience.
+  </Card>
+</CardGroup>
+
+### U.S. Registration Process
+
+<Steps>
+  <Step title="1. Register Your Brand">
+    Provide legal business information including EIN, address, and website.
+  </Step>
+  <Step title="2. Submit Use Cases">
+    Define the types of campaigns you’ll send (e.g. marketing, transactional).
+  </Step>
+  <Step title="3. Connect Phone Numbers">
+    Link your 10-digit long code (10DLC) to each campaign use case.
+  </Step>
+  <Step title="4. Wait for Approval">
+    Carriers typically take 3–5 business days to verify the submission.
+  </Step>
+</Steps>
+
+<Info>
+  You can register directly via Twilio, Telnyx, or through Kenko’s integrations with supported carriers. For Twilio-specific instructions, refer to [this Twilio Help Article](https://help.twilio.com/articles/1260801864489-How-do-I-register-to-use-A2P-10DLC-messaging).
+</Info>
+
+<Accordion title="When is a message considered 'matched' or 'unmatched'?" icon="question">
+  Matched messages are those that comply with your registered campaign use case (e.g., a confirmation message sent through a "Transactional" campaign). Unmatched messages may be blocked, throttled, or penalized for violating the declared purpose.
+</Accordion>
+
+### For Other Countries (UK, EU, Canada, AU, etc.)
+
+While A2P 10DLC specifically applies to U.S. carriers, other countries have their own messaging compliance systems:
+
+<AccordionGroup>
+  <Accordion title="United Kingdom" icon="flag">
+    The UK uses sender ID registration for business SMS. Work with your provider (e.g., Vonage, Infobip) to register a branded alphanumeric ID.
+  </Accordion>
+  <Accordion title="European Union" icon="globe">
+    GDPR compliance is required for all messaging. Ensure opt-in consent and unsubscribe mechanisms.
+  </Accordion>
+  <Accordion title="Canada" icon="leaf-maple">
+    CASL governs SMS/email—ensure prior consent before sending messages. A2P via shortcodes is most common.
+  </Accordion>
+  <Accordion title="Australia & New Zealand" icon="star">
+    Similar to Canada, these regions follow strict consent guidelines and support shortcode registration for A2P.
+  </Accordion>
+</AccordionGroup>
+
+<Callout type="info">
+Kenko recommends using carrier-compliant gateways (e.g., Twilio, Telnyx) which automatically manage country-specific regulations.
+</Callout>
+
+## Custom Email Domain Setup
+
+Using a custom email (e.g., [hello@yourstudio.com](mailto:hello@yourstudio.com)) enhances deliverability and keeps your communications on brand.
+
+### Why Set It Up?
+
+- Ensures higher inbox placement (vs spam folders)
+- Authenticates your brand domain (SPF/DKIM)
+- Increases customer trust when opening emails
+
+### Setup Instructions
+
+<Steps>
+  <Step title="1. Buy a Domain">
+    Use providers like Google Domains, Namecheap, or GoDaddy.
+  </Step>
+  <Step title="2. Connect to an Email Provider">
+    Services like Google Workspace, Zoho, or Outlook are commonly used.
+  </Step>
+  <Step title="3. Configure SPF/DKIM">
+    Add required DNS records from your provider to authenticate outbound mail.
+  </Step>
+  <Step title="4. Verify in Kenko">
+    Go to `Settings > Email Configuration` and input SMTP or domain info.
+  </Step>
+</Steps>
+
+<Info>
+  If you skip this setup, your campaigns will go from a Kenko shared email address, which can impact open and deliverability rates.
+</Info>
+
+## Summary
+
+| Requirement           | Purpose                                | Required For           |
+| --------------------- | -------------------------------------- | ---------------------- |
+| A2P 10DLC (U.S.)      | Send SMS to U.S. Numbers               | All U.S. SMS Campaigns |
+| Global SMS Compliance | GDPR/CASL/Carrier Policy Adherence     | Non-U.S. SMS Campaigns |
+| Custom Email Setup    | Brand identity \+ deliverability boost | All Email Campaigns    |
+
+<Note>
+  For help setting either of these up, reach out to [support@kenko.com](mailto:support@kenko.com).
+</Note>
