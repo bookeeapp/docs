@@ -11,6 +11,10 @@ This guide explains each type of block, how they work, and how to use them to bu
 
 ## Types of Journey Blocks
 
+<Info>
+Use a combination of these blocks to create sophisticated, contextual journeys for maximum client engagement.
+</Info>
+
 <AccordionGroup>
   <Accordion title="1. Rule Block" icon="filter">
     Rule blocks are logic gates — they determine **who enters a journey** or moves down a specific path. You can filter based on customer properties, such as:
@@ -20,14 +24,9 @@ This guide explains each type of block, how they work, and how to use them to bu
     - Pricing options purchased
     - Tag-based segmentation
 
-    <div className="flex justify-center">
-    <img
-      src="/images/rule-block-example.png"
-      alt="Rule block example"
-      className="rounded-lg"
-    />
+    ![Block(3) Pn](/images/Block\(3\).png)
 
-    </div>
+    <div className="flex justify-center" />
 
     <Info>
       You can define wait times in rule blocks to allow users time to complete certain actions (e.g., open an email or purchase a plan).
@@ -40,6 +39,8 @@ This guide explains each type of block, how they work, and how to use them to bu
     - Monitor open rates, click-throughs, and delivery stats
     - Each message can have timing and fallback conditions
 
+    ![Block(4) Pn](/images/Block\(4\).png)
+
     <Info>
       Use email blocks in combination with **Wait** and **Rule** blocks to control the timing and audience for each message.
     </Info>
@@ -50,18 +51,22 @@ This guide explains each type of block, how they work, and how to use them to bu
     - Simple Wait: “Wait 3 days”
     - Advanced Wait: Wait until a specific time or condition is met (like after completing a visit or making a purchase)
 
+    ![Block(5) Pn](/images/Block\(5\).png)
+
     <Info>
       Use this to **space out communications** and create natural progression between actions.
     </Info>
   </Accordion>
   <Accordion title="4. Tag Block" icon="tag">
-    Apply or remove tags to contacts dynamically. This is powerful for:
+    Apply or remove tags to contacts dynamically. This is powerful for
 
     - Segmenting contacts in reports
     - Setting prerequisites for classes, courses, or promotions
     - Triggering other automation based on tags
 
     You can only use **existing tags**. If you add a new tag, allow up to 90 minutes for it to sync.
+
+    ![Block(6) Pn](/images/Block\(6\).png)
 
     <Tip>
       Use tags to **track user progression**, apply discount access, or remove users from other journeys.
@@ -78,19 +83,27 @@ This guide explains each type of block, how they work, and how to use them to bu
   <Step title="Connect Blocks">
     Click on the arrow from one block and drag it to another. This creates a directional flow.
 
-    <div className="flex justify-center">
-    <img
-      src="/images/connect-blocks.png"
-      alt="Connecting journey blocks"
-      className="rounded-lg"
-    />
+    ![Connect Block Pn](/images/ConnectBlock.png)
 
-    </div>
+    <div className="flex justify-center" />
   </Step>
 </Steps>
 
 <Info>
   Kenko supports **parallel paths** — clients can continue down two flows simultaneously if configured that way.
+</Info>
+
+## Understanding Rule Matching
+
+Rule blocks define conditional logic. Here's how matching behavior works:
+
+| Behavior        | Explanation |
+|-----------------|--------------|
+| **Matched**     | Contact satisfies the rule's condition (e.g., purchased a plan, completed a visit). Moves down the "matched" path. |
+| **Not Matched** | Contact doesn't meet the rule's condition. Moves down an alternate (fallback) path or exits the journey. |
+
+<Info>
+Fallbacks ensure that even if a user doesn't match a rule, they still experience a meaningful journey.
 </Info>
 
 ## Advanced Features
@@ -109,6 +122,26 @@ This guide explains each type of block, how they work, and how to use them to bu
     Pause, resume, duplicate, or delete journeys at any time. Pausing prevents new contacts from entering, but existing ones still progress.
   </Card>
 </CardGroup>
+
+## Journey Analytics
+
+Monitor journey health, engagement, and conversion rates with **Journey Analytics**.
+
+| Metric          | Meaning                                              |
+|-----------------|------------------------------------------------------|
+| Audience Entered | Number of contacts who started the journey         |
+| Conversion Rate | % of contacts who completed the journey goal       |
+| Drop-off Rate   | % who exited midway or disengaged                   |
+| Email Metrics   | Open rates, click-through rates, bounces, unsubscribes |
+
+<Info>
+Review Analytics every week to refine entry rules, wait times, and messaging.
+</Info>
+
+<Info>
+Want a visual walkthrough? Watch [this YouTube guide](https://www.youtube.com/watch?v=NTku6XyPTew) to see how Kenko Journeys work step-by-step.
+</Info>
+
 
 ## Common Use Cases
 
