@@ -135,6 +135,7 @@
 						"group": "Campaigns",
 						"pages": [
                           "/marketing/campaigns/introduction_campaigns",
+                          "/marketing/campaigns/email-setup-guide",
                           "/marketing/campaigns/a2p10dlc"
 							
 						]
