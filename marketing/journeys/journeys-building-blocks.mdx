@@ -1,0 +1,187 @@
+---
+title: "Journeys: Building Blocks"
+description: "Understand the core components used to build customer journeys in Kenko, and how to best use each."
+---
+
+# Journeys: Building Blocks
+
+Kenko Journeys are powered by a **drag-and-drop builder** that lets you visually map out automated workflows across different communication channels. These workflows, called Journeys, are composed of **Blocks** — the foundational units that define actions, logic, and content inside a journey.
+
+This guide explains each type of block, how they work, and how to use them to build powerful, personalized automation workflows.
+
+## Types of Journey Blocks
+
+<AccordionGroup>
+  <Accordion title="1. Rule Block" icon="filter">
+    Rule blocks are logic gates — they determine **who enters a journey** or moves down a specific path. You can filter based on customer properties, such as:
+
+    - Membership status
+    - Visit count
+    - Pricing options purchased
+    - Tag-based segmentation
+
+    <div className="flex justify-center">
+    <img
+      src="/images/rule-block-example.png"
+      alt="Rule block example"
+      className="rounded-lg"
+    />
+
+    </div>
+
+    <Info>
+      You can define wait times in rule blocks to allow users time to complete certain actions (e.g., open an email or purchase a plan).
+    </Info>
+  </Accordion>
+  <Accordion title="2. Communication Blocks" icon="envelope-open">
+    These are the **messages** you want to send: emails, SMS, and push notifications. Currently, only email is available (SMS & push are coming soon).
+
+    - Use drag-and-drop editor to create rich emails
+    - Monitor open rates, click-throughs, and delivery stats
+    - Each message can have timing and fallback conditions
+
+    <Info>
+      Use email blocks in combination with **Wait** and **Rule** blocks to control the timing and audience for each message.
+    </Info>
+  </Accordion>
+  <Accordion title="3. Wait Block" icon="clock">
+    The **Wait block** defines how long to pause before proceeding to the next step.
+
+    - Simple Wait: “Wait 3 days”
+    - Advanced Wait: Wait until a specific time or condition is met (like after completing a visit or making a purchase)
+
+    <Info>
+      Use this to **space out communications** and create natural progression between actions.
+    </Info>
+  </Accordion>
+  <Accordion title="4. Tag Block" icon="tag">
+    Apply or remove tags to contacts dynamically. This is powerful for:
+
+    - Segmenting contacts in reports
+    - Setting prerequisites for classes, courses, or promotions
+    - Triggering other automation based on tags
+
+    You can only use **existing tags**. If you add a new tag, allow up to 90 minutes for it to sync.
+
+    <Tip>
+      Use tags to **track user progression**, apply discount access, or remove users from other journeys.
+    </Tip>
+  </Accordion>
+</AccordionGroup>
+
+## Connecting Blocks
+
+<Steps>
+  <Step title="Drag & Drop">
+    Select a block from the left-side menu in the Journey Builder and drop it onto the canvas.
+  </Step>
+  <Step title="Connect Blocks">
+    Click on the arrow from one block and drag it to another. This creates a directional flow.
+
+    <div className="flex justify-center">
+    <img
+      src="/images/connect-blocks.png"
+      alt="Connecting journey blocks"
+      className="rounded-lg"
+    />
+
+    </div>
+  </Step>
+</Steps>
+
+<Info>
+  Kenko supports **parallel paths** — clients can continue down two flows simultaneously if configured that way.
+</Info>
+
+## Advanced Features
+
+<CardGroup cols="2">
+  <Card title="Implicit vs Explicit Waiting" icon="hourglass">
+    Implicit waits are handled by rule blocks with a time window (e.g., wait 3 days to see if they take an action).
+  </Card>
+  <Card title="Fallback Paths" icon="shuffle">
+    If a user doesn’t meet the rule condition, fallback paths can be used to send them a different message or exit them from the journey.
+  </Card>
+  <Card title="Progression Control" icon="route">
+    Each journey defines how customers enter, proceed, exit, or achieve a goal.
+  </Card>
+  <Card title="Special Actions" icon="settings">
+    Pause, resume, duplicate, or delete journeys at any time. Pausing prevents new contacts from entering, but existing ones still progress.
+  </Card>
+</CardGroup>
+
+## Common Use Cases
+
+<CardGroup cols="1">
+  <Card title="Intro Offer Follow-up" icon="rocket">
+    Entry Rule: Bought intro plan → Email → Wait 3 days → Check if first visit done → Send next message accordingly.
+  </Card>
+  <Card title="Winback Campaign" icon="ghost">
+    Entry Rule: Last visit \> 30 days → Send re-engagement email → Offer incentive → Tag or exit.
+  </Card>
+  <Card title="Milestone Automation" icon="trophy">
+    Entry Rule: Total visits = 10 → Send Congratulations email → Apply milestone tag.
+  </Card>
+</CardGroup>
+
+## Journey Performance
+
+Kenko tracks the journey lifecycle in real time:
+
+| Status       | Meaning                                               |
+| ------------ | ----------------------------------------------------- |
+| Started      | Contact entered based on the entry rule               |
+| In Progress  | Contact is currently going through the journey        |
+| Finished     | Contact completed all blocks                          |
+| Exited       | Contact left early (rule-based exit)                  |
+| Disengaged   | Contact removed due to bounce, spam, or rule mismatch |
+| Goal Reached | Contact achieved the defined journey goal             |
+
+<Info>
+  You can view real-time analytics on block performance (email opens, clicks, deliveries) and contact progression using **Journey Analytics**.
+</Info>
+
+## Why Kenko Journeys Are Best-in-Class
+
+- **Drag-and-Drop Interface**: Build complex logic with zero code.
+- **Multi-Channel Automation**: (Email now, SMS & Push coming soon).
+- **Contextual Messaging**: Based on real-time customer data.
+- **Smart Conditions**: Use wait timers, fallback paths, and tags for precision.
+- **Re-entry & Throttling Control**: Limit how often and when users re-enter.
+- **Visual Analytics**: Get granular insights at block and contact levels.
+
+## Usage Guidelines
+
+<AccordionGroup>
+  <Accordion title="Limits & Tokens" icon="coins">
+    - 10,000 audience entries per month (token-based)
+    - Up to 5 live journeys at once
+    - Max 5 rule blocks & 5 wait blocks per journey
+  </Accordion>
+  <Accordion title="Data Refresh & Frequency" icon="rotate">
+    - Rule evaluations every 6 hours
+    - Contact data refreshes hourly
+    - Analytics updates every 5 minutes
+  </Accordion>
+  <Accordion title="Re-entry & Exit Rules" icon="arrow-right">
+    - Minimum 24 hours wait before re-entry
+    - Customer must finish, exit, or disengage to re-enter
+  </Accordion>
+</AccordionGroup>
+
+<Note>
+  Clear titles for each block help with team collaboration and analytics readability.
+</Note>
+
+## Before You Go Live
+
+- ✅ All blocks should be connected
+- ✅ Entry & exit rules must be configured
+- ✅ Goal should be defined (optional but recommended)
+- ✅ Review fallback paths for every rule block
+
+Once live, you can monitor performance in **Journey Analytics** and iterate based on actual behavior.
+
+<Info>
+  Need help building your first Journey? Start with the [Intro Offer Journey Template](https://help.bookeeapp.com/en/articles/9973499-setting-up-journey-template-intro-offer).
+</Info>
