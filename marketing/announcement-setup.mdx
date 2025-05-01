@@ -1,152 +1,112 @@
 ---
-title: "Setting Up Email Campaigns in Kenko"
-description: "Learn how to build, configure, and launch email campaigns inside Kenko."
+title: "Announcements setup in Kenko"
+description: "Learn how to set up, preview, and manage announcements across your studio locations."
 ---
 
-# Email Campaigns in Kenko
+# Creating Announcements in Kenko
 
-Kenko's Email Campaigns module allows you to create beautiful, high-converting emails to engage your customers — from promotions and newsletters to win-back flows and special announcements.
+Kenko's **Announcements** module helps studios communicate key updates directly inside the app — from schedule changes and location-specific promotions to event launches and emergency alerts.
 
----
+These announcements appear in your clients' app and can be shown as
 
-## How to Create an Email Campaign
+<CardGroup cols="3">
+  <Card title="Detailed Card" icon="newspaper">
+    Best for event promotions, class updates, and anything with detailed content. Appears on the home screen with image and description.
+  </Card>
+  <Card title="Banner" icon="megaphone">
+    Ideal for short alerts or urgent messages. Appears above home screen sections.
+  </Card>
+  <Card title="Push Notification" icon="bell">
+    Great for nudging inactive users or highlighting new launches. Pops up on user's mobile lock screen.
+  </Card>
+</CardGroup>
+
+Each announcement includes live preview functionality so you know exactly how it will appear to users.
+
+## Announcement Creation Flow
+
+When creating a new announcement, you'll move through 3 steps
+
+<Note>
+  Navigate to **Marketing \> Announcements \> Create new**
+</Note>
+
+![Screenshot2025 05 01at4 02 26PM Pn](/images/Screenshot2025-05-01at4.02.26PM.png)
 
 <Steps>
-  <Step title="Navigate to Marketing > Campaigns">
-    Click `Create Campaign` and select **Email Campaign**.
+  <Step title="Choose Announcement Type">
+    Decide the format of your announcement: **Detailed Card**, **Banner**, or **Push Notification**.
+
+    <Note>
+      Add Announcement name for internal indentification
+    </Note>
+    ![Screenshot2025 05 01at4 03 06PM Pn](/images/Screenshot2025-05-01at4.03.06PM.png)
+
+    Choosing a location for the Announcement restricts it to the location view.
   </Step>
-  <Step title="Set Campaign Metadata">
-    Give your campaign a name. This is for internal tracking and organization.
+  <Step title="Write the Message">
+    Add your content including the title, short summary, rich description, image, and an optional CTA button in case of detailed cards and Banner.
+
+    ![Screenshot2025 05 01at4 04 51PM Pn](/images/Screenshot2025-05-01at4.04.51PM.png)
+
+    Fill in all required fields
+
+    | Field             | Description                                             |
+    | ----------------- | ------------------------------------------------------- |
+    | Title             | Appears at top of announcement. Max 36 characters.      |
+    | Short Description | One-liner shown on the home screen. Max 48 characters.  |
+    | Main Description  | Rich text field with full message.                      |
+    | Image             | Visual to accompany the card (min 375x168px, max 10MB). |
+    | CTA Button (opt)  | Add label and link to landing page or external URL.     |
+  </Step>
+  <Step title="Audience & Scheduling">
+    Set which users should see the announcement, and control start/end dates. You can optionally send a push notification as well.
+
+    ![Screenshot2025 05 01at4 05 54PM Pn](/images/Screenshot2025-05-01at4.05.54PM.png)
+
+    Choose who sees the announcement and when
+
+    - **Audience**: All users 
+    - **Start & End Date**: Select show dates and time
+    - **Push Notification**: Optional toggle to alert users instantly
   </Step>
 </Steps>
 
----
+<Note>
+  Live preview of how it will look like on the app populates on the right hand side of Announcements setup
+</Note>
 
-## Audience Rules
+## Status and Management
 
-Select who will receive your email.
+Once live, announcements are categorized into tabs:
 
-<AccordionGroup>
-  <Accordion title="Use an Existing Segment" icon="users">
-    Select from previously saved smart segments built inside the Contacts module.
-  </Accordion>
-  <Accordion title="Create a New Audience Rule" icon="sliders">
-    Define filters using attributes like contact details, activity, behavior, and location.
-  </Accordion>
-</AccordionGroup>
+- **Active**: Currently shown to users
+- **Featured Cards**: Highlighted cards
+- **Scheduled**: Set to publish later
+- **Paused/Draft/Expired**: Not visible to users
 
-### Default Audience Rule
+Track performance using **Impressions** and **Clicks** to measure engagement.
 
-<Callout type="info">
-Every campaign requires the filter **Opted-in for marketing** to comply with email marketing laws (CAN-SPAM, GDPR). Kenko includes this by default.
-</Callout>
+<Info>
+  Kenko Announcements reach your audience **inside your app** — ensuring visibility without needing email or SMS.
+</Info>
 
-### Rule Options Table
-
-| Rule Group         | Filters Included                                                                                         | When to Use                                                                 |
-|--------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| Contact Info       | Gender, Location, Age, Birthday, Email domain, Tags                                                     | Send birthday campaigns, location-specific offers, or tag-based outreach   |
-| Lifetime Activity  | Total visits, Total spend, Total bookings, Average rating                                               | Reward loyal members, high-spending customers, or milestone achievers      |
-| Purchase Behavior  | Plans purchased, Class packs, Purchases in last X days                                                  | Upsell members with relevant product recommendations                        |
-| Visit Behavior     | Last visited date, Number of visits in last 30 days                                                     | Win back customers with drop-off or re-engagement campaigns                |
-| Engagement         | Email opened, Email clicked, Campaign received                                                          | Create follow-ups or re-target non-clickers                                |
-| Marketing Tags     | Tags applied manually or by automation workflows                                                        | Segment and target via workflows or admin tagging                          |
-
-<Callout type="info">
-Use **dynamic rules** to always include the most recent matches, or select a **fixed audience** for a static contact list.
-</Callout>
-
-<Callout type="info">
-Dynamic rule cannot be created while creating new audience rule in Campaigns. Navigate to `Contacts > Segments` to create a dynamic segment.
-</Callout>
-
----
-
-## Sender Details
-
-Set the identity of the sender so your recipients recognize you in their inbox.
-
-| Field        | Description                                                                 |
-|--------------|-----------------------------------------------------------------------------|
-| From Email   | Address shown in recipient inbox. Must be verified under `Settings > Email Configuration`. |
-| From Name    | Your studio or brand name (e.g., Halo Fitness)                              |
-| Reply To     | Where recipient replies will be sent                                        |
-
-<Callout type="info">
-To add a new sender email, go to `Settings > Email Configuration > Add Sender`.
-</Callout>
-
----
-
-## Subject Line & Personalization
-
-Make subject lines dynamic to improve open rates.
+## Best Practices for Announcements
 
 <AccordionGroup>
-  <Accordion title="Personalization Fields" icon="sparkles">
-    You can use any of the following fields in subject lines:
-
-    - Name
-    - First Name
-    - Last Name
-    - Email
-    - Phone
-    - Address
+  <Accordion title="Keep It Short and Relevant" icon="pen">
+    Titles and short descriptions should be concise. Capture user attention in a single glance.
   </Accordion>
-  <Accordion title="Best Practices" icon="lightbulb">
-    - Keep subject lines clear and concise.
-    - Use personalization for higher engagement.
-    - Add preview text to give additional context in the inbox.
+  <Accordion title="Use Visuals Thoughtfully" icon="image">
+    Always upload a clear, brand-consistent image. Maintain the minimum dimensions (375px x 168px) to ensure optimal rendering.
   </Accordion>
-</AccordionGroup>
-
-<Callout type="info">
-Personalized subject lines tend to get 22–28% higher open rates.
-</Callout>
-
----
-
-## Email Design
-
-Design your email using ready-made templates.
-
-| Template Name               | Use Case                                           |
-|----------------------------|----------------------------------------------------|
-| New Email                  | Start from a blank slate and build your own       |
-| Branded App Announcement   | Promote your branded app and onboard users        |
-| New Member Welcome         | Welcome and guide new sign-ups                    |
-| Share Member Testimonials  | Add social proof with quotes and feedback         |
-| Special Offers & Promotions| Promote discounts, sales, and seasonal deals      |
-
-<Callout type="info">
-Templates can be fully customized — change layout, images, buttons, and copy block-by-block.
-</Callout>
-
----
-
-## Final Steps
-
-<AccordionGroup>
-  <Accordion title="Final Checklist Before Sending" icon="check-circle">
-    - Defined the target audience
-    - Chosen verified sender identity
-    - Written subject line and preview text
-    - Designed email content
+  <Accordion title="Time Your Message Well" icon="clock">
+    Schedule announcements to match your studio’s operational rhythm — avoid off-hours and target active app usage times.
   </Accordion>
-  <Accordion title="Send Options" icon="paper-plane">
-    - **Send now**: Immediately dispatch the campaign
-    - **Schedule for later**: Pick a future date and time
+  <Accordion title="Leverage CTA for Conversions" icon="arrow-pointer">
+    Include a Call to Action when driving bookings, offers, or website visits. Keep CTA text action-oriented like “Join Now” or “See Schedule.”
+  </Accordion>
+  <Accordion title="Preview Before Publishing" icon="eye">
+    Use Kenko’s live preview to verify how your message looks across formats — banner, card, and push.
   </Accordion>
 </AccordionGroup>
-
-Use the `More` button to duplicate or delete the campaign draft.
-
----
-
-<Callout type="warning">
-Ensure your From Email is verified to avoid spam filters. Unverified emails may result in delivery failures.
-</Callout>
-
-<Callout type="info">
-Need advanced support or help writing copy? Reach out at [support@kenko.com](mailto:support@kenko.com)
-</Callout>
