@@ -143,7 +143,15 @@
 							
 						]
 					},
-							"marketing/announcement-introduction",
+                    {
+						"group": "Announcements",
+						"pages": [
+                          "marketing/announcement-introduction",
+                          "marketing/announcement-setup"
+							
+						]
+					},
+							
 							"marketing/email-templates",
 							"marketing/sms-messaging",
 							"marketing/client-acquisition"

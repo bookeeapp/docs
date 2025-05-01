@@ -1,0 +1,152 @@
+---
+title: "Setting Up Email Campaigns in Kenko"
+description: "Learn how to build, configure, and launch email campaigns inside Kenko."
+---
+
+# Email Campaigns in Kenko
+
+Kenko's Email Campaigns module allows you to create beautiful, high-converting emails to engage your customers — from promotions and newsletters to win-back flows and special announcements.
+
+---
+
+## How to Create an Email Campaign
+
+<Steps>
+  <Step title="Navigate to Marketing > Campaigns">
+    Click `Create Campaign` and select **Email Campaign**.
+  </Step>
+  <Step title="Set Campaign Metadata">
+    Give your campaign a name. This is for internal tracking and organization.
+  </Step>
+</Steps>
+
+---
+
+## Audience Rules
+
+Select who will receive your email.
+
+<AccordionGroup>
+  <Accordion title="Use an Existing Segment" icon="users">
+    Select from previously saved smart segments built inside the Contacts module.
+  </Accordion>
+  <Accordion title="Create a New Audience Rule" icon="sliders">
+    Define filters using attributes like contact details, activity, behavior, and location.
+  </Accordion>
+</AccordionGroup>
+
+### Default Audience Rule
+
+<Callout type="info">
+Every campaign requires the filter **Opted-in for marketing** to comply with email marketing laws (CAN-SPAM, GDPR). Kenko includes this by default.
+</Callout>
+
+### Rule Options Table
+
+| Rule Group         | Filters Included                                                                                         | When to Use                                                                 |
+|--------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| Contact Info       | Gender, Location, Age, Birthday, Email domain, Tags                                                     | Send birthday campaigns, location-specific offers, or tag-based outreach   |
+| Lifetime Activity  | Total visits, Total spend, Total bookings, Average rating                                               | Reward loyal members, high-spending customers, or milestone achievers      |
+| Purchase Behavior  | Plans purchased, Class packs, Purchases in last X days                                                  | Upsell members with relevant product recommendations                        |
+| Visit Behavior     | Last visited date, Number of visits in last 30 days                                                     | Win back customers with drop-off or re-engagement campaigns                |
+| Engagement         | Email opened, Email clicked, Campaign received                                                          | Create follow-ups or re-target non-clickers                                |
+| Marketing Tags     | Tags applied manually or by automation workflows                                                        | Segment and target via workflows or admin tagging                          |
+
+<Callout type="info">
+Use **dynamic rules** to always include the most recent matches, or select a **fixed audience** for a static contact list.
+</Callout>
+
+<Callout type="info">
+Dynamic rule cannot be created while creating new audience rule in Campaigns. Navigate to `Contacts > Segments` to create a dynamic segment.
+</Callout>
+
+---
+
+## Sender Details
+
+Set the identity of the sender so your recipients recognize you in their inbox.
+
+| Field        | Description                                                                 |
+|--------------|-----------------------------------------------------------------------------|
+| From Email   | Address shown in recipient inbox. Must be verified under `Settings > Email Configuration`. |
+| From Name    | Your studio or brand name (e.g., Halo Fitness)                              |
+| Reply To     | Where recipient replies will be sent                                        |
+
+<Callout type="info">
+To add a new sender email, go to `Settings > Email Configuration > Add Sender`.
+</Callout>
+
+---
+
+## Subject Line & Personalization
+
+Make subject lines dynamic to improve open rates.
+
+<AccordionGroup>
+  <Accordion title="Personalization Fields" icon="sparkles">
+    You can use any of the following fields in subject lines:
+
+    - Name
+    - First Name
+    - Last Name
+    - Email
+    - Phone
+    - Address
+  </Accordion>
+  <Accordion title="Best Practices" icon="lightbulb">
+    - Keep subject lines clear and concise.
+    - Use personalization for higher engagement.
+    - Add preview text to give additional context in the inbox.
+  </Accordion>
+</AccordionGroup>
+
+<Callout type="info">
+Personalized subject lines tend to get 22–28% higher open rates.
+</Callout>
+
+---
+
+## Email Design
+
+Design your email using ready-made templates.
+
+| Template Name               | Use Case                                           |
+|----------------------------|----------------------------------------------------|
+| New Email                  | Start from a blank slate and build your own       |
+| Branded App Announcement   | Promote your branded app and onboard users        |
+| New Member Welcome         | Welcome and guide new sign-ups                    |
+| Share Member Testimonials  | Add social proof with quotes and feedback         |
+| Special Offers & Promotions| Promote discounts, sales, and seasonal deals      |
+
+<Callout type="info">
+Templates can be fully customized — change layout, images, buttons, and copy block-by-block.
+</Callout>
+
+---
+
+## Final Steps
+
+<AccordionGroup>
+  <Accordion title="Final Checklist Before Sending" icon="check-circle">
+    - Defined the target audience
+    - Chosen verified sender identity
+    - Written subject line and preview text
+    - Designed email content
+  </Accordion>
+  <Accordion title="Send Options" icon="paper-plane">
+    - **Send now**: Immediately dispatch the campaign
+    - **Schedule for later**: Pick a future date and time
+  </Accordion>
+</AccordionGroup>
+
+Use the `More` button to duplicate or delete the campaign draft.
+
+---
+
+<Callout type="warning">
+Ensure your From Email is verified to avoid spam filters. Unverified emails may result in delivery failures.
+</Callout>
+
+<Callout type="info">
+Need advanced support or help writing copy? Reach out at [support@kenko.com](mailto:support@kenko.com)
+</Callout>
