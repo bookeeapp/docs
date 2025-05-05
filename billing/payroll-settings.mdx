@@ -18,15 +18,13 @@ The Payroll module is divided into four main areas:
 
 Each section is designed to make your payroll management easy and compliant.
 
-## ![Screenshot2025 04 28at11 58 03AM Pn](/images/Screenshot2025-04-28at11.58.03AM.png)
-
-Run Payroll
+## Run Payroll
 
 Running payroll is the final step where all staff compensations are calculated and processed.
 
 <Steps>
   <Step title="Select Pay Period">
-    Navigate to Payroll \> Run Payroll.\
+    Navigate to `Setup > Payroll > Run Payroll.`
     Choose the pay period you want to finalize payroll for.
 
     ![Screenshot2025 04 28at12 00 52PM Pn](/images/Screenshot2025-04-28at12.00.52PM.png)
@@ -36,7 +34,7 @@ Running payroll is the final step where all staff compensations are calculated a
   <Step title="Review Draft Payroll">
     Check each staff's
 
-    - Total hours/classes
+    - Total hours/classes (Total hours are calculated based on Clock-in and Clock-out time)
     - Bonuses, adjustments, and deductions
     - Deductions, Gross Pay and Reimbursements and Fixed Pay
 
@@ -78,7 +76,7 @@ View previously processed payroll batches for audits, corrections, or reference.
     | Voided     | Canceled or errored payroll batch |
   </Accordion>
   <Accordion title="Actions Available" icon="rotate">
-    - Download detailed reports (PDF, CSV)
+    - Download detailed reports (PDF, CSV) for the entire payroll or each individual staff.
     - View individual staff payouts ![Screenshot2025 04 28at12 24 54PM Pn](/images/Screenshot2025-04-28at12.24.54PM.png)
   </Accordion>
 </AccordionGroup>
@@ -183,7 +181,7 @@ Templates standardize how compensation is calculated.
 </Steps>
 
 <Info>
-  Hourly pay rate templates automatically calculate based on logged hours during the selected pay period.
+  Hourly pay rate templates automatically calculate based on logged ( Based on Clock-in and Clock-out time ) hours during the selected pay period.
 </Info>
 
 ## Payroll Settings
@@ -195,6 +193,8 @@ Configure global settings that govern how payroll is calculated and run.
     Define if pay runs weekly, bi-weekly, or monthly across locations.
 
     ![Screenshot2025 04 28at12 59 48PM Pn](/images/Screenshot2025-04-28at12.59.48PM.png)
+
+    Pay-period is the defined time duration after which the respective staffs and instructors are compensated for their efforts.
   </Accordion>
   <Accordion title="Banking Information" icon="money-check-pen">
     Set payout methods (direct bank transfer, manual payment) in third party softwares like Quickbooks or Gusto.
@@ -254,10 +254,9 @@ Compensation settings control individual payout configurations.
         - If the staff is **marked as a substitute**, the substitute pay template is applied instead.
         - If a **substitution rate** is set (e.g., \$50/class), it directly pays that amount for substitute classes.
 
-        <info>
-  Substitution compensation ensures fairness when staff cover for their peers, and typically it's slightly higher to incentivize flexibility.
-</info>
-
+        <Info>
+          Substitution compensation ensures fairness when staff cover for their peers, and typically it's slightly higher to incentivize flexibility.
+        </Info>
         ### Example
 
         - **Regular Class Pay**: \$30 per class
