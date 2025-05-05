@@ -26,7 +26,8 @@
 							"getting-started/introduction",
 							"getting-started/quickstart",
 							"getting-started/platform-overview",
-							"getting-started/first-login"
+							"getting-started/first-login",
+                            "billing/your-kenko-subscription"
 						]
 					},
 					{
@@ -115,8 +116,8 @@
                             "billing/contacts-payments"
                             ]
                           },
-                            "billing/payroll-settings",
-                            "billing/your-kenko-subscription"
+                            "billing/payroll-settings"
+                            
 						]
 					},
 					{
