@@ -151,8 +151,14 @@
 							
 						]
 					},
+                    {
+						"group": "Reserve with Google",
+						"pages": [
+                          "marketing/introduction-rwg",	
+                          "marketing/setup-rwg"
 							
-						      "marketing/introduction-rwg",	
+						]
+					},    
                               "marketing/email-templates",
 							  "marketing/sms-messaging",
 							  "marketing/client-acquisition"
