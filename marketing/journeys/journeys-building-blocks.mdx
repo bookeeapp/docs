@@ -16,60 +16,81 @@ This guide explains each type of block, how they work, and how to use them to bu
 </Info>
 
 <AccordionGroup>
-  <Accordion title="1. Rule Block" icon="filter">
-    Rule blocks are logic gates — they determine **who enters a journey** or moves down a specific path. You can filter based on customer properties, such as:
+  <Accordion title="Rules Block" icon="bolt">
+    Rule blocks are the **logic engines** of your journey — they determine who qualifies for the journey or which path they follow next.
+
+    Use filters such as:
 
     - Membership status
-    - Visit count
     - Pricing options purchased
-    - Tag-based segmentation
+    - Tags assigned to contact
+    - Visit or class count
 
-    ![Block(3) Pn](/images/Block\(3\).png)
-
-    <div className="flex justify-center" />
-
-    <Info>
-      You can define wait times in rule blocks to allow users time to complete certain actions (e.g., open an email or purchase a plan).
-    </Info>
-  </Accordion>
-  <Accordion title="2. Communication Blocks" icon="envelope-open">
-    These are the **messages** you want to send: emails, SMS, and push notifications. Currently, only email is available (SMS & push are coming soon).
-
-    - Use drag-and-drop editor to create rich emails
-    - Monitor open rates, click-throughs, and delivery stats
-    - Each message can have timing and fallback conditions
-
-    ![Block(4) Pn](/images/Block\(4\).png)
+    ![Rules Block](/images/Block\(3\).png)
 
     <Info>
-      Use email blocks in combination with **Wait** and **Rule** blocks to control the timing and audience for each message.
+      You can also set timing conditions like "wait X days after purchase" or "trigger if no booking in 7 days."
     </Info>
   </Accordion>
-  <Accordion title="3. Wait Block" icon="clock">
-    The **Wait block** defines how long to pause before proceeding to the next step.
+  <Accordion title="Email Block" icon="envelope">
+    Use drag-and-drop tools to craft branded emails that drive engagement and action.
 
-    - Simple Wait: “Wait 3 days”
-    - Advanced Wait: Wait until a specific time or condition is met (like after completing a visit or making a purchase)
+    - Personalize content with variables (name, service, etc.)
+    - Track open, click, and delivery performance
+    - Add fallback channels if the email goes unopened
 
-    ![Block(5) Pn](/images/Block\(5\).png)
-
-    <Info>
-      Use this to **space out communications** and create natural progression between actions.
-    </Info>
-  </Accordion>
-  <Accordion title="4. Tag Block" icon="tag">
-    Apply or remove tags to contacts dynamically. This is powerful for
-
-    - Segmenting contacts in reports
-    - Setting prerequisites for classes, courses, or promotions
-    - Triggering other automation based on tags
-
-    You can only use **existing tags**. If you add a new tag, allow up to 90 minutes for it to sync.
-
-    ![Block(6) Pn](/images/Block\(6\).png)
+    ![Email Block](/images/Block\(4\).png)
 
     <Tip>
-      Use tags to **track user progression**, apply discount access, or remove users from other journeys.
+      Great for newsletters, onboarding sequences, milestone check-ins, and upsell offers.
+    </Tip>
+  </Accordion>
+  <Accordion title="SMS Block" icon="comment-dots">
+    SMS is powerful for quick, timely messages — high open rates, instant delivery.
+
+    - Perfect for reminders, confirmations, and flash promos
+    - Add personalization with name, session info, and more
+    - Supports fallback if not delivered
+
+    <Tip>
+      Keep messages short, actionable, and compliant with opt-in regulations.
+    </Tip>
+  </Accordion>
+  <Accordion title="Push Notification Block" icon="bell">
+    Push blocks allow you to send in-app messages to users of your branded mobile app.
+
+    - Alert members about class spots, new videos, or offers
+    - Ideal for re-engagement without email/SMS costs
+    - Set conditions for timing and frequency
+
+    <Tip>
+      Use these sparingly for important updates or time-sensitive nudges.
+    </Tip>
+  </Accordion>
+  <Accordion title="Wait Block" icon="clock">
+    Wait blocks delay the next step in your journey.
+
+    - Fixed delay: “Wait 3 days”
+    - Conditional delay: “Wait until booking is made”
+    - Timed delay: “Wait until 9 AM on a weekday”
+
+    ![Wait Block](/images/Block\(5\).png)
+
+    <Tip>
+      Use this to pace out messages and avoid overwhelming clients.
+    </Tip>
+  </Accordion>
+  <Accordion title="Tag Block" icon="tag">
+    Tags allow dynamic segmentation and logic within your journey.
+
+    - Apply or remove tags based on user actions
+    - Trigger automations or eligibility based on tags
+    - Use tags to power audience-specific campaigns
+
+    ![Tag Block](/images/Block\(6\).png)
+
+    <Tip>
+      Use tags to track trial completion, drop-offs, referrals, or engagement levels.
     </Tip>
   </Accordion>
 </AccordionGroup>
