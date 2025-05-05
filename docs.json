@@ -164,7 +164,13 @@
 						"group": "Website & App",
 						"pages": [
                             "website-app/introduction",
-							"website-app/branded-app",
+                          {
+						"group": "Branded App",
+						"pages": [
+                            "website-app/branded-app-introduction",
+			
+						]
+					},
 							"website/booking-widget",
 							"website/customization",
 							"website/member-portal"
