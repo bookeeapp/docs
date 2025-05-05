@@ -156,11 +156,10 @@
 						"pages": [
                           "marketing/introduction-rwg",	
                           "marketing/setup-rwg"
-							
+				                ]
+							}
 						]
-					},    
-						]
-					},
+					}, 
 					{
 						"group": "Website & App",
 						"pages": [
