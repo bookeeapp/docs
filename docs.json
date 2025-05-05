@@ -175,7 +175,7 @@
                     {
 						"group": "Website Widget",
 						"pages": [
-                            "website-app/introduction",
+                            "website-app/website-widget-introduction"
                         ]
 					},
 							"website/booking-widget",
