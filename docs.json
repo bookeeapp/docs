@@ -152,9 +152,10 @@
 						]
 					},
 							
-							"marketing/email-templates",
-							"marketing/sms-messaging",
-							"marketing/client-acquisition"
+						      "marketing/introduction-rwg",	
+                              "marketing/email-templates",
+							  "marketing/sms-messaging",
+							  "marketing/client-acquisition"
 						]
 					},
 					{
