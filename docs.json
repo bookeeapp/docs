@@ -172,6 +172,12 @@
 			
 						]
 					},
+                    {
+						"group": "Website Widget",
+						"pages": [
+                            "website-app/introduction",
+                        ]
+					},
 							"website/booking-widget",
 							"website/customization",
 							"website/member-portal"
