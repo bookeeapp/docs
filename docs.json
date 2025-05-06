@@ -192,6 +192,12 @@
                             "website-app/business-app-introduction"
                         ]
 					},
+                    {
+						"group": "Websites by Kenko",
+						"pages": [
+                            "Introduction & Pricing"
+                        ]
+					},
 							"website/booking-widget",
 							"website/customization",
 							"website/member-portal"
