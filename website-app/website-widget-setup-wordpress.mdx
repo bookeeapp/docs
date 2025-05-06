@@ -1,0 +1,130 @@
+---
+title: "Add Kenko Widget to WordPress"
+description: "Learn how to embed the Kenko booking widget on WordPress using Elementor or block editor, and how to use static or magic links for specific flows."
+---
+
+# Embed Kenko Widget into WordPress
+
+Whether you're using classic WordPress, Elementor, or the Gutenberg block editor, integrating Kenko into your site is straightforward. This guide walks through embedding the Kenko booking widget and using static and magic links to streamline client navigation.
+
+## Pre-Integration Checklist
+
+Before embedding
+
+- Ensure you have admin access to the WordPress dashboard
+- Confirm that you can install or use the **Custom HTML block** (or Elementor)
+- Prepare your Kenko widget embed code from your admin portal
+
+## Embedding the Widget in WordPress
+
+<Steps>
+  <Step title="Step 1: Copy the Embed Code from Kenko">
+    - Go to `Settings → Website Portal → Embed Website`
+    - Choose the section (e.g., /book or /schedule)
+    - Copy the generated `<iframe>` code
+  </Step>
+  <Step title="Step 2: Create a New Page in WordPress">
+    - Log in to your WordPress dashboard
+    - Navigate to `Pages → Add New`
+    - Name the page (e.g., **Book**)
+  </Step>
+  <Step title="Step 3: Add the Embed Code">
+    - In the editor:
+      - If using **Gutenberg**, add a **Custom HTML** block
+      - If using **Elementor**, drag the **HTML** widget
+    - Paste your Kenko `<iframe>` code
+  </Step>
+  <Step title="Step 4: Save and Preview">
+    - Click **Save Draft** or **Publish**
+    - Preview the page to confirm the widget is embedded correctly
+  </Step>
+</Steps>
+
+## Adding Static & Magic Links in WordPress
+
+You can also add direct links to specific Kenko actions via the header, menu, or buttons.
+
+### Static Links
+
+These point to general booking sections, such as
+
+- `/login`
+- `/pricing`
+- `/my-account`
+- `/videos`
+- `/class-schedule`
+
+#### To Add:
+
+1. Go to `Appearance → Menus`
+2. Select the **Header Menu** or **Main Menu**
+3. Use the **Custom Links** option
+4. Paste in the full URL (e.g., `https://yourstudio.gokenko.com/pricing`)
+5. Label it (e.g., "Membership")
+6. Add to menu and **Save**
+
+<Note>
+  WordPress menus can be found under Appearance → Menus. Use custom links for navigation even if your theme doesn’t support “pages” by default.
+</Note>
+
+---
+
+### Magic Links (Deep Links)
+
+Magic links direct users to a **specific plan, class, or offer**.
+
+<Steps>
+  <Step title="Step 1: Publish the Widget Page">
+    Ensure your embedded widget is live on your WordPress site.
+  </Step>
+  <Step title="Step 2: Navigate to the Target Item">
+    Visit your site and navigate to the specific class or membership you'd like to promote.
+  </Step>
+  <Step title="Step 3: Click the CTA (e.g., Book or Buy)">
+    This will append a unique ID to the URL.
+  </Step>
+  <Step title="Step 4: Copy the Full URL">
+    This is your **magic link**. Example:
+    `https://yourstudio.gokenko.com/pricing?planId=abc123`
+  </Step>
+  <Step title="Step 5: Embed in a Menu or Button">
+    - For navigation, paste into `Appearance → Menus → Custom Links`
+    - For content areas, use buttons or text hyperlinks
+  </Step>
+</Steps>
+
+<Tip>
+  Open the final page in an incognito window to test that the correct item loads without cached interference.
+</Tip>
+
+## Example Use Cases
+
+<CardGroup cols="2">
+  <Card title="Book a Specific Class" icon="calendar">
+    Generate a magic link tied to one class and promote it on your homepage.
+  </Card>
+  <Card title="Sell a Membership Plan" icon="id-card">
+    Use pricing plan links in the nav bar or as buttons across the site.
+  </Card>
+  <Card title="Highlight a Limited-Time Offer" icon="bolt">
+    Embed direct access to a seasonal offer or gift card purchase page.
+  </Card>
+  <Card title="Simplify Account Access" icon="user-circle">
+    Link to login, signup, and account pages via static links.
+  </Card>
+</CardGroup>
+
+## WordPress Specific Notes
+
+- If your theme lacks a clear header/footer distinction, use **Appearance → Menus** to manage what shows where.
+- You can also use **plugins like Elementor or WPBakery** to design more advanced booking flows using embed blocks.
+
+## Best Practices
+
+<Tip>
+  Use Magic Links for any high-converting campaign or feature highlight — they minimize friction and increase clicks.
+</Tip>
+
+<Tip>
+  Always preview your site in a private browser window to avoid caching issues.
+</Tip>
