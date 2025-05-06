@@ -180,6 +180,12 @@
                             "website-app/website-widget-introduction"
                         ]
 					},
+                    {
+						"group": "Business App",
+						"pages": [
+                            "website-app/business-app-introduction"
+                        ]
+					},
 							"website/booking-widget",
 							"website/customization",
 							"website/member-portal"
