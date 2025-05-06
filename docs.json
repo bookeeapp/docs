@@ -177,8 +177,8 @@
                     {
 						"group": "Website Widget",
 						"pages": [
-                            "website-app/website-widget-general",
                             "website-app/website-widget-introduction",
+                            "website-app/website-widget-general",
                             "website-app/website-widget-setup-wix",
                             "website-app/magic-links",
                             "website-app/website-widget-setup-squarespace"
