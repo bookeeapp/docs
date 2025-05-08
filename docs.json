@@ -189,7 +189,8 @@
                     {
 						"group": "Business App",
 						"pages": [
-                            "website-app/business-app-introduction"
+                            "website-app/business-app-introduction",
+                            "website-app/business-app-walkthrough"
                         ]
 					},
                     {
