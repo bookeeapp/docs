@@ -1,22 +1,26 @@
 ---
-title: 'Connecting Your Stripe Account'
-description: 'Set up Stripe as your payment processor for Kenko to securely handle transactions'
+title: "Connecting Your Stripe Account"
+description: "Set up Stripe as your payment processor for Kenko to securely handle transactions"
 ---
 
-# Connecting Your Stripe Account
+# Stripe Account setup
 
 Kenko partners with Stripe to provide secure, reliable payment processing for your fitness business. This guide will walk you through connecting your Stripe account to Kenko.
+
+## Why Kenko Needs Stripe
+
+Kenko integrates with Stripe to offer a seamless and secure payment experience. Stripe handles all aspects of payment processing, ensuring PCI-compliant transactions, offering global payment options, and simplifying recurring billing. By connecting Stripe, Kenko can manage payments efficiently, providing a smoother client experience and automated subscription management.
 
 ## Benefits of Stripe Integration
 
 <CardGroup cols={2}>
-  <Card title="Secure Payments" icon="shield-alt">
+  <Card title="Secure Payments" icon="money-bill-simple-wave">
     PCI-compliant processing that keeps customer payment data secure
   </Card>
   <Card title="Multiple Payment Methods" icon="credit-card">
     Accept credit cards, debit cards, ACH, and digital wallets
   </Card>
-  <Card title="Automated Billing" icon="sync">
+  <Card title="Automated Billing" icon="money-bill-transfer">
     Reliable recurring billing for memberships and subscriptions
   </Card>
   <Card title="Detailed Reporting" icon="chart-bar">
@@ -26,11 +30,11 @@ Kenko partners with Stripe to provide secure, reliable payment processing for yo
 
 ## Before You Begin
 
-Before connecting Stripe to Kenko, make sure you have:
+Before connecting Stripe to Kenko, make sure you have
 
 1. An active Kenko account with administrative privileges
 2. A Stripe account (or be prepared to create one)
-3. Business details including:
+3. Business details including
    - Legal business name
    - Business address
    - Tax ID number
@@ -44,44 +48,40 @@ Before connecting Stripe to Kenko, make sure you have:
 
 <Steps>
   <Step title="Access Payment Settings">
-    In your Kenko dashboard, navigate to **Admin Settings** > **Billing & Payments** > **Payment Processing**.
+    In your Kenko dashboard, navigate to **Admin Settings** \> **Billing & Payments** \> **Payment Processing**.
   </Step>
-  
   <Step title="Select Stripe">
     In the Payment Processors section, click **Connect** next to the Stripe option.
   </Step>
-  
   <Step title="Choose Connection Type">
     Select one of the following options:
+
     - **Connect existing Stripe account**: Link your current Stripe account
     - **Create new Stripe account**: Set up a new Stripe account through Kenko
   </Step>
-  
   <Step title="Authorize Connection">
     You'll be redirected to Stripe's website to:
-    
+
     1. Login to your existing Stripe account (or create a new one)
     2. Review the permissions Kenko is requesting
     3. Authorize the connection
-    
+
     <Warning>
       Ensure you're granting access to the correct Stripe account, especially if you manage multiple businesses.
     </Warning>
   </Step>
-  
   <Step title="Complete Account Setup">
     If this is a new Stripe account, you'll need to provide additional information:
-    
+
     - Business details and address
     - Banking information for deposits
     - Identity verification documents
-    
+
     Existing accounts may already have this information, but verify it's correct.
   </Step>
-  
   <Step title="Configure Payment Settings">
     After connecting, return to Kenko to configure your payment settings:
-    
+
     1. Default payment methods to accept
     2. Automatic billing retry settings
     3. Payment failure notifications
@@ -93,9 +93,9 @@ Before connecting Stripe to Kenko, make sure you have:
 
 After connecting Stripe, we recommend testing the integration:
 
-1. Go to **Admin Settings** > **Billing & Payments** > **Test Mode**
+1. Go to **Admin Settings** \> **Billing & Payments** \> **Test Mode**
 2. Toggle **Test Mode** to ON
-3. Perform a test transaction using Stripe's [test card numbers](https://stripe.com/docs/testing):
+3. Perform a test transaction using Stripe's [test card numbers](https://stripe.com/docs/testing)
    - Test successful payment: 4242 4242 4242 4242
    - Test failed payment: 4000 0000 0000 0002
 4. Verify the test transaction appears in both Kenko and your Stripe dashboard
@@ -108,22 +108,20 @@ After connecting Stripe, we recommend testing the integration:
 ## Common Connection Issues
 
 <AccordionGroup>
-  <Accordion icon="exclamation-circle" title="Connection Timeout">
+  <Accordion title="Connection Timeout" icon="calendar-clock">
     If your connection times out, try again and ensure you complete all steps on the Stripe site without delays.
   </Accordion>
-  
-  <Accordion icon="id-card" title="Verification Problems">
+  <Accordion title="Verification Problems" icon="id-card">
     If Stripe requires additional verification, complete all requested steps in your Stripe dashboard before attempting to reconnect.
   </Accordion>
-  
-  <Accordion icon="link-slash" title="Disconnection Issues">
+  <Accordion title="Disconnection Issues" icon="link-slash">
     If your Stripe account becomes disconnected, check for:
+
     - Expired API keys
     - Account restrictions in Stripe
     - Changes to your Stripe account status
   </Accordion>
-  
-  <Accordion icon="exchange-alt" title="Multiple Account Confusion">
+  <Accordion title="Multiple Account Confusion" icon="screen-users">
     If you have multiple Stripe accounts, ensure you're connecting the correct one by checking the email address associated with the account during authorization.
   </Accordion>
 </AccordionGroup>
@@ -132,16 +130,16 @@ After connecting Stripe, we recommend testing the integration:
 
 ### Viewing Connected Account
 
-To view your connected Stripe account:
+To view your connected Stripe account
 
-1. Go to **Admin Settings** > **Billing & Payments** > **Payment Processing**
+1. Go to **Admin Settings** \> **Billing & Payments** \> **Payment Processing**
 2. Look for the "Connected Account" section to see which Stripe account is connected
 
 ### Disconnecting Stripe
 
 If you need to disconnect your Stripe account:
 
-1. Go to **Admin Settings** > **Billing & Payments** > **Payment Processing**
+1. Go to **Admin Settings** \> **Billing & Payments** \> **Payment Processing**
 2. Click **Disconnect** next to your Stripe connection
 3. Confirm the disconnection
 
@@ -149,12 +147,47 @@ If you need to disconnect your Stripe account:
   Disconnecting your Stripe account will prevent all future payments from processing. Only disconnect if you're switching payment processors or closing your account.
 </Warning>
 
-## Next Steps
+## Stripe Fees Overview
 
-After connecting Stripe, explore these related guides:
+| Fee Type                | Rate/Amount                                      |
+| ----------------------- | ------------------------------------------------ |
+| **Domestic Cards**      | 2.9% \+ \$0.30 per successful transaction        |
+| **International Cards** | 1% additional for international cards            |
+| **Currency Conversion** | 1% additional if currency conversion is required |
+| **ACH Direct Debit**    | 0.8% per transaction, capped at \$5.00           |
+| **Dispute Fee**         | \$15.00 per dispute, refunded if won             |
+| **Refunds**             | Processing fees are not returned upon refund     |
 
-- [Payment Flow](../payment-flow)
-- [Subscription Management](../subscription-management)
-- [Stripe Reporting](../reporting)
+_Note: Stripe does not charge setup or monthly fees._
 
-For direct Stripe support, visit [support.stripe.com](https://support.stripe.com) or contact Stripe at support@stripe.com. 
+## Best Practices for Payment Integrations
+
+<CardGroup cols="2">
+  <Card title="Enable 3D Secure" icon="shield-check">
+    Enhance security and reduce fraud by enabling 3D Secure for credit and debit card payments.
+  </Card>
+  <Card title="Use Webhooks" icon="exchange-alt">
+    Implement webhooks to receive real-time updates on payment statuses, ensuring smooth transaction management.
+  </Card>
+  <Card title="Test Transactions" icon="check-circle">
+    Use Stripe’s test mode to simulate transactions before going live, ensuring your payment system is fully operational.
+  </Card>
+  <Card title="Monitor Dashboard" icon="chart-line">
+    Regularly check the Stripe Dashboard to track payments, monitor trends, and quickly resolve issues.
+  </Card>
+  <Card title="Client Communication" icon="comment-dots">
+    Keep your clients informed about payment statuses, errors, and required actions to maintain a smooth customer experience.
+  </Card>
+</CardGroup>
+
+
+## Troubleshooting
+
+If you encounter issues with your payment integrations, try these common solutions:
+
+- **Connection Issues**: Verify your API credentials are correct and up to date.
+- **Failed Payments**: Check that the payment method information is valid and has sufficient funds.
+- **Webhook Errors**: Ensure webhook endpoints are properly configured.
+- **Currency Mismatches**: Confirm that you've enabled the correct currencies in both Kenko and your payment processor.
+
+For additional assistance, contact [Kenko Support](mailto:support@gokenko.com).

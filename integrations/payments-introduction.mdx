@@ -1,9 +1,9 @@
 ---
-title: Payment Integrations
+title: "Payment Integrations"
 description: "Process payments securely with Kenko's payment integrations"
 ---
 
-# Payment Integrations
+# Payment Ecosystem in Kenko
 
 Kenko integrates with leading payment processors to provide secure, reliable payment processing for your fitness business. These integrations allow you to accept various payment methods, manage recurring billing, and provide a seamless checkout experience for your clients.
 
@@ -15,6 +15,7 @@ Kenko integrates with leading payment processors to provide secure, reliable pay
   alt="Stripe"
   width="200"
 />
+
 <img
   className="hidden dark:block"
   src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/1024px-Stripe_Logo%2C_revised_2016.svg.png"
@@ -39,7 +40,7 @@ Stripe is a comprehensive payment processing platform that enables businesses to
     If you don't already have one, sign up for a Stripe account at [stripe.com](https://stripe.com)
   </Step>
   <Step title="Connect to Kenko">
-    In your Kenko dashboard, go to Settings > Integrations > Payments and select Stripe
+    In your Kenko dashboard, go to Settings \> Integrations \> Payments and select Stripe
   </Step>
   <Step title="Authorize Connection">
     Follow the prompts to authorize Kenko to connect with your Stripe account
@@ -57,6 +58,7 @@ Stripe is a comprehensive payment processing platform that enables businesses to
   alt="Adyen"
   width="200"
 />
+
 <img
   className="hidden dark:block"
   src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Adyen_Corporate_Logo.svg/1024px-Adyen_Corporate_Logo.svg.png?20170830084103"
@@ -69,7 +71,7 @@ Adyen is a global payment platform that allows businesses to accept payments acr
 ### Features
 
 - **Unified Commerce**: Provide a consistent payment experience across all channels
-- **Global Reach**: Accept payments in 150+ currencies with 250+ payment methods
+- **Global Reach**: Accept payments in 150\+ currencies with 250\+ payment methods
 - **Risk Management**: Advanced fraud prevention tools to protect your business
 - **Revenue Optimization**: Increase authorization rates with intelligent payment routing
 - **Detailed Analytics**: Access real-time insights on payment performance
@@ -81,10 +83,53 @@ Adyen is a global payment platform that allows businesses to accept payments acr
     If you don't already have one, sign up for an Adyen account at [adyen.com](https://adyen.com)
   </Step>
   <Step title="Connect to Kenko">
-    In your Kenko dashboard, go to Settings > Integrations > Payments and select Adyen
+    In your Kenko dashboard, go to Settings \> Integrations \> Payments and select Adyen
   </Step>
   <Step title="Configure API Keys">
     Enter your Adyen API credentials to establish the connection
+  </Step>
+  <Step title="Set Payment Preferences">
+    Configure which payment methods you want to accept and other settings
+  </Step>
+</Steps>
+
+## Razorpay
+
+<img
+  className="block dark:hidden"
+  src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Razorpay_logo.webp"
+  alt="Razorpay"
+  width="200"
+/>
+
+<img
+  className="hidden dark:block"
+  src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Razorpay_logo.webp"
+  alt="Adyen"
+  width="200"
+/>
+
+Razorpay is an Indian payment gateway that offers a comprehensive suite of payment solutions for businesses.
+
+### Features
+
+- **Multiple Payment Methods**: Accept credit cards, debit cards, net banking, UPI, and wallets
+- **QuickBuy**: One-click checkout for returning customers to speed up transactions
+- **Flash Checkout**: Customizable checkout experience to match your brand
+- **Powerful Dashboard**: Access real-time data and insights to make informed business decisions
+- **Developer-Friendly**: Robust APIs and plugins for easy integration
+
+### Setup Process
+
+<Steps>
+  <Step title="Create a Razorpay Account">
+    If you don't already have one, sign up for a Razorpay account at [razorpay.com](https://razorpay.com)
+  </Step>
+  <Step title="Connect to Kenko">
+    In your Kenko dashboard, go to Settings > Integrations > Payments and select Razorpay
+  </Step>
+  <Step title="Configure API Keys">
+    Enter your Razorpay API credentials to establish the connection
   </Step>
   <Step title="Set Payment Preferences">
     Configure which payment methods you want to accept and other settings
@@ -110,4 +155,4 @@ If you encounter issues with your payment integrations, try these common solutio
 - **Webhook Errors**: Ensure webhook endpoints are properly configured
 - **Currency Mismatches**: Confirm that you've enabled the correct currencies in both Kenko and your payment processor
 
-For additional assistance, contact [Kenko Support](mailto:support@gokenko.com). 
+For additional assistance, contact [Kenko Support](mailto:support@gokenko.com).

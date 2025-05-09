@@ -390,21 +390,18 @@
 				"tab": "Integrations",
 				"groups": [
 					{
-						"group": "⚡ Zapier",
+						"group": "Introduction",
 						"pages": [
-							"integrations/zapier/getting-started",
-							"integrations/zapier/available-triggers",
-							"integrations/zapier/common-workflows",
-							"integrations/zapier/troubleshooting"
+							"integrations/introduction-integrations"
 						]
 					},
 					{
-						"group": "💸 Stripe",
+						"group": "Payments",
 						"pages": [
-							"integrations/stripe/account-connection",
-							"integrations/stripe/payment-flow",
-							"integrations/stripe/subscription-management",
-							"integrations/stripe/reporting"
+							"integrations/payments-introduction",
+							"integrations/payments-stripe",
+                            "integrations/payments-adyen",
+                            "integrations/payments-razorpay"
 						]
 					},
 					{
