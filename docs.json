@@ -200,9 +200,8 @@
                             "website-app/website-kenko-setup" 
                         ]
 					},
-							"website/booking-widget",
-							"website/customization",
-							"website/member-portal"
+							"website/app-kiosk",
+							"website/customization"
 						]
 					},
 					{
