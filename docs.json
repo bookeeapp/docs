@@ -200,7 +200,13 @@
                             "website-app/website-kenko-setup" 
                         ]
 					},
-							"website/app-kiosk",
+                    {
+						"group": "Kiosk by Kenko",
+						"pages": [
+                            "website/app-kiosk",
+                            "website-app/website-kenko-setup" 
+                        ]
+					},
 							"website/customization"
 						]
 					},
