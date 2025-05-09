@@ -204,7 +204,7 @@
 						"group": "Kiosk by Kenko",
 						"pages": [
                             "website/app-kiosk",
-                            "website-app/website-kenko-setup" 
+                            "website-app/kiosk-settings" 
                         ]
 					},
 							"website/customization"
