@@ -399,7 +399,7 @@
 						"group": "Payments",
 						"pages": [
 							"integrations/payments-introduction",
-							"integrations/payments-stripe",
+							"integrations/stripe/account-connection",
                             "integrations/payments-adyen",
                             "integrations/payments-razorpay"
 						]
