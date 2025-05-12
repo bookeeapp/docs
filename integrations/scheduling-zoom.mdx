@@ -1,0 +1,113 @@
+---
+title: "Zoom Integration"
+description: "Automatically create and manage Zoom meetings for online classes and appointments in Kenko."
+---
+
+# Sync Zoom Integration with Kenko
+
+The Zoom integration allows you to seamlessly schedule and manage online classes and appointments through Kenko. Meeting links are created automatically and shared with participants via email, the website, and the mobile app — saving you time and ensuring a smooth client experience.
+
+<Note>
+  Zoom integration is essential for businesses offering virtual services, enabling real-time scheduling, automatic meeting link creation, and calendar sync for staff and clients.
+</Note>
+
+## Why Use Zoom with Kenko?
+
+<CardGroup cols={2}>
+  <Card title="Auto-Generated Zoom Links" icon="video">
+    Automatically create unique Zoom links when classes or appointments are booked.
+  </Card>
+  <Card title="Client Access Simplified" icon="mobile">
+    Customers receive links in their "My Bookings" on both app and website.
+  </Card>
+  <Card title="Host Management" icon="image-user">
+    Assign multiple Zoom accounts to specific staff. Meetings are hosted automatically.
+  </Card>
+  <Card title="Email Reminders" icon="envelope">
+    Automatically email Zoom meeting links before the class or session begins.
+  </Card>
+</CardGroup>
+
+## Setup Process
+
+<Steps>
+  <Step title="Navigate to Integrations">
+    Go to `Apps → Integrations → Zoom`Click **Connect Zoom**.
+
+    ![Screenshot2025 05 12at5 21 40PM Pn](/images/Screenshot2025-05-12at5.21.40PM.png)
+  </Step>
+  <Step title="Authorize Your Zoom Account">
+    You’ll be redirected to Zoom to log in and authorize Kenko to access your account.
+  </Step>
+  <Step title="Assign Zoom Hosts">
+    After connection, assign Zoom meeting host accounts to individual staff. When they’re booked for a session, a Zoom meeting is created under their assigned account.
+
+    ![Screenshot2025 05 12at5 21 54PM Pn](/images/Screenshot2025-05-12at5.21.54PM.png)
+  </Step>
+  <Step title="Configure Meeting Settings">
+    Enable optional preferences
+
+    - Waiting Room
+    - Password Protection
+  </Step>
+</Steps>
+
+<Info>
+  Each Zoom meeting is created in real-time during booking and linked back to both the admin calendar and customer booking interfaces.
+</Info>
+
+## What Happens After Setup?
+
+- Zoom links are auto-generated per event and synced with
+  - Mobile App → My Bookings
+  - Website Integration → My Bookings
+- Admin can view all upcoming sessions with Zoom links embedded.
+- Customers receive timely reminders and event links via email notifications.
+
+## Best Practices
+
+<CardGroup cols={2}>
+  <Card title="Use Unique Zoom Hosts" icon="user-plus">
+    Assign different Zoom accounts for different instructors to avoid scheduling conflicts.
+  </Card>
+  <Card title="Enable Waiting Room" icon="user-clock">
+    Add a layer of security to your sessions and prevent unauthorized access.
+  </Card>
+  <Card title="Test Before First Class" icon="flask">
+    Do a dry run using test bookings to ensure Zoom is connected and working properly.
+  </Card>
+  <Card title="Monitor Usage on Zoom Dashboard" icon="chart-line">
+    Review Zoom analytics to track attendance and troubleshoot issues.
+  </Card>
+</CardGroup>
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="Zoom Link Not Sent" icon="envelope-open-text">
+    Ensure the staff member has a Zoom account assigned. Check email notification settings.
+  </Accordion>
+  <Accordion title="Meeting Not Created" icon="video-slash">
+    Confirm the Zoom integration is connected and staff are mapped correctly.
+  </Accordion>
+  <Accordion title="Access Denied by Zoom" icon="lock">
+    You might need to reauthorize the app via Zoom’s App Marketplace if permissions were revoked.
+  </Accordion>
+</AccordionGroup>
+
+## Disconnecting Zoom
+
+If needed, you can disconnect Zoom from Kenko:
+
+<Steps>
+  <Step title="Go to Integrations">
+    Navigate to `Admin Settings → Integrations → Zoom`.
+  </Step>
+  <Step title="Click Remove">
+    Click the red **Remove** button to disconnect.
+  </Step>
+</Steps>
+
+<Warning>
+  Disconnecting Zoom will stop automatic meeting generation. All virtual sessions will need to be managed manually.
+</Warning>
