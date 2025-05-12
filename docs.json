@@ -404,6 +404,14 @@
                             "integrations/account-connection-razorpay"
 						]
 					},
+                   	{
+						"group": "Scheduling & Calendar",
+						"pages": [
+							"integrations/scheduling-intro",
+							"integrations/scheduling-gcal",
+                            "integrations/scheduling-zoom"
+						]
+					},
 					{
 						"group": "📆 Google Calendar",
 						"pages": [
