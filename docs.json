@@ -401,7 +401,7 @@
 							"integrations/payments-introduction",
 							"integrations/stripe/account-connection",
                             "integrations/account-connection-adyen",
-                            "integrations/payments-razorpay"
+                            "integrations/account-connection-razorpay"
 						]
 					},
 					{
