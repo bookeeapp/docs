@@ -412,6 +412,14 @@
                             "integrations/scheduling-zoom"
 						]
 					},
+                   	{
+						"group": "Marketing",
+						"pages": [
+							"integrations/marketing-introduction",
+							"integrations/scheduling-gcal",
+                            "integrations/scheduling-zoom"
+						]
+					},
 					{
 						"group": "📆 Google Calendar",
 						"pages": [
