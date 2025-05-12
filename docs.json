@@ -400,7 +400,7 @@
 						"pages": [
 							"integrations/payments-introduction",
 							"integrations/stripe/account-connection",
-                            "integrations/payments-adyen",
+                            "integrations/account-connection-adyen",
                             "integrations/payments-razorpay"
 						]
 					},
