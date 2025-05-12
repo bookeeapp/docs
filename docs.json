@@ -400,8 +400,8 @@
 						"pages": [
 							"integrations/payments-introduction",
 							"integrations/stripe/account-connection",
-                            "integrations/account-connection-adyen",
-                            "integrations/account-connection-razorpay"
+                            "integrations/account-creation-adyen",
+                            "integrations/account-creation-razorpay"
 						]
 					},
                    	{
