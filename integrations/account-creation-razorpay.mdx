@@ -34,7 +34,7 @@ Ensure you have
 
 1. An active Kenko account with administrative privileges.
 2. A Razorpay account (or be prepared to create one).
-3. Business details, including:
+3. Business details, including
    - Legal business name
    - Business address
    - PAN and GSTIN (if applicable)
@@ -55,6 +55,46 @@ To create a Razorpay account
 5. Submit the necessary KYC documents for verification.
 6. Once approved, you'll have access to your Razorpay dashboard and API keys.
 
+## **KYC Requirements**
+
+Completing KYC (Know Your Customer) is mandatory to activate your Razorpay account for live transactions. The required documents vary based on your business type.
+
+### Sole Proprietorship
+
+- **Identity Proof**: PAN card of the proprietor.
+- **Address Proof**: Aadhaar card, Passport, Voter ID, or Driving License.
+- **Business Proof**: Any one of the following:
+  - GST Registration Certificate
+  - Shop Establishment Certificate
+  - Udyog Aadhaar
+  - Certificate/license issued by municipal authorities
+
+### Partnership Firm
+
+- **Partnership Deed**
+- **PAN card of the firm**
+- **Address Proof**: Utility bills or bank statements in the firm's name
+- **KYC documents of all partners**
+
+### Private/Public Limited Company
+
+- **Certificate of Incorporation**
+- **PAN card of the company**
+- **Memorandum and Articles of Association**
+- **Board Resolution authorizing the signatory**
+- **KYC documents of authorized signatories**
+
+### Limited Liability Partnership (LLP)
+
+- **LLP Agreement**
+- **PAN card of the LLP**
+- **Certificate of Incorporation**
+- **KYC documents of designated partners**
+
+<Note>
+  Ensure that all documents are clear, legible, and up-to-date. The KYC verification process typically takes 2-3 working days.
+</Note>
+
 ## Connection Process
 
 <Steps>
@@ -68,7 +108,7 @@ To create a Razorpay account
     Input your Razorpay **Key ID** and **Key Secret**, which can be found in your Razorpay dashboard under **Settings** \> **API Keys**.
   </Step>
   <Step title="Configure Payment Settings">
-    After connecting, return to Kenko to configure your payment settings
+    After connecting, return to Kenko to configure your payment settings:
 
     1. Default payment methods to accept
     2. Automatic billing retry settings
@@ -83,7 +123,7 @@ After connecting Razorpay, we recommend testing the integration
 
 1. Go to **Admin Settings** \> **Billing & Payments** \> **Test Mode**
 2. Toggle **Test Mode** to ON
-3. Perform a test transaction using Razorpay's [test card numbers](https://razorpay.com/docs/payments/payment-gateway/test-card-details/)
+3. Perform a test transaction using Razorpay's [test card numbers](https://razorpay.com/docs/payments/payment-gateway/test-card-details/):
    - Test successful payment: 4111 1111 1111 1111
    - Test failed payment: 4000 0000 0000 0002
 4. Verify the test transaction appears in both Kenko and your Razorpay dashboard
@@ -158,7 +198,7 @@ If you need to disconnect your Razorpay account
   <Card title="Use Orders API" icon="file-invoice">
     Utilize Razorpay's Orders API to create orders before accepting payments, ensuring better tracking and reconciliation.
   </Card>
-  <Card title="Verify Signatures" icon="file-signature">
+  <Card title="Verify Signatures" icon="signature">
     Always verify the payment signature returned by Razorpay to ensure data integrity and authenticity.
   </Card>
   <Card title="Test Thoroughly" icon="flask">
