@@ -1,0 +1,222 @@
+---
+title: "Connecting Your Adyen Account"
+description: "Set up Adyen as your payment processor for Kenko to securely handle transactions"
+---
+
+# Adyen Account Setup
+
+Kenko partners with Adyen to provide secure, reliable payment processing for your fitness business. This guide will walk you through connecting your Adyen account to Kenko.
+
+## Why Kenko Needs Adyen
+
+Kenko integrates with Adyen to offer a seamless and secure payment experience. Adyen handles all aspects of payment processing, ensuring PCI-compliant transactions, offering global payment options, and simplifying recurring billing. By connecting Adyen, Kenko can manage payments efficiently, providing a smoother client experience and automated subscription management.
+
+## Benefits of Adyen Integration
+
+<CardGroup cols={2}>
+  <Card title="Global Reach" icon="globe">
+    Accept payments from customers worldwide with support for over 150 currencies and various local payment methods.
+  </Card>
+  <Card title="Unified Commerce" icon="arrow-rotate-left">
+    Integrate online, in-app, and in-person payments into a single platform for a seamless customer experience.
+  </Card>
+  <Card title="Advanced Fraud Protection" icon="shield">
+    Utilize Adyen's built-in risk management tools to detect and prevent fraudulent transactions.
+  </Card>
+  <Card title="Real-Time Reporting" icon="chart-line">
+    Access comprehensive dashboards and reports to monitor transactions and performance in real-time.
+  </Card>
+</CardGroup>
+
+## Before You Begin
+
+Before connecting Adyen to Kenko, ensure you have
+
+1. An active Kenko account with administrative privileges.
+2. An Adyen account (or be prepared to create one).
+3. Business details including
+   - Legal business name
+   - Business address
+   - Tax ID number
+   - Banking information for deposits
+
+<Note>
+  If you don't already have an Adyen account, you'll be able to create one during the connection process.
+</Note>
+
+## Creating an Adyen Account
+
+To create an Adyen account:
+
+1. **Sign Up for a Test Account**: Visit [Adyen's Get Started page](https://docs.adyen.com/get-started-with-adyen/) and sign up for a free test account. This gives you access to the test Customer Area, where you can manage your integration across regions and currencies.
+2. **Build Your Integration**: Start building your integration using your test account. Choose the integration that matches your business needs, such as online payments or in-person payments.
+3. **Apply for a Live Account**: Once you're ready to go live, apply for a live account. You'll need to provide
+   - Company registration documents
+   - Proof of tax information or VAT information
+   - Merchant bank statement (optional)
+   - Proof of identity and proof of residency
+
+   For more details, refer to [Adyen's application requirements](https://docs.adyen.com/get-started-with-adyen/application-requirements/).
+4. **Sign the Contract**: After your application is approved, Adyen will send you a contract. Complete and return it to gain access to your live Customer Area.
+5. **Configure Your Live Account**: Set up your live account settings, including payment methods, webhooks, and other configurations.
+
+## Connection Process
+
+<Steps>
+  <Step title="Access Payment Settings">
+    In your Kenko dashboard, navigate to **Admin Settings** \> **Billing & Payments** \> **Payment Processing**.
+  </Step>
+  <Step title="Select Adyen">
+    In the Payment Processors section, click **Connect** next to the Adyen option.
+  </Step>
+  <Step title="Choose Connection Type">
+    Select one of the following options
+
+    - **Connect existing Adyen account**: Link your current Adyen account.
+    - **Create new Adyen account**: Set up a new Adyen account through Kenko.
+  </Step>
+  <Step title="Authorize Connection">
+    You'll be redirected to Adyen's website to
+
+    1. Login to your existing Adyen account (or create a new one).
+    2. Review the permissions Kenko is requesting.
+    3. Authorize the connection.
+
+    <Warning>
+      Ensure you're granting access to the correct Adyen account, especially if you manage multiple businesses.
+    </Warning>
+  </Step>
+  <Step title="Complete Account Setup">
+    If this is a new Adyen account, you'll need to provide additional information
+
+    - Business details and address
+    - Banking information for deposits
+    - Identity verification documents
+
+    Existing accounts may already have this information, but verify it's correct.
+  </Step>
+  <Step title="Configure Payment Settings">
+    After connecting, return to Kenko to configure your payment settings
+
+    1. Default payment methods to accept
+    2. Automatic billing retry settings
+    3. Payment failure notifications
+    4. Receipt and invoice customization
+  </Step>
+</Steps>
+
+## Testing Your Connection
+
+After connecting Adyen, we recommend testing the integration
+
+1. Go to **Admin Settings** \> **Billing & Payments** \> **Test Mode**
+2. Toggle **Test Mode** to ON
+3. Perform a test transaction using Adyen's [test card numbers](https://docs.adyen.com/development-resources/test-cards/test-card-numbers)
+   - Test successful payment: 4111 1111 1111 1111
+   - Test failed payment: 4000 0000 0000 0002
+4. Verify the test transaction appears in both Kenko and your Adyen dashboard
+5. Toggle **Test Mode** OFF when finished testing
+
+<Warning>
+  Always remember to turn off Test Mode before processing real transactions.
+</Warning>
+
+## Common Connection Issues
+
+<AccordionGroup>
+  <Accordion title="Connection Timeout" icon="clock-rotate-left">
+    If your connection times out, try again and ensure you complete all steps on the Adyen site without delays.
+  </Accordion>
+  <Accordion title="Verification Problems" icon="id-card">
+    If Adyen requires additional verification, complete all requested steps in your Adyen dashboard before attempting to reconnect.
+  </Accordion>
+  <Accordion title="Disconnection Issues" icon="link-slash">
+    If your Adyen account becomes disconnected, check for:
+
+    - Expired API keys
+    - Account restrictions in Adyen
+    - Changes to your Adyen account status
+  </Accordion>
+  <Accordion title="Multiple Account Confusion" icon="screen-users">
+    If you have multiple Adyen accounts, ensure you're connecting the correct one by checking the email address associated with the account during authorization.
+  </Accordion>
+</AccordionGroup>
+
+## Managing Your Adyen Connection
+
+### Viewing Connected Account
+
+To view your connected Adyen account
+
+1. Go to **Admin Settings** \> **Billing & Payments** \> **Payment Processing**
+2. Look for the "Connected Account" section to see which Adyen account is connected
+
+### Disconnecting Adyen
+
+If you need to disconnect your Adyen account
+
+1. Go to **Admin Settings** \> **Billing & Payments** \> **Payment Processing**
+2. Click **Disconnect** next to your Adyen connection
+3. Confirm the disconnection
+
+<Warning>
+  Disconnecting your Adyen account will prevent all future payments from processing. Only disconnect if you're switching payment processors or closing your account.
+</Warning>
+
+## Adyen Fees Overview
+
+| Fee Type                | Rate/Amount                                  |
+| ----------------------- | -------------------------------------------- |
+| **Domestic Cards**      | Varies by country and card type              |
+| **International Cards** | Additional fees may apply                    |
+| **Currency Conversion** | Fees apply when converting currencies        |
+| **ACH Direct Debit**    | Varies by country                            |
+| **Dispute Fee**         | Varies by country                            |
+| **Refunds**             | Processing fees are not returned upon refund |
+
+_Note: Adyen's fees vary based on factors such as payment method, country, and transaction volume. Please refer to Adyen's official pricing documentation for detailed information._
+
+## Best Practices for Payment Integrations
+
+<CardGroup cols={2}>
+  <Card title="Enable 3D Secure" icon="shield-check">
+    Enhance security and reduce fraud by enabling 3D Secure for credit and debit card payments.
+  </Card>
+  <Card title="Use Webhooks" icon="webhook">
+    Implement webhooks to receive real-time updates on payment statuses, ensuring smooth transaction management.
+  </Card>
+  <Card title="Test Transactions" icon="address-card">
+    Use Adyen’s test mode to simulate transactions before going live, ensuring your payment system is fully operational.
+  </Card>
+  <Card title="Monitor Dashboard" icon="chart-line">
+    Regularly check the Adyen Dashboard to track payments, monitor trends, and quickly resolve issues.
+  </Card>
+  <Card title="Client Communication" icon="comment-dots">
+    Keep your clients informed about payment statuses, errors, and required actions to maintain a smooth customer experience.
+  </Card>
+</CardGroup>
+
+## Troubleshooting
+
+If you encounter issues with your payment integrations, try these common solutions
+
+- **Connection Issues**: Verify your API credentials are correct and up to date.
+- **Failed Payments**: Check that the payment method information is valid and has sufficient funds.
+- **Webhook Errors**: Ensure webhook endpoints are properly configured.
+- **Currency Mismatches**: Confirm that you've enabled the correct currencies in both Kenko and your payment processor.
+
+For additional assistance, contact [Kenko Support](mailto:support@gokenko.com).
+
+## Adyen's Global Presence
+
+Adyen has a strong global presence, with offices in major cities worldwide, including
+
+- **Europe**: Amsterdam, Berlin, Brussels, London, Madrid, Manchester, Milan, Munich, Paris, Prague, Stockholm, Warsaw
+- **Asia Pacific**: Bengaluru, Hong Kong, Kuala Lumpur, Mumbai, Shanghai, Singapore, Sydney, Tokyo
+- **North America**: Chicago, New York, San Francisco, Toronto
+- **Latin America**: São Paulo, Mexico City, São José dos Campos
+- **Middle East**: Dubai
+
+This extensive global network allows Adyen to support businesses in various regions, providing localized payment solutions and support.
+
+[_For more detailed information on Adyen's integration and features, please refer to Adyen's official documentation._](https://docs.adyen.com/)
