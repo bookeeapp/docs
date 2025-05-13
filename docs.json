@@ -223,14 +223,11 @@
 					{
 						"group": "Advanced Features",
 						"pages": [
-							"advanced/member-challenges",
-							"advanced/loyalty-program",
-							"advanced/digital-waivers",
-							"advanced/resource-booking",
                     {
 						"group": "Notifications (Auto-Messages)",
 						"pages": [
-							"/advanced/introduction-auto-messages"
+							"/advanced/introduction-auto-messages",
+                            "/advanced/setup-auto-messages"
                             
 						]
 					},
