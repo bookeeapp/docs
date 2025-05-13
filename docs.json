@@ -429,25 +429,7 @@
 							"integrations/marketplace",
 							"integrations/marketplace-gympass",
                             "integrations/marketplace-classpass",
-                            "integrations/marketing-myclubs"
-						]
-					},
-					{
-						"group": "📆 Google Calendar",
-						"pages": [
-							"integrations/google/setup-sync",
-							"integrations/google/two-way-sync",
-							"integrations/google/staff-calendars",
-							"integrations/google/troubleshooting"
-						]
-					},
-					{
-						"group": "💬 WhatsApp Messaging",
-						"pages": [
-							"integrations/whatsapp/connection",
-							"integrations/whatsapp/message-templates",
-							"integrations/whatsapp/automations",
-							"integrations/whatsapp/compliance"
+                            "integrations/marketplace-myclubs"
 						]
 					},
 					{
