@@ -211,16 +211,6 @@
 						]
 					},
 					{
-						"group": "Reports & Analytics",
-						"pages": [
-							"analytics/business-dashboard",
-							"analytics/attendance-reports",
-							"analytics/revenue-tracking",
-							"analytics/member-insights",
-							"analytics/export-data"
-						]
-					},
-					{
 						"group": "Admin Settings",
 						"pages": [
 							"admin/user-permissions",
@@ -236,7 +226,15 @@
 							"advanced/member-challenges",
 							"advanced/loyalty-program",
 							"advanced/digital-waivers",
-							"advanced/resource-booking"
+							"advanced/resource-booking",
+                    {
+						"group": "Notifications (Auto-Messages)",
+						"pages": [
+							"/advanced/introduction-auto-messages"
+                            
+						]
+					},
+                          "advanced/introduction-auto-messages"
 						]
 					},
 					{
