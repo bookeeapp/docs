@@ -423,6 +423,15 @@
 
 						]
 					},
+                  {
+						"group": "Marketplace",
+						"pages": [
+							"integrations/marketplace",
+							"integrations/marketplace-wellhub",
+                            "integrations/marketplace-classpass",
+                            "integrations/marketing-my-clubs"
+						]
+					},
 					{
 						"group": "📆 Google Calendar",
 						"pages": [
