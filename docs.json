@@ -416,8 +416,11 @@
 						"group": "Marketing",
 						"pages": [
 							"integrations/marketing-introduction",
-							"integrations/scheduling-gcal",
-                            "integrations/scheduling-zoom"
+							"integrations/marketing-google-analytics",
+                            "integrations/marketing-meta-pixel",
+                            "integrations/marketing-mailchimp",
+                            "integrations/marketing-zapier"
+
 						]
 					},
 					{
