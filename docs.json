@@ -231,6 +231,14 @@
                             
 						]
 					},
+                    {
+						"group": "Referrals",
+						"pages": [
+							"/advanced/introduction-referral",
+                            "/advanced/setup-referral"
+                            
+						]
+					},
                           "advanced/introduction-auto-messages"
 						]
 					},
