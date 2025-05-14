@@ -251,7 +251,8 @@
 						"group": "Forms & Agreements",
 						"pages": [
 							"/advanced/introduction-forms-waivers",
-                            "/advanced/setup-waivers"
+                            "/advanced/setup-waivers",
+                            "/advanced/setup-forms"
                             
 						]
 					},
