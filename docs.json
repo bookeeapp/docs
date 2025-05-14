@@ -247,6 +247,14 @@
                             
 						]
 					},
+                    {
+						"group": "Forms & Agreements",
+						"pages": [
+							"/advanced/introduction-forms-waivers",
+                            "/advanced/setup-waivers"
+                            
+						]
+					},
                           "advanced/introduction-auto-messages"
 						]
 					},
