@@ -239,6 +239,14 @@
                             
 						]
 					},
+                    {
+						"group": "Products",
+						"pages": [
+							"/advanced/introduction-products",
+                            "/advanced/setup-products"
+                            
+						]
+					},
                           "advanced/introduction-auto-messages"
 						]
 					},
