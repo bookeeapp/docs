@@ -213,9 +213,9 @@
 					{
 						"group": "Admin Settings",
 						"pages": [
-							"admin/user-permissions",
-							"admin/location-management",
-							"admin/branding-settings",
+							"admin/introduction",
+							"admin/roles-privileges",
+							"admin/staff",
 							"admin/notification-preferences",
 							"admin/account-security"
 						]
