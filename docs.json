@@ -196,14 +196,12 @@
                     {
 						"group": "Websites by Kenko",
 						"pages": [
-                            "website-app/websites-kenko-introduction",
-                            "website-app/website-kenko-setup" 
-                        ]
+                            "website-app/websites-kenko-introduction"                        ]
 					},
                     {
 						"group": "Kiosk by Kenko",
 						"pages": [
-                            "website/app-kiosk",
+                            "website-app/app-kiosk",
                             "website-app/kiosk-settings" 
                         ]
 					},
