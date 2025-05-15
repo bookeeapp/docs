@@ -247,29 +247,27 @@
                             
 						]
 					},
-                    {
-						"group": "Forms & Agreements",
-						"pages": [
-							"/advanced/introduction-forms-waivers",
-                            "/advanced/setup-waivers",
-                            "/advanced/setup-forms"
-                            
-						]
-					},
-                          "advanced/introduction-auto-messages"
-						]
-					},
-					{
-						"group": "Troubleshooting",
-						"pages": [
-							"troubleshooting/common-issues",
-							"troubleshooting/account-access",
-							"troubleshooting/payment-problems",
-							"troubleshooting/mobile-app-help"
-						]
-					}
-				]
-			},
+                          {
+                "group": "Forms & Agreements",
+                "pages": [
+                  "/advanced/introduction-forms-waivers",
+                  "/advanced/setup-waivers",
+                  "/advanced/setup-forms"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "troubleshooting/common-issues",
+              "troubleshooting/account-access",
+              "troubleshooting/payment-problems",
+              "troubleshooting/mobile-app-help"
+            ]
+          }
+        ]
+      },
 			{
 				"tab": "Guides",
 				"groups": [
