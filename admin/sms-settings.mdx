@@ -1,0 +1,136 @@
+---
+title: SMS Settings in Kenko
+description: Step-by-step guide to understanding and configuring SMS settings in Kenko, including phone number setup and US carrier registration compliance.
+---
+
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from 'mintlify/components';
+import { Step, Steps } from 'mintlify/components';
+
+# SMS Settings in Kenko
+
+Managing your SMS settings in Kenko is essential to ensure your communications reach your customers effectively and comply with regulations. Below is a comprehensive guide explaining each setting and its significance.
+
+---
+
+## Phone Number Setup
+
+Your phone number connects all communications for a specific location in Kenko. This unique number is used to send notifications, campaigns, and journey messages, all linked to your inbox for centralized management.
+
+<Accordion type="single" collapsible>
+  <AccordionItem value="distinct-number">
+    <AccordionTrigger>Why is a distinct phone number important?</AccordionTrigger>
+    <AccordionContent>
+      Each location requires a distinct phone number in Kenko to ensure proper message routing and to prevent communication errors. This separation helps keep conversations and customer data organized by location.
+    </AccordionContent>
+  </AccordionItem>
+
+  <AccordionItem value="compliance-status">
+    <AccordionTrigger>Compliance Status</AccordionTrigger>
+    <AccordionContent>
+      The compliance status (e.g., "Compliance pending") indicates whether your phone number is approved to send and receive SMS through Kenko. For example, your A2P10DLC compliance must be completed to use SMS features.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+
+---
+
+## US Carrier Registration Compliance
+
+Due to rising fraudulent calls and texts, US carriers require all businesses sending SMS through Kenko to be A2P10DLC compliant. This registration helps improve message deliverability and prevents carrier filtering or mislabeling your messages as spam.
+
+<Steps>
+  <Step number={1} title="Overview">
+    Registering your business with US carriers protects your messages from being filtered and improves text delivery rates. It also prevents caller ID from being marked as "possible spam" or "scam likely."
+  </Step>
+
+  <Step number={2} title="Fees and Process">
+    Registration involves a $4 brand registration fee and a $15 manual vetting fee, billed to your credit card on file. Additionally, there's a monthly $1.50 fee to maintain good standing with US carriers.
+  </Step>
+
+  <Step number={3} title="Rejection and Resubmission">
+    If your application is rejected, a $15 resubmission fee applies. All fees go directly to The Campaign Registry to help keep your registration valid.
+  </Step>
+
+  <Step number={4} title="Exceptions">
+    At this time, registration is only required for virtual phone numbers using Kenko. If you already have business phone numbers with Kenko, you do not need to register specific campaigns.
+  </Step>
+
+  <Step number={5} title="What Happens After Submission?">
+    After you submit your registration information:
+    <ul>
+      <li>The Campaign Registry reviews your application and vetting process.</li>
+      <li>You will receive confirmation if your registration is approved or if additional information is required.</li>
+      <li>Once approved, your SMS messages are less likely to be filtered or marked as spam by carriers.</li>
+    </ul>
+  </Step>
+
+  <Step number={6} title="SMS Regulations in Other Countries">
+    Regulations vary by country. Kenko supports compliance requirements in other regions, but these may differ from the US rules:
+    <ul>
+      <li>Some countries may require explicit opt-in from customers before sending SMS.</li>
+      <li>Carrier registration may or may not be mandatory depending on local laws.</li>
+      <li>Kenko keeps you informed of relevant requirements per country.</li>
+    </ul>
+    For detailed information, check local regulations or contact Kenko support.
+  </Step>
+</Steps>
+
+---
+
+## Detailed US Carrier Registration Information
+
+Kenko collects detailed legal and business information during registration to comply with US carrier rules. This includes:
+
+- Legal business name and tax filings verification
+- Business type and registration number
+- Contact and representative details
+- Messaging details and examples of typical messages sent
+
+Providing accurate and detailed information is crucial to avoid delays or rejection.
+
+---
+
+## Best Practices for SMS Settings and Messaging
+
+<Accordion type="single" collapsible>
+  <AccordionItem value="phone-number">
+    <AccordionTrigger>Use a Unique Phone Number per Location</AccordionTrigger>
+    <AccordionContent>
+      Assign one phone number per business location in Kenko to keep customer data organized and prevent message routing errors.
+    </AccordionContent>
+  </AccordionItem>
+
+  <AccordionItem value="opt-in">
+    <AccordionTrigger>Always Obtain Explicit Customer Consent</AccordionTrigger>
+    <AccordionContent>
+      Ensure customers have opted in to receive SMS messages to comply with regulations and improve engagement.
+    </AccordionContent>
+  </AccordionItem>
+
+  <AccordionItem value="accurate-info">
+    <AccordionTrigger>Provide Accurate Business and Messaging Information</AccordionTrigger>
+    <AccordionContent>
+      Fill all required registration fields carefully, including message examples, to avoid compliance delays or rejections.
+    </AccordionContent>
+  </AccordionItem>
+
+  <AccordionItem value="message-content">
+    <AccordionTrigger>Use Clear and Relevant Message Content</AccordionTrigger>
+    <AccordionContent>
+      Make your SMS content concise, clear, and relevant to reduce spam complaints and increase customer satisfaction.
+    </AccordionContent>
+  </AccordionItem>
+
+  <AccordionItem value="monitoring">
+    <AccordionTrigger>Regularly Monitor SMS Deliverability and Compliance Status</AccordionTrigger>
+    <AccordionContent>
+      Keep an eye on your compliance status and message delivery reports to promptly resolve any issues.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+
+---
+
+If you have questions or need help with SMS settings, please contact [Kenko Support](mailto:support@gokenko.com).
+
+
