@@ -218,7 +218,11 @@
 							"admin/roles-privileges",
 							"admin/staff",
 							"admin/staff-attendance",
-							"admin/task-management"
+							"admin/task-management",
+                            "admin/introduction-communication",
+                            "admin/email-settings",
+                            "admin/inbox-email-forwarding-outlook",
+                            "admin/sms-settings"
 						]
 					},
 					{
