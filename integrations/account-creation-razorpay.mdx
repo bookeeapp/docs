@@ -117,22 +117,6 @@ Completing KYC (Know Your Customer) is mandatory to activate your Razorpay accou
   </Step>
 </Steps>
 
-## Testing Your Connection
-
-After connecting Razorpay, we recommend testing the integration
-
-1. Go to **Admin Settings** \> **Billing & Payments** \> **Test Mode**
-2. Toggle **Test Mode** to ON
-3. Perform a test transaction using Razorpay's [test card numbers](https://razorpay.com/docs/payments/payment-gateway/test-card-details/):
-   - Test successful payment: 4111 1111 1111 1111
-   - Test failed payment: 4000 0000 0000 0002
-4. Verify the test transaction appears in both Kenko and your Razorpay dashboard
-5. Toggle **Test Mode** OFF when finished testing
-
-<Warning>
-  Always remember to turn off Test Mode before processing real transactions.
-</Warning>
-
 ## Common Connection Issues
 
 <AccordionGroup>
@@ -141,9 +125,6 @@ After connecting Razorpay, we recommend testing the integration
   </Accordion>
   <Accordion title="KYC Verification Pending" icon="id-card">
     Transactions may be restricted until your KYC verification is complete. Check your Razorpay dashboard for status updates.
-  </Accordion>
-  <Accordion title="Disconnection Issues" icon="link-slash">
-    If your Razorpay account becomes disconnected, re-enter your API credentials in Kenko's payment settings.
   </Accordion>
   <Accordion title="Webhook Failures" icon="webhook">
     Ensure that your webhook URLs are correctly configured in the Razorpay dashboard to receive payment status updates.
@@ -158,18 +139,6 @@ To view your connected Razorpay account
 
 1. Go to **Admin Settings** \> **Billing & Payments** \> **Payment Processing**
 2. Look for the "Connected Account" section to see which Razorpay account is connected
-
-### Disconnecting Razorpay
-
-If you need to disconnect your Razorpay account
-
-1. Go to **Admin Settings** \> **Billing & Payments** \> **Payment Processing**
-2. Click **Disconnect** next to your Razorpay connection
-3. Confirm the disconnection
-
-<Warning>
-  Disconnecting your Razorpay account will prevent all future payments from processing. Only disconnect if you're switching payment processors or closing your account.
-</Warning>
 
 ## Razorpay Fees Overview
 
