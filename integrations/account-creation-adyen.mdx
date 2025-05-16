@@ -105,22 +105,6 @@ To create an Adyen account:
   </Step>
 </Steps>
 
-## Testing Your Connection
-
-After connecting Adyen, we recommend testing the integration
-
-1. Go to **Admin Settings** \> **Billing & Payments** \> **Test Mode**
-2. Toggle **Test Mode** to ON
-3. Perform a test transaction using Adyen's [test card numbers](https://docs.adyen.com/development-resources/test-cards/test-card-numbers)
-   - Test successful payment: 4111 1111 1111 1111
-   - Test failed payment: 4000 0000 0000 0002
-4. Verify the test transaction appears in both Kenko and your Adyen dashboard
-5. Toggle **Test Mode** OFF when finished testing
-
-<Warning>
-  Always remember to turn off Test Mode before processing real transactions.
-</Warning>
-
 ## Common Connection Issues
 
 <AccordionGroup>
@@ -129,13 +113,6 @@ After connecting Adyen, we recommend testing the integration
   </Accordion>
   <Accordion title="Verification Problems" icon="id-card">
     If Adyen requires additional verification, complete all requested steps in your Adyen dashboard before attempting to reconnect.
-  </Accordion>
-  <Accordion title="Disconnection Issues" icon="link-slash">
-    If your Adyen account becomes disconnected, check for:
-
-    - Expired API keys
-    - Account restrictions in Adyen
-    - Changes to your Adyen account status
   </Accordion>
   <Accordion title="Multiple Account Confusion" icon="screen-users">
     If you have multiple Adyen accounts, ensure you're connecting the correct one by checking the email address associated with the account during authorization.
@@ -150,18 +127,6 @@ To view your connected Adyen account
 
 1. Go to **Admin Settings** \> **Billing & Payments** \> **Payment Processing**
 2. Look for the "Connected Account" section to see which Adyen account is connected
-
-### Disconnecting Adyen
-
-If you need to disconnect your Adyen account
-
-1. Go to **Admin Settings** \> **Billing & Payments** \> **Payment Processing**
-2. Click **Disconnect** next to your Adyen connection
-3. Confirm the disconnection
-
-<Warning>
-  Disconnecting your Adyen account will prevent all future payments from processing. Only disconnect if you're switching payment processors or closing your account.
-</Warning>
 
 ## Adyen Fees Overview
 
