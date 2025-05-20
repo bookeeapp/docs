@@ -1,0 +1,111 @@
+---
+title: "Stripe POS Terminal Connection Guide"
+description: "Learn how to connect your Stripe POS terminal to Kenko and start accepting in-person payments with ease."
+---
+
+import { Card, CardGroup, Steps, Step, AccordionGroup, Accordion, Callout, Info } from '@mintlify/components'
+
+# Get Paid Like a Pro: Connect Your Stripe POS Terminal to Kenko
+
+Want to start collecting payments in person at your gym or studio? This guide walks you through how to connect your **Stripe POS Terminal** to Kenko — step-by-step — so you can accept cards, phones, and watches like a boss 💳💥
+
+## Why Use Stripe with Kenko?
+
+<CardGroup cols={2}>
+  <Card title="Fast Checkout" icon="bolt">
+    Accept payments in seconds. No need to fumble through tabs or devices — Stripe \+ Kenko makes in-person billing quick and easy.
+  </Card>
+  <Card title="Seamless CRM Integration" icon="link">
+    Stripe terminals connect directly with your CRM, so all customer payments and records are stored automatically.
+  </Card>
+  <Card title="Multiple Locations Ready" icon="globe">
+    Register devices per location and scale operations without tech headaches.
+  </Card>
+  <Card title="Secure & Compliant" icon="shield">
+    Stripe takes care of PCI compliance and secure card handling. You stay protected without doing any extra legwork.
+  </Card>
+</CardGroup>
+
+## What You'll Need
+
+- A supported **Stripe Reader** device
+- A registered **Stripe account**
+- Access to your **Kenko CRM** admin panel
+
+Supported readers:
+
+- **Stripe BBPOS WisePOS E**
+- **Stripe BBPOS WisePad 3**
+
+## How to Register and Set Up Your Terminal
+
+<Steps>
+  <Step title="Register your business location with Stripe">
+    Go to your [Stripe Dashboard](https://dashboard.stripe.com/register) and make sure your **location in Stripe** matches your **Kenko CRM location**.
+
+    <Info>
+      If your Stripe location doesn't match the CRM, the connection will fail.
+    </Info>
+  </Step>
+  <Step title="Navigate to Reader Registration in Stripe">
+    From your Stripe dashboard, go to Terminal → Locations and click Register Reader.
+    Give your location a name that matches the one in Kenko.
+  </Step>
+  <Step title="Power up the Stripe Reader">
+    Turn on your reader and navigate to the screen where it shows a pairing code.
+    The format should look like: <code>
+      WSC-###
+    </code>
+     or <code>
+      CSR-###
+    </code>
+  </Step>
+  <Step title="Enter the pairing code in Stripe">
+    In your Stripe dashboard, input the pairing code under the "Register Reader" modal and assign the device to a location.
+  </Step>
+  <Step title="Success! Device now shows in your dashboard">
+    Once registered, you'll see your reader listed and ready to connect to Kenko.
+  </Step>
+</Steps>
+
+## Linking Stripe Reader with Kenko
+
+Now that your terminal is registered, it's time to connect it in Kenko.
+
+<Steps>
+  <Step title="Head to Settings > Stripe > Card Readers">
+    You'll see a list of registered readers from Stripe.
+  </Step>
+  <Step title="Click 'Connect' on your desired reader">
+    Select the reader you'd like to connect to your POS.
+  </Step>
+  <Step title="That's it – you're good to go!">
+    Once connected, you can use the terminal for POS payments.
+    No need to reconnect unless you reset the terminal.
+  </Step>
+</Steps>
+
+## Use Cases
+
+<AccordionGroup>
+  <Accordion title="In-Studio Payments" icon="credit-card">
+    Whether you're at the front desk or walking the floor, take payments for drop-ins, plans, or memberships without logging into another system.
+  </Accordion>
+  <Accordion title="Retail or Supplement Sales" icon="shirt">
+    Sell smoothies, protein bars, or gear right from your point-of-sale setup using the Stripe terminal.
+  </Accordion>
+  <Accordion title="Multi-Location Setup" icon="location-pin">
+    Register readers for each branch and easily track transactions across all your outlets — all inside Kenko.
+  </Accordion>
+</AccordionGroup>
+
+<Info>
+  If you have issues pairing your reader, double-check that your Stripe location name matches your Kenko CRM location exactly — this is a common setup hiccup.
+</Info>
+
+<Info>
+  Want to see it in action? [Book a Demo](https://www.gokenko.com/demo/get-demo)
+  Questions? [Contact Sales](mailto:sales@gokenko.com)
+</Info>
+
+Need help? Reach out to [support@gokenko.com](mailto:support@gokenko.com).
