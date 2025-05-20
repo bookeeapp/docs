@@ -5,7 +5,7 @@ description: "Learn how to connect your Stripe POS terminal to Kenko and start a
 
 import { Card, CardGroup, Steps, Step, AccordionGroup, Accordion, Callout, Info } from '@mintlify/components'
 
-# Get Paid Like a Pro: Connect Your Stripe POS Terminal to Kenko
+# Get Paid Like a Pro - Connect Your Stripe POS Terminal to Kenko
 
 Want to start collecting payments in person at your gym or studio? This guide walks you through how to connect your **Stripe POS Terminal** to Kenko — step-by-step — so you can accept cards, phones, and watches like a boss 💳💥
 
@@ -101,6 +101,52 @@ Now that your terminal is registered, it's time to connect it in Kenko.
 
 <Info>
   If you have issues pairing your reader, double-check that your Stripe location name matches your Kenko CRM location exactly — this is a common setup hiccup.
+</Info>
+
+## Troubleshooting Common Issues with Stripe POS Terminal
+
+Having trouble connecting or using your Stripe POS Terminal with Kenko? Here are some common issues and how to fix them:
+
+<AccordionGroup>
+  <Accordion title="Terminal Not Showing Up in Stripe Dashboard" icon="file-magnifying-glass">
+    - Ensure your Stripe account is fully verified and active.
+    - Confirm the Stripe location name matches exactly with your Kenko CRM location.
+    - Check that the terminal device is powered on and displaying a pairing code.
+    - Try restarting your Stripe Reader and re-attempt registration.
+  </Accordion>
+  <Accordion title="Pairing Code Not Accepted" icon="key">
+    - Double-check the pairing code format (e.g., <code>
+        WSC-###
+      </code>
+       or <code>
+        CSR-###
+      </code>
+      ).
+    - Make sure you are entering the code for the correct location in Stripe.
+    - Verify your internet connection is stable during pairing.
+    - If the issue persists, reset the reader and generate a new pairing code.
+  </Accordion>
+  <Accordion title="Payments Not Processing" icon="ban">
+    - Confirm the Stripe Reader is connected to Kenko in the Settings panel.
+    - Verify your Stripe account has sufficient permissions and no holds.
+    - Ensure your device firmware is up to date.
+    - Check your network connectivity and firewall settings that might block payment authorization.
+  </Accordion>
+  <Accordion title="Reader Disconnects Frequently" icon="signal-stream-slash">
+    - Place the reader closer to your Wi-Fi router or Ethernet connection.
+    - Restart both your Stripe Reader and network equipment.
+    - Avoid having multiple devices competing for bandwidth.
+    - If using Bluetooth, ensure no interference and maintain close proximity.
+  </Accordion>
+  <Accordion title="Terminal Reset or Lost Connection" icon="rotate">
+    - After a terminal reset, you need to reconnect it to Stripe and Kenko.
+    - Follow the registration and pairing steps again.
+    - Keep your terminal powered on and connected during this process.
+  </Accordion>
+</AccordionGroup>
+
+<Info>
+  If you continue to experience issues, contact Kenko Support or check Stripe's official Terminal Documentation for more advanced troubleshooting.
 </Info>
 
 <Info>
