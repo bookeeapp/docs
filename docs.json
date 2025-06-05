@@ -291,12 +291,12 @@
                         ]
                     },
                     {
-                        "group": "👋 Launch a Referral Program",
+                        "group": "Setup Guides",
                         "pages": [
-                            "guides/referrals/program-setup",
-                            "guides/referrals/tracking-referrals",
-                            "guides/referrals/rewarding-members",
-                            "guides/referrals/best-practices"
+                            "guides/zero-dollar-subscriptions",
+                            "guides/recording-links-online-sessions",
+                            "guides/stripe-terminal-connection-guide",
+                            "guides/spammy-email"
                         ]
                     },
                     {
