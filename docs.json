@@ -264,12 +264,24 @@
                 "tab": "Guides",
                 "groups": [
                     {
-                        "group": "🛤️ Grow Your Studio with Journeys",
+                        "group": "Grow Your Studio with Journeys",
                         "pages": [
                             "guides/journeys/introduction",
                             "guides/journeys/setup-journey",
                             "guides/journeys/tracking-progress",
-                            "guides/journeys/journey-templates"
+                            "guides/journeys/journey-templates",
+                            "guides/journey-analytics",
+                            "guides/journeys-fup",
+                            "guides/journeys-special-actionss",
+                            "guides/journeys-entry-exit-goal",
+                            "guides/journey-template-lead-nurture",
+                            "guides/journey-template-intro-offer",
+                            "guides/journey-template-client-engagement",
+                            "guides/journey-template-ghost-client",
+                            "guides/journey-rwg",
+                            "guides/journey-template-milestone",
+                            "guides/journey-template-winback",
+                            "guides/journey-template-best-practices"
                         ]
                     },
                     {
