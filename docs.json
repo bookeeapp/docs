@@ -300,7 +300,7 @@
                         ]
                     },
                     {
-                        "group": "🔄 Migrate from Mindbody",
+                        "group": "Payment Guides",
                         "pages": [
                             "guides/migration/preparation",
                             "guides/migration/data-export",
