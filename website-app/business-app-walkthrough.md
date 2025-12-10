@@ -1,80 +1,62 @@
 ---
-title: "Business App Deep Dive"
-description: "Explore how the Kenko Business App empowers staff to manage calendars, clients, payments, and profiles — all from their phones."
+title: Business App Deep Dive
+description: >-
+  Explore how the Kenko Business App empowers staff to manage calendars,
+  clients, payments, and profiles — all from their phones.
 ---
 
-# Kenko Business App Walkthrough
+# Business App Walkthrough
 
 The **Kenko Business App** is designed for instructors, front-desk staff, and managers to carry out day-to-day operations directly from their mobile devices. It’s built for speed, ease, and on-the-go efficiency — while staying tightly integrated with your CRM.
 
-<Note>
-  Only the following 4 modules are available on the Business App i.e. **Calendar, Contacts, POS, and Profile**.
+Only the following 4 modules are available on the Business App i.e. \*\*Calendar, Contacts, POS, and Profile\*\*.
 
-  All other configurations and features (e.g., setup, analytics, reporting, admin controls) are available only via the main Kenko CRM.
-</Note>
+All other configurations and features (e.g., setup, analytics, reporting, admin controls) are available only via the main Kenko CRM.
 
-## Core Modules Overview
+### Core Modules Overview
 
-<CardGroup cols="2">
-  <Card title="Calendar" icon="calendar">
-    View and manage daily class schedules, check-ins, and appointment attendance.
+View and manage daily class schedules, check-ins, and appointment attendance.
 
-    Filter by Instructor or Facility for ease of use.
-  </Card>
-  <Card title="Contacts" icon="users">
-    Access member profiles, visit history, timeline, memberships, and perform key actions like check-in, editing profile or adding note.
-  </Card>
-  <Card title="POS (Point of Sale)" icon="credit-card">
-    Sell memberships, packs, and products directly from the app — generate instant receipts.
-  </Card>
-  <Card title="Profile" icon="circle-user">
-    View your profile, attendance, referrals, location, and switch between studios if applicable.
-  </Card>
-</CardGroup>
+```
+Filter by Instructor or Facility for ease of use.
+```
 
-## Calendar Module
+Access member profiles, visit history, timeline, memberships, and perform key actions like check-in, editing profile or adding note. Sell memberships, packs, and products directly from the app — generate instant receipts. View your profile, attendance, referrals, location, and switch between studios if applicable.
 
-<AccordionGroup>
-  <Accordion title="View today's class and appointment schedule" icon="calendar">
-    See your daily schedule in a mobile-friendly format with date, time, instructor, and booking status clearly listed.
+### Calendar Module
 
-   <div style={{ display:"flex", justifyContent:"center" }}>
-      <img src="/images/Screenshot_20250507_121432_KenkoBusiness.jpg" style={{ maxWidth:"60%", borderRadius:"8px" }} alt="Calendar view" />
-    </div>
-  </Accordion>
-  <Accordion title="Filter by Facility & Instructor" icon="filter">
-    Quickly switch between different rooms or locations to narrow your calendar view.
+See your daily schedule in a mobile-friendly format with date, time, instructor, and booking status clearly listed.
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-05-07at12.20.20PM.png"
-      className="w-[300px] rounded-lg"
-      alt="Calendar filter"
-    />
+![Calendar view](../.gitbook/assets/Screenshot_20250507_121432_KenkoBusiness.jpg)
 
-    </div>
-  </Accordion>
-  <Accordion title="See booked spots vs. capacity" icon="user-check">
-    Each class tile shows real-time booking counts versus maximum allowed attendance.
-  </Accordion>
-  <Accordion title="Add members to session" icon="badge-check">
-    From any session, you can
+Quickly switch between different rooms or locations to narrow your calendar view.
 
-    - View the Customer roster
-    - Mark clients as checked-in
-    - Book a client directly into the session
+```
+<div className="flex justify-center">
+<img
+  src="/images/Screenshot2025-05-07at12.20.20PM.png"
+  className="w-[300px] rounded-lg"
+  alt="Calendar filter"
+/>
 
-    ![Screenshot 20250507 121506 Kenko Business Jp](/images/Screenshot_20250507_121506_KenkoBusiness.jpg)
+</div>
+```
 
-    <div className="flex justify-center" />
-  </Accordion>
-</AccordionGroup>
+Each class tile shows real-time booking counts versus maximum allowed attendance. From any session, you can
 
-<Tip>
-  Drag down to refresh the calendar if new bookings are made in real time.
-</Tip>
+```
+- View the Customer roster
+- Mark clients as checked-in
+- Book a client directly into the session
 
-### CRM Comparison for Calendar
+![Screenshot 20250507 121506 Kenko Business Jp](/images/Screenshot_20250507_121506_KenkoBusiness.jpg)
+
+<div className="flex justify-center" />
+```
+
+Drag down to refresh the calendar if new bookings are made in real time.
+
+#### CRM Comparison for Calendar
 
 | Feature                   | CRM (Web) | Business App |
 | ------------------------- | --------- | ------------ |
@@ -85,68 +67,70 @@ The **Kenko Business App** is designed for instructors, front-desk staff, and ma
 | View instructor notes     | Yes       | Yes          |
 | Create new sessions       | Yes       | No           |
 
-## Contacts Module
+### Contacts Module
 
-<AccordionGroup>
-  <Accordion title="Search by name, phone, or email" icon="building-magnifying-glass">
-    Quickly find any contact using smart search that works across multiple fields.
+Quickly find any contact using smart search that works across multiple fields.
 
-    ![Screenshot 20250507 132143 Kenko Business Jp](/images/Screenshot_20250507_132143_KenkoBusiness.jpg)
+```
+![Screenshot 20250507 132143 Kenko Business Jp](/images/Screenshot_20250507_132143_KenkoBusiness.jpg)
 
-    <div className="flex justify-center" />
-  </Accordion>
-  <Accordion title="View Booking Details" icon="id-card">
-    Access a member’s credits, active subscriptions, last visit date, and next booking.
+<div className="flex justify-center" />
+```
 
-    ![Screenshot 20250507 133902 Kenko Business Jp](/images/Screenshot_20250507_133902_KenkoBusiness.jpg)
+Access a member’s credits, active subscriptions, last visit date, and next booking.
 
-    <div className="flex justify-center" />
-  </Accordion>
-  <Accordion title="Check-in clients manually" icon="user-check">
-    Instantly check-in a client on arrival, even if they haven’t self-scanned.
+```
+![Screenshot 20250507 133902 Kenko Business Jp](/images/Screenshot_20250507_133902_KenkoBusiness.jpg)
 
-    ![Screenshot 20250507 121539 Kenko Business Jp](/images/Screenshot_20250507_121539_KenkoBusiness.jpg)
+<div className="flex justify-center" />
+```
 
-    <div className="flex justify-center" />
-  </Accordion>
-  <Accordion title="View Notes and Contact Timeline" icon="file-lines">
-    See internal notes or visit logs left by other staff. You can also check the timelines of the member's activity.
+Instantly check-in a client on arrival, even if they haven’t self-scanned.
 
-    ![Screenshot 20250507 133914 Kenko Business Jp](/images/Screenshot_20250507_133914_KenkoBusiness.jpg)
+```
+![Screenshot 20250507 121539 Kenko Business Jp](/images/Screenshot_20250507_121539_KenkoBusiness.jpg)
 
-    <div className="flex justify-center" />
-  </Accordion>
-  <Accordion title="View Member's Membership Details" icon="money-bill-simple-wave">
-    Take a quick glance at the summary and the membership details of the Member.
+<div className="flex justify-center" />
+```
 
-    ![Screenshot 20250507 132309 Kenko Business Jp](/images/Screenshot_20250507_132309_KenkoBusiness.jpg)
+See internal notes or visit logs left by other staff. You can also check the timelines of the member's activity.
 
-    <div className="flex justify-center" />
-  </Accordion>
-  <Accordion title="Access Payment Details" icon="address-card">
-    View and add payment methods for a member from their profiles. Additionally, view all the payments made by the customer.
+```
+![Screenshot 20250507 133914 Kenko Business Jp](/images/Screenshot_20250507_133914_KenkoBusiness.jpg)
 
-    <Note>
-      Additional actions on payments cannot be made from the Business app.
-    </Note>
-    ![Screenshot 20250507 133910 Kenko Business Jp](/images/Screenshot_20250507_133910_KenkoBusiness.jpg)
+<div className="flex justify-center" />
+```
 
-    <div className="flex justify-center" />
-  </Accordion>
-  <Accordion title="Document and Waivers for Members" icon="file-contract">
-    View all the Waivers and Forms filled/signed by the member. You can additionally send them waivers over email right from the business app.
+Take a quick glance at the summary and the membership details of the Member.
 
-    ![Screenshot 20250507 133925 Kenko Business Jp](/images/Screenshot_20250507_133925_KenkoBusiness.jpg)
+```
+![Screenshot 20250507 132309 Kenko Business Jp](/images/Screenshot_20250507_132309_KenkoBusiness.jpg)
 
-    <div className="flex justify-center" />
-  </Accordion>
-</AccordionGroup>
+<div className="flex justify-center" />
+```
 
+View and add payment methods for a member from their profiles. Additionally, view all the payments made by the customer.
+
+```
 <Note>
-  Staff can only access contacts based on their role permissions defined in the CRM.
+  Additional actions on payments cannot be made from the Business app.
 </Note>
+![Screenshot 20250507 133910 Kenko Business Jp](/images/Screenshot_20250507_133910_KenkoBusiness.jpg)
 
-### CRM Comparison for Contacts
+<div className="flex justify-center" />
+```
+
+View all the Waivers and Forms filled/signed by the member. You can additionally send them waivers over email right from the business app.
+
+```
+![Screenshot 20250507 133925 Kenko Business Jp](/images/Screenshot_20250507_133925_KenkoBusiness.jpg)
+
+<div className="flex justify-center" />
+```
+
+Staff can only access contacts based on their role permissions defined in the CRM.
+
+#### CRM Comparison for Contacts
 
 | Feature                | CRM (Web) | Business App |
 | ---------------------- | --------- | ------------ |
@@ -157,47 +141,33 @@ The **Kenko Business App** is designed for instructors, front-desk staff, and ma
 | Membership overview    | Yes       | Yes          |
 | Assign subscriptions   | Yes       | No           |
 
-## POS Module
+### POS Module
 
-<AccordionGroup>
-  <Accordion title="Choose a member to start a sale" icon="user-plus">
-    Select the purchasing member from your contact list by searching them on the search bar.
+Select the purchasing member from your contact list by searching them on the search bar.
 
-    ![Screenshot 20250507 152451 Kenko Business Jp](/images/Screenshot_20250507_152451_KenkoBusiness.jpg)
+```
+![Screenshot 20250507 152451 Kenko Business Jp](/images/Screenshot_20250507_152451_KenkoBusiness.jpg)
 
-    <div className="flex justify-center" />
-  </Accordion>
-  <Accordion title="Sell Memberships" icon="ticket">
-    Add pricing options directly to the cart and sell it to the user to enable them to book any class or appointment.
+<div className="flex justify-center" />
+```
 
-    ![Screenshot 20250507 152533 Kenko Business Jp](/images/Screenshot_20250507_152533_KenkoBusiness.jpg)
+Add pricing options directly to the cart and sell it to the user to enable them to book any class or appointment.
 
-    <div className="flex justify-center" />
-  </Accordion>
-  <Accordion title="Add retail items" icon="box">
-    Include products like water bottles, supplements, or gear to your sale.
+```
+![Screenshot 20250507 152533 Kenko Business Jp](/images/Screenshot_20250507_152533_KenkoBusiness.jpg)
 
-    ![Screenshot 20250507 152459 Kenko Business Jp](/images/Screenshot_20250507_152459_KenkoBusiness.jpg)
-  </Accordion>
-  <Accordion title="Apply discount codes" icon="percent">
-    Enter valid discount codes at checkout to apply member-specific or seasonal offers.
-  </Accordion>
-  <Accordion title="Select and process payment" icon="credit-card">
-    Accept stored cards, new card entries, UPI, or offline modes depending on your setup.
-  </Accordion>
-  <Accordion title="Sell Courses" icon="court-sport">
-    You can also sell Courses on the POS on the Business App.
-  </Accordion>
-  <Accordion title="Select Gift Cards for Sale" icon="gift-card">
-    Chosen Gift Cards can be sold on the business app to the clients.
-  </Accordion>
-</AccordionGroup>
+<div className="flex justify-center" />
+```
 
-<Info>
-  POS actions performed in the app are synced in real time with CRM reporting and billing history.
-</Info>
+Include products like water bottles, supplements, or gear to your sale.
 
-### CRM Comparison for POS Module
+```
+![Screenshot 20250507 152459 Kenko Business Jp](/images/Screenshot_20250507_152459_KenkoBusiness.jpg)
+```
+
+Enter valid discount codes at checkout to apply member-specific or seasonal offers. Accept stored cards, new card entries, UPI, or offline modes depending on your setup. You can also sell Courses on the POS on the Business App. Chosen Gift Cards can be sold on the business app to the clients. POS actions performed in the app are synced in real time with CRM reporting and billing history.
+
+#### CRM Comparison for POS Module
 
 | Feature                     | CRM (Web) | Business App |
 | --------------------------- | --------- | ------------ |
@@ -207,71 +177,63 @@ The **Kenko Business App** is designed for instructors, front-desk staff, and ma
 | Create custom invoices      | Yes       | No           |
 | Edit invoice after creation | Yes       | No           |
 
-## Profile Module for Staff
+### Profile Module for Staff
 
-<AccordionGroup>
-  <Accordion title="View your Profile as a Staff" icon="circle-user">
-    Instantly see your profile and default location.
+Instantly see your profile and default location.
 
-    ![Screenshot 20250508 112155 Kenko Business Jp](/images/Screenshot_20250508_112155_KenkoBusiness.jpg)
-  </Accordion>
-  <Accordion title="Switch locations" icon="location-crosshairs">
-    Toggle between branches (if multi-location access is granted) to the Staff.
-  </Accordion>
-  <Accordion title="Clock-in & Clock-out" icon="user-clock">
-    Log your working hours directly within the app.
+```
+![Screenshot 20250508 112155 Kenko Business Jp](/images/Screenshot_20250508_112155_KenkoBusiness.jpg)
+```
 
-    ![Screenshot 20250508 112239 Kenko Business Jp](/images/Screenshot_20250508_112239_KenkoBusiness.jpg)
-  </Accordion>
-  <Accordion title="Logout securely" icon="lock-open">
-    Log out of your session safely after every use, especially on shared devices.
-  </Accordion>
-  <Accordion title="Refer and Earn" icon="square-user">
-    Staff referrals earn rewards when they suggest Kenko to other businesses.
+Toggle between branches (if multi-location access is granted) to the Staff. Log your working hours directly within the app.
 
-    ![Screenshot 20250508 112253 Kenko Business Jp](/images/Screenshot_20250508_112253_KenkoBusiness.jpg)
-  </Accordion>
-</AccordionGroup>
+```
+![Screenshot 20250508 112239 Kenko Business Jp](/images/Screenshot_20250508_112239_KenkoBusiness.jpg)
+```
 
-<Note>
-  Access permissions are mapped to your user role in CRM → Admin → User Management.
-</Note>
+Log out of your session safely after every use, especially on shared devices. Staff referrals earn rewards when they suggest Kenko to other businesses.
 
-## Quick-Actions on the Business App
+```
+![Screenshot 20250508 112253 Kenko Business Jp](/images/Screenshot_20250508_112253_KenkoBusiness.jpg)
+```
 
-<AccordionGroup>
-  <Accordion title="Clock-in" icon="user-clock">
-    Clock-in and Clock-out times where Logged hours are stored based on which even compensation is also calculated.
+Access permissions are mapped to your user role in CRM → Admin → User Management.
 
-    ![Screenshot 20250507 173805 Kenko Business Jp](/images/Screenshot_20250507_173805_KenkoBusiness.jpg)
-  </Accordion>
-  <Accordion title="New Signup" icon="ticket">
-    Staff can log in new member sign-ups with QR codes that redirect them to the signup page.
+### Quick-Actions on the Business App
 
-    ![Screenshot 20250507 173819 Kenko Business Jp](/images/Screenshot_20250507_173819_KenkoBusiness.jpg)
-  </Accordion>
-  <Accordion title="Class" icon="users-line">
-    Create a new class session directly on the app. Such events are detached events.
+Clock-in and Clock-out times where Logged hours are stored based on which even compensation is also calculated.
 
-    ![Screenshot 20250507 173837 Kenko Business Jp](/images/Screenshot_20250507_173837_KenkoBusiness.jpg)
-  </Accordion>
-  <Accordion title="Appointment" icon="calendar-users">
-    Create appointment sessions (private/semi-private).
+```
+![Screenshot 20250507 173805 Kenko Business Jp](/images/Screenshot_20250507_173805_KenkoBusiness.jpg)
+```
 
-    ![Screenshot 20250507 173851 Kenko Business Jp](/images/Screenshot_20250507_173851_KenkoBusiness.jpg)
-  </Accordion>
-  <Accordion title="Block time" icon="shield-halved">
-    Block time for instructors/facilities when unavailable for bookings.
+Staff can log in new member sign-ups with QR codes that redirect them to the signup page.
 
-    ![Screenshot 20250507 173858 Kenko Business Jp](/images/Screenshot_20250507_173858_KenkoBusiness.jpg)
-  </Accordion>
-</AccordionGroup>
+```
+![Screenshot 20250507 173819 Kenko Business Jp](/images/Screenshot_20250507_173819_KenkoBusiness.jpg)
+```
 
-<Info>
-  POS actions performed in the app are synced in real time with CRM reporting and billing history.
-</Info>
+Create a new class session directly on the app. Such events are detached events.
 
-## CRM vs. Business App Feature Matrix
+```
+![Screenshot 20250507 173837 Kenko Business Jp](/images/Screenshot_20250507_173837_KenkoBusiness.jpg)
+```
+
+Create appointment sessions (private/semi-private).
+
+```
+![Screenshot 20250507 173851 Kenko Business Jp](/images/Screenshot_20250507_173851_KenkoBusiness.jpg)
+```
+
+Block time for instructors/facilities when unavailable for bookings.
+
+```
+![Screenshot 20250507 173858 Kenko Business Jp](/images/Screenshot_20250507_173858_KenkoBusiness.jpg)
+```
+
+POS actions performed in the app are synced in real time with CRM reporting and billing history.
+
+### CRM vs. Business App Feature Matrix
 
 | Feature Area               | CRM (Web) Full Access | Business App |
 | -------------------------- | --------------------- | ------------ |
@@ -288,16 +250,14 @@ The **Kenko Business App** is designed for instructors, front-desk staff, and ma
 | Mobile Optimization        | No                    | Yes          |
 | Advance Settings           | Yes                   | No           |
 
-## How to Get Started
+### How to Get Started
 
-- Download the **Kenko Business App** from:
-  - [App Store (iOS)](https://apps.apple.com/us/app/kenko-business/id1531705941)
-  - [Google Play (Android)](https://play.google.com/store/apps/details?id=com.studioyou.studioyoubusinessapp)
-- Use your existing Kenko login
-- Access is controlled via role permissions set in the CRM
+* Download the **Kenko Business App** from:
+  * [App Store (iOS)](https://apps.apple.com/us/app/kenko-business/id1531705941)
+  * [Google Play (Android)](https://play.google.com/store/apps/details?id=com.studioyou.studioyoubusinessapp)
+* Use your existing Kenko login
+* Access is controlled via role permissions set in the CRM
 
-<Info>
-  Need help? Ask your Admin to enable your access under **Admin Settings → User Management**.
-</Info>
+Need help? Ask your Admin to enable your access under \*\*Admin Settings → User Management\*\*.
 
 Let your team operate faster, smarter, and on the move — with the Kenko Business App.

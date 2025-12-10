@@ -1,107 +1,45 @@
 ---
-title: "Your First Login"
-description: "Navigate the Kenko platform after your initial login"
+title: Your First Login
+description: Navigate the Kenko platform after your initial login
 ---
 
-# Kenko Platform setup
+# First Login
 
 After creating your Kenko account, your first login experience will guide you through essential setup steps and introduce you to the platform. This guide walks you through what to expect and how to navigate the system, including adding a new location to your business.
 
 ## Accessing Your Account
 
-<Steps>
-  <Step title="Visit the Login Page">
-    Go to [app.gokenko.com](https://app.gokenko.com) in your web browser.
-  </Step>
-  <Step title="Enter Credentials">
-    Input the email address and password you used during signup.
+Go to \[app.gokenko.com]\(https://app.gokenko.com) in your web browser. Input the email address and password you used during signup.
 
-    <Note>
-      If you received an invitation email, use the "Set Password" link from that email before your first login.
-    </Note>
-  </Step>
-  <Step title="Two-Factor Authentication">
-    If enabled, you'll be prompted to enter a verification code sent to your mobile device or email.
-  </Step>
-  <Step title="Accept Terms">
-    Review and accept the Terms of Service and Privacy Policy if prompted.
-  </Step>
-</Steps>
+```
+<Note>
+  If you received an invitation email, use the "Set Password" link from that email before your first login.
+</Note>
+```
+
+If enabled, you'll be prompted to enter a verification code sent to your mobile device or email. Review and accept the Terms of Service and Privacy Policy if prompted.
 
 ## First-Time Setup Wizard
 
 Upon your first login, you'll be guided through a setup wizard to ensure everything is ready for you to start using Kenko
 
-<Steps>
-  <Step title="Finalizing Your Setup">
-    Once you've completed the setup wizard, you'll be able to navigate the platform.
-  </Step>
-  <Step title="Access Your Dashboard">
-    Your dashboard will give you an overview of your business operations, including upcoming classes, member activity, and financial data.
-  </Step>
-  <Step title="Manage Customers">
-    Use the **Contact Management** section to add and manage your clients, track attendance, and view activity histories.
-  </Step>
-  <Step title="Setup">
-    Go to the **Scheduling** module to manage classes, appointments, and courses for your business locations.
-  </Step>
-  <Step title="Explore Marketing Tools">
-    Set up your first **marketing campaign** to engage and retain members using **Kenko's marketing tools**.
-  </Step>
-</Steps>
-
-<Note>
-  Need more detailed guidance for any step? You can revisit these setup tasks or explore our help articles from the dashboard.
-</Note>
+Once you've completed the setup wizard, you'll be able to navigate the platform. Your dashboard will give you an overview of your business operations, including upcoming classes, member activity, and financial data. Use the \*\*Contact Management\*\* section to add and manage your clients, track attendance, and view activity histories. Go to the \*\*Scheduling\*\* module to manage classes, appointments, and courses for your business locations. Set up your first \*\*marketing campaign\*\* to engage and retain members using \*\*Kenko's marketing tools\*\*. Need more detailed guidance for any step? You can revisit these setup tasks or explore our help articles from the dashboard.
 
 ## Navigating the Dashboard
 
 After completing (or skipping) the setup wizard, you'll land on your main dashboard
 
-![Screenshot Sparkle 14 Pn](/images/screenshot-sparkle-14.png)
+![Screenshot Sparkle 14 Pn](../.gitbook/assets/screenshot-sparkle-14.png)
 
 ## Kenko Dashboard Elements
 
-<CardGroup cols="2">
-  <Card title="Tasks" icon="circle-check" href="../../tasks">
-    Stay on top of your business activities with quick access to all the tasks assigned.
-  </Card>
-  <Card title="Events Today" icon="calendar" href="../../scheduling/class-setup">
-    View and manage today's scheduled events:
+Stay on top of your business activities with quick access to all the tasks assigned. View and manage today's scheduled events:
 
-    Including Classes, Appointments, Courses.
-  </Card>
-</CardGroup>
+```
+Including Classes, Appointments, Courses.
+```
 
-<CardGroup cols="2">
-  <Card title="Kenko Academy" icon="book">
-    Learn how to get the most out of Kenko with new training modules.
-  </Card>
-  <Card title="Explore Beta Features" icon="flask">
-    Try out experimental features that are in development.
-  </Card>
-  <Card title="Product Updates" icon="bell">
-    Get the latest product updates to stay ahead in the industry.
-  </Card>
-  <Card title="Give Feedback" icon="comment-dots">
-    Share your thoughts and feedback with us to improve the platform.
-  </Card>
-</CardGroup>
-
-<CardGroup cols="1">
-  <Card title="Contact Support" icon="headset">
-    Reach out to our support team to get answers to your questions and help with platform issues.
-  </Card>
-</CardGroup>
-
-<CardGroup cols="2">
-  <Card title="Staff Attendance" icon="user-check" href="../../staff-attendance">
-    Track your staff's attendance, working hours, and manage time-offs.
-  </Card>
-  <Card title="Customer Check-In" icon="person-walking-arrow-right" href="../../customer-check-in">
-    Monitor and manage customer check-ins for classes, appointments, and more.
-  </Card>
-</CardGroup>
+Learn how to get the most out of Kenko with new training modules. Try out experimental features that are in development. Get the latest product updates to stay ahead in the industry. Share your thoughts and feedback with us to improve the platform. Reach out to our support team to get answers to your questions and help with platform issues. Track your staff's attendance, working hours, and manage time-offs. Monitor and manage customer check-ins for classes, appointments, and more.
 
 ## Kenko CRM Side Navigation Bar
 
@@ -138,24 +76,14 @@ After completing (or skipping) the setup wizard, you'll land on your main dashbo
 
 After your first login and orientation, we recommend these next steps:
 
-<Steps>
-  <Step title="Customize Communications" stepNumber={1}>
-    Set up your [email templates](../../marketing/email-templates) for member communications.
-  </Step>
-  <Step title="Enable Auto-messages" stepNumber={2}>
-    Setup notifications for your Staffs and customers.
-  </Step>
-  <Step title="Setup Marketing efforts">
-    Kenko is powered by powerful Journeys, Reserve with Google and Campaigns. Setting these in the right way can do wonders for you business.
-  </Step>
-</Steps>
+Set up your \[email templates]\(../../marketing/email-templates) for member communications. Setup notifications for your Staffs and customers. Kenko is powered by powerful Journeys, Reserve with Google and Campaigns. Setting these in the right way can do wonders for you business.
 
 ## Getting Help
 
 If you need assistance during your onboarding
 
-- Ask your Onboarding Coach ( At Kenko you get a dedicated Coach to help you with onboarding)
-- Click the **Help** icon (question mark) in the bottom-right corner
-- Use the **Live Chat** feature to connect with our support team
-- Visit our [Knowledge Base](https://help.gokenko.com)
-- Email [support@gokenko.com](mailto:support@gokenko.com)
+* Ask your Onboarding Coach ( At Kenko you get a dedicated Coach to help you with onboarding)
+* Click the **Help** icon (question mark) in the bottom-right corner
+* Use the **Live Chat** feature to connect with our support team
+* Visit our [Knowledge Base](https://help.gokenko.com)
+* Email [support@gokenko.com](mailto:support@gokenko.com)

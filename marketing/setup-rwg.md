@@ -1,9 +1,11 @@
 ---
-title: "Reserve with Google setup"
-description: "Understand how Reserve with Google works, what it offers your studio, and how to make the most of it."
+title: Reserve with Google setup
+description: >-
+  Understand how Reserve with Google works, what it offers your studio, and how
+  to make the most of it.
 ---
 
-# Setting up Reserve with Google (RwG)
+# Setup Rwg
 
 Reserve with Google (RwG) lets potential clients book classes and appointments directly from your studio's Google listing — dramatically expanding your online visibility and reducing friction in customer acquisition.
 
@@ -11,69 +13,44 @@ Reserve with Google (RwG) lets potential clients book classes and appointments d
 
 RwG is an integration that allows customers to book services directly via your Google Business Profile. When someone finds your business on Google Search or Maps, they can book directly from the search results.
 
-![Screenshot2024 07 19at5 29 20PM Pn](/images/Screenshot2024-07-19at5.29.20PM.png)
+![Screenshot2024 07 19at5 29 20PM Pn](../.gitbook/assets/Screenshot2024-07-19at5.29.20PM.png)
 
 ## **Key Benefits**
 
-<CardGroup cols={2}>
-  <Card title="More Bookings" icon="calendar">
-    Make it easier for new clients to discover and schedule services without visiting your website.
-  </Card>
-  <Card title="Zero Friction" icon="bolt">
-    Remove booking steps — your services show up where people are already searching.
-  </Card>
-  <Card title="Free Visibility" icon="globe">
-    Tap into Google's massive search traffic at no added cost.
-  </Card>
-  <Card title="Actionable Insights" icon="chart-bar">
-    View conversion data and user behavior directly inside your RwG dashboard.
-  </Card>
-</CardGroup>
+Make it easier for new clients to discover and schedule services without visiting your website. Remove booking steps — your services show up where people are already searching. Tap into Google's massive search traffic at no added cost. View conversion data and user behavior directly inside your RwG dashboard.
 
 ## Typical Use Cases
 
-<CardGroup cols={2}>
-  <Card title="Capture Nearby Leads" icon="location-pin">
-    Capture leads who are actively searching for studios or services near them.
-  </Card>
-  <Card title="Quick Intro Bookings" icon="bolt">
-    Enable quick bookings for intro offers or high-demand classes.
-  </Card>
-  <Card title="Support Drop-Ins" icon="calendar-check">
-    Support last-minute scheduling and drop-ins.
-  </Card>
-  <Card title="Boost Local Conversion" icon="chart-line">
-    Improve conversion rates from Google Maps searches.
-  </Card>
-</CardGroup>
+Capture leads who are actively searching for studios or services near them. Enable quick bookings for intro offers or high-demand classes. Support last-minute scheduling and drop-ins. Improve conversion rates from Google Maps searches.
 
-## Getting Started -  Setup Flow
+## Getting Started - Setup Flow
 
-<Steps>
-  <Step title="Access RwG Setup">
-    Go to `Marketing > Reserve with Google` in your Kenko dashboard.
+Go to \`Marketing > Reserve with Google\` in your Kenko dashboard.
 
-    ![Screenshot2025 05 05at2 17 26PM Pn](/images/Screenshot2025-05-05at2.17.26PM.png)
-  </Step>
-  <Step title="Verify Google Business Profile">
-    Search and connect your Google Business Profile to enable sync.
+```
+![Screenshot2025 05 05at2 17 26PM Pn](/images/Screenshot2025-05-05at2.17.26PM.png)
+```
 
-    ![Screenshot2025 05 05at2 18 16PM Pn](/images/Screenshot2025-05-05at2.18.16PM.png)
-  </Step>
-  <Step title="Select Services to Sync">
-    Choose which classes or services you want to display on Google.
+Search and connect your Google Business Profile to enable sync.
 
-    <Note>
-      You can also Go to Reserve with Google \> Settings to edit the services that you want to be displayed in your Google Profile.
-    </Note>
-    ![Screenshot2025 05 05at2 19 21PM Pn](/images/Screenshot2025-05-05at2.19.21PM.png)
-  </Step>
-  <Step title="Wait for Validation">
-    Google takes up to 72 hours to validate. You'll get notified once your Book Now button is live.
+```
+![Screenshot2025 05 05at2 18 16PM Pn](/images/Screenshot2025-05-05at2.18.16PM.png)
+```
 
-    ![Screenshot2025 05 05at12 58 38PM Pn](/images/Screenshot2025-05-05at12.58.38PM.png)
-  </Step>
-</Steps>
+Choose which classes or services you want to display on Google.
+
+```
+<Note>
+  You can also Go to Reserve with Google \> Settings to edit the services that you want to be displayed in your Google Profile.
+</Note>
+![Screenshot2025 05 05at2 19 21PM Pn](/images/Screenshot2025-05-05at2.19.21PM.png)
+```
+
+Google takes up to 72 hours to validate. You'll get notified once your Book Now button is live.
+
+```
+![Screenshot2025 05 05at12 58 38PM Pn](/images/Screenshot2025-05-05at12.58.38PM.png)
+```
 
 ## RwG Dashboard
 
@@ -86,31 +63,8 @@ Once your services go live, Kenko shows you detailed analytics:
 | Conversion %       | Ratio of bookings vs total impressions           |
 | Service-wise Split | Which services are getting the most traction     |
 
-<Info>
-  RwG dashboard auto-updates daily based on Google-provided stats.
-</Info>
+RwG dashboard auto-updates daily based on Google-provided stats.
 
 ## Best Practices
 
-<AccordionGroup>
-  <Accordion title="Keep your Google Business Profile Updated" icon="map">
-    Ensure your hours, phone, address, and name are consistent across platforms to improve Google verification.
-  </Accordion>
-  <Accordion title="Sync High-Value Services First" icon="money-bill">
-    Choose trial offers, intro packs, or your best-selling services for maximum ROI.
-  </Accordion>
-  <Accordion title="Add Clear Service Descriptions" icon="file-pen">
-    Descriptions synced to Google should clearly explain what the client is booking.
-  </Accordion>
-  <Accordion title="Monitor Your Analytics Weekly" icon="chart-bar">
-    Use Kenko's RwG dashboard to track what's working and update service visibility accordingly.
-  </Accordion>
-</AccordionGroup>
-
-<Warning>
-  Kenko does not charge any fees to sync with Google. Setup takes ~5 minutes and brings long-term conversion benefits.
-</Warning>
-
-<Info>
-  Need help syncing your profile? Reach us at [support@kenko.com](mailto:support@kenko.com)
-</Info>
+Ensure your hours, phone, address, and name are consistent across platforms to improve Google verification. Choose trial offers, intro packs, or your best-selling services for maximum ROI. Descriptions synced to Google should clearly explain what the client is booking. Use Kenko's RwG dashboard to track what's working and update service visibility accordingly. Kenko does not charge any fees to sync with Google. Setup takes \~5 minutes and brings long-term conversion benefits. Need help syncing your profile? Reach us at \[support@kenko.com]\(mailto:support@kenko.com)

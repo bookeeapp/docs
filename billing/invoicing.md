@@ -1,10 +1,11 @@
 ---
-title: "Invoice Settings"
-description: "Learn how to configure and customize invoices in Kenko with tax ID types, address fields, and global compliance settings.
-"
+title: Invoice Settings
+description: >-
+  Learn how to configure and customize invoices in Kenko with tax ID types,
+  address fields, and global compliance settings.
 ---
 
-# Invoicing in Kenko
+# Invoicing
 
 Kenko offers robust invoice customization options to help studios comply with local tax laws and present professional billing documents to clients. This guide explains each field available in the invoicing section and shares best practices for optimal use.
 
@@ -12,13 +13,13 @@ Kenko offers robust invoice customization options to help studios comply with lo
 
 Invoices aren't just receipts — they are compliance tools. Properly customized invoices
 
-- Ensure alignment with country-specific tax requirements
-- Present brand professionalism to customers
-- Provide a consistent billing record for finance and audits
+* Ensure alignment with country-specific tax requirements
+* Present brand professionalism to customers
+* Provide a consistent billing record for finance and audits
 
 ## How to Customize Invoices in Kenko
 
-Navigate to: **Settings \> Payments \> Invoice**
+Navigate to: **Settings > Payments > Invoice**
 
 ### Tax ID
 
@@ -52,14 +53,7 @@ Enter the name of your business that will appear on the invoice. This is often a
 
 _Example: Halo Fitness Studio_
 
-<div className="flex justify-center my-4">
-<img
-  src="/images/Screenshot2025-04-24at2.05.41PM.png"
-  alt="Payment Modes"
-  className="rounded-xl max-w-[700px] w-full shadow-sm"
-/>
-
-</div>
+![Payment Modes](../.gitbook/assets/Screenshot2025-04-24at2.05.41PM.png)
 
 ### **Business Address**
 
@@ -67,11 +61,11 @@ This is the address printed on the invoice. It should reflect the physical or re
 
 ### **Fields**
 
-- Address (e.g., 2591 Meadowview Drive)
-- City (e.g., Houston)
-- State (e.g., Texas)
-- Zip Code (e.g., 122102)
-- Country (e.g., United States)
+* Address (e.g., 2591 Meadowview Drive)
+* City (e.g., Houston)
+* State (e.g., Texas)
+* Zip Code (e.g., 122102)
+* Country (e.g., United States)
 
 ### Footer (Optional)
 
@@ -81,35 +75,15 @@ Add any legal disclaimers, return policies, thank-you messages, or studio notes 
 
 Here's how an invoice appears once generated
 
-<div className="flex justify-center my-4">
-<img
-  src="/images/Screenshot2025-04-24at2.05.52PM.png"
-  alt="Payment Modes"
-  className="rounded-xl max-w-[700px] w-full shadow-sm"
-/>
-
-</div>
+![Payment Modes](../.gitbook/assets/Screenshot2025-04-24at2.05.52PM.png)
 
 Additonally Includes ( Based upon the billed item )
 
-- Customer information
-- Line items with taxes and discounts
-- Subtotals, payment status, and totals
-- Footer (if configured)
+* Customer information
+* Line items with taxes and discounts
+* Subtotals, payment status, and totals
+* Footer (if configured)
 
 ## Best Practices
 
-<CardGroup cols="2">
-  <Card title="Enter Full Legal Details" icon="file-signature">
-    Always include full legal business name and registered tax ID to ensure invoice validity.
-  </Card>
-  <Card title="Keep Address Up-to-Date" icon="map-pin">
-    Your business address should match official records and can help with tax audits or payment tracing.
-  </Card>
-  <Card title="Use Consistent Formats" icon="circle-check">
-    Maintain consistent naming, city/state formatting, and currency values to avoid confusion for clients.
-  </Card>
-  <Card title="Preview Before Sending" icon="eye">
-    Always use the **Preview** function to check for formatting issues or missing details before invoice generation.
-  </Card>
-</CardGroup>
+Always include full legal business name and registered tax ID to ensure invoice validity. Your business address should match official records and can help with tax audits or payment tracing. Maintain consistent naming, city/state formatting, and currency values to avoid confusion for clients. Always use the \*\*Preview\*\* function to check for formatting issues or missing details before invoice generation.

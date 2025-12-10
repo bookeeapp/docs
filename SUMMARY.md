@@ -1,55 +1,57 @@
-# Summary
+# Table of contents
+
+* [README](README.md)
 
 ## Documentation
 
-* Getting Started 🚀 
+* [Getting Started 🚀](documentation/getting-started/README.md)
   * [Introduction](getting-started/introduction.md)
   * [Quickstart](getting-started/quickstart.md)
   * [Platform Overview](getting-started/platform-overview.md)
   * [First Login](getting-started/first-login.md)
   * [Your Kenko Subscription](billing/your-kenko-subscription.md)
-* Contact Management
+* [Contact Management](documentation/contact-management/README.md)
   * [Contact Management Introduction](contact-management/contact-management-introduction.md)
   * [Member Profiles](contact-management/member-profiles.md)
   * [Membership Types](contact-management/membership-types.md)
-  * Customers Vs Leads
-* Calendar & Scheduling
+  * [Customers Vs Leads](documentation/contact-management/customers-vs-leads.md)
+* [Calendar & Scheduling](documentation/calendar-and-scheduling/README.md)
   * [Introduction](scheduling/introduction.md)
   * [Facilities Introduction](scheduling/facilities-introduction.md)
   * [Facilities Setup](scheduling/facilities-setup.md)
   * [Calendar Introduction](scheduling/calendar-introduction.md)
   * [Scheduling Settings](scheduling/scheduling-settings.md)
-  * Classes
+  * [Classes](documentation/calendar-and-scheduling/classes/README.md)
     * [Classes Introduction](scheduling/classes-introduction.md)
     * [Classes Setup](scheduling/classes-setup.md)
     * [Spot Booking Classes](scheduling/spot-booking-classes.md)
     * [Classes Calendar](scheduling/classes-calendar.md)
-  * Appointments
+  * [Appointments](documentation/calendar-and-scheduling/appointments/README.md)
     * [Appointments Introduction](scheduling/appointments-introduction.md)
     * [Appointments Setup](scheduling/appointments-setup.md)
     * [Appointments Calendar](scheduling/appointments-calendar.md)
-  * Courses & Workshops
+  * [Courses & Workshops](documentation/calendar-and-scheduling/courses-and-workshops/README.md)
     * [Courses Introduction](scheduling/courses-introduction.md)
     * [Courses Setup](scheduling/courses-setup.md)
     * [Courses Calendar](scheduling/courses-calendar.md)
-* Videos on Demand
+* [Videos on Demand](documentation/videos-on-demand/README.md)
   * [Vod Introduction](videos-on-demand/vod-introduction.md)
   * [Vod Setup](videos-on-demand/vod-setup.md)
   * [Vod Setup Playlist](videos-on-demand/vod-setup-playlist.md)
-* Billing & Payments
+* [Billing & Payments](documentation/billing-and-payments/README.md)
   * [Introduction Billing Payments](billing/introduction-billing-payments.md)
-  * Memberships in Kenko
+  * [Memberships in Kenko](documentation/billing-and-payments/memberships-in-kenko/README.md)
     * [Introduction Memberships](billing/introduction-memberships.md)
     * [Setup Subscriptions](billing/setup-subscriptions.md)
     * [Setup Credit Packs](billing/setup-credit-packs.md)
     * [Intro Packs](billing/intro-packs.md)
     * [Setup Top Up](billing/setup-top-up.md)
     * [Bring A Friend](billing/bring-a-friend.md)
-  * Payment Settings
+  * [Payment Settings](documentation/billing-and-payments/payment-settings/README.md)
     * [General Payment Settings](billing/general-payment-settings.md)
     * [Invoicing](billing/invoicing.md)
     * [Payment Methods](billing/payment-methods.md)
-  * Point of Sale & Payment Methods
+  * [Point of Sale & Payment Methods](documentation/billing-and-payments/point-of-sale-and-payment-methods/README.md)
     * [Introduction Pos](billing/introduction-pos.md)
     * [Pos Deep Dive](billing/pos-deep-dive.md)
     * [Intro Giftcard Discounts](billing/intro-giftcard-discounts.md)
@@ -57,31 +59,31 @@
     * [Setup Discounts](billing/setup-discounts.md)
     * [Contacts Payments](billing/contacts-payments.md)
   * [Payroll Settings](billing/payroll-settings.md)
-* Marketing & Journeys
+* [Marketing & Journeys](documentation/marketing-and-journeys/README.md)
   * [Introduction](marketing/introduction.md)
-  * Journeys
+  * [Journeys](documentation/marketing-and-journeys/journeys/README.md)
     * [Introduction Journeys](marketing/journeys/introduction_journeys.md)
     * [Journeys Building Blocks](marketing/journeys/journeys-building-blocks.md)
     * [Journeys Templates](marketing/journeys/journeys-templates.md)
-  * Campaigns
+  * [Campaigns](documentation/marketing-and-journeys/campaigns/README.md)
     * [Introduction Campaigns](marketing/campaigns/introduction_campaigns.md)
     * [Email Setup Guide](marketing/campaigns/email-setup-guide.md)
     * [A2P10Dlc](marketing/campaigns/a2p10dlc.md)
     * [Campaign Prerequisites](marketing/campaigns/campaign-prerequisites.md)
     * [Sms Guide](marketing/campaigns/sms-guide.md)
     * [Campaign Analytics](marketing/campaigns/campaign-analytics.md)
-  * Announcements
+  * [Announcements](documentation/marketing-and-journeys/announcements/README.md)
     * [Announcement Introduction](marketing/announcement-introduction.md)
     * [Announcement Setup](marketing/announcement-setup.md)
-  * Reserve with Google
+  * [Reserve with Google](documentation/marketing-and-journeys/reserve-with-google/README.md)
     * [Introduction Rwg](marketing/introduction-rwg.md)
     * [Setup Rwg](marketing/setup-rwg.md)
-* Website & App
+* [Website & App](documentation/website-and-app/README.md)
   * [Introduction](website-app/introduction.md)
-  * Branded App
+  * [Branded App](documentation/website-and-app/branded-app/README.md)
     * [Branded App Introduction](website-app/branded-app-introduction.md)
     * [Branded App Walkthrough](website-app/branded-app-walkthrough.md)
-  * Website Widget
+  * [Website Widget](documentation/website-and-app/website-widget/README.md)
     * [Website Widget Introduction](website-app/website-widget-introduction.md)
     * [Website Widget General](website-app/website-widget-general.md)
     * [Website Widget Setup Wix](website-app/website-widget-setup-wix.md)
@@ -89,49 +91,49 @@
     * [Website Widget Setup Squarespace](website-app/website-widget-setup-squarespace.md)
     * [Website Widget Setup Duda](website-app/website-widget-setup-duda.md)
     * [Website Widget Setup Wordpress](website-app/website-widget-setup-wordpress.md)
-  * Business App
+  * [Business App](documentation/website-and-app/business-app/README.md)
     * [Business App Introduction](website-app/business-app-introduction.md)
     * [Business App Walkthrough](website-app/business-app-walkthrough.md)
-  * Websites by Kenko
+  * [Websites by Kenko](documentation/website-and-app/websites-by-kenko/README.md)
     * [Websites Kenko Introduction](website-app/websites-kenko-introduction.md)
     * [Website Kenko Setup](website-app/website-kenko-setup.md)
-  * Kiosk by Kenko
+  * [Kiosk by Kenko](documentation/website-and-app/kiosk-by-kenko/README.md)
     * [App Kiosk](website-app/app-kiosk.md)
     * [Kiosk Settings](website-app/kiosk-settings.md)
   * [Customization](website-app/customization.md)
-* Admin Settings
+* [Admin Settings](documentation/admin-settings/README.md)
   * [Introduction](admin/introduction.md)
   * [Roles Privileges](admin/roles-privileges.md)
   * [Staff](admin/staff.md)
   * [Staff Attendance](admin/staff-attendance.md)
   * [Task Management](admin/task-managment.md)
-  * Communication Settings
+  * [Communication Settings](documentation/admin-settings/communication-settings/README.md)
     * [Introduction Communication](admin/introduction-communication.md)
     * [Email Settings](admin/email-settings.md)
     * [Inbox Email Forwarding Outlook](admin/inbox-email-forwarding-outlook.md)
     * [Sms Settings](admin/sms-settings.md)
-* Advanced Features
-  * Notifications (Auto-Messages)
+* [Advanced Features](documentation/advanced-features/README.md)
+  * [Notifications (Auto-Messages)](documentation/advanced-features/notifications-auto-messages/README.md)
     * [Introduction Auto Messages](advanced/introduction-auto-messages.md)
     * [Setup Auto Messages](advanced/setup-auto-messages.md)
-  * Referrals
+  * [Referrals](documentation/advanced-features/referrals/README.md)
     * [Introduction Referral](advanced/introduction-referral.md)
     * [Setup Referral](advanced/setup-referral.md)
-  * Products
+  * [Products](documentation/advanced-features/products/README.md)
     * [Introduction Products](advanced/introduction-products.md)
     * [Setup Products](advanced/setup-products.md)
-  * Forms & Agreements
+  * [Forms & Agreements](documentation/advanced-features/forms-and-agreements/README.md)
     * [Introduction Forms Waivers](advanced/introduction-forms-waivers.md)
     * [Setup Waivers](advanced/setup-waivers.md)
     * [Setup Forms](advanced/setup-forms.md)
 
 ## Guides
 
-* Grow Your Studio with Journeys
+* [Grow Your Studio with Journeys](guides/grow-your-studio-with-journeys/README.md)
   * [Introduction](guides/journeys/introduction.md)
   * [Setup Journey](guides/journeys/setup-journey.md)
   * [Tracking Progress](guides/journeys/tracking-progress.md)
-  * Journey Templates
+  * [Journey Templates](guides/grow-your-studio-with-journeys/journey-templates/README.md)
     * [Journey Templates](guides/journeys/journey-templates.md)
     * [Journey Template Lead Nurture](guides/journey-template-lead-nurture.md)
     * [Journey Template Intro Offer](guides/journey-template-intro-offer.md)
@@ -145,115 +147,115 @@
   * [Journeys Fup](guides/journeys-fup.md)
   * [Journeys Special Actions](guides/journeys-special-actions.md)
   * [Journeys Entry Exit Goal](guides/journeys-entry-exit-goal.md)
-* Setup Guides
+* [Setup Guides](guides/setup-guides/README.md)
   * [Zero Dollar Subscriptions](guides/zero-dollar-subscriptions.md)
   * [Recording Links Online Sessions](guides/recording-links-online-sessions.md)
   * [Stripe Terminal Connection Guide](guides/stripe-terminal-connection-guide.md)
   * [Spammy Email](guides/spammy-email.md)
-* Payment Guides
-  * Preparation
-  * Data Export
-  * Importing To Kenko
-  * Post Migration Checklist
-* 📈 Analyze Class Performance
-  * Key Metrics
-  * Instructor Impact
-  * Optimizing Schedule
-  * Attendance Patterns
-* 📱 Master the Mobile App
-  * Owner Features
-  * Staff Tools
-  * Client Experience
-  * Offline Capabilities
-* 🤝 Best Practices for Member Engagement
-  * Communication Strategy
-  * Retention Tools
-  * Personalization
-  * Feedback Collection
+* [Payment Guides](guides/payment-guides/README.md)
+  * [Preparation](guides/payment-guides/preparation.md)
+  * [Data Export](guides/payment-guides/data-export.md)
+  * [Importing To Kenko](guides/payment-guides/importing-to-kenko.md)
+  * [Post Migration Checklist](guides/payment-guides/post-migration-checklist.md)
+* [📈 Analyze Class Performance](guides/analyze-class-performance/README.md)
+  * [Key Metrics](guides/analyze-class-performance/key-metrics.md)
+  * [Instructor Impact](guides/analyze-class-performance/instructor-impact.md)
+  * [Optimizing Schedule](guides/analyze-class-performance/optimizing-schedule.md)
+  * [Attendance Patterns](guides/analyze-class-performance/attendance-patterns.md)
+* [📱 Master the Mobile App](guides/master-the-mobile-app/README.md)
+  * [Owner Features](guides/master-the-mobile-app/owner-features.md)
+  * [Staff Tools](guides/master-the-mobile-app/staff-tools.md)
+  * [Client Experience](guides/master-the-mobile-app/client-experience.md)
+  * [Offline Capabilities](guides/master-the-mobile-app/offline-capabilities.md)
+* [🤝 Best Practices for Member Engagement](guides/best-practices-for-member-engagement/README.md)
+  * [Communication Strategy](guides/best-practices-for-member-engagement/communication-strategy.md)
+  * [Retention Tools](guides/best-practices-for-member-engagement/retention-tools.md)
+  * [Personalization](guides/best-practices-for-member-engagement/personalization.md)
+  * [Feedback Collection](guides/best-practices-for-member-engagement/feedback-collection.md)
 
 ## FAQs
 
-* 📅 Classes & Scheduling
-  * Complete Guide Classes
-  * Adding Class Schedule
-  * Editing Class Schedule
-  * Booking Window
-  * Spot Booking
-  * Class Notifications
-* 🤝 Appointments & Bookings
-  * Online Booking Guide
-  * No Show Policy
-  * Booking Management
-  * Staff Availability
-  * Appointment Notifications
-* 💳 Memberships & Subscriptions
-  * Creating Subscription Plans
-  * Shared Membership Tracking
-  * Credit Usage Guide
-  * Membership Reports
-  * Subscription Management
-* 💰 Payments & POS
-  * Pos Sales Guide
-  * Gift Card Management
-  * Payment Reports
-  * Refund Process
-  * Partial Payments
-  * Stripe Integration
-* 📊 Reports & Analytics
-  * Sales Reports
-  * Membership Analytics
-  * Customer Insights
-  * Staff Attendance Reports
-  * Payment Analytics
-* 🔗 Integrations & Apps
-  * Google Calendar Setup
-  * Classpass Integration
-  * Stripe Terminal
-  * Kiosk Setup
-  * Business App Access
-* 💯 Pricing & Discounts
-  * Pricing Options
-  * Creating Discounts
-  * Applying Discounts
-  * Subscription Pricing
-  * Price Changes
+* [📅 Classes & Scheduling](faqs/classes-and-scheduling/README.md)
+  * [Complete Guide Classes](faqs/classes-and-scheduling/complete-guide-classes.md)
+  * [Adding Class Schedule](faqs/classes-and-scheduling/adding-class-schedule.md)
+  * [Editing Class Schedule](faqs/classes-and-scheduling/editing-class-schedule.md)
+  * [Booking Window](faqs/classes-and-scheduling/booking-window.md)
+  * [Spot Booking](faqs/classes-and-scheduling/spot-booking.md)
+  * [Class Notifications](faqs/classes-and-scheduling/class-notifications.md)
+* [🤝 Appointments & Bookings](faqs/appointments-and-bookings/README.md)
+  * [Online Booking Guide](faqs/appointments-and-bookings/online-booking-guide.md)
+  * [No Show Policy](faqs/appointments-and-bookings/no-show-policy.md)
+  * [Booking Management](faqs/appointments-and-bookings/booking-management.md)
+  * [Staff Availability](faqs/appointments-and-bookings/staff-availability.md)
+  * [Appointment Notifications](faqs/appointments-and-bookings/appointment-notifications.md)
+* [💳 Memberships & Subscriptions](faqs/memberships-and-subscriptions/README.md)
+  * [Creating Subscription Plans](faqs/memberships-and-subscriptions/creating-subscription-plans.md)
+  * [Shared Membership Tracking](faqs/memberships-and-subscriptions/shared-membership-tracking.md)
+  * [Credit Usage Guide](faqs/memberships-and-subscriptions/credit-usage-guide.md)
+  * [Membership Reports](faqs/memberships-and-subscriptions/membership-reports.md)
+  * [Subscription Management](faqs/memberships-and-subscriptions/subscription-management.md)
+* [💰 Payments & POS](faqs/payments-and-pos/README.md)
+  * [Pos Sales Guide](faqs/payments-and-pos/pos-sales-guide.md)
+  * [Gift Card Management](faqs/payments-and-pos/gift-card-management.md)
+  * [Payment Reports](faqs/payments-and-pos/payment-reports.md)
+  * [Refund Process](faqs/payments-and-pos/refund-process.md)
+  * [Partial Payments](faqs/payments-and-pos/partial-payments.md)
+  * [Stripe Integration](faqs/payments-and-pos/stripe-integration.md)
+* [📊 Reports & Analytics](faqs/reports-and-analytics/README.md)
+  * [Sales Reports](faqs/reports-and-analytics/sales-reports.md)
+  * [Membership Analytics](faqs/reports-and-analytics/membership-analytics.md)
+  * [Customer Insights](faqs/reports-and-analytics/customer-insights.md)
+  * [Staff Attendance Reports](faqs/reports-and-analytics/staff-attendance-reports.md)
+  * [Payment Analytics](faqs/reports-and-analytics/payment-analytics.md)
+* [🔗 Integrations & Apps](faqs/integrations-and-apps/README.md)
+  * [Google Calendar Setup](faqs/integrations-and-apps/google-calendar-setup.md)
+  * [Classpass Integration](faqs/integrations-and-apps/classpass-integration.md)
+  * [Stripe Terminal](faqs/integrations-and-apps/stripe-terminal.md)
+  * [Kiosk Setup](faqs/integrations-and-apps/kiosk-setup.md)
+  * [Business App Access](faqs/integrations-and-apps/business-app-access.md)
+* [💯 Pricing & Discounts](faqs/pricing-and-discounts/README.md)
+  * [Pricing Options](faqs/pricing-and-discounts/pricing-options.md)
+  * [Creating Discounts](faqs/pricing-and-discounts/creating-discounts.md)
+  * [Applying Discounts](faqs/pricing-and-discounts/applying-discounts.md)
+  * [Subscription Pricing](faqs/pricing-and-discounts/subscription-pricing.md)
+  * [Price Changes](faqs/pricing-and-discounts/price-changes.md)
 
 ## Integrations
 
-* Introduction
+* [Introduction](integrations/introduction/README.md)
   * [Introduction Integrations](integrations/introduction-integrations.md)
-* Payments
+* [Payments](integrations/payments/README.md)
   * [Payments Introduction](integrations/payments-introduction.md)
   * [Account Connection](integrations/stripe/account-connection.md)
   * [Account Creation Adyen](integrations/account-creation-adyen.md)
   * [Account Creation Razorpay](integrations/account-creation-razorpay.md)
-* Scheduling & Calendar
+* [Scheduling & Calendar](integrations/scheduling-and-calendar/README.md)
   * [Scheduling Intro](integrations/scheduling-intro.md)
   * [Scheduling Gcal](integrations/scheduling-gcal.md)
   * [Scheduling Zoom](integrations/scheduling-zoom.md)
-* Marketing
+* [Marketing](integrations/marketing/README.md)
   * [Marketing Introduction](integrations/marketing-introduction.md)
   * [Marketing Google Analytics](integrations/marketing-google-analytics.md)
   * [Marketing Meta Pixel](integrations/marketing-meta-pixel.md)
   * [Marketing Mailchimp](integrations/marketing-mailchimp.md)
   * [Marketing Zapier](integrations/marketing-zapier.md)
-* Marketplace
+* [Marketplace](integrations/marketplace/README.md)
   * [Marketplace](integrations/marketplace.md)
   * [Marketplace Gympass](integrations/marketplace-gympass.md)
   * [Marketplace Classpass](integrations/marketplace-classpass.md)
   * [Marketplace Myclubs](integrations/marketplace-myclubs.md)
-* 🔌 Webhooks (Basic Use Cases)
-  * Setup Guide
-  * Event Types
-  * Security
-  * Examples
-* 🔐 API Key Access
-  * Generating Keys
-  * Authorization
-  * Rate Limits
-  * Best Practices
-* 📦 Data Migration
-  * Supported Platforms
-  * Data Mapping
-  * Validation
-  * Post Migration
+* [🔌 Webhooks (Basic Use Cases)](integrations/webhooks-basic-use-cases/README.md)
+  * [Setup Guide](integrations/webhooks-basic-use-cases/setup-guide.md)
+  * [Event Types](integrations/webhooks-basic-use-cases/event-types.md)
+  * [Security](integrations/webhooks-basic-use-cases/security.md)
+  * [Examples](integrations/webhooks-basic-use-cases/examples.md)
+* [🔐 API Key Access](integrations/api-key-access/README.md)
+  * [Generating Keys](integrations/api-key-access/generating-keys.md)
+  * [Authorization](integrations/api-key-access/authorization.md)
+  * [Rate Limits](integrations/api-key-access/rate-limits.md)
+  * [Best Practices](integrations/api-key-access/best-practices.md)
+* [📦 Data Migration](integrations/data-migration/README.md)
+  * [Supported Platforms](integrations/data-migration/supported-platforms.md)
+  * [Data Mapping](integrations/data-migration/data-mapping.md)
+  * [Validation](integrations/data-migration/validation.md)
+  * [Post Migration](integrations/data-migration/post-migration.md)

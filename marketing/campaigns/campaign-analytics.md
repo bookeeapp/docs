@@ -1,9 +1,9 @@
 ---
-title: "Campaign Analytics "
-description: "Understand how to measure performance of your email campaigns in Kenko."
+title: 'Campaign Analytics '
+description: Understand how to measure performance of your email campaigns in Kenko.
 ---
 
-# Campaign Analytics Overview in Kenko
+# Campaign Analytics
 
 After launching an email campaign in Kenko, you can track its effectiveness directly from the **Analytics** tab. This view breaks down key metrics and recipient activity to help you optimize future sends.
 
@@ -11,7 +11,7 @@ After launching an email campaign in Kenko, you can track its effectiveness dire
 
 Each campaign report begins with a high-level summary of delivery and engagement
 
-![Screenshot2025 04 30at1 51 54PM Pn](/images/Screenshot2025-04-30at1.51.54PM.png)
+![Screenshot2025 04 30at1 51 54PM Pn](../../.gitbook/assets/Screenshot2025-04-30at1.51.54PM.png)
 
 | Metric          | Definition                                                                     |
 | --------------- | ------------------------------------------------------------------------------ |
@@ -22,9 +22,7 @@ Each campaign report begins with a high-level summary of delivery and engagement
 | **Report Spam** | Number and percentage of recipients who marked your email as spam.             |
 | **Bounced**     | Number and percentage of emails that were rejected and didn’t reach the inbox. |
 
-<Info>
-  These stats help you diagnose delivery issues (like high bounce rates) or engagement problems (low open/click rates).
-</Info>
+These stats help you diagnose delivery issues (like high bounce rates) or engagement problems (low open/click rates).
 
 ## Audience Insights
 
@@ -41,28 +39,8 @@ You can also filter recipients by interaction type using the **Last Action** dro
 
 ## Actions You Can Take
 
-<AccordionGroup>
-  <Accordion title="Download Report" icon="download">
-    Export campaign analytics to CSV for audits, deeper analysis, or CRM syncing.
-  </Accordion>
-  <Accordion title="Duplicate Campaign" icon="copy">
-    Reuse the same email configuration and content for a future campaign with one click.
-  </Accordion>
-  <Accordion title="Delete Campaign" icon="trash">
-    Remove the campaign permanently if it was a test or no longer needed.
-  </Accordion>
-</AccordionGroup>
+Export campaign analytics to CSV for audits, deeper analysis, or CRM syncing. Reuse the same email configuration and content for a future campaign with one click. Remove the campaign permanently if it was a test or no longer needed.
 
----
+***
 
-<Info>
-  Analytics reflect only users who received the campaign and had valid opt-in status at send time.
-</Info>
-
-<Warning>
-  If you see a high bounce rate, verify that your email domain is authenticated in `Settings > Email Configuration`.
-</Warning>
-
-<Tip>
-  Want to improve open rates? Test different subject lines and preview text using A/B variations.
-</Tip>
+Analytics reflect only users who received the campaign and had valid opt-in status at send time. If you see a high bounce rate, verify that your email domain is authenticated in \`Settings > Email Configuration\`. Want to improve open rates? Test different subject lines and preview text using A/B variations.

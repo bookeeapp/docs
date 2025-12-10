@@ -1,11 +1,13 @@
 ---
-title: "Marketplace Integrations"
-description: "Expand your reach and grow your fitness business with Kenko's marketplace integrations."
-keywords: "marketplace,integrations,classpass,gympass,myclubs,kenko"
-sidebar_label: "Marketplace Integrations"
+title: Marketplace Integrations
+keywords: marketplace,integrations,classpass,gympass,myclubs,kenko
+sidebar_label: Marketplace Integrations
+description: >-
+  Expand your reach and grow your fitness business with Kenko's marketplace
+  integrations.
 ---
 
-# Expand your Reach
+# Marketplace
 
 Kenko integrates with popular fitness marketplaces like Wellhub, ClassPass, and MyClubs to help you attract new clients, fill empty spots, and grow revenue without lifting a marketing finger. Whether you're launching a new location or boosting attendance in off-peak hours, marketplace integrations make it easy to get discovered.
 
@@ -13,120 +15,41 @@ Kenko integrates with popular fitness marketplaces like Wellhub, ClassPass, and 
 
 To manage your marketplace integrations in Kenko
 
-- Go to **Apps → Marketplace** in your admin dashboard.
-- Select the platform you’d like to connect (e.g., Gympass, ClassPass, MyClubs).
-- Authorize and configure settings directly from Kenko.
+* Go to **Apps → Marketplace** in your admin dashboard.
+* Select the platform you’d like to connect (e.g., Gympass, ClassPass, MyClubs).
+* Authorize and configure settings directly from Kenko.
 
 You control what gets listed, when, and how many spots are available to marketplace users.
 
 ## Wellhub (Gympass)
 
-<CardGroup cols={2}>
-  <Card title="Corporate Access" icon="briefcase">
-    Reach employees of thousands of companies via Gympass’s corporate wellness network.
-  </Card>
-  <Card title="Real-Time Sync" icon="rotate">
-    Your class schedule stays in sync — changes in Kenko are instantly reflected in Gympass.
-  </Card>
-  <Card title="Check-In Simplicity" icon="user-clock">
-    Gympass users can check into your classes directly via their app, no friction involved.
-  </Card>
-  <Card title="Capacity Control" icon="gauge">
-    Set specific limits on how many marketplace users can book each class — you’re always in control.
-  </Card>
-</CardGroup>
+Reach employees of thousands of companies via Gympass’s corporate wellness network. Your class schedule stays in sync — changes in Kenko are instantly reflected in Gympass. Gympass users can check into your classes directly via their app, no friction involved. Set specific limits on how many marketplace users can book each class — you’re always in control.
 
 ## ClassPass
 
-<img
-  className="block dark:hidden"
-  src="/images/integrations/classpass-light.svg"
-  alt="ClassPass"
-  width="200"
-/>
-
-<CardGroup cols={2}>
-  <Card title="Expanded Reach" icon="magnifying-glass">
-    Tap into ClassPass’s large network of fitness enthusiasts actively looking for new classes to try.
-  </Card>
-  <Card title="Dynamic Pricing" icon="money-bill-trend-up">
-    ClassPass uses smart pricing to maximize your revenue while filling seats.
-  </Card>
-  <Card title="New Customer Flow" icon="user-check">
-    Turn first-time ClassPass attendees into loyal, direct-paying members with smart follow-ups.
-  </Card>
-  <Card title="Automatic Schedule Updates" icon="calendar-clock">
-    Any schedule changes in Kenko are reflected on ClassPass automatically — no double entry required.
-  </Card>
-</CardGroup>
+Tap into ClassPass’s large network of fitness enthusiasts actively looking for new classes to try. ClassPass uses smart pricing to maximize your revenue while filling seats. Turn first-time ClassPass attendees into loyal, direct-paying members with smart follow-ups. Any schedule changes in Kenko are reflected on ClassPass automatically — no double entry required.
 
 ## MyClubs
 
-<img
-  className="block dark:hidden"
-  src="/images/integrations/myclubs-light.svg"
-  alt="MyClubs"
-  width="200"
-/>
-
-<CardGroup cols={2}>
-  <Card title="Austria & Switzerland Reach" icon="map">
-    MyClubs is the go-to marketplace for fitness seekers in Austria and Switzerland.
-  </Card>
-  <Card title="Revenue from Empty Spots" icon="dollar-sign">
-    Don’t let classes go underbooked — open up select capacity to MyClubs users and fill those mats.
-  </Card>
-  <Card title="Simple Check-In" icon="user-clock">
-    Participants check in with ease using the MyClubs app.
-  </Card>
-  <Card title="Full Control" icon="gear">
-    Decide which classes, how many spots, and when — right from your Kenko dashboard.
-  </Card>
-</CardGroup>
+MyClubs is the go-to marketplace for fitness seekers in Austria and Switzerland. Don’t let classes go underbooked — open up select capacity to MyClubs users and fill those mats. Participants check in with ease using the MyClubs app. Decide which classes, how many spots, and when — right from your Kenko dashboard.
 
 ## Added Advantages of Marketplace Integrations
 
 Beyond visibility and bookings, Kenko’s marketplace integrations come with some underrated superpowers:
 
-<CardGroup cols={2}>
-  <Card title="Zero-Cost Marketing" icon="megaphone">
-    Marketplaces handle promotion, so you gain exposure without spending on ads or SEO.
-  </Card>
-  <Card title="Low-Risk Lead Generation" icon="thumbs-up">
-    Only pay when someone actually books a spot — no upfront cost, just pure performance.
-  </Card>
-  <Card title="Data Centralization" icon="database">
-    All marketplace bookings show up in your Kenko CRM, giving you full visibility into client behavior.
-  </Card>
-  <Card title="Membership Conversion Potential" icon="user-plus">
-    Use Kenko’s automated messages and CRM tagging to convert marketplace visitors into paying members.
-  </Card>
-</CardGroup>
+Marketplaces handle promotion, so you gain exposure without spending on ads or SEO. Only pay when someone actually books a spot — no upfront cost, just pure performance. All marketplace bookings show up in your Kenko CRM, giving you full visibility into client behavior. Use Kenko’s automated messages and CRM tagging to convert marketplace visitors into paying members.
 
 ## Best Practices for Marketplace Success
 
-<AccordionGroup>
-  <Accordion title="Start Small" icon="stairs">
-    Don’t open your full schedule right away — test with off-peak classes or limited inventory and scale as needed.
-  </Accordion>
-  <Accordion title="Deliver an Exceptional First Visit" icon="star">
-    Marketplace users are first-time visitors. Wow them. A great first experience = a higher chance they come back as full-time clients.
-  </Accordion>
-  <Accordion title="Track What Performs" icon="chart-bar">
-    Use Kenko’s reports to identify which classes attract marketplace users and adjust availability accordingly.
-  </Accordion>
-  <Accordion title="Have a Conversion Strategy" icon="repeat">
-    Follow up with leads after their visit. Offer a limited-time trial or bonus to turn marketplace traffic into revenue.
-  </Accordion>
-</AccordionGroup>
+Don’t open your full schedule right away — test with off-peak classes or limited inventory and scale as needed. Marketplace users are first-time visitors. Wow them. A great first experience = a higher chance they come back as full-time clients. Use Kenko’s reports to identify which classes attract marketplace users and adjust availability accordingly. Follow up with leads after their visit. Offer a limited-time trial or bonus to turn marketplace traffic into revenue.
 
 ## Troubleshooting
 
 If something seems off, here’s where to start
 
-- **Schedule Sync Issues**: Double-check your Kenko schedule visibility and publishing status.
-- **Capacity Mismatch**: Make sure marketplace spot limits are within your overall class capacity.
-- **Check-In Problems**: Ensure your front desk team is trained on verifying external check-ins.
-- **Billing Questions**: Review consolidated reports from each platform and cross-check with Kenko payout logs.
+* **Schedule Sync Issues**: Double-check your Kenko schedule visibility and publishing status.
+* **Capacity Mismatch**: Make sure marketplace spot limits are within your overall class capacity.
+* **Check-In Problems**: Ensure your front desk team is trained on verifying external check-ins.
+* **Billing Questions**: Review consolidated reports from each platform and cross-check with Kenko payout logs.
 
 Need help? Our support team is one click away: [support@gokenko.com](mailto:support@gokenko.com)

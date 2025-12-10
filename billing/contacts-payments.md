@@ -1,9 +1,11 @@
 ---
-title: "Payments and Contacts"
-description: "How to manage refunds, invoices, and payment details from the Contacts tab in Kenko."
+title: Payments and Contacts
+description: >-
+  How to manage refunds, invoices, and payment details from the Contacts tab in
+  Kenko.
 ---
 
-# Payments & Contacts
+# Contacts Payments
 
 The Contacts tab in Kenko is not only where you manage customer profiles — it's also a central place to review and take action on payments. From issuing refunds to emailing invoices, here's everything you can do to manage payments efficiently from a customer's profile.
 
@@ -11,58 +13,40 @@ The Contacts tab in Kenko is not only where you manage customer profiles — it'
 
 From the **Contacts** tab, select a customer and navigate to the **Payments** section. Here, you can view all orders, payment methods, and issue relevant actions.
 
-<img
-  src="/images/Screenshot2025-04-28at11.03.48AM.png"
-  alt="Payments section"
-  className="rounded-lg"
-/>
+![Payments section](../.gitbook/assets/Screenshot2025-04-28at11.03.48AM.png)
 
 ### View Order Summary
 
 You'll see a breakdown of orders including products/services purchased, date/time.
 
-<img
-  src="/images/Screenshot2025-04-28at11.06.33AM.png"
-  alt="View Order Summary"
-  className="rounded-lg"
-/>
+![View Order Summary](../.gitbook/assets/Screenshot2025-04-28at11.06.33AM.png)
 
 ### All Payments
 
 You can see an overview of all the payments (Cash, Card or Gift Card) from this tab along with payment status.
 
-<Note>
-  Payment ID and Sale ID are not the same even for the same product. Both IDs are used differently in Reports.
-</Note>
+Payment ID and Sale ID are not the same even for the same product. Both IDs are used differently in Reports.
 
-<img
-  src="/images/Screenshot2025-04-28at11.07.25AM.png"
-  alt="All Payments Tab"
-  className="rounded-lg"
-/>
+![All Payments Tab](../.gitbook/assets/Screenshot2025-04-28at11.07.25AM.png)
 
 ### Refund Options
 
 You can issue full or partial refunds for orders made via:
 
-- **Card payments**
-- **Gift card payments**
-- **Split payments (e.g., card \+ gift card)**
+* **Card payments**
+* **Gift card payments**
+* **Split payments (e.g., card + gift card)**
 
 #### Types of Refunds Supported
 
-| Payment Type       | Can be Refunded? | Notes                                        |
-| ------------------ | ---------------- | -------------------------------------------- |
-| Card Payment       | Yes              | Full refund supported                        |
-| Gift Card          | Yes              | Refunded back to gift card balance           |
-| Split (Card \+ GC) | Yes              | Card portion refunded to card, GC to balance |
-| Cash               | No               | Manual handling required                     |
+| Payment Type      | Can be Refunded? | Notes                                        |
+| ----------------- | ---------------- | -------------------------------------------- |
+| Card Payment      | Yes              | Full refund supported                        |
+| Gift Card         | Yes              | Refunded back to gift card balance           |
+| Split (Card + GC) | Yes              | Card portion refunded to card, GC to balance |
+| Cash              | No               | Manual handling required                     |
 
-<img
-  src="/images/Screenshot2025-04-28at11.11.52AM.png"
-  alt="Refund Options"
-  className="rounded-lg"
-/>
+![Refund Options](../.gitbook/assets/Screenshot2025-04-28at11.11.52AM.png)
 
 ### Sending an Invoice to Customer
 
@@ -74,11 +58,7 @@ You can quickly send a copy of the invoice directly from the order card.
 2. Enter the recipient's email (auto-filled if present)
 3. Hit `Send Invoice`
 
-<img
-  src="/images/Screenshot2025-04-28at11.17.10AM.png"
-  alt="Send Invoice"
-  className="rounded-lg"
-/>
+![Send Invoice](../.gitbook/assets/Screenshot2025-04-28at11.17.10AM.png)
 
 ### Adding a Payment Method
 
@@ -90,15 +70,9 @@ To securely store card details for future payments:
 
 Click `Add Card` to save it securely.
 
-<img
-  src="/images/Screenshot2025-04-28at11.18.29AM.png"
-  alt="Add Card"
-  className="rounded-lg"
-/>
+![Add Card](../.gitbook/assets/Screenshot2025-04-28at11.18.29AM.png)
 
-<Note>
-  Gift Cards will be saved under Payment methods automatically once received.
-</Note>
+Gift Cards will be saved under Payment methods automatically once received.
 
 ### Refund Examples by Use Case
 
@@ -106,17 +80,4 @@ Kenko supports refunding both products and services via the POS. When you confir
 
 ## Best Practices
 
-<CardGroup cols="2">
-  <Card title="Always Check Order Type" icon="magnifying-glass">
-    Refund logic can differ for services, memberships, and physical products. Review what was sold before initiating.
-  </Card>
-  <Card title="Use Stored Cards" icon="credit-card">
-    Encourage saving a payment method for smoother refunds and recurring payments.
-  </Card>
-  <Card title="Prefer Email Invoices" icon="message">
-    Reduce friction by emailing digital copies for all card-based payments automatically.
-  </Card>
-  <Card title="Monitor Refund History" icon="arrows-to-eye">
-    Always double-check the refund tab in a customer profile to avoid duplicate actions.
-  </Card>
-</CardGroup>
+Refund logic can differ for services, memberships, and physical products. Review what was sold before initiating. Encourage saving a payment method for smoother refunds and recurring payments. Reduce friction by emailing digital copies for all card-based payments automatically. Always double-check the refund tab in a customer profile to avoid duplicate actions.

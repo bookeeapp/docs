@@ -1,89 +1,84 @@
 ---
-title: "Courses in Calendar"
-description: "Description of your new file."
+title: Courses in Calendar
+description: Description of your new file.
 ---
 
-# Courses in Kenko's Calendar
+# Courses Calendar
 
 Kenko's calendar allows you to not only view all courses but also schedule, modify, and manage them directly. This enables full control over your courses while ensuring easy accessibility for both admins and customers.
 
-<Note>
-  Unlike Classes and Appointments, you can only add Course instances in the calendar.
-</Note>
+Unlike Classes and Appointments, you can only add Course instances in the calendar.
 
 This guide explains
 
-- How to add a course instance from the calendar
-- How to edit existing courses instances
-- Communication and attendance tools available
+* How to add a course instance from the calendar
+* How to edit existing courses instances
+* Communication and attendance tools available
 
 ## Adding a Course from Calendar
 
 You can add one-off or recurring course sessions directly from the calendar interface.
 
-<Steps>
-  <Step title="Open the Calendar">
-    Navigate to the **Calendar** from the sidebar and click the **Add Event** button.
+Navigate to the \*\*Calendar\*\* from the sidebar and click the \*\*Add Event\*\* button.
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-21at12.46.44PM.png"
-      alt="Add Course Event"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+```
+<div className="flex justify-center">
+<img
+  src="/images/Screenshot2025-04-21at12.46.44PM.png"
+  alt="Add Course Event"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
 
-    </div>
-  </Step>
-  <Step title="Select 'Course'">
-    Choose **Course** from the type options (Appointment, Class, Course, Blocked Time).
+</div>
+```
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-21at7.53.09PM.png"
-      alt="Select Course Option"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+Choose \*\*Course\*\* from the type options (Appointment, Class, Course, Blocked Time).
 
-    </div>
-  </Step>
-  <Step title="Enter Course Details">
-    - Select a course group and course name from the already created courses in the Course Setup (this is mandatory).
-    - Choose a facility for that particular course instance, A facility will pre-populate based on the initial course setup.
-    - Pick the date and time slot for the course instance
+```
+<div className="flex justify-center">
+<img
+  src="/images/Screenshot2025-04-21at7.53.09PM.png"
+  alt="Select Course Option"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-21at7.53.23PM.png"
-      alt="Course Details Input"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+</div>
+```
 
-    </div>
+\- Select a course group and course name from the already created courses in the Course Setup (this is mandatory). - Choose a facility for that particular course instance, A facility will pre-populate based on the initial course setup. - Pick the date and time slot for the course instance
 
-    <Note>
-      There is not recurrence in Course instances as Courses are itself recurring in nature. Addition of Course instances are important if any special event has to be added in the already setup course schedule.
-    </Note>
-    <div className="flex justify-center" />
-  </Step>
-  <Step title="Add Course instance and check availability">
-    Review slot availability and click **Add Course** **instance** to finalize. The system will highlight any overlapping with another event or whether the course is outside the facility’s working hours.
+```
+<div className="flex justify-center">
+<img
+  src="/images/Screenshot2025-04-21at7.53.23PM.png"
+  alt="Course Details Input"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-21at7.53.38PM.png"
-      alt="Course Details Input"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
-
-    </div>
-
-    <div className="flex justify-center" />
-  </Step>
-</Steps>
+</div>
 
 <Note>
-  Courses added from the calendar are **detached instances** — they don't follow the course type's default schedule unless explicitly made recurring.
+  There is not recurrence in Course instances as Courses are itself recurring in nature. Addition of Course instances are important if any special event has to be added in the already setup course schedule.
 </Note>
+<div className="flex justify-center" />
+```
+
+Review slot availability and click \*\*Add Course\*\* \*\*instance\*\* to finalize. The system will highlight any overlapping with another event or whether the course is outside the facility’s working hours.
+
+```
+<div className="flex justify-center">
+<img
+  src="/images/Screenshot2025-04-21at7.53.38PM.png"
+  alt="Course Details Input"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
+
+</div>
+
+<div className="flex justify-center" />
+```
+
+Courses added from the calendar are \*\*detached instances\*\* — they don't follow the course type's default schedule unless explicitly made recurring.
 
 ## Editing and Managing Existing Courses
 
@@ -91,149 +86,145 @@ Click on any existing course in the calendar to access specific management actio
 
 All quick actions can be accessed by navigating to
 
-**_Side Navbar \> Calendar \> Specific Course instance \> Side panel_**
+_**Side Navbar > Calendar > Specific Course instance > Side panel**_
 
+![Calendar Course View](../.gitbook/assets/Screenshot2025-04-21at8.40.07PM.png)When booking customers into a \*\*course\*\*, you're adding them to the \*\*entire course\*\* rather than individual sessions. This ensures that the customer is enrolled for all scheduled instances of that course.
+
+```
 <div className="flex justify-center">
 <img
-  src="/images/Screenshot2025-04-21at8.40.07PM.png"
-  alt="Calendar Course View"
+  src="/images/Screenshot2025-04-21at8.21.29PM.png"
+  alt="Booking a Customer"
   className="max-w-[400px] w-full rounded-lg shadow-sm"
 />
 
 </div>
 
-<AccordionGroup>
-  <Accordion title="Book Customers" icon="user-plus">
-    When booking customers into a **course**, you're adding them to the **entire course** rather than individual sessions. This ensures that the customer is enrolled for all scheduled instances of that course.
+The entire Point of Sale opens in the calendar itself which enables the Admin to enroll customer to the entire course.
+```
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-21at8.21.29PM.png"
-      alt="Booking a Customer"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+You can send emails or text messages to customers who are booked, waitlisted, or both, directly from the course's calendar view.
 
-    </div>
+```
+_The "From" email address can be configured in the settings._
 
-    The entire Point of Sale opens in the calendar itself which enables the Admin to enroll customer to the entire course.
-  </Accordion>
-  <Accordion title="Send Group Message" icon="users">
-    You can send emails or text messages to customers who are booked, waitlisted, or both, directly from the course's calendar view.
+<div className="flex justify-center">
+<img
+  src="/images/Screenshot2025-04-21at8.35.42PM.png"
+  alt="Send Group Message"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
 
-    _The "From" email address can be configured in the settings._
+</div>
+```
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-21at8.35.42PM.png"
-      alt="Send Group Message"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+You can check-in customers directly from the course view in the calendar.
 
-    </div>
-  </Accordion>
-  <Accordion title="Check-in Customer" icon="mobile">
-    You can check-in customers directly from the course view in the calendar.
+```
+<div className="flex justify-center">
+<img
+  src="/images/Screenshot2025-04-21at1.58.54PM.png"
+  alt="Check-in Customer"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-21at1.58.54PM.png"
-      alt="Check-in Customer"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+</div>
 
-    </div>
+You can also cancel a customer's booking from the course view in the calendar. If the customer's booking is cancelled, they will be removed from all instances of the course.
 
-    You can also cancel a customer's booking from the course view in the calendar. If the customer's booking is cancelled, they will be removed from all instances of the course.
+<div className="flex justify-center">
+<img
+  src="/images/Screenshot2025-04-21at2.01.28PM.png"
+  alt="Cancel Booking"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-21at2.01.28PM.png"
-      alt="Cancel Booking"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+</div>
+ <div className="flex justify-center">
+<img
+  src="/images/Screenshot2025-04-21at8.42.29PM.png"
+  alt="Cancel Booking"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
 
-    </div>
-     <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-21at8.42.29PM.png"
-      alt="Cancel Booking"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+</div>
 
-    </div>
+<div className="flex justify-center" />
+```
 
-    <div className="flex justify-center" />
-  </Accordion>
-  <Accordion title="Edit Course" icon="pen">
-    Course details can be edited if there are any changes to the schedule. This is useful if there are updates required to the instructor, facility, or time.
+Course details can be edited if there are any changes to the schedule. This is useful if there are updates required to the instructor, facility, or time.
 
-    <div className="flex justify-center">
-    <img
-      src="/images/Screenshot2025-04-21at8.39.27PM.png"
-      alt="Edit Course"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+```
+<div className="flex justify-center">
+<img
+  src="/images/Screenshot2025-04-21at8.39.27PM.png"
+  alt="Edit Course"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
 
-    </div>
-  </Accordion>
-  <Accordion title="Delete Course" icon="trash">
-    In Kenko, you have the option to  **delete** a course, depending on your needs. Here’s how these two actions differ
+</div>
+```
 
-    ### Delete Course
+In Kenko, you have the option to \*\*delete\*\* a course, depending on your needs. Here’s how these two actions differ
 
-    - **Effect on Bookings**: Completely removes the course from the calendar, including all bookings. This action deletes the course entirely.
-    - **Customer Notification**: You can choose whether or not to send a deletion notification to customers.
-    - **Reason for Deletion**: You must select a reason such as "Staff Emergency," "Client Emergency," "Staff Sickness," etc.
-    - **Impact on Future Occurrences**: Deleting a course removes it entirely from the schedule, including any future occurrences if it's a recurring course.
+```
+### Delete Course
 
-    <div className="flex justify-center mt-4">
-    <img
-      src="images/Screenshot2025-04-21at8.37.21PM.png"
-      alt="Cancel Course Screenshot"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+- **Effect on Bookings**: Completely removes the course from the calendar, including all bookings. This action deletes the course entirely.
+- **Customer Notification**: You can choose whether or not to send a deletion notification to customers.
+- **Reason for Deletion**: You must select a reason such as "Staff Emergency," "Client Emergency," "Staff Sickness," etc.
+- **Impact on Future Occurrences**: Deleting a course removes it entirely from the schedule, including any future occurrences if it's a recurring course.
 
-    </div>
+<div className="flex justify-center mt-4">
+<img
+  src="images/Screenshot2025-04-21at8.37.21PM.png"
+  alt="Cancel Course Screenshot"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
 
-    <div className="flex justify-center mt-4" />
-  </Accordion>
-  <Accordion title="Recording Link" icon="video">
-    You can attach the recording link of the course if it is an online course.
+</div>
 
-    <div className="flex justify-center mt-4">
-    <img
-      src="/images/Screenshot2025-04-21at2.46.26PM.png"
-      alt="Recording Link"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+<div className="flex justify-center mt-4" />
+```
 
-    </div>
-  </Accordion>
-  <Accordion title="Event Link" icon="link">
-    For online courses, if Zoom integration setup is pending, a manual link still has to be added to the course.
+You can attach the recording link of the course if it is an online course.
 
-    <div className="flex justify-center mt-4">
-    <img
-      src="/images/Screenshot2025-04-21at2.48.22PM.png"
-      alt="Event Link"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+```
+<div className="flex justify-center mt-4">
+<img
+  src="/images/Screenshot2025-04-21at2.46.26PM.png"
+  alt="Recording Link"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
 
-    </div>
-  </Accordion>
-  <Accordion title="Customer Booking Status View" icon="stairs">
-    An overview of customers who have booked into the course, are waitlisted, or have cancelled the course is shown in tabs in the course view of the calendar.
+</div>
+```
 
-    <div className="flex justify-center mt-4">
-    <img
-      src="/images/Screenshot2025-04-21at2.50.27PM.png"
-      alt="Customer Booking Status"
-      className="max-w-[400px] w-full rounded-lg shadow-sm"
-    />
+For online courses, if Zoom integration setup is pending, a manual link still has to be added to the course.
 
-    </div>
-  </Accordion>
-</AccordionGroup>
+```
+<div className="flex justify-center mt-4">
+<img
+  src="/images/Screenshot2025-04-21at2.48.22PM.png"
+  alt="Event Link"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
+
+</div>
+```
+
+An overview of customers who have booked into the course, are waitlisted, or have cancelled the course is shown in tabs in the course view of the calendar.
+
+```
+<div className="flex justify-center mt-4">
+<img
+  src="/images/Screenshot2025-04-21at2.50.27PM.png"
+  alt="Customer Booking Status"
+  className="max-w-[400px] w-full rounded-lg shadow-sm"
+/>
+
+</div>
+```
 
 ## When to Use Calendar vs Course Setup
 
@@ -242,23 +233,10 @@ All quick actions can be accessed by navigating to
 | One-off course / trial / holiday session       | Calendar     |
 | Standard weekly course (e.g., “Mon 6 PM Yoga”) | Course Setup |
 | Special event course or pop-up format          | Calendar     |
-| Batch add 10\+ courses at once                 | Course Setup |
+| Batch add 10+ courses at once                  | Course Setup |
 
----
+***
 
 ## Best Practices
 
-<CardGroup cols="2">
-  <Card title="Always Check for Conflicts" icon="triangle-exclamation">
-    The calendar will show warnings if your new course overlaps with another session using the same instructor or facility.
-  </Card>
-  <Card title="Use Visibility Settings" icon="eye">
-    Hide draft courses from customers until you're ready to go live. You can toggle visibility anytime.
-  </Card>
-  <Card title="Use Series for Predictable Patterns" icon="calendar-days">
-    Recurring courses help keep your calendar organized and save you time.
-  </Card>
-  <Card title="Send Reminders via Group Message" icon="message">
-    Messaging tools are perfect for reminding attendees, sharing pre-course prep, or cancellations.
-  </Card>
-</CardGroup>
+The calendar will show warnings if your new course overlaps with another session using the same instructor or facility. Hide draft courses from customers until you're ready to go live. You can toggle visibility anytime. Recurring courses help keep your calendar organized and save you time. Messaging tools are perfect for reminding attendees, sharing pre-course prep, or cancellations.
