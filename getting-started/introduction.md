@@ -1,9 +1,10 @@
 ---
-title: "Introduction"
-description: "An overview of the Kenko platform for fitness and wellness businesses"
+title: Introduction
+description: An overview of the Kenko platform for fitness and wellness businesses
+icon: hand-wave
 ---
 
-# Welcome to Kenko
+# Introduction
 
 ## Overview
 
@@ -13,82 +14,23 @@ Kenko is the all-in-one platform for fitness and wellness businesses. It offers 
 
 ### Marketing & Growth
 
-<CardGroup cols="2">
-  <Card title="Journeys" icon="bolt">
-    Automated member engagement with personalized communication journeys.
-  </Card>
-  <Card title="Google My Business" icon="google">
-    Manage your online presence and improve visibility across search engines.
-  </Card>
-  <Card title="Promo Codes" icon="tag">
-    Create and manage discount codes to incentivize membership or services.
-  </Card>
-  <Card title="Campaign" icon="bullhorn">
-    Create personalized promotions and communications for customers.
-  </Card>
-</CardGroup>
+Automated member engagement with personalized communication journeys. Manage your online presence and improve visibility across search engines. Create and manage discount codes to incentivize membership or services. Create personalized promotions and communications for customers.
 
 ### Client Experience
 
-<CardGroup cols="2">
-  <Card title="Branded Customer Apps" icon="mobile">
-    Custom apps for your business and members, improving booking and engagement.
-  </Card>
-  <Card title="Website Widget" icon="globe-pointer">
-    Delight for your customers with the best website widget in the market.
-  </Card>
-</CardGroup>
+Custom apps for your business and members, improving booking and engagement. Delight for your customers with the best website widget in the market.
 
 ### Operations & Management
 
-<CardGroup cols="2">
-  <Card title="Class Scheduling" icon="calendar">
-    Flexible scheduling for classes, appointments, and courses.
-  </Card>
-  <Card title="POS & Payments" icon="credit-card">
-    Seamlessly process payments with integrated POS and subscription models.
-  </Card>
-</CardGroup>
+Flexible scheduling for classes, appointments, and courses. Seamlessly process payments with integrated POS and subscription models.
 
 ### Security & Compliance
 
-<CardGroup cols="2">
-  <Card title="GDPR & SOC2 Compliance" icon="shield">
-    Ensure data protection and security with full compliance for your business.
-  </Card>
-  <Card title="HIPAA Compliant" icon="lock">
-    Maintain the privacy of member data with HIPAA-compliant security measures.
-  </Card>
-</CardGroup>
+Ensure data protection and security with full compliance for your business. Maintain the privacy of member data with HIPAA-compliant security measures.
 
 ## Steps to unlock your potential with Kenko
 
-<Steps>
-  <Step title="Book a Demo with us" icon="calendar" iconType="regular">
-    Schedule a demo to explore Kenko and discuss how it can benefit your business.
-  </Step>
-  <Step title="Sign a Contract" icon="file-signature">
-    Once you decide to proceed, our team will finalize the contract and address any questions before moving forward with onboarding.
-  </Step>
-  <Step title="Kick-off Call" icon="calendar-users">
-    Discuss business needs, platform setup, and goals with your dedicated Account Executive. Start the onboarding process.
-  </Step>
-  <Step title="Payment & Data Migration" icon="arrows-rotate">
-    Migrate your business and payment data to Kenko. This process is done concurrently for efficiency.
-  </Step>
-  <Step title="Account Setup" icon="file-user">
-    Set up your business information, payment options, and branded apps, following the provided setup guides.
-  </Step>
-  <Step title="Staff Training" icon="dumbbell">
-    Train your team on using the platform effectively, covering key features and setup steps.
-  </Step>
-  <Step title="Go-Live with Kenko" icon="signal-stream">
-    Your business is live on Kenko\! Start managing services, tracking performance, and engaging members.
-  </Step>
-  <Step title="Ongoing Support & Optimization" icon="headset">
-    After going live, continue receiving support to optimize the platform and ensure smooth operation.
-  </Step>
-</Steps>
+Schedule a demo to explore Kenko and discuss how it can benefit your business. Once you decide to proceed, our team will finalize the contract and address any questions before moving forward with onboarding. Discuss business needs, platform setup, and goals with your dedicated Account Executive. Start the onboarding process. Migrate your business and payment data to Kenko. This process is done concurrently for efficiency. Set up your business information, payment options, and branded apps, following the provided setup guides. Train your team on using the platform effectively, covering key features and setup steps. Your business is live on Kenko\\! Start managing services, tracking performance, and engaging members. After going live, continue receiving support to optimize the platform and ensure smooth operation.
 
 It will take approximately 6-8 weeks from Kick-off call to Go-live date if you decide to Migrate from other Fitness CRMs to Kenko
 
@@ -96,7 +38,4 @@ It will take approximately 6-8 weeks from Kick-off call to Go-live date if you d
 
 Need more help? Reach out to our support team via email or chat, and we'll be happy to assist you.
 
-<Info>
-  Book a Demo call here: [https://www.gokenko.com/demo/get-demo](https://www.gokenko.com/demo/get-demo)  
-  Or contact sales at: [sales@gokenko.com](mailto:sales@gokenko.com)
-</Info>
+Book a Demo call here: \[https://www.gokenko.com/demo/get-demo]\(https://www.gokenko.com/demo/get-demo) Or contact sales at: \[sales@gokenko.com]\(mailto:sales@gokenko.com)

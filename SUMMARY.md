@@ -1,10 +1,8 @@
 # Table of contents
 
-* [README](README.md)
-
 ## Documentation
 
-* [Getting Started 🚀](documentation/getting-started/README.md)
+* [Getting Started 🚀](README.md)
   * [Introduction](getting-started/introduction.md)
   * [Quickstart](getting-started/quickstart.md)
   * [Platform Overview](getting-started/platform-overview.md)
