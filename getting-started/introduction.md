@@ -1,6 +1,8 @@
 ---
 title: Introduction
-description: An overview of the Kenko platform for fitness and wellness businesses
+description: >-
+  A quick tour of Kenko — the AI business platform built for fitness and
+  wellness studios.
 icon: hand-wave
 ---
 
@@ -8,7 +10,17 @@ icon: hand-wave
 
 ## Overview
 
-Kenko is the all-in-one platform for fitness and wellness businesses. It offers powerful tools to streamline your operations, enhance client experiences, and drive business growth. Whether you manage a gym, wellness center, or personal training business, Kenko simplifies and unifies key functions.
+Kenko brings your studio's marketing, booking, payments, and member experience into one platform, so you are not juggling multiple tools and spreadsheets. It is built for yoga, Pilates, CrossFit, Lagree, pole, and other boutique fitness and wellness businesses that want to grow without adding more admin.
+
+
+
+### What Kenko helps you do
+
+* Attract more members with done-for-you lifecycle marketing, from first lead to loyal member.
+* Deliver a world-class booking and app experience that feels on-brand and easy for your members.
+* Automate the busywork around scheduling, payments, follow-ups, and reviews so your team focuses on the floor, not the front desk.
+
+Core capabilities
 
 ## Key Features
 
@@ -28,7 +40,7 @@ Flexible scheduling for classes, appointments, and courses. Seamlessly process p
 
 Ensure data protection and security with full compliance for your business. Maintain the privacy of member data with HIPAA-compliant security measures.
 
-## Steps to unlock your potential with Kenko
+Getting started with Kenko
 
 Schedule a demo to explore Kenko and discuss how it can benefit your business. Once you decide to proceed, our team will finalize the contract and address any questions before moving forward with onboarding. Discuss business needs, platform setup, and goals with your dedicated Account Executive. Start the onboarding process. Migrate your business and payment data to Kenko. This process is done concurrently for efficiency. Set up your business information, payment options, and branded apps, following the provided setup guides. Train your team on using the platform effectively, covering key features and setup steps. Your business is live on Kenko\\! Start managing services, tracking performance, and engaging members. After going live, continue receiving support to optimize the platform and ensure smooth operation.
 
