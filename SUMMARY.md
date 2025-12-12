@@ -2,7 +2,7 @@
 
 ## Documentation
 
-* [Getting Started 🚀](README.md)
+* [🚀 Getting Started](README.md)
   * [Introduction](getting-started/introduction.md)
   * [Quickstart](getting-started/quickstart.md)
   * [Platform Overview](getting-started/platform-overview.md)

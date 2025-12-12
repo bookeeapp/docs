@@ -2,7 +2,7 @@
 description: Hello! 👋
 ---
 
-# Getting Started 🚀
+# 🚀 Getting Started
 
 Kenko brings your studio's marketing, booking, payments, and member experience into one platform, so you are not juggling multiple tools and spreadsheets. It is built for yoga, Pilates, CrossFit, Lagree, pole, and other boutique fitness and wellness businesses that want to grow without adding more admin.
 
