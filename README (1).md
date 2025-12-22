@@ -1,8 +1,9 @@
 ---
 description: Hello! 👋
+icon: traffic-light-go
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## Overview
 

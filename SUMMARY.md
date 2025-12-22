@@ -4,7 +4,7 @@
 
 ## Documentation
 
-* [🚀 Getting Started](<README (1).md>)
+* [Getting Started](<README (1).md>)
   * [Quickstart](getting-started/quickstart.md)
   * [Platform Overview](getting-started/platform-overview.md)
   * [First Login](getting-started/first-login.md)
@@ -38,7 +38,6 @@
   * [Vod Setup](videos-on-demand/vod-setup.md)
   * [Vod Setup Playlist](videos-on-demand/vod-setup-playlist.md)
 * [Billing & Payments](documentation/billing-and-payments/README.md)
-  * [Introduction Billing Payments](billing/introduction-billing-payments.md)
   * [Memberships in Kenko](documentation/billing-and-payments/memberships-in-kenko/README.md)
     * [Introduction Memberships](billing/introduction-memberships.md)
     * [Setup Subscriptions](billing/setup-subscriptions.md)

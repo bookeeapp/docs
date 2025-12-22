@@ -39,7 +39,7 @@ Kenko is a next‑gen AI marketing platform for fitness and wellness.
   * [Scheduling Settings](scheduling/scheduling-settings.md)
   * [Facilities Introduction](scheduling/facilities-introduction.md)
 * **Billing & Payments**
-  * [Introduction Billing Payments](billing/introduction-billing-payments.md)
+  * [Introduction Billing Payments](/broken/spaces/i5uRkeW8EPGpQhS9SwGb/pages/oon8WRodbiwScEip7pMp)
   * [Introduction Memberships](billing/introduction-memberships.md)
   * [Payment Methods](billing/payment-methods.md)
   * [Introduction Pos](billing/introduction-pos.md)
