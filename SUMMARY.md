@@ -3,7 +3,6 @@
 ## Documentation
 
 * [🚀 Getting Started](README.md)
-  * [Introduction](getting-started/introduction.md)
   * [Quickstart](getting-started/quickstart.md)
   * [Platform Overview](getting-started/platform-overview.md)
   * [First Login](getting-started/first-login.md)

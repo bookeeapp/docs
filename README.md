@@ -4,6 +4,8 @@ description: Hello! 👋
 
 # 🚀 Getting Started
 
+## Overview
+
 Kenko brings your studio's marketing, booking, payments, and member experience into one platform, so you are not juggling multiple tools and spreadsheets. It is built for yoga, Pilates, CrossFit, Lagree, pole, and other boutique fitness and wellness businesses that want to grow without adding more admin.
 
 ### What Kenko helps you do
@@ -12,9 +14,16 @@ Kenko brings your studio's marketing, booking, payments, and member experience i
 * Deliver a world-class booking and app experience that feels on-brand and easy for your members.
 * Automate the busywork around scheduling, payments, follow-ups, and reviews so your team focuses on the floor, not the front desk.
 
-Core capabilities
+### Start here
 
-## Key Features
+Use these pages to get live fast:
+
+* Follow the step-by-step setup in [Quickstart](getting-started/quickstart.md).
+* Learn how the modules connect in [Platform Overview](getting-started/platform-overview.md).
+* Get oriented after your first login in [First Login](getting-started/first-login.md).
+* Understand billing and plan details in [Your Kenko Subscription](billing/your-kenko-subscription.md).
+
+## Key features
 
 ### Marketing & Growth
 
@@ -22,7 +31,7 @@ Automated member engagement with personalized communication journeys. Manage you
 
 ### Client Experience
 
-Custom apps for your business and members, improving booking and engagement. Delight for your customers with the best website widget in the market.
+Custom apps for your business and members, improving booking and engagement. Delight your customers with the best website widget in the market.
 
 ### Operations & Management
 
@@ -32,14 +41,25 @@ Flexible scheduling for classes, appointments, and courses. Seamlessly process p
 
 Ensure data protection and security with full compliance for your business. Maintain the privacy of member data with HIPAA-compliant security measures.
 
-Getting started with Kenko
+### Getting started with Kenko
 
-Schedule a demo to explore Kenko and discuss how it can benefit your business. Once you decide to proceed, our team will finalize the contract and address any questions before moving forward with onboarding. Discuss business needs, platform setup, and goals with your dedicated Account Executive. Start the onboarding process. Migrate your business and payment data to Kenko. This process is done concurrently for efficiency. Set up your business information, payment options, and branded apps, following the provided setup guides. Train your team on using the platform effectively, covering key features and setup steps. Your business is live on Kenko\\! Start managing services, tracking performance, and engaging members. After going live, continue receiving support to optimize the platform and ensure smooth operation.
+Schedule a demo to explore Kenko and confirm fit. After you move forward, we finalize the contract and start onboarding. If you are migrating from another platform, data migration runs in parallel with your setup.
 
-It will take approximately 6-8 weeks from Kick-off call to Go-live date if you decide to Migrate from other Fitness CRMs to Kenko
+Typical rollout:
 
-## Get in Touch Us
+1. Kickoff call with your Account Executive
+2. Data migration (runs in parallel with setup)
+3. Configure business info, payments, and your branded apps
+4. Train your team on core workflows
+5. Go live on Kenko
+6. Ongoing optimization and support
+
+If you are migrating from another fitness CRM, go-live typically takes **6-8 weeks** from kickoff.
+
+## Get in touch
 
 Need more help? Reach out to our support team via email or chat, and we'll be happy to assist you.
 
-Book a Demo call here: \[https://www.gokenko.com/demo/get-demo]\(https://www.gokenko.com/demo/get-demo) Or contact sales at: \[sales@gokenko.com]\(mailto:sales@gokenko.com)
+Book a demo: [https://www.gokenko.com/demo/get-demo](https://www.gokenko.com/demo/get-demo)
+
+Or contact sales: [sales@gokenko.com](mailto:sales@gokenko.com)
