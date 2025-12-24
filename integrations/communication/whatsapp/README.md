@@ -1,8 +1,8 @@
 ---
 description: >-
-  Connect WhatsApp with Kenko to reach your customers. Set up direct customer
-  access, higher engagement messaging with 98% open rates, and automated
-  workflows for appointment reminders and personal.
+  Connect WhatsApp to Kenko to engage members where they already are, with a
+  branded business number, 98%+ open-rate messaging, and automated journeys for
+  reminders, updates, and follow-ups.
 icon: whatsapp
 ---
 
