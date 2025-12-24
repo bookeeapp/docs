@@ -156,54 +156,6 @@ Reply 1 to confirm, 2 to reschedule.
 
 ***
 
-### Best Practices for WhatsApp Success
-
-Follow these tips to get the most out of WhatsApp:
-
-#### Messaging Style
-
-| Do ✅                        | Don't ❌                      |
-| --------------------------- | ---------------------------- |
-| Keep it conversational      | Use overly formal language   |
-| Write like texting a friend | Write like a corporate email |
-| Be clear and direct         | Use jargon or complex terms  |
-| Use 1-2 emojis max          | Overuse emojis               |
-| Keep messages short         | Write long paragraphs        |
-
-#### Template Strategy
-
-* ✅ **Reserve templates for important messages** – Appointments, orders, confirmations
-* ✅ **Don't overuse templates** – Use free-form messages when in the 24-hour window
-* ✅ **Test before going live** – Send test messages to yourself first
-* ✅ **Monitor performance** – Check which templates get the best response rates
-* ✅ **Refine over time** – Improve templates based on customer feedback
-
-#### Response Time
-
-| Response Time   | Customer Perception              |
-| --------------- | -------------------------------- |
-| Within 1 hour   | ⭐⭐⭐⭐⭐ Excellent                  |
-| Within 4 hours  | ⭐⭐⭐⭐ Very good                   |
-| Within 24 hours | ⭐⭐⭐ Good                         |
-| After 24 hours  | ⭐⭐ Poor (can only use templates) |
-
-{% hint style="info" %}
-**Respond quickly** – When customers message you, respond within the 24-hour window to keep the conversation going. Quick responses build trust.
-{% endhint %}
-
-#### Compliance & Safety
-
-* ✅ **Stay compliant** – Always follow WhatsApp's business policies
-* ✅ **Don't spam** – Respect customer preferences and opt-outs
-* ✅ **Use templates appropriately** – Match category to message type
-* ✅ **Keep account in good standing** – Follow guidelines to avoid restrictions
-
-{% hint style="info" %}
-**Stay compliant** – Always follow WhatsApp's business policies. Don't spam, respect opt-outs, and use templates appropriately. This keeps your account in good standing.
-{% endhint %}
-
-***
-
 ### Need Help?
 
 Setting up WhatsApp might feel overwhelming at first, but you're not alone. Here's how to handle common issues:
@@ -269,39 +221,80 @@ Setting up WhatsApp might feel overwhelming at first, but you're not alone. Here
 
 </details>
 
+<details>
+
+<summary>🎩 Best Practices</summary>
+
+WhatsApp works best when it feels like a real chat. Keep messages short. Stay inside the 24-hour window whenever you can.
+
+#### Messaging style that gets replies
+
+1. Reply fast. Aim for under 1 hour in business hours.
+2. Use free-form inside 24 hours.
+3. Use templates after 24 hours.
+4. Ask for one action per message.
+5. Stop messaging when asked.
+
+#### Messaging style that gets replies
+
+* Start with context. Say why you’re writing.
+* Put the key detail first. Time and location matter.
+* Use line breaks. Avoid long paragraphs.
+* End with a clear next step. Offer 2–3 options.
+* Keep tone friendly. Skip corporate language.
+
+```
+Hi {{first_name}} — quick reminder for tomorrow.You’re booked at {{client_name}} at 2:00 PM.Reply 1 to confirm, 2 to reschedule.Hello valued customer. This message is to inform you that your scheduled appointment is approaching.Please review the details and confirm at your earliest convenience.
+```
+
+#### Template strategy
+
+Use templates for proactive outreach and automation. Use free-form for support and back-and-forth.
+
+* Keep templates for moments that matter. Reminders and confirmations.
+* Write templates to handle replies. Confirm, reschedule, cancel.
+* Test with a real number before going live.
+* Track replies and drop-offs. Improve wording monthly.
+
+
+
+See [WhatsApp Templates](whatsapp-templates.md) for approval tips.&#x20;
+
+See [WhatsApp in Journeys](whatsapp-in-journeys.md) for automation patterns.
+
+#### Timing and cadence
+
+* Send operational messages in local time. Avoid late-night sends.
+* For appointments, common timing is 24 hours and 2 hours before.
+* For follow-ups, wait 1–2 days after the visit.
+* For marketing, keep frequency low. Prioritize relevance over volume.
+
+#### Response time (SLA)
+
+| Response time    | What it signals                   |
+| ---------------- | --------------------------------- |
+| Under 15 minutes | High-touch support                |
+| Under 1 hour     | You’re on it                      |
+| Same day         | Acceptable baseline               |
+| Over 24 hours    | You’ll need a template to re-open |
+
+{% hint style="warning" %}
+If the customer’s last message was over 24 hours ago, you can’t send free-form outreach. Use a template to restart.
+{% endhint %}
+
+#### Compliance and account health
+
+* Message only people who expect to hear from you.
+* Keep marketing separate from transactional updates.
+* Honor opt-outs immediately. Stop all future sends.
+* Don’t “blast” the same copy to everyone. Personalize responsibly.
+* Review rejected templates and resubmit with fixes.
+
+</details>
+
 {% hint style="info" %}
 **Still stuck?** Reach out to our support team—we're here to help you get WhatsApp working smoothly for your business. Don't hesitate to ask questions!
 {% endhint %}
-
-***
-
-### Quick Reference Guide
-
-Keep this handy for when you need a quick reminder:
-
-| **Term**               | **What It Means**                                                                                     |
-| ---------------------- | ----------------------------------------------------------------------------------------------------- |
-| **24-Hour Window**     | You can send free-form messages only within 24 hours of a customer's last message                     |
-| **Templates**          | Pre-approved messages you can send anytime, perfect for journeys and proactive outreach               |
-| **Personalization**    | Use `{{first_name}}`, `{{last_name}}`, and `{{client_name}}` in templates for automatic customization |
-| **UTILITY Category**   | For transactional messages (appointments, orders, updates)                                            |
-| **MARKETING Category** | For promotional messages (sales, offers, announcements)                                               |
-| **Journeys**           | Automated workflows that send messages based on triggers—select approved templates in WhatsApp nodes  |
-
-#### Quick Decision Tree
-
-```
-Need to send a message?
-│
-├─ Customer messaged you in last 24 hours?
-│  ├─ YES → Use free-form message ✅
-│  └─ NO → Continue below
-│
-└─ Need to reach customer?
-   ├─ Transactional info? → Create UTILITY template
-   ├─ Promotional content? → Create MARKETING template
-   └─ For automation? → Use template in Journey
-```
 
 ***
 
