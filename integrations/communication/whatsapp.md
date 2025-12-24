@@ -12,7 +12,7 @@ Your customers are already on WhatsApp—over 2 billion people use it every day.
 
 Here’s what you get:
 
-<table data-view="cards"><thead><tr><th>Benefit</th></tr></thead><tbody><tr><td><strong>Faster replies, fewer missed leads</strong><br>Customers message you where they already spend time.</td></tr><tr><td><strong>Better engagement than email</strong><br>WhatsApp messages typically see ~98% open rates.</td></tr><tr><td><strong>A business-grade presence</strong><br>Message from a dedicated WhatsApp Business number to build trust.</td></tr><tr><td><strong>One inbox for every channel</strong><br>WhatsApp threads sit alongside email, SMS, and chat.</td></tr><tr><td><strong>Automation that feels personal</strong><br>Use journeys for reminders, updates, and follow-ups at scale.</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><strong>Faster replies, fewer missed leads</strong><br>Customers message you where they already spend time.</td></tr><tr><td><strong>Better engagement than email</strong><br>WhatsApp messages typically see ~98% open rates.</td></tr><tr><td><strong>A business-grade presence</strong><br>Message from a dedicated WhatsApp Business number to build trust.</td></tr><tr><td><strong>One inbox for every channel</strong><br>WhatsApp threads sit alongside email, SMS, and chat.</td></tr><tr><td><strong>Automation that feels personal</strong><br>Use journeys for reminders, updates, and follow-ups at scale.</td></tr></tbody></table>
 
 ***
 
