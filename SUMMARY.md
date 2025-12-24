@@ -220,8 +220,7 @@
 
 ## Integrations
 
-* [Introduction](integrations/introduction/README.md)
-  * [Introduction Integrations](integrations/introduction-integrations.md)
+* [Introduction](integrations/introduction-integrations.md)
 * [Payments](integrations/payments/README.md)
   * [Payments Introduction](integrations/payments-introduction.md)
   * [Account Connection](integrations/stripe/account-connection.md)
