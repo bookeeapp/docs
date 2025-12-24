@@ -242,4 +242,6 @@
   * [Marketplace Classpass](integrations/marketplace-classpass.md)
   * [Marketplace Myclubs](integrations/marketplace-myclubs.md)
 * [Communication](integrations/communication/README.md)
-  * [WhatsApp](integrations/communication/whatsapp.md)
+  * [WhatsApp](integrations/communication/whatsapp/README.md)
+    * [WhatsApp Templates](integrations/communication/whatsapp/whatsapp-templates.md)
+    * [WhatsApp in Journeys](integrations/communication/whatsapp/whatsapp-in-journeys.md)
