@@ -22,7 +22,7 @@ The exact list varies by region and plan. Common ones include:
 
 ### Typical integrations you’ll see
 
-<table data-view="cards"><thead><tr><th>Category</th><th data-card-target data-type="content-ref">Open</th></tr></thead><tbody><tr><td>Payments</td><td><a href="payments/">payments</a></td></tr><tr><td>Scheduling &#x26; Calendar</td><td><a href="scheduling-and-calendar/">scheduling-and-calendar</a></td></tr><tr><td>Marketing</td><td><a href="marketing/">marketing</a></td></tr><tr><td>Marketplace</td><td><a href="marketplace/">marketplace</a></td></tr><tr><td>Webhooks</td><td><a href="webhooks-basic-use-cases/">webhooks-basic-use-cases</a></td></tr><tr><td>API keys</td><td><a href="api-key-access/">api-key-access</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Category</th><th data-card-target data-type="content-ref">Open</th></tr></thead><tbody><tr><td>Payments</td><td><a href="payments/">payments</a></td></tr><tr><td>Scheduling &#x26; Calendar</td><td><a href="scheduling-and-calendar/">scheduling-and-calendar</a></td></tr><tr><td>Marketing</td><td><a href="marketing/">marketing</a></td></tr><tr><td>Marketplace</td><td><a href="marketplace/">marketplace</a></td></tr><tr><td>Webhooks</td><td><a href="/broken/spaces/i5uRkeW8EPGpQhS9SwGb/pages/Hjyd4FX8z9PFNZWI5UTg">Broken link</a></td></tr><tr><td>API keys</td><td><a href="/broken/spaces/i5uRkeW8EPGpQhS9SwGb/pages/u9y2tCGVq31NXcY6Sowi">Broken link</a></td></tr></tbody></table>
 
 ## What you can connect
 

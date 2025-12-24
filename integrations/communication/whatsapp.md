@@ -1,22 +1,18 @@
+---
+description: >-
+  Connect WhatsApp with Kenko to reach your customers. Set up direct customer
+  access, higher engagement messaging with 98% open rates, and automated
+  workflows for appointment reminders and personal.
+icon: whatsapp
+---
+
 # WhatsApp
-
-## WhatsApp Integration Guide
-
-### Why Connect WhatsApp?
 
 Your customers are already on WhatsApp—over 2 billion people use it every day. When you connect WhatsApp to your inbox, you're meeting them where they already are.
 
-Here's what you get:
+Here’s what you get:
 
-✨ **Direct Customer Access** – Customers can reach you instantly through the messaging app they use daily. No more missed emails or voicemails.
-
-📈 **Higher Engagement** – WhatsApp messages have a 98% open rate (compared to 20% for email). Your messages actually get read.
-
-🏢 **Professional Presence** – Show up as a verified business with your own WhatsApp Business number. Build trust and credibility with every message.
-
-🔄 **Unified Inbox** – All WhatsApp conversations flow into your inbox alongside email, SMS, and chat. Everything in one place, so nothing falls through the cracks.
-
-🤖 **Automated Workflows** – Set up journeys that automatically send appointment reminders, order updates, and personalized messages. Save time while staying connected.
+<table data-view="cards"><thead><tr><th>Benefit</th></tr></thead><tbody><tr><td><strong>Faster replies, fewer missed leads</strong><br>Customers message you where they already spend time.</td></tr><tr><td><strong>Better engagement than email</strong><br>WhatsApp messages typically see ~98% open rates.</td></tr><tr><td><strong>A business-grade presence</strong><br>Message from a dedicated WhatsApp Business number to build trust.</td></tr><tr><td><strong>One inbox for every channel</strong><br>WhatsApp threads sit alongside email, SMS, and chat.</td></tr><tr><td><strong>Automation that feels personal</strong><br>Use journeys for reminders, updates, and follow-ups at scale.</td></tr></tbody></table>
 
 ***
 
@@ -24,36 +20,63 @@ Here's what you get:
 
 Setting up WhatsApp is straightforward. Follow these three simple steps and you'll be messaging customers in minutes.
 
-#### Step 1: Create Your Business Account
+{% stepper %}
+{% step %}
+### Create your business account
 
-* [ ] Go to your inbox settings and click **"Connect to WhatsApp"**
-* [ ] You'll see a signup form. Click **"Create a New Business Account"**
-* [ ] Follow the prompts to set up your WhatsApp Business Account
-* [ ] Complete the verification process (this usually takes just a few minutes)
+Go to your inbox settings and click **"Connect to WhatsApp"**.
 
-> 💡 **What to expect:** You'll need basic business information for verification. Have your business details handy to make this go smoothly.
+In the signup form, click **"Create a New Business Account"**.
 
-#### Step 2: Get Your Phone Number
+Follow the prompts to set up your WhatsApp Business Account.
 
-* [ ] Once your business account is ready, you'll need a WhatsApp phone number
-* [ ] Click **"Purchase Number"** in your WhatsApp settings
-* [ ] Search for available numbers in your region
-* [ ] **No numbers available in your region?** No problem! Purchase a US number instead
-* [ ] Select your number and complete the purchase
+Complete the verification process (this usually takes a few minutes).
 
-> 💡 **Pro tip:** If possible, choose a number that's easy to remember or matches your existing business phone number. This makes it easier for customers to recognize you.
+{% hint style="info" %}
+**What to expect:** You'll need basic business information for verification. Have your business details handy to make this go smoothly.
+{% endhint %}
+{% endstep %}
 
-> 🌍 **Global messaging:** WhatsApp works globally, so a US number works perfectly for messaging customers anywhere in the world.
+{% step %}
+### Get your phone number
 
-#### Step 3: Link Your Number to a Location
+Once your business account is ready, you’ll need a WhatsApp phone number.
 
-* [ ] After purchasing your number, click **"Setup Inbox"**
-* [ ] Your number will be linked to that specific location
-* [ ] Wait a moment for the setup to complete
+In your WhatsApp settings, click **"Purchase Number"**.
 
-> ⚠️ **Important:** Each location needs its own unique WhatsApp number. If you have multiple locations, purchase and set up a separate number for each one.
+Search for available numbers in your region.
 
-> ✅ **You're done when:** You'll see a status indicator showing your WhatsApp inbox is "Active." Once you see that green status, you're ready to start messaging!
+If none are available, purchase a US number instead.
+
+Select your number and complete the purchase.
+
+{% hint style="info" %}
+**Pro tip:** If possible, choose a number that's easy to remember or matches your existing business phone number. This makes it easier for customers to recognize you.
+{% endhint %}
+
+{% hint style="info" %}
+**Global messaging:** WhatsApp works globally, so a US number works perfectly for messaging customers anywhere in the world.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+### Link your number to a location
+
+After purchasing your number, click **"Setup Inbox"**.
+
+Your number will be linked to that specific location.
+
+Wait a moment for the setup to complete.
+
+{% hint style="warning" %}
+**Important:** Each location needs its own unique WhatsApp number. If you have multiple locations, purchase and set up a separate number for each one.
+{% endhint %}
+
+{% hint style="success" %}
+**You're done when:** You'll see a status indicator showing your WhatsApp inbox is "Active." Once you see that green status, you're ready to start messaging!
+{% endhint %}
+{% endstep %}
+{% endstepper %}
 
 ***
 
@@ -164,7 +187,9 @@ Templates are your secret weapon for staying connected with customers. Here's ho
 | **UTILITY**   | Transactional messages | Appointments, orders, updates, confirmations, receipts |
 | **MARKETING** | Promotional messages   | Sales, offers, announcements, newsletters, campaigns   |
 
-> 💡 **Naming tip:** Use clear, descriptive names. You'll thank yourself later when you have multiple templates and need to find the right one quickly.
+{% hint style="info" %}
+**Naming tip:** Use clear, descriptive names. You'll thank yourself later when you have multiple templates and need to find the right one quickly.
+{% endhint %}
 
 #### Step 2: Add Personalization (Make It Personal)
 
@@ -235,7 +260,9 @@ Hi {{first_name}}, how was your recent visit to {{client_name}}? We'd love to he
 | 🟢 **Approved** | Ready to use!      | 5-30 minutes            |
 | 🔴 **Rejected** | Needs changes      | Immediate (with reason) |
 
-> ⏱️ **Approval timeline:** Most templates are approved within a few minutes. If it takes longer, don't worry—this is normal. You'll get notified either way.
+{% hint style="info" %}
+**Approval timeline:** Most templates are approved within a few minutes. If it takes longer, don't worry—this is normal. You'll get notified either way.
+{% endhint %}
 
 ***
 
@@ -383,7 +410,9 @@ You can't edit rejected templates, so create a new one with:
 
 Submit your corrected template for approval again. Most templates get approved on the second try once you fix the issues.
 
-> 💡 **Pro tip:** Keep a simple note of what got rejected and why. This helps you avoid repeating the same mistake. Most rejections are due to category mismatches or placeholder placement—both easy to fix!
+{% hint style="info" %}
+**Pro tip:** Keep a simple note of what got rejected and why. This helps you avoid repeating the same mistake. Most rejections are due to category mismatches or placeholder placement—both easy to fix!
+{% endhint %}
 
 <details>
 
@@ -504,7 +533,9 @@ Follow these tips to get the most out of WhatsApp:
 | Within 24 hours | ⭐⭐⭐ Good                         |
 | After 24 hours  | ⭐⭐ Poor (can only use templates) |
 
-> ⚡ **Respond quickly** – When customers message you, respond within the 24-hour window to keep the conversation going. Quick responses build trust.
+{% hint style="info" %}
+**Respond quickly** – When customers message you, respond within the 24-hour window to keep the conversation going. Quick responses build trust.
+{% endhint %}
 
 #### Compliance & Safety
 
@@ -513,7 +544,9 @@ Follow these tips to get the most out of WhatsApp:
 * ✅ **Use templates appropriately** – Match category to message type
 * ✅ **Keep account in good standing** – Follow guidelines to avoid restrictions
 
-> ✅ **Stay compliant** – Always follow WhatsApp's business policies. Don't spam, respect opt-outs, and use templates appropriately. This keeps your account in good standing.
+{% hint style="info" %}
+**Stay compliant** – Always follow WhatsApp's business policies. Don't spam, respect opt-outs, and use templates appropriately. This keeps your account in good standing.
+{% endhint %}
 
 ***
 
@@ -582,7 +615,9 @@ Setting up WhatsApp might feel overwhelming at first, but you're not alone. Here
 
 </details>
 
-> **Still stuck?** Reach out to our support team—we're here to help you get WhatsApp working smoothly for your business. Don't hesitate to ask questions!
+{% hint style="info" %}
+**Still stuck?** Reach out to our support team—we're here to help you get WhatsApp working smoothly for your business. Don't hesitate to ask questions!
+{% endhint %}
 
 ***
 

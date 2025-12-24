@@ -1,2 +1,0 @@
-# 🔌 Webhooks (Basic Use Cases)
-
