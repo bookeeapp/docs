@@ -1,0 +1,82 @@
+---
+title: Email Settings
+description: >-
+  Comprehensive guide to Kenko's email settings, including domain
+  authentication, email forwarding, and sender email management.
+---
+
+# Email Settings
+
+import { AccordionGroup, Accordion, Steps, Step, Callout } from '@mintlify/components'
+
+## How to setup Custom email in Kenko
+
+Kenko’s Email Settings allow you to configure how your business sends and receives emails. Proper setup ensures your emails reach customers, maintain brand consistency, and that your team efficiently manages replies.
+
+This article covers the three core areas
+
+* Domain authentication
+* Email forwarding (especially Gmail) - For AI Inbox
+* Sender email addresses management
+
+![Screenshot2025 05 17at1 02 32AM Pn](../../../.gitbook/assets/Screenshot2025-05-17at1.02.32AM.png)
+
+### Domain Authentication
+
+Authentication verifies your domain to improve email deliverability and protect your emails from being marked as spam or spoofed.
+
+A \*\*CNAME (Canonical Name)\*\* record is a DNS setting that links your domain or subdomain to another domain. In Kenko, CNAME records are used to prove ownership and enable tracking through trusted services like SendGrid.
+
+```
+![Screenshot2025 05 17at1 02 39AM Pn](/images/Screenshot2025-05-17at1.02.39AM.png)
+```
+
+\*\*TXT records\*\* hold text-based information for your domain, including \*\*DMARC\*\* (Domain-based Message Authentication, Reporting & Conformance) policies.\ DMARC helps prevent spoofing by specifying how mail servers should handle unauthenticated emails from your domain, improving your email's reputation. 1. Add the CNAME and TXT records provided by Kenko to your domain host's DNS settings. 2. After propagation (which may take up to 48 hours), Kenko verifies these records automatically. 3. Once verified, your domain status changes to \*\*Verified\*\*. You can simple add a new Domain by clicking on "Add Domain" and add you business's domain which is used in your email-id.
+
+```
+![Screenshot2025 05 17at1 03 14AM Pn](/images/Screenshot2025-05-17at1.03.14AM.png)
+```
+
+Verified domains can be used across all your locations, ensuring consistent email sending capabilities.
+
+### Email Forwarding
+
+Kenko supports **email forwarding**, primarily configured for Gmail, to receive emails directly in your Kenko Inbox.
+
+Forwarding routes emails sent to your business email address into Kenko’s Inbox, centralizing communication and making it easier for your team to respond from one platform.
+
+```
+![Screenshot2025 05 17at1 04 24AM Pn](/images/Screenshot2025-05-17at1.04.24AM.png)
+```
+
+1\. In Gmail, go to \*\*Settings \\> Forwarding and POP/IMAP\*\*. 2. Click \*\*Add a forwarding address\*\* and enter the forwarding email provided by Kenko (e.g., \[f77boxing-inbox7x@inbox.kenkomail.com]\(mailto:f77boxing-inbox7x@inbox.kenkomail.com)). 3. Confirm the forwarding via the verification link sent to Kenko Inbox. 4. Enable forwarding in Gmail.
+
+```
+![Screenshot2025 05 17at1 04 55AM Pn](/images/Screenshot2025-05-17at1.04.55AM.png)
+```
+
+Kenko also provides instructions to set up forwarding for other popular email providers to ensure smooth integration. Each email connected for forwarding must be unique per Kenko business location.\ Using the same email for multiple locations will sync \*\*all contacts and communications to just one location\*\*, which may complicate management.
+
+### Sender Email Addresses
+
+Managing sender emails helps maintain brand consistency and ensures replies are routed correctly.
+
+These are the emails your studio uses to send messages from Kenko, such as newsletters, booking confirmations, or follow-ups.
+
+```
+![Screenshot2025 05 17at1 05 05AM Pn](/images/Screenshot2025-05-17at1.05.05AM.png)
+```
+
+Each location should have unique sender emails to avoid conflicts and ensure communications and replies are properly tracked for that location. - Use the \*\*Add address\*\* button to create a new sender email by entering the email prefix and display name. - Replies to these emails will appear in the Kenko AI Inbox. - Verify the email to ensure deliverability and reduce chances of your emails landing in spam.
+
+```
+![Screenshot2025 05 17at1 05 32AM Pn](/images/Screenshot2025-05-17at1.05.32AM.png)
+```
+
+One sender email can be set as the default for each location, ensuring consistent branding across all outgoing emails.
+
+Properly configuring your Email Settings in Kenko guarantees improved deliverability, centralized communication, and better customer engagement across your business locations.
+
+### Best Practices for Email Settings
+
+Ensure your domain is properly authenticated by adding the provided CNAME and TXT records to your DNS settings. This enhances email deliverability and protects against spoofing. Set up email forwarding, especially for Gmail, to receive emails directly in your Kenko Inbox. This centralizes communication and streamlines team responses. Manage sender email addresses to maintain brand consistency and ensure replies are routed correctly. Verify each sender email to reduce the chance of emails landing in spam. Use consistent naming conventions, document your email settings, and monitor email metrics regularly to detect deliverability issues early.

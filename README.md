@@ -1,5 +1,6 @@
 ---
-icon: tent-double-peak
+description: Discover everything you need to grow your fitness and wellness business
+icon: hand-wave
 cover:
   light: .gitbook/assets/LinkedIn Banner.png
   dark: .gitbook/assets/LinkedIn Banner.png
@@ -30,46 +31,46 @@ It helps you unlock revenue you didn’t realize you had.
 Kenko is a next‑gen AI marketing platform for fitness and wellness.
 
 * **Contacts & CRM**
-  * [Contact Management Introduction](contact-management/contact-management-introduction.md)
-  * [Member Profiles](contact-management/member-profiles.md)
-  * [Membership Types](contact-management/membership-types.md)
+  * [Contact Management Introduction](sales-and-payments/contact-management/contact-management-introduction.md)
+  * [Member Profiles](sales-and-payments/contact-management/member-profiles.md)
+  * [Membership Types](sales-and-payments/contact-management/membership-types.md)
 * **Calendar & Scheduling**
-  * [Introduction](scheduling/introduction.md)
-  * [Calendar Introduction](scheduling/calendar-introduction.md)
-  * [Scheduling Settings](scheduling/scheduling-settings.md)
-  * [Facilities Introduction](scheduling/facilities-introduction.md)
+  * [Introduction](sales-and-payments/calendar-and-scheduling/introduction.md)
+  * [Calendar Introduction](sales-and-payments/calendar-and-scheduling/calendar-introduction.md)
+  * [Scheduling Settings](sales-and-payments/calendar-and-scheduling/scheduling-settings.md)
+  * [Facilities Introduction](sales-and-payments/calendar-and-scheduling/facilities-introduction.md)
 * **Billing & Payments**
   * [Introduction Billing Payments](/broken/spaces/i5uRkeW8EPGpQhS9SwGb/pages/oon8WRodbiwScEip7pMp)
-  * [Introduction Memberships](billing/introduction-memberships.md)
-  * [Payment Methods](billing/payment-methods.md)
-  * [Introduction Pos](billing/introduction-pos.md)
+  * [Introduction Memberships](sales-and-payments/billing-and-payments/memberships-in-kenko/introduction-memberships.md)
+  * [Payment Methods](sales-and-payments/billing-and-payments/payment-settings/payment-methods.md)
+  * [Introduction Pos](sales-and-payments/billing-and-payments/point-of-sale-and-payment-methods/introduction-pos.md)
 * **Marketing**
-  * [Introduction](marketing/introduction.md)
-  * [Announcement Introduction](marketing/announcement-introduction.md)
-  * [Introduction Referral](advanced/introduction-referral.md)
-  * [Bring A Friend](billing/bring-a-friend.md)
+  * [Introduction](sales-and-payments/marketing-and-journeys/introduction.md)
+  * [Announcement Introduction](sales-and-payments/marketing-and-journeys/announcements/announcement-introduction.md)
+  * [Introduction Referral](sales-and-payments/advanced-features/referrals/introduction-referral.md)
+  * [Bring A Friend](sales-and-payments/billing-and-payments/memberships-in-kenko/bring-a-friend.md)
 * **Website & App**
-  * [Website Widget Introduction](website-app/website-widget-introduction.md)
-  * [Magic Links](website-app/magic-links.md)
-  * [Branded App Introduction](website-app/branded-app-introduction.md)
-  * [Business App Introduction](website-app/business-app-introduction.md)
+  * [Website Widget Introduction](sales-and-payments/website-and-app/website-widget/website-widget-introduction.md)
+  * [Magic Links](sales-and-payments/website-and-app/website-widget/magic-links.md)
+  * [Branded App Introduction](sales-and-payments/website-and-app/branded-app/branded-app-introduction.md)
+  * [Business App Introduction](sales-and-payments/website-and-app/business-app/business-app-introduction.md)
 * **Admin & advanced**
-  * [Roles Privileges](admin/roles-privileges.md)
-  * [Forms & Agreements](documentation/advanced-features/forms-and-agreements/)
-  * [Products](documentation/advanced-features/products/)
+  * [Roles Privileges](sales-and-payments/admin-settings/roles-privileges.md)
+  * [Forms & Agreements](sales-and-payments/advanced-features/forms-and-agreements/)
+  * [Products](sales-and-payments/advanced-features/products/)
 
 ### Common revenue workflows
 
 * **Fill classes, faster**
-  * [Classes Introduction](scheduling/classes-introduction.md) → [Classes Setup](scheduling/classes-setup.md)
-  * Add seat selection: [Spot Booking Classes](scheduling/spot-booking-classes.md)
+  * [Classes Introduction](sales-and-payments/calendar-and-scheduling/classes/classes-introduction.md) → [Classes Setup](sales-and-payments/calendar-and-scheduling/classes/classes-setup.md)
+  * Add seat selection: [Spot Booking Classes](sales-and-payments/calendar-and-scheduling/classes/spot-booking-classes.md)
 * **Sell memberships that fit**
-  * [Setup Subscriptions](billing/setup-subscriptions.md)
-  * [Setup Credit Packs](billing/setup-credit-packs.md)
-  * Convert leads: [Intro Packs](billing/intro-packs.md)
+  * [Setup Subscriptions](sales-and-payments/billing-and-payments/memberships-in-kenko/setup-subscriptions.md)
+  * [Setup Credit Packs](sales-and-payments/billing-and-payments/memberships-in-kenko/setup-credit-packs.md)
+  * Convert leads: [Intro Packs](sales-and-payments/billing-and-payments/memberships-in-kenko/intro-packs.md)
 * **Turn happy customers into growth**
-  * [Setup Referral](advanced/setup-referral.md)
-  * [Reserve with Google](marketing/introduction-rwg.md)
+  * [Setup Referral](sales-and-payments/advanced-features/referrals/setup-referral.md)
+  * [Reserve with Google](sales-and-payments/marketing-and-journeys/reserve-with-google/introduction-rwg.md)
 
 ### More resources
 

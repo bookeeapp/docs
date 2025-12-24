@@ -1,2 +1,6 @@
+---
+icon: calendar
+---
+
 # Scheduling & Calendar
 
