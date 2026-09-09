@@ -1,8 +1,13 @@
 {
     "$schema": "https://mintlify.com/docs.json",
-    "theme": "linden",
+    "theme": "luma",
     "fonts": {
-        "family": "Plus Jakarta Sans"
+        "heading": {
+            "family": "Lora"
+        },
+        "body": {
+            "family": "Inter"
+        }
     },
     "name": "KENKO",
     "colors": {
@@ -137,9 +142,9 @@
                                     "/marketing/campaigns/introduction_campaigns",
                                     "/marketing/campaigns/email-setup-guide",
                                     "/marketing/campaigns/a2p10dlc",
-                                    "marketing/campaigns/campaign-prerequisites",
+                                    "/marketing/campaigns/campaign-prerequisites",
                                     "/marketing/campaigns/sms-guide",
-                                    "/marketing/campaign/campaign-analytics"
+                                    "/marketing/campaigns/campaign-analytics"
                                 ]
                             },
                             {
@@ -212,7 +217,7 @@
                             "admin/roles-privileges",
                             "admin/staff",
                             "admin/staff-attendance",
-                            "admin/task-management",
+                            "admin/task-managment",
                             {
                                 "group": "Communication Settings",
                                 "pages": [

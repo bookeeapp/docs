@@ -4,9 +4,7 @@ description: "Learn how Kenko’s updated payment settings automate handling of 
 sidebar_position: "1"
 ---
 
-import { Card, CardGroup, Accordion, AccordionItem } from '@mintlify/components'
-
-# New Payment Settings in Kenko
+import { Card, CardGroup, Accordion, AccordionGroup } from '@mintlify/components'
 
 Kenko introduces enhanced payment settings to help studio owners manage failed payments effectively. These settings leverage **Stripe’s Smart Retry** logic and automate actions like suspension, cancellation, and member notifications—ensuring clarity, reducing manual overhead, and improving customer retention.
 
@@ -15,13 +13,13 @@ Kenko introduces enhanced payment settings to help studio owners manage failed p
 The new system offers three **mutually exclusive** options for handling payment failures.
 
 <CardGroup cols={2}>
-  <Card title="Immediate Cancellation on Failure" icon="ban" href="#immediate-cancellation">
+  <Card title="Immediate Cancellation on Failure" icon="ban">
     Membership is cancelled automatically after three failed Stripe retry attempts.
   </Card>
-  <Card title="Cancellation After Multiple Failures" icon="x" href="#cancellation-after-multiple-failures">
+  <Card title="Cancellation After Multiple Failures" icon="x">
     Membership is cancelled only after a predefined number of retries.
   </Card>
-  <Card title="Suspension and Eventual Cancellation" icon="pause" href="#suspension-and-cancellation">
+  <Card title="Suspension and Eventual Cancellation" icon="pause">
     Membership is suspended first; cancelled later if payment remains unresolved.
   </Card>
 </CardGroup>
@@ -65,10 +63,9 @@ The new system offers three **mutually exclusive** options for handling payment 
 
 ## Stripe Integration Setup
 
-To ensure Kenko manages failed payment logic correctly, configure your Stripe account as follows:\\
+To ensure Kenko manages failed payment logic correctly, configure your Stripe account as follows:
 
-**Navigate to**\
-**Settings → Billing → Automatic Collection → If all retries fail: Leave subscription as-is**
+**Navigate to:** Settings → Billing → Automatic Collection → If all retries fail: Leave subscription as-is
 
 This ensures Kenko's rules are applied instead of Stripe prematurely cancelling the membership.
 
@@ -107,5 +104,5 @@ Larger studios or chains often prefer suspension, while boutique or fast-growing
 - Always inform your staff of changes in cancellation logic to prevent customer confusion.
 
 <Info>
-  Need help setting this up? Contact our support team at [support@bookeeapp.com](mailto:support@bookeeapp.com)
+  Need help setting this up? Contact our support team at [support@gokenko.com](mailto:support@gokenko.com)
 </Info>
